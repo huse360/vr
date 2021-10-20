@@ -73,7 +73,7 @@
               fov="50"             
               wasd-controls="enabled:  true">
              
-              <a-entity 
+              <!-- <a-entity 
                 id="cursor"
                 geometry="primitive: ring; radiusInner: 0.001; radiusOuter: 0.002" 
                 position="0 0 -0.5"
@@ -84,7 +84,14 @@
                 cursor="fuse: true; fuseTimeout:1500"
                 raycaster="objects: .clickable;far:22">
 
-              </a-entity>
+              </a-entity> -->
+              <a-cursor
+                id="cursor"
+                cursor="fuse: true; fuseTimeout: 500"
+                raycaster="showLine: true"
+              >
+            
+                </a-cursor>
 
               <a-entity 
                 id="blackintro"

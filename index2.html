@@ -43,16 +43,16 @@
       position="0 0 0"> 
       <a-camera
        look-controls
-       fov="50"
-       wasd-controls="enabled:  true">
-          <a-entity 
+       wasd-controls="enabled:  false">
+            <a-cursor
               id="cursor"
               cursor="fuse: true; fuseTimeout: 500"
-              position="0 0 -0.5"
-              geometry="primitive: sphere; radius: 0.003"
-              material="color: #000000; shader: flat; opacity:1">  
+              raycaster="showLine: true"
+              >
+            
+            </a-cursor> 
              
-           </a-entity>
+           
         </a-camera>
       </a-entity>
 
