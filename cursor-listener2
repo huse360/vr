@@ -1,0 +1,36 @@
+function objectToPos(posObject) {
+  console.log('1')
+  return posObject.x + " " + posObject.y + " "  + posObject.z
+  
+}
+
+function clickHandler(target) {
+  let camera = document.querySelector('#camera')
+
+  let targetPos = objectToPos(target.getAttribute('position'))
+  let camPos = objectToPos(camera.getAttribute('position'))
+
+  camera.setAttribute('animation', `property:position; from: ${camPos}; to: ${targetPos}; dur: 700`)  
+  console.log('2')
+} 
+
+function registerHandlersForClick(target) {
+
+target.addEventListener('click', function() { 
+  clickHandler(target)
+  console.log('3')
+})  
+
+}
+
+function setupHandlers (){
+  let targetlist = document.querySelectorAll('.moveTarget')
+  let index = 0
+  while(index < targetlist.length) {
+    registerHandlersForClick(targetlist[ index ])
+    index = index + 1
+
+  }
+  console.log('4')
+}
+window.onload = setupHandlers

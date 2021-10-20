@@ -1,0 +1,45 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl Window_Gray_Glass_1
+Ka 0.000000 0.000000 0.000000
+Kd 0.156863 0.156863 0.156863
+Ks 0.330000 0.330000 0.330000
+d 0.790000
+
+newmtl Top_Gray
+Ka 0.000000 0.000000 0.000000
+Kd 0.501961 0.501961 0.501961
+Ks 0.330000 0.330000 0.330000
+
+newmtl Brick_Colored_Blue
+Ka 0.000000 0.000000 0.000000
+Kd 0.564706 0.560784 0.572549
+Ks 0.330000 0.330000 0.330000
+map_Kd banco/Brick_Colored_Blue.jpg
+
+newmtl Slate_Light_Tile
+Ka 0.000000 0.000000 0.000000
+Kd 0.211765 0.211765 0.211765
+Ks 0.330000 0.330000 0.330000
+map_Kd banco/Slate_Light_Tile.jpg
+
+newmtl Tile_Various_Tan
+Ka 0.000000 0.000000 0.000000
+Kd 0.839216 0.768627 0.662745
+Ks 0.330000 0.330000 0.330000
+map_Kd banco/Tile_Various_Tan.jpg
+
+newmtl Field_Square_Tile
+Ka 0.000000 0.000000 0.000000
+Kd 0.850980 0.788235 0.662745
+Ks 0.330000 0.330000 0.330000
+map_Kd banco/Field_Square_Tile.jpg
+
+newmtl Terrazzo_Tile_Accent
+Ka 0.000000 0.000000 0.000000
+Kd 0.878431 0.866667 0.850980
+Ks 0.330000 0.330000 0.330000
+map_Kd banco/Terrazzo_Tile_Accent.jpg
+
