@@ -28,7 +28,7 @@
        
         
         
-       
+      <a-asset-item id="1" src="assets/desk/gltf/oficina.glb"></a-asset-item>
         <a-asset-item id="calle-obj" src="assets/desk/calle/calle.obj"></a-asset-item>
         <a-asset-item id="calle-mtl" src="assets/desk/calle/calle.mtl"></a-asset-item>
         <a-asset-item id="casa1-obj" src="assets/desk/casa1/casa1.obj"></a-asset-item>
@@ -536,7 +536,7 @@
         </a-entity>
       </a-entity>
 
-      <a-entity 
+     <!--  <a-entity 
         id="oficina"
         class="not-clickable" 
         position="51.098 0.171 -20.275" 
@@ -545,7 +545,7 @@
         
         >
                          
-      </a-entity>
+      </a-entity> -->
 
 
       <a-entity 
@@ -558,6 +558,16 @@
         rotation="0 -49.813 0">
                          
       </a-entity>
+
+
+      <a-gltf-model 
+        id="oficina"
+        src="#1"
+        class="not-clickable"
+        shadow="receive: true"
+        position="51.098 0.171 -20.275">
+      
+      </a-gltf-model>
 
 
       <a-entity 
