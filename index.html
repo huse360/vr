@@ -70,6 +70,7 @@
             <a-camera
               id="camera"            
               look-controls
+              fov="50"
                            
               wasd-controls="enabled:  true">
              
@@ -89,6 +90,7 @@
                 id="cursor"
                 cursor="fuse: true; fuseTimeout: 500"
                 raycaster="showLine: true"
+                position="0 0 -0.5"
               >
             
                 </a-cursor>
@@ -537,7 +539,7 @@
       <a-entity 
         id="oficina"
         class="not-clickable" 
-        position="51.098 0.171 -20.287" 
+        position="51.098 0.171 -20.275" 
         obj-model="obj:#ofc-principal-obj; mtl:#ofc-principal-mtl"
         shadow="cast: true"
         
