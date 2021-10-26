@@ -5,15 +5,15 @@
     <title>Producto Semilla</title>
     <meta name="description" content="360&deg; Image - A-Frame">
     <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
-    <script src="cursor-listener.js"></script>
-    <!-- <script src="prueba-puertas.js"></script> -->
+    <script src="movimiento-personaje.js"></script>
+    <script src="camera-view.js"></script>
     <script src="collider-check.js"></script>
-    <!-- <script src ="sound-charge.js"></script> -->
+   
     <script src="blackintro.js"></script>
     <script src="misiones.js"></script>
-   
+    
 
-    <!-- <script src="prueba-puertas2.js"></script> -->
+>
     
  
 
@@ -21,28 +21,36 @@
   <body>
 
     
-    <a-scene 
+    <a-scene
+    shadow="type: pcfsoft"
+    fog="type: exponential; color: ##808080;density:0.01;far: 50; near: 3"
     misiones> 
-      <a-assets
-      >
-       
+
+      <a-assets>
         
-        
-      <a-asset-item id="1" src="assets/desk/gltf/oficina.glb"></a-asset-item>
+        <a-asset-item id="oficina-1" src="assets/desk/gltf/oficina.glb"></a-asset-item>
+        <!-- <a-asset-item id="calle-1" src="assets/desk/gltf/calle.glb"></a-asset-item> -->
         <a-asset-item id="calle-obj" src="assets/desk/calle/calle.obj"></a-asset-item>
         <a-asset-item id="calle-mtl" src="assets/desk/calle/calle.mtl"></a-asset-item>
-        <a-asset-item id="casa1-obj" src="assets/desk/casa1/casa1.obj"></a-asset-item>
-        <a-asset-item id="casa1-mtl" src="assets/desk/casa1/casa1.mtl"></a-asset-item>
-        <a-asset-item id="busi1-obj" src="assets/desk/busi1/busi1.obj"></a-asset-item>
-        <a-asset-item id="busi1-mtl" src="assets/desk/busi1/busi1.mtl"></a-asset-item>
+        <a-asset-item id="edificio1-obj" src="assets/desk/edificio1/edificio1.obj"></a-asset-item>
+        <a-asset-item id="edificio1-mtl" src="assets/desk/edificio1/edificio1.mtl"></a-asset-item>
         <a-asset-item id="jefe-obj" src="assets/desk/Personal/00256_Daud008.OBJ"></a-asset-item>
         <a-asset-item id="jefe-mtl" src="assets/desk/Personal/00256_Daud008.mtl"></a-asset-item>
         <a-asset-item id="banquero-obj" src="assets/desk/Personal/00246_Zeef006.OBJ"></a-asset-item>
         <a-asset-item id="banquero-mtl" src="assets/desk/Personal/00246_Zeef006.mtl"></a-asset-item>
-        <a-asset-item id="ofc-principal-obj" src="assets/desk/Oficina-principal/Oficina-principal.obj"></a-asset-item>
-        <a-asset-item id="ofc-principal-mtl" src="assets/desk/Oficina-principal/Oficina-principal.mtl"></a-asset-item>
         <a-asset-item id="banco-obj" src="assets/desk/banco/banco.obj"></a-asset-item>
         <a-asset-item id="banco-mtl" src="assets/desk/banco/banco.mtl"></a-asset-item>
+        <a-asset-item id="restaurante-obj" src="assets/desk/restaurante/restaurante.obj"></a-asset-item>
+        <a-asset-item id="restaurante-mtl" src="assets/desk/restaurante/restaurante.mtl"></a-asset-item>
+        <a-asset-item id="dian-obj" src="assets/desk/dian/dian.obj"></a-asset-item>
+        <a-asset-item id="dian-mtl" src="assets/desk/dian/dian.mtl"></a-asset-item>
+        <a-asset-item id="caseta-obj" src="assets/desk/caseta/caseta.obj"></a-asset-item>
+        <a-asset-item id="caseta-mtl" src="assets/desk/caseta/caseta.mtl"></a-asset-item>
+        <a-mixin id="wall" geometry="primitive: circle; radius: 0.5" material="shader: flat; src: assets/img/shoes.jpg;opacity:0.3" ></a-mixin>
+        <a-mixin id="animation-opacity" 
+                  animation__mouseenter="property: material.opacity; to: 1; startEvents: mouseenter; dur: 300"
+                  animation__mouseleave="property: material.opacity; to: 0.3; startEvents: mouseleave; dur: 300"></a-mixin>
+
         <img id="fondo1" src="assets/img/fondo1.jpg" >
         <img id="fondo2" src="assets/img/fondo2.png">
         <img id="fondo3" src="assets/img/fondo3.png" >
@@ -63,6 +71,8 @@
         <a-asset-item response-type="arraybuffer" id="banco-complete" src="assets/audios/tareacompletada-banco.m4a"preload="auto"></a-asset-item>
       </a-assets>
 
+     
+
       <a-entity     
         id="cameraRig"
         position="58.449 0.4 -30.787"> 
@@ -70,30 +80,19 @@
             <a-camera
               id="camera"            
               look-controls
-              fov="50"
-                           
               wasd-controls="enabled:  true">
              
-              <!-- <a-entity 
+              <a-cursor
                 id="cursor"
-                geometry="primitive: ring; radiusInner: 0.001; radiusOuter: 0.002" 
-                position="0 0 -0.5"
-                material="color: gray; opacity: 1"
+                cursor="fuse: true; fuseTimeout: 1500"
                 animation__click="property: scale; startEvents: click; easing: easeInCubic; dur: 1500; from: 0.1 0.1 0.1; to: 1 1 1"
                 animation__fusing="property: scale; startEvents: fusing; easing: easeInCubic; dur: 1500; from: 1 1 1; to: 0.1 0.1 0.1"
                 animation__mouseleave="property: scale; startEvents: mouseleave; easing: easeInCubic; dur: 500; to: 1 1 1"
-                cursor="fuse: true; fuseTimeout:1500"
-                raycaster="objects: .clickable;far:22">
-
-              </a-entity> -->
-              <a-cursor
-                id="cursor"
-                cursor="fuse: true; fuseTimeout: 500"
-                raycaster="showLine: true"
-                position="0 0 -0.5"
-              >
+                raycaster="showLine: true; objects: .clickable;far:22"
+                position="0 0 -0.5">
+              
             
-                </a-cursor>
+              </a-cursor>
 
               <a-entity 
                 id="blackintro"
@@ -137,9 +136,8 @@
                   material="color: green"
                   id="sound1"
                   src="#bienvenida"
-                  volume="5"
-                  >
-          
+                  volume="5">
+                  
                 </a-sound> 
                               
                 <a-sound
@@ -165,7 +163,7 @@
                   volume="5">
           
                 </a-sound>
-                
+                  
                 <a-sound
                   position="0 0 0" 
                   visible="false"
@@ -305,108 +303,84 @@
 
       <a-entity
         id="teleport0"
-        position="58.449 0.4 -30.787"
+        position="58.449 1.4 -30.787"
         cursor-listener
         class="clickable"        
-        geometry="primitive: box; width: 1; height: 0.05; depth: 1"
-        material="color: yellow"
-        visible="true"
-        scale="1 1 1" 
-        rotation="0 0 0">
+        mixin="wall animation-opacity"
+        look-at="#cameraRig">
       </a-entity>
 
 
       <a-entity
         id="teleport1"
-        position="57 0.4 -29"
+        position="57 1.4 -29"
         cursor-listener
         class="clickable"        
-        geometry="primitive: box; width: 1; height: 0.05; depth: 1"
-        material="color: yellow"
-        visible="true"
-        scale="1 1 1" 
-        rotation="0 0 0">
+        mixin="wall animation-opacity"
+        look-at="#cameraRig">
       </a-entity>
 
 
       <a-entity
         id="teleport2"
-        position="55.5 0.4 -29"
+        position="55.5 1.4 -29"
         cursor-listener
         class="clickable"
-        geometry="primitive: box; width: 1; height: 0.05; depth: 1"
-        material="color: yellow"
-        visible="true"
-        scale="1 1 1" 
-        rotation="0 0 0">
+        mixin="wall animation-opacity"
+        look-at="#cameraRig">
      
       </a-entity>
 
       <a-entity
         id="teleport3"
-        position="52.5 0.4 -21"
+        position="52.5 1.4 -21"
         cursor-listener
         class="clickable"
-        geometry="primitive: box; width: 1; height: 0.05; depth: 1"
-        material="color: yellow"
-        visible="true"
-        scale="1 1 1" 
-        rotation="0 0 0">
+        mixin="wall animation-opacity"
+        look-at="#cameraRig">
 
       </a-entity>
 
       <a-entity
         id="teleport4"
-        position="52.5 0.25 -19.6"
+        position="52.5 1.25 -19.6"
         cursor-listener
         class="clickable"
-        geometry="primitive: box; width: 1; height: 0.05; depth: 1"
-        material="color: yellow"
-        visible="true"
-        scale="1 1 1" 
-        rotation="0 0 0">
+        mixin="wall animation-opacity"
+        look-at="#cameraRig">
    
       </a-entity>
 
 
       <a-entity 
         id="teleport5" 
-        position="68.59 0.25 -17.9" 
+        position="68.59 1.25 -17.9" 
         cursor-listener 
         class="clickable" 
-        geometry="height: 0.05" 
-        material="color: yellow" 
-        visible="true" 
-        scale="1 1 1" 
-        rotation="0 0 0">
+        mixin="wall animation-opacity"
+        look-at="#cameraRig">
    
       </a-entity>
 
 
       <a-entity 
         id="teleport6" 
-        position="68.37 0.25 -2" 
+        position="68.37 1.25 -2" 
         cursor-listener 
         class="clickable" 
-        geometry="height: 0.05" 
-        material="color: yellow" 
-        visible="true" 
-        scale="1 1 1" 
-        rotation="0 0 0">
+        mixin="wall animation-opacity"
+        look-at="#cameraRig">
  
       </a-entity>
      
 
       <a-entity 
         id="teleport7" 
-        position="48.75 0.25 -2" 
+        position="48.75 1.25 -2" 
         cursor-listener 
         class="clickable" 
-        geometry="height: 0.05" 
-        material="color: yellow" 
-        visible="true" 
-        scale="1 1 1" 
-        rotation="0 0 0">
+        mixin="wall animation-opacity"
+        look-at="#cameraRig">
  
       </a-entity>
 
@@ -414,28 +388,22 @@
       <a-entity 
         
         id="teleport8" 
-        position="48.7 0.25 1.25" 
+        position="48.7 1.25 1.25" 
         cursor-listener
         class="clickable" 
-        geometry="height: 0.05" 
-        material="color: yellow" 
-        visible="true" 
-        scale="1 1 1" 
-        rotation="0 0 0">
+        mixin="wall animation-opacity"
+        look-at="#cameraRig">
  
       </a-entity>
 
 
       <a-entity 
         id="teleport9" 
-        position="47.5 0.25 8.7" 
+        position="47.5 1.25 8.7" 
         cursor-listener
         class="clickable" 
-        geometry="height: 0.05" 
-        material="color: yellow" 
-        visible="true" 
-        scale="1 1 1" 
-        rotation="0 0 0">
+        mixin="wall animation-opacity"
+        look-at="#cameraRig">
     
 
  
@@ -490,7 +458,7 @@
       
       <a-sky
         src="assets\img\sky.jpg"
-        >
+        material="fog: false">
         
       </a-sky>  
       
@@ -502,16 +470,16 @@
 
 
       <a-entity class="not-clickable">
-        <a-entity 
-          id="calle"
-          
+        <a-entity   
+          id="calle"          
           position="0 0 0" 
           obj-model="obj:#calle-obj; mtl:#calle-mtl"
-          shadow="cast: true"
-        >
+          shadow="">
+
+          </a-entity>
 
                          
-        </a-entity>
+        
         <a-entity >
           <a-image id="plane1" src="#fondo3"  material="" geometry="height: 30; width: 162.12" position="66.059 15.07948 -35.28" scale="" rotation="0 0 0">
   
@@ -536,16 +504,7 @@
         </a-entity>
       </a-entity>
 
-     <!--  <a-entity 
-        id="oficina"
-        class="not-clickable" 
-        position="51.098 0.171 -20.275" 
-        obj-model="obj:#ofc-principal-obj; mtl:#ofc-principal-mtl"
-        shadow="cast: true"
-        
-        >
-                         
-      </a-entity> -->
+     
 
 
       <a-entity 
@@ -555,17 +514,19 @@
         obj-model="obj:#jefe-obj; mtl:#jefe-mtl"
         shadow="cast: true"
         scale="0.022 0.022 0.022"
-        rotation="0 -49.813 0">
+        rotation="0 -49.813 0"
+        material="fog: false">
                          
       </a-entity>
 
 
       <a-gltf-model 
         id="oficina"
-        src="#1"
+        src="#oficina-1"
         class="not-clickable"
         shadow="receive: true"
-        position="51.098 0.171 -20.275">
+        position="51.098 0.171 -20.275"
+        material="fog: false">
       
       </a-gltf-model>
 
@@ -578,13 +539,9 @@
         shadow="cast: true"
         scale="0.022 0.022 0.022"
         rotation="0 180 0"
-        >
+        material="fog: false">
                          
       </a-entity>
-
-
-      
-
 
 
       <a-entity 
@@ -594,19 +551,67 @@
         position="60.237 0.227 -0.368" 
         obj-model="obj:#banco-obj; mtl:#banco-mtl"
         shadow="cast: true"
-                         
-        </a-entity>
-        
-                         
+        material="fog: false">
+                                        
       </a-entity>
+
+
+      <a-entity 
+        id="restaurante"
+        position="38.655 0.214 -20.027" 
+        scale="0.630 1 0.730"
+        rotation="0 90 0"
+        obj-model="obj:#restaurante-obj; mtl:#restaurante-mtl"
+        shadow=""
+        material="fog: false">
+                           
+      </a-entity>
+
+
+
+      <a-entity 
+        id="dian"
+        position="79.618 0.222 -19.358" 
+        obj-model="obj:#dian-obj; mtl:#dian-mtl"
+        shadow=""
+        material="fog: false">  
+
+      </a-entity>
+
+
+      <a-entity 
+        id="dian"
+        position="79.618 0.222 -19.358" 
+        obj-model="obj:#dian-obj; mtl:#dian-mtl"
+        shadow=""
+        material="fog: false">  
+
+      </a-entity>
+
+
+      <a-entity 
+        id="edificio1"
+        position="61.110 0.24 -20.092" 
+        obj-model="obj:#edificio1-obj; mtl:#edificio1-mtl"
+        shadow=""
+        
+        scale="0.611 1 0.990">  
+
+      </a-entity>
+
+
+
+      
+
+
+
+
       
    
 
 
       
-     <!--  <a-entity id="foco" light="type: spot; intensity: 0.91; angle: 90; penumbra: 0.03; castShadow: true" position="4.217 2.25282 -1.63598" visible="" rotation="-90 0 0"></a-entity>
-      <a-entity id="sol" light="type: directional; color: #EEE; intensity: 0.5" position="-1 1 0"></a-entity>          
-       -->
+
          
     </a-scene>
   </body>

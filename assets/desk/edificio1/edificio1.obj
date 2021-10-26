@@ -1,0 +1,10096 @@
+# Alias OBJ Model File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+# File units = meters
+
+mtllib edificio1.mtl
+
+g Mesh1 Window_1_1 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 29.5656 6.7056 -0
+vt 207.6 0
+vn 0 0 1
+v 24.2926 9.7536 -2.00371e-31
+vt 0 120
+v 24.2926 6.7056 -0
+vt 0 0
+f 1/1/1 2/2/1 3/3/1
+
+v 29.5656 9.7536 -2.00371e-31
+vt 207.6 120
+f 2/2/1 1/1/1 4/4/1
+
+usemtl Window_Gray_Glass_1
+vn -0 -0 -1
+f 3/3/2 2/2/2 1/1/2
+
+f 4/4/2 1/1/2 2/2/2
+
+g Mesh2 Window_1_2 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 6.18744 6.7056 -0
+v 0.9144 9.7536 -2.00371e-31
+v 0.9144 6.7056 -0
+f 5/1/1 6/2/1 7/3/1
+
+v 6.18744 9.7536 -2.00371e-31
+f 6/2/1 5/1/1 8/4/1
+
+usemtl Window_Gray_Glass_1
+f 7/3/2 6/2/2 5/1/2
+
+f 8/4/2 5/1/2 6/2/2
+
+g Mesh3 Window_1_3 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 11.9177 6.7056 -0
+v 7.10184 9.7536 -2.00371e-31
+v 7.10184 6.7056 -0
+f 9/1/1 10/2/1 11/3/1
+
+v 11.9177 9.7536 -2.00371e-31
+f 10/2/1 9/1/1 12/4/1
+
+usemtl Window_Gray_Glass_1
+f 11/3/2 10/2/2 9/1/2
+
+f 12/4/2 9/1/2 10/2/2
+
+g Mesh4 Window_1_4 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 23.3782 6.7056 -0
+v 18.5623 9.7536 -2.00371e-31
+v 18.5623 6.7056 -0
+f 13/1/1 14/2/1 15/3/1
+
+v 23.3782 9.7536 -2.00371e-31
+f 14/2/1 13/1/1 16/4/1
+
+usemtl Window_Gray_Glass_1
+f 15/3/2 14/2/2 13/1/2
+
+f 16/4/2 13/1/2 14/2/2
+
+g Mesh5 Window_1_5 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 17.6479 6.7056 2.00371e-32
+v 12.8321 9.7536 1.20222e-31
+v 12.8321 6.7056 2.00371e-32
+f 17/1/1 18/2/1 19/3/1
+
+v 17.6479 9.7536 1.20222e-31
+f 18/2/1 17/1/1 20/4/1
+
+usemtl Window_Gray_Glass_1
+f 19/3/2 18/2/2 17/1/2
+
+f 20/4/2 17/1/2 18/2/2
+
+g Mesh6 Window_1_6 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 0 32.3088 -5.842
+vn -1 0 -0
+v 2.00371e-31 35.3568 -9.398
+v 0 32.3088 -9.398
+f 21/1/3 22/2/3 23/3/3
+
+v 2.00371e-31 35.3568 -5.842
+f 22/2/3 21/1/3 24/4/3
+
+usemtl Window_Gray_Glass_1
+vn 1 -0 0
+f 23/3/4 22/2/4 21/1/4
+
+f 24/4/4 21/1/4 22/2/4
+
+g Mesh7 Window_1_7 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 0 32.3088 -10.3124
+v 2.00371e-31 35.3568 -14.3256
+v 0 32.3088 -14.3256
+f 25/1/3 26/2/3 27/3/3
+
+v 2.00371e-31 35.3568 -10.3124
+f 26/2/3 25/1/3 28/4/3
+
+usemtl Window_Gray_Glass_1
+f 27/3/4 26/2/4 25/1/4
+
+f 28/4/4 25/1/4 26/2/4
+
+g Mesh8 Window_1_8 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 0 32.3088 -0.9144
+v 2.00371e-31 35.3568 -4.9276
+v 0 32.3088 -4.9276
+f 29/1/3 30/2/3 31/3/3
+
+v 2.00371e-31 35.3568 -0.9144
+f 30/2/3 29/1/3 32/4/3
+
+usemtl Window_Gray_Glass_1
+f 31/3/4 30/2/4 29/1/4
+
+f 32/4/4 29/1/4 30/2/4
+
+g Mesh9 Window_1_9 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 0 36.576 -5.842
+v 2.00371e-31 39.624 -9.398
+v 0 36.576 -9.398
+f 33/1/3 34/2/3 35/3/3
+
+v 2.00371e-31 39.624 -5.842
+f 34/2/3 33/1/3 36/4/3
+
+usemtl Window_Gray_Glass_1
+f 35/3/4 34/2/4 33/1/4
+
+f 36/4/4 33/1/4 34/2/4
+
+g Mesh10 Window_1_10 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 0 36.576 -10.3124
+v 2.00371e-31 39.624 -14.3256
+v 0 36.576 -14.3256
+f 37/1/3 38/2/3 39/3/3
+
+v 2.00371e-31 39.624 -10.3124
+f 38/2/3 37/1/3 40/4/3
+
+usemtl Window_Gray_Glass_1
+f 39/3/4 38/2/4 37/1/4
+
+f 40/4/4 37/1/4 38/2/4
+
+g Mesh11 Window_1_11 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 0 36.576 -0.9144
+v 2.00371e-31 39.624 -4.9276
+v 0 36.576 -4.9276
+f 41/1/3 42/2/3 43/3/3
+
+v 2.00371e-31 39.624 -0.9144
+f 42/2/3 41/1/3 44/4/3
+
+usemtl Window_Gray_Glass_1
+f 43/3/4 42/2/4 41/1/4
+
+f 44/4/4 41/1/4 42/2/4
+
+g Mesh12 Window_1_12 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 0 40.8432 -5.842
+v 2.00371e-31 43.8912 -9.398
+v 0 40.8432 -9.398
+f 45/1/3 46/2/3 47/3/3
+
+v 2.00371e-31 43.8912 -5.842
+f 46/2/3 45/1/3 48/4/3
+
+usemtl Window_Gray_Glass_1
+f 47/3/4 46/2/4 45/1/4
+
+f 48/4/4 45/1/4 46/2/4
+
+g Mesh13 Window_1_13 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 0 40.8432 -10.3124
+v 2.00371e-31 43.8912 -14.3256
+v 0 40.8432 -14.3256
+f 49/1/3 50/2/3 51/3/3
+
+v 2.00371e-31 43.8912 -10.3124
+f 50/2/3 49/1/3 52/4/3
+
+usemtl Window_Gray_Glass_1
+f 51/3/4 50/2/4 49/1/4
+
+f 52/4/4 49/1/4 50/2/4
+
+g Mesh14 Window_1_14 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 0 40.8432 -0.9144
+v 2.00371e-31 43.8912 -4.9276
+v 0 40.8432 -4.9276
+f 53/1/3 54/2/3 55/3/3
+
+v 2.00371e-31 43.8912 -0.9144
+f 54/2/3 53/1/3 56/4/3
+
+usemtl Window_Gray_Glass_1
+f 55/3/4 54/2/4 53/1/4
+
+f 56/4/4 53/1/4 54/2/4
+
+g Mesh15 Window_1_15 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 0 45.1104 -5.842
+v 2.00371e-31 48.1584 -9.398
+v 0 45.1104 -9.398
+f 57/1/3 58/2/3 59/3/3
+
+v 2.00371e-31 48.1584 -5.842
+f 58/2/3 57/1/3 60/4/3
+
+usemtl Window_Gray_Glass_1
+f 59/3/4 58/2/4 57/1/4
+
+f 60/4/4 57/1/4 58/2/4
+
+g Mesh16 Window_1_16 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 0 45.1104 -10.3124
+v 2.00371e-31 48.1584 -14.3256
+v 0 45.1104 -14.3256
+f 61/1/3 62/2/3 63/3/3
+
+v 2.00371e-31 48.1584 -10.3124
+f 62/2/3 61/1/3 64/4/3
+
+usemtl Window_Gray_Glass_1
+f 63/3/4 62/2/4 61/1/4
+
+f 64/4/4 61/1/4 62/2/4
+
+g Mesh17 Window_1_17 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 0 45.1104 -0.9144
+v 2.00371e-31 48.1584 -4.9276
+v 0 45.1104 -4.9276
+f 65/1/3 66/2/3 67/3/3
+
+v 2.00371e-31 48.1584 -0.9144
+f 66/2/3 65/1/3 68/4/3
+
+usemtl Window_Gray_Glass_1
+f 67/3/4 66/2/4 65/1/4
+
+f 68/4/4 65/1/4 66/2/4
+
+g Mesh18 Window_1_18 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 0 49.3776 -5.842
+v 2.00371e-31 52.4256 -9.398
+v 0 49.3776 -9.398
+f 69/1/3 70/2/3 71/3/3
+
+v 2.00371e-31 52.4256 -5.842
+f 70/2/3 69/1/3 72/4/3
+
+usemtl Window_Gray_Glass_1
+f 71/3/4 70/2/4 69/1/4
+
+f 72/4/4 69/1/4 70/2/4
+
+g Mesh19 Window_1_19 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 0 49.3776 -10.3124
+v 2.00371e-31 52.4256 -14.3256
+v 0 49.3776 -14.3256
+f 73/1/3 74/2/3 75/3/3
+
+v 2.00371e-31 52.4256 -10.3124
+f 74/2/3 73/1/3 76/4/3
+
+usemtl Window_Gray_Glass_1
+f 75/3/4 74/2/4 73/1/4
+
+f 76/4/4 73/1/4 74/2/4
+
+g Mesh20 Window_1_20 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 0 49.3776 -0.9144
+v 2.00371e-31 52.4256 -4.9276
+v 0 49.3776 -4.9276
+f 77/1/3 78/2/3 79/3/3
+
+v 2.00371e-31 52.4256 -0.9144
+f 78/2/3 77/1/3 80/4/3
+
+usemtl Window_Gray_Glass_1
+f 79/3/4 78/2/4 77/1/4
+
+f 80/4/4 77/1/4 78/2/4
+
+g Mesh21 Window_1_21 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 0 53.6448 -5.842
+v 2.00371e-31 56.6928 -9.398
+v 0 53.6448 -9.398
+f 81/1/3 82/2/3 83/3/3
+
+v 2.00371e-31 56.6928 -5.842
+f 82/2/3 81/1/3 84/4/3
+
+usemtl Window_Gray_Glass_1
+f 83/3/4 82/2/4 81/1/4
+
+f 84/4/4 81/1/4 82/2/4
+
+g Mesh22 Window_1_22 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 0 53.6448 -10.3124
+v 2.00371e-31 56.6928 -14.3256
+v 0 53.6448 -14.3256
+f 85/1/3 86/2/3 87/3/3
+
+v 2.00371e-31 56.6928 -10.3124
+f 86/2/3 85/1/3 88/4/3
+
+usemtl Window_Gray_Glass_1
+f 87/3/4 86/2/4 85/1/4
+
+f 88/4/4 85/1/4 86/2/4
+
+g Mesh23 Window_1_23 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 0 53.6448 -0.9144
+v 2.00371e-31 56.6928 -4.9276
+v 0 53.6448 -4.9276
+f 89/1/3 90/2/3 91/3/3
+
+v 2.00371e-31 56.6928 -0.9144
+f 90/2/3 89/1/3 92/4/3
+
+usemtl Window_Gray_Glass_1
+f 91/3/4 90/2/4 89/1/4
+
+f 92/4/4 89/1/4 90/2/4
+
+g Mesh24 Window_1_24 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 0 57.912 -5.842
+v 2.00371e-31 60.96 -9.398
+v 0 57.912 -9.398
+f 93/1/3 94/2/3 95/3/3
+
+v 2.00371e-31 60.96 -5.842
+f 94/2/3 93/1/3 96/4/3
+
+usemtl Window_Gray_Glass_1
+f 95/3/4 94/2/4 93/1/4
+
+f 96/4/4 93/1/4 94/2/4
+
+g Mesh25 Window_1_25 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 0 57.912 -10.3124
+v 2.00371e-31 60.96 -14.3256
+v 0 57.912 -14.3256
+f 97/1/3 98/2/3 99/3/3
+
+v 2.00371e-31 60.96 -10.3124
+f 98/2/3 97/1/3 100/4/3
+
+usemtl Window_Gray_Glass_1
+f 99/3/4 98/2/4 97/1/4
+
+f 100/4/4 97/1/4 98/2/4
+
+g Mesh26 Window_1_26 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 0 57.912 -0.9144
+v 2.00371e-31 60.96 -4.9276
+v 0 57.912 -4.9276
+f 101/1/3 102/2/3 103/3/3
+
+v 2.00371e-31 60.96 -0.9144
+f 102/2/3 101/1/3 104/4/3
+
+usemtl Window_Gray_Glass_1
+f 103/3/4 102/2/4 101/1/4
+
+f 104/4/4 101/1/4 102/2/4
+
+g Mesh27 Window_1_27 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 0 62.1792 -5.842
+v 2.00371e-31 65.2272 -9.398
+v 0 62.1792 -9.398
+f 105/1/3 106/2/3 107/3/3
+
+v 2.00371e-31 65.2272 -5.842
+f 106/2/3 105/1/3 108/4/3
+
+usemtl Window_Gray_Glass_1
+f 107/3/4 106/2/4 105/1/4
+
+f 108/4/4 105/1/4 106/2/4
+
+g Mesh28 Window_1_28 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 0 62.1792 -10.3124
+v 2.00371e-31 65.2272 -14.3256
+v 0 62.1792 -14.3256
+f 109/1/3 110/2/3 111/3/3
+
+v 2.00371e-31 65.2272 -10.3124
+f 110/2/3 109/1/3 112/4/3
+
+usemtl Window_Gray_Glass_1
+f 111/3/4 110/2/4 109/1/4
+
+f 112/4/4 109/1/4 110/2/4
+
+g Mesh29 Window_1_29 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 0 62.1792 -0.9144
+v 2.00371e-31 65.2272 -4.9276
+v 0 62.1792 -4.9276
+f 113/1/3 114/2/3 115/3/3
+
+v 2.00371e-31 65.2272 -0.9144
+f 114/2/3 113/1/3 116/4/3
+
+usemtl Window_Gray_Glass_1
+f 115/3/4 114/2/4 113/1/4
+
+f 116/4/4 113/1/4 114/2/4
+
+g Mesh30 Window_1_30 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 0 66.4464 -5.842
+v 2.00371e-31 69.4944 -9.398
+v 0 66.4464 -9.398
+f 117/1/3 118/2/3 119/3/3
+
+v 2.00371e-31 69.4944 -5.842
+f 118/2/3 117/1/3 120/4/3
+
+usemtl Window_Gray_Glass_1
+f 119/3/4 118/2/4 117/1/4
+
+f 120/4/4 117/1/4 118/2/4
+
+g Mesh31 Window_1_31 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 0 66.4464 -10.3124
+v 2.00371e-31 69.4944 -14.3256
+v 0 66.4464 -14.3256
+f 121/1/3 122/2/3 123/3/3
+
+v 2.00371e-31 69.4944 -10.3124
+f 122/2/3 121/1/3 124/4/3
+
+usemtl Window_Gray_Glass_1
+f 123/3/4 122/2/4 121/1/4
+
+f 124/4/4 121/1/4 122/2/4
+
+g Mesh32 Window_1_32 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 0 66.4464 -0.9144
+v 2.00371e-31 69.4944 -4.9276
+v 0 66.4464 -4.9276
+f 125/1/3 126/2/3 127/3/3
+
+v 2.00371e-31 69.4944 -0.9144
+f 126/2/3 125/1/3 128/4/3
+
+usemtl Window_Gray_Glass_1
+f 127/3/4 126/2/4 125/1/4
+
+f 128/4/4 125/1/4 126/2/4
+
+g Mesh33 Window_1_33 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 0 70.7136 -5.842
+v 2.00371e-31 73.7616 -9.398
+v 0 70.7136 -9.398
+f 129/1/3 130/2/3 131/3/3
+
+v 2.00371e-31 73.7616 -5.842
+f 130/2/3 129/1/3 132/4/3
+
+usemtl Window_Gray_Glass_1
+f 131/3/4 130/2/4 129/1/4
+
+f 132/4/4 129/1/4 130/2/4
+
+g Mesh34 Window_1_34 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 0 70.7136 -10.3124
+v 2.00371e-31 73.7616 -14.3256
+v 0 70.7136 -14.3256
+f 133/1/3 134/2/3 135/3/3
+
+v 2.00371e-31 73.7616 -10.3124
+f 134/2/3 133/1/3 136/4/3
+
+usemtl Window_Gray_Glass_1
+f 135/3/4 134/2/4 133/1/4
+
+f 136/4/4 133/1/4 134/2/4
+
+g Mesh35 Window_1_35 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 0 70.7136 -0.9144
+v 2.00371e-31 73.7616 -4.9276
+v 0 70.7136 -4.9276
+f 137/1/3 138/2/3 139/3/3
+
+v 2.00371e-31 73.7616 -0.9144
+f 138/2/3 137/1/3 140/4/3
+
+usemtl Window_Gray_Glass_1
+f 139/3/4 138/2/4 137/1/4
+
+f 140/4/4 137/1/4 138/2/4
+
+g Mesh36 Window_1_36 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 0 74.9808 -5.842
+v 2.00371e-31 78.0288 -9.398
+v 0 74.9808 -9.398
+f 141/1/3 142/2/3 143/3/3
+
+v 2.00371e-31 78.0288 -5.842
+f 142/2/3 141/1/3 144/4/3
+
+usemtl Window_Gray_Glass_1
+f 143/3/4 142/2/4 141/1/4
+
+f 144/4/4 141/1/4 142/2/4
+
+g Mesh37 Window_1_37 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 0 74.9808 -10.3124
+v 2.00371e-31 78.0288 -14.3256
+v 0 74.9808 -14.3256
+f 145/1/3 146/2/3 147/3/3
+
+v 2.00371e-31 78.0288 -10.3124
+f 146/2/3 145/1/3 148/4/3
+
+usemtl Window_Gray_Glass_1
+f 147/3/4 146/2/4 145/1/4
+
+f 148/4/4 145/1/4 146/2/4
+
+g Mesh38 Window_1_38 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 0 74.9808 -0.9144
+v 2.00371e-31 78.0288 -4.9276
+v 0 74.9808 -4.9276
+f 149/1/3 150/2/3 151/3/3
+
+v 2.00371e-31 78.0288 -0.9144
+f 150/2/3 149/1/3 152/4/3
+
+usemtl Window_Gray_Glass_1
+f 151/3/4 150/2/4 149/1/4
+
+f 152/4/4 149/1/4 150/2/4
+
+g Mesh39 Window_1_39 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 0 79.248 -5.842
+v 2.00371e-31 82.296 -9.398
+v 0 79.248 -9.398
+f 153/1/3 154/2/3 155/3/3
+
+v 2.00371e-31 82.296 -5.842
+f 154/2/3 153/1/3 156/4/3
+
+usemtl Window_Gray_Glass_1
+f 155/3/4 154/2/4 153/1/4
+
+f 156/4/4 153/1/4 154/2/4
+
+g Mesh40 Window_1_40 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 0 79.248 -10.3124
+v 2.00371e-31 82.296 -14.3256
+v 0 79.248 -14.3256
+f 157/1/3 158/2/3 159/3/3
+
+v 2.00371e-31 82.296 -10.3124
+f 158/2/3 157/1/3 160/4/3
+
+usemtl Window_Gray_Glass_1
+f 159/3/4 158/2/4 157/1/4
+
+f 160/4/4 157/1/4 158/2/4
+
+g Mesh41 Window_1_41 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 0 79.248 -0.9144
+v 2.00371e-31 82.296 -4.9276
+v 0 79.248 -4.9276
+f 161/1/3 162/2/3 163/3/3
+
+v 2.00371e-31 82.296 -0.9144
+f 162/2/3 161/1/3 164/4/3
+
+usemtl Window_Gray_Glass_1
+f 163/3/4 162/2/4 161/1/4
+
+f 164/4/4 161/1/4 162/2/4
+
+g Mesh42 Window_1_42 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 0 83.5152 -5.842
+v 2.00371e-31 86.5632 -9.398
+v 0 83.5152 -9.398
+f 165/1/3 166/2/3 167/3/3
+
+v 2.00371e-31 86.5632 -5.842
+f 166/2/3 165/1/3 168/4/3
+
+usemtl Window_Gray_Glass_1
+f 167/3/4 166/2/4 165/1/4
+
+f 168/4/4 165/1/4 166/2/4
+
+g Mesh43 Window_1_43 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 0 83.5152 -10.3124
+v 2.00371e-31 86.5632 -14.3256
+v 0 83.5152 -14.3256
+f 169/1/3 170/2/3 171/3/3
+
+v 2.00371e-31 86.5632 -10.3124
+f 170/2/3 169/1/3 172/4/3
+
+usemtl Window_Gray_Glass_1
+f 171/3/4 170/2/4 169/1/4
+
+f 172/4/4 169/1/4 170/2/4
+
+g Mesh44 Window_1_44 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 0 83.5152 -0.9144
+v 2.00371e-31 86.5632 -4.9276
+v 0 83.5152 -4.9276
+f 173/1/3 174/2/3 175/3/3
+
+v 2.00371e-31 86.5632 -0.9144
+f 174/2/3 173/1/3 176/4/3
+
+usemtl Window_Gray_Glass_1
+f 175/3/4 174/2/4 173/1/4
+
+f 176/4/4 173/1/4 174/2/4
+
+g Mesh45 Window_1_45 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 6.18744 10.9728 -0
+v 0.9144 14.0208 -2.00371e-31
+v 0.9144 10.9728 -0
+f 177/1/1 178/2/1 179/3/1
+
+v 6.18744 14.0208 -2.00371e-31
+f 178/2/1 177/1/1 180/4/1
+
+usemtl Window_Gray_Glass_1
+f 179/3/2 178/2/2 177/1/2
+
+f 180/4/2 177/1/2 178/2/2
+
+g Mesh46 Window_1_46 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 17.6479 10.9728 2.00371e-32
+v 12.8321 14.0208 1.20222e-31
+v 12.8321 10.9728 2.00371e-32
+f 181/1/1 182/2/1 183/3/1
+
+v 17.6479 14.0208 1.20222e-31
+f 182/2/1 181/1/1 184/4/1
+
+usemtl Window_Gray_Glass_1
+f 183/3/2 182/2/2 181/1/2
+
+f 184/4/2 181/1/2 182/2/2
+
+g Mesh47 Window_1_47 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 23.3782 10.9728 -0
+v 18.5623 14.0208 -2.00371e-31
+v 18.5623 10.9728 -0
+f 185/1/1 186/2/1 187/3/1
+
+v 23.3782 14.0208 -2.00371e-31
+f 186/2/1 185/1/1 188/4/1
+
+usemtl Window_Gray_Glass_1
+f 187/3/2 186/2/2 185/1/2
+
+f 188/4/2 185/1/2 186/2/2
+
+g Mesh48 Window_1_48 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 29.5656 10.9728 -0
+v 24.2926 14.0208 -2.00371e-31
+v 24.2926 10.9728 -0
+f 189/1/1 190/2/1 191/3/1
+
+v 29.5656 14.0208 -2.00371e-31
+f 190/2/1 189/1/1 192/4/1
+
+usemtl Window_Gray_Glass_1
+f 191/3/2 190/2/2 189/1/2
+
+f 192/4/2 189/1/2 190/2/2
+
+g Mesh49 Window_1_49 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 11.9177 10.9728 -0
+v 7.10184 14.0208 -2.00371e-31
+v 7.10184 10.9728 -0
+f 193/1/1 194/2/1 195/3/1
+
+v 11.9177 14.0208 -2.00371e-31
+f 194/2/1 193/1/1 196/4/1
+
+usemtl Window_Gray_Glass_1
+f 195/3/2 194/2/2 193/1/2
+
+f 196/4/2 193/1/2 194/2/2
+
+g Mesh50 Window_1_50 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 6.18744 15.24 -0
+v 0.9144 18.288 -2.00371e-31
+v 0.9144 15.24 -0
+f 197/1/1 198/2/1 199/3/1
+
+v 6.18744 18.288 -2.00371e-31
+f 198/2/1 197/1/1 200/4/1
+
+usemtl Window_Gray_Glass_1
+f 199/3/2 198/2/2 197/1/2
+
+f 200/4/2 197/1/2 198/2/2
+
+g Mesh51 Window_1_51 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 17.6479 15.24 2.00371e-32
+v 12.8321 18.288 1.20222e-31
+v 12.8321 15.24 2.00371e-32
+f 201/1/1 202/2/1 203/3/1
+
+v 17.6479 18.288 1.20222e-31
+f 202/2/1 201/1/1 204/4/1
+
+usemtl Window_Gray_Glass_1
+f 203/3/2 202/2/2 201/1/2
+
+f 204/4/2 201/1/2 202/2/2
+
+g Mesh52 Window_1_52 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 23.3782 15.24 -0
+v 18.5623 18.288 -2.00371e-31
+v 18.5623 15.24 -0
+f 205/1/1 206/2/1 207/3/1
+
+v 23.3782 18.288 -2.00371e-31
+f 206/2/1 205/1/1 208/4/1
+
+usemtl Window_Gray_Glass_1
+f 207/3/2 206/2/2 205/1/2
+
+f 208/4/2 205/1/2 206/2/2
+
+g Mesh53 Window_1_53 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 29.5656 15.24 -0
+v 24.2926 18.288 -2.00371e-31
+v 24.2926 15.24 -0
+f 209/1/1 210/2/1 211/3/1
+
+v 29.5656 18.288 -2.00371e-31
+f 210/2/1 209/1/1 212/4/1
+
+usemtl Window_Gray_Glass_1
+f 211/3/2 210/2/2 209/1/2
+
+f 212/4/2 209/1/2 210/2/2
+
+g Mesh54 Window_1_54 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 11.9177 15.24 -0
+v 7.10184 18.288 -2.00371e-31
+v 7.10184 15.24 -0
+f 213/1/1 214/2/1 215/3/1
+
+v 11.9177 18.288 -2.00371e-31
+f 214/2/1 213/1/1 216/4/1
+
+usemtl Window_Gray_Glass_1
+f 215/3/2 214/2/2 213/1/2
+
+f 216/4/2 213/1/2 214/2/2
+
+g Mesh55 Window_1_55 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 29.5656 19.5072 -0
+v 24.2926 22.5552 -2.00371e-31
+v 24.2926 19.5072 -0
+f 217/1/1 218/2/1 219/3/1
+
+v 29.5656 22.5552 -2.00371e-31
+f 218/2/1 217/1/1 220/4/1
+
+usemtl Window_Gray_Glass_1
+f 219/3/2 218/2/2 217/1/2
+
+f 220/4/2 217/1/2 218/2/2
+
+g Mesh56 Window_1_56 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 11.9177 19.5072 -0
+v 7.10184 22.5552 -2.00371e-31
+v 7.10184 19.5072 -0
+f 221/1/1 222/2/1 223/3/1
+
+v 11.9177 22.5552 -2.00371e-31
+f 222/2/1 221/1/1 224/4/1
+
+usemtl Window_Gray_Glass_1
+f 223/3/2 222/2/2 221/1/2
+
+f 224/4/2 221/1/2 222/2/2
+
+g Mesh57 Window_1_57 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 6.18744 19.5072 -0
+v 0.9144 22.5552 -2.00371e-31
+v 0.9144 19.5072 -0
+f 225/1/1 226/2/1 227/3/1
+
+v 6.18744 22.5552 -2.00371e-31
+f 226/2/1 225/1/1 228/4/1
+
+usemtl Window_Gray_Glass_1
+f 227/3/2 226/2/2 225/1/2
+
+f 228/4/2 225/1/2 226/2/2
+
+g Mesh58 Window_1_58 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 17.6479 19.5072 2.00371e-32
+v 12.8321 22.5552 1.20222e-31
+v 12.8321 19.5072 2.00371e-32
+f 229/1/1 230/2/1 231/3/1
+
+v 17.6479 22.5552 1.20222e-31
+f 230/2/1 229/1/1 232/4/1
+
+usemtl Window_Gray_Glass_1
+f 231/3/2 230/2/2 229/1/2
+
+f 232/4/2 229/1/2 230/2/2
+
+g Mesh59 Window_1_59 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 23.3782 19.5072 -0
+v 18.5623 22.5552 -2.00371e-31
+v 18.5623 19.5072 -0
+f 233/1/1 234/2/1 235/3/1
+
+v 23.3782 22.5552 -2.00371e-31
+f 234/2/1 233/1/1 236/4/1
+
+usemtl Window_Gray_Glass_1
+f 235/3/2 234/2/2 233/1/2
+
+f 236/4/2 233/1/2 234/2/2
+
+g Mesh60 Window_1_60 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 17.6479 23.7744 2.00371e-32
+v 12.8321 26.8224 1.20222e-31
+v 12.8321 23.7744 2.00371e-32
+f 237/1/1 238/2/1 239/3/1
+
+v 17.6479 26.8224 1.20222e-31
+f 238/2/1 237/1/1 240/4/1
+
+usemtl Window_Gray_Glass_1
+f 239/3/2 238/2/2 237/1/2
+
+f 240/4/2 237/1/2 238/2/2
+
+g Mesh61 Window_1_61 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 23.3782 23.7744 -0
+v 18.5623 26.8224 -2.00371e-31
+v 18.5623 23.7744 -0
+f 241/1/1 242/2/1 243/3/1
+
+v 23.3782 26.8224 -2.00371e-31
+f 242/2/1 241/1/1 244/4/1
+
+usemtl Window_Gray_Glass_1
+f 243/3/2 242/2/2 241/1/2
+
+f 244/4/2 241/1/2 242/2/2
+
+g Mesh62 Window_1_62 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 29.5656 23.7744 -0
+v 24.2926 26.8224 -2.00371e-31
+v 24.2926 23.7744 -0
+f 245/1/1 246/2/1 247/3/1
+
+v 29.5656 26.8224 -2.00371e-31
+f 246/2/1 245/1/1 248/4/1
+
+usemtl Window_Gray_Glass_1
+f 247/3/2 246/2/2 245/1/2
+
+f 248/4/2 245/1/2 246/2/2
+
+g Mesh63 Window_1_63 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 11.9177 23.7744 -0
+v 7.10184 26.8224 -2.00371e-31
+v 7.10184 23.7744 -0
+f 249/1/1 250/2/1 251/3/1
+
+v 11.9177 26.8224 -2.00371e-31
+f 250/2/1 249/1/1 252/4/1
+
+usemtl Window_Gray_Glass_1
+f 251/3/2 250/2/2 249/1/2
+
+f 252/4/2 249/1/2 250/2/2
+
+g Mesh64 Window_1_64 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 6.18744 23.7744 -0
+v 0.9144 26.8224 -2.00371e-31
+v 0.9144 23.7744 -0
+f 253/1/1 254/2/1 255/3/1
+
+v 6.18744 26.8224 -2.00371e-31
+f 254/2/1 253/1/1 256/4/1
+
+usemtl Window_Gray_Glass_1
+f 255/3/2 254/2/2 253/1/2
+
+f 256/4/2 253/1/2 254/2/2
+
+g Mesh65 Window_1_65 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 6.18744 28.0416 -0
+v 0.9144 31.0896 -2.00371e-31
+v 0.9144 28.0416 -0
+f 257/1/1 258/2/1 259/3/1
+
+v 6.18744 31.0896 -2.00371e-31
+f 258/2/1 257/1/1 260/4/1
+
+usemtl Window_Gray_Glass_1
+f 259/3/2 258/2/2 257/1/2
+
+f 260/4/2 257/1/2 258/2/2
+
+g Mesh66 Window_1_66 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 17.6479 28.0416 2.00371e-32
+v 12.8321 31.0896 1.20222e-31
+v 12.8321 28.0416 2.00371e-32
+f 261/1/1 262/2/1 263/3/1
+
+v 17.6479 31.0896 1.20222e-31
+f 262/2/1 261/1/1 264/4/1
+
+usemtl Window_Gray_Glass_1
+f 263/3/2 262/2/2 261/1/2
+
+f 264/4/2 261/1/2 262/2/2
+
+g Mesh67 Window_1_67 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 23.3782 28.0416 -0
+v 18.5623 31.0896 -2.00371e-31
+v 18.5623 28.0416 -0
+f 265/1/1 266/2/1 267/3/1
+
+v 23.3782 31.0896 -2.00371e-31
+f 266/2/1 265/1/1 268/4/1
+
+usemtl Window_Gray_Glass_1
+f 267/3/2 266/2/2 265/1/2
+
+f 268/4/2 265/1/2 266/2/2
+
+g Mesh68 Window_1_68 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 29.5656 28.0416 -0
+v 24.2926 31.0896 -2.00371e-31
+v 24.2926 28.0416 -0
+f 269/1/1 270/2/1 271/3/1
+
+v 29.5656 31.0896 -2.00371e-31
+f 270/2/1 269/1/1 272/4/1
+
+usemtl Window_Gray_Glass_1
+f 271/3/2 270/2/2 269/1/2
+
+f 272/4/2 269/1/2 270/2/2
+
+g Mesh69 Window_1_69 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 11.9177 28.0416 -0
+v 7.10184 31.0896 -2.00371e-31
+v 7.10184 28.0416 -0
+f 273/1/1 274/2/1 275/3/1
+
+v 11.9177 31.0896 -2.00371e-31
+f 274/2/1 273/1/1 276/4/1
+
+usemtl Window_Gray_Glass_1
+f 275/3/2 274/2/2 273/1/2
+
+f 276/4/2 273/1/2 274/2/2
+
+g Mesh70 Window_1_70 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 6.18744 32.3088 -0
+v 0.9144 35.3568 -2.00371e-31
+v 0.9144 32.3088 -0
+f 277/1/1 278/2/1 279/3/1
+
+v 6.18744 35.3568 -2.00371e-31
+f 278/2/1 277/1/1 280/4/1
+
+usemtl Window_Gray_Glass_1
+f 279/3/2 278/2/2 277/1/2
+
+f 280/4/2 277/1/2 278/2/2
+
+g Mesh71 Window_1_71 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 17.6479 32.3088 2.00371e-32
+v 12.8321 35.3568 1.20222e-31
+v 12.8321 32.3088 2.00371e-32
+f 281/1/1 282/2/1 283/3/1
+
+v 17.6479 35.3568 1.20222e-31
+f 282/2/1 281/1/1 284/4/1
+
+usemtl Window_Gray_Glass_1
+f 283/3/2 282/2/2 281/1/2
+
+f 284/4/2 281/1/2 282/2/2
+
+g Mesh72 Window_1_72 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 23.3782 32.3088 -0
+v 18.5623 35.3568 -2.00371e-31
+v 18.5623 32.3088 -0
+f 285/1/1 286/2/1 287/3/1
+
+v 23.3782 35.3568 -2.00371e-31
+f 286/2/1 285/1/1 288/4/1
+
+usemtl Window_Gray_Glass_1
+f 287/3/2 286/2/2 285/1/2
+
+f 288/4/2 285/1/2 286/2/2
+
+g Mesh73 Window_1_73 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 29.5656 32.3088 -0
+v 24.2926 35.3568 -2.00371e-31
+v 24.2926 32.3088 -0
+f 289/1/1 290/2/1 291/3/1
+
+v 29.5656 35.3568 -2.00371e-31
+f 290/2/1 289/1/1 292/4/1
+
+usemtl Window_Gray_Glass_1
+f 291/3/2 290/2/2 289/1/2
+
+f 292/4/2 289/1/2 290/2/2
+
+g Mesh74 Window_1_74 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 11.9177 32.3088 -0
+v 7.10184 35.3568 -2.00371e-31
+v 7.10184 32.3088 -0
+f 293/1/1 294/2/1 295/3/1
+
+v 11.9177 35.3568 -2.00371e-31
+f 294/2/1 293/1/1 296/4/1
+
+usemtl Window_Gray_Glass_1
+f 295/3/2 294/2/2 293/1/2
+
+f 296/4/2 293/1/2 294/2/2
+
+g Mesh75 Window_1_75 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 6.18744 36.576 -0
+v 0.9144 39.624 -2.00371e-31
+v 0.9144 36.576 -0
+f 297/1/1 298/2/1 299/3/1
+
+v 6.18744 39.624 -2.00371e-31
+f 298/2/1 297/1/1 300/4/1
+
+usemtl Window_Gray_Glass_1
+f 299/3/2 298/2/2 297/1/2
+
+f 300/4/2 297/1/2 298/2/2
+
+g Mesh76 Window_1_76 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 17.6479 36.576 2.00371e-32
+v 12.8321 39.624 1.20222e-31
+v 12.8321 36.576 2.00371e-32
+f 301/1/1 302/2/1 303/3/1
+
+v 17.6479 39.624 1.20222e-31
+f 302/2/1 301/1/1 304/4/1
+
+usemtl Window_Gray_Glass_1
+f 303/3/2 302/2/2 301/1/2
+
+f 304/4/2 301/1/2 302/2/2
+
+g Mesh77 Window_1_77 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 23.3782 36.576 -0
+v 18.5623 39.624 -2.00371e-31
+v 18.5623 36.576 -0
+f 305/1/1 306/2/1 307/3/1
+
+v 23.3782 39.624 -2.00371e-31
+f 306/2/1 305/1/1 308/4/1
+
+usemtl Window_Gray_Glass_1
+f 307/3/2 306/2/2 305/1/2
+
+f 308/4/2 305/1/2 306/2/2
+
+g Mesh78 Window_1_78 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 29.5656 36.576 -0
+v 24.2926 39.624 -2.00371e-31
+v 24.2926 36.576 -0
+f 309/1/1 310/2/1 311/3/1
+
+v 29.5656 39.624 -2.00371e-31
+f 310/2/1 309/1/1 312/4/1
+
+usemtl Window_Gray_Glass_1
+f 311/3/2 310/2/2 309/1/2
+
+f 312/4/2 309/1/2 310/2/2
+
+g Mesh79 Window_1_79 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 11.9177 36.576 -0
+v 7.10184 39.624 -2.00371e-31
+v 7.10184 36.576 -0
+f 313/1/1 314/2/1 315/3/1
+
+v 11.9177 39.624 -2.00371e-31
+f 314/2/1 313/1/1 316/4/1
+
+usemtl Window_Gray_Glass_1
+f 315/3/2 314/2/2 313/1/2
+
+f 316/4/2 313/1/2 314/2/2
+
+g Mesh80 Window_1_80 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 6.18744 40.8432 -0
+v 0.9144 43.8912 -2.00371e-31
+v 0.9144 40.8432 -0
+f 317/1/1 318/2/1 319/3/1
+
+v 6.18744 43.8912 -2.00371e-31
+f 318/2/1 317/1/1 320/4/1
+
+usemtl Window_Gray_Glass_1
+f 319/3/2 318/2/2 317/1/2
+
+f 320/4/2 317/1/2 318/2/2
+
+g Mesh81 Window_1_81 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 17.6479 40.8432 2.00371e-32
+v 12.8321 43.8912 1.20222e-31
+v 12.8321 40.8432 2.00371e-32
+f 321/1/1 322/2/1 323/3/1
+
+v 17.6479 43.8912 1.20222e-31
+f 322/2/1 321/1/1 324/4/1
+
+usemtl Window_Gray_Glass_1
+f 323/3/2 322/2/2 321/1/2
+
+f 324/4/2 321/1/2 322/2/2
+
+g Mesh82 Window_1_82 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 23.3782 40.8432 -0
+v 18.5623 43.8912 -2.00371e-31
+v 18.5623 40.8432 -0
+f 325/1/1 326/2/1 327/3/1
+
+v 23.3782 43.8912 -2.00371e-31
+f 326/2/1 325/1/1 328/4/1
+
+usemtl Window_Gray_Glass_1
+f 327/3/2 326/2/2 325/1/2
+
+f 328/4/2 325/1/2 326/2/2
+
+g Mesh83 Window_1_83 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 29.5656 40.8432 -0
+v 24.2926 43.8912 -2.00371e-31
+v 24.2926 40.8432 -0
+f 329/1/1 330/2/1 331/3/1
+
+v 29.5656 43.8912 -2.00371e-31
+f 330/2/1 329/1/1 332/4/1
+
+usemtl Window_Gray_Glass_1
+f 331/3/2 330/2/2 329/1/2
+
+f 332/4/2 329/1/2 330/2/2
+
+g Mesh84 Window_1_84 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 11.9177 40.8432 -0
+v 7.10184 43.8912 -2.00371e-31
+v 7.10184 40.8432 -0
+f 333/1/1 334/2/1 335/3/1
+
+v 11.9177 43.8912 -2.00371e-31
+f 334/2/1 333/1/1 336/4/1
+
+usemtl Window_Gray_Glass_1
+f 335/3/2 334/2/2 333/1/2
+
+f 336/4/2 333/1/2 334/2/2
+
+g Mesh85 Window_1_85 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 6.18744 45.1104 -0
+v 0.9144 48.1584 -2.00371e-31
+v 0.9144 45.1104 -0
+f 337/1/1 338/2/1 339/3/1
+
+v 6.18744 48.1584 -2.00371e-31
+f 338/2/1 337/1/1 340/4/1
+
+usemtl Window_Gray_Glass_1
+f 339/3/2 338/2/2 337/1/2
+
+f 340/4/2 337/1/2 338/2/2
+
+g Mesh86 Window_1_86 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 17.6479 45.1104 2.00371e-32
+v 12.8321 48.1584 1.20222e-31
+v 12.8321 45.1104 2.00371e-32
+f 341/1/1 342/2/1 343/3/1
+
+v 17.6479 48.1584 1.20222e-31
+f 342/2/1 341/1/1 344/4/1
+
+usemtl Window_Gray_Glass_1
+f 343/3/2 342/2/2 341/1/2
+
+f 344/4/2 341/1/2 342/2/2
+
+g Mesh87 Window_1_87 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 23.3782 45.1104 -0
+v 18.5623 48.1584 -2.00371e-31
+v 18.5623 45.1104 -0
+f 345/1/1 346/2/1 347/3/1
+
+v 23.3782 48.1584 -2.00371e-31
+f 346/2/1 345/1/1 348/4/1
+
+usemtl Window_Gray_Glass_1
+f 347/3/2 346/2/2 345/1/2
+
+f 348/4/2 345/1/2 346/2/2
+
+g Mesh88 Window_1_88 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 29.5656 45.1104 -0
+v 24.2926 48.1584 -2.00371e-31
+v 24.2926 45.1104 -0
+f 349/1/1 350/2/1 351/3/1
+
+v 29.5656 48.1584 -2.00371e-31
+f 350/2/1 349/1/1 352/4/1
+
+usemtl Window_Gray_Glass_1
+f 351/3/2 350/2/2 349/1/2
+
+f 352/4/2 349/1/2 350/2/2
+
+g Mesh89 Window_1_89 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 11.9177 45.1104 -0
+v 7.10184 48.1584 -2.00371e-31
+v 7.10184 45.1104 -0
+f 353/1/1 354/2/1 355/3/1
+
+v 11.9177 48.1584 -2.00371e-31
+f 354/2/1 353/1/1 356/4/1
+
+usemtl Window_Gray_Glass_1
+f 355/3/2 354/2/2 353/1/2
+
+f 356/4/2 353/1/2 354/2/2
+
+g Mesh90 Window_1_90 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 23.3782 49.3776 -0
+v 18.5623 52.4256 -2.00371e-31
+v 18.5623 49.3776 -0
+f 357/1/1 358/2/1 359/3/1
+
+v 23.3782 52.4256 -2.00371e-31
+f 358/2/1 357/1/1 360/4/1
+
+usemtl Window_Gray_Glass_1
+f 359/3/2 358/2/2 357/1/2
+
+f 360/4/2 357/1/2 358/2/2
+
+g Mesh91 Window_1_91 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 29.5656 49.3776 -0
+v 24.2926 52.4256 -2.00371e-31
+v 24.2926 49.3776 -0
+f 361/1/1 362/2/1 363/3/1
+
+v 29.5656 52.4256 -2.00371e-31
+f 362/2/1 361/1/1 364/4/1
+
+usemtl Window_Gray_Glass_1
+f 363/3/2 362/2/2 361/1/2
+
+f 364/4/2 361/1/2 362/2/2
+
+g Mesh92 Window_1_92 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 11.9177 49.3776 -0
+v 7.10184 52.4256 -2.00371e-31
+v 7.10184 49.3776 -0
+f 365/1/1 366/2/1 367/3/1
+
+v 11.9177 52.4256 -2.00371e-31
+f 366/2/1 365/1/1 368/4/1
+
+usemtl Window_Gray_Glass_1
+f 367/3/2 366/2/2 365/1/2
+
+f 368/4/2 365/1/2 366/2/2
+
+g Mesh93 Window_1_93 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 6.18744 49.3776 -0
+v 0.9144 52.4256 -2.00371e-31
+v 0.9144 49.3776 -0
+f 369/1/1 370/2/1 371/3/1
+
+v 6.18744 52.4256 -2.00371e-31
+f 370/2/1 369/1/1 372/4/1
+
+usemtl Window_Gray_Glass_1
+f 371/3/2 370/2/2 369/1/2
+
+f 372/4/2 369/1/2 370/2/2
+
+g Mesh94 Window_1_94 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 17.6479 49.3776 2.00371e-32
+v 12.8321 52.4256 1.20222e-31
+v 12.8321 49.3776 2.00371e-32
+f 373/1/1 374/2/1 375/3/1
+
+v 17.6479 52.4256 1.20222e-31
+f 374/2/1 373/1/1 376/4/1
+
+usemtl Window_Gray_Glass_1
+f 375/3/2 374/2/2 373/1/2
+
+f 376/4/2 373/1/2 374/2/2
+
+g Mesh95 Window_1_95 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 6.18744 53.6448 -0
+v 0.9144 56.6928 -2.00371e-31
+v 0.9144 53.6448 -0
+f 377/1/1 378/2/1 379/3/1
+
+v 6.18744 56.6928 -2.00371e-31
+f 378/2/1 377/1/1 380/4/1
+
+usemtl Window_Gray_Glass_1
+f 379/3/2 378/2/2 377/1/2
+
+f 380/4/2 377/1/2 378/2/2
+
+g Mesh96 Window_1_96 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 17.6479 53.6448 2.00371e-32
+v 12.8321 56.6928 1.20222e-31
+v 12.8321 53.6448 2.00371e-32
+f 381/1/1 382/2/1 383/3/1
+
+v 17.6479 56.6928 1.20222e-31
+f 382/2/1 381/1/1 384/4/1
+
+usemtl Window_Gray_Glass_1
+f 383/3/2 382/2/2 381/1/2
+
+f 384/4/2 381/1/2 382/2/2
+
+g Mesh97 Window_1_97 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 23.3782 53.6448 -0
+v 18.5623 56.6928 -2.00371e-31
+v 18.5623 53.6448 -0
+f 385/1/1 386/2/1 387/3/1
+
+v 23.3782 56.6928 -2.00371e-31
+f 386/2/1 385/1/1 388/4/1
+
+usemtl Window_Gray_Glass_1
+f 387/3/2 386/2/2 385/1/2
+
+f 388/4/2 385/1/2 386/2/2
+
+g Mesh98 Window_1_98 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 29.5656 53.6448 -0
+v 24.2926 56.6928 -2.00371e-31
+v 24.2926 53.6448 -0
+f 389/1/1 390/2/1 391/3/1
+
+v 29.5656 56.6928 -2.00371e-31
+f 390/2/1 389/1/1 392/4/1
+
+usemtl Window_Gray_Glass_1
+f 391/3/2 390/2/2 389/1/2
+
+f 392/4/2 389/1/2 390/2/2
+
+g Mesh99 Window_1_99 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 11.9177 53.6448 -0
+v 7.10184 56.6928 -2.00371e-31
+v 7.10184 53.6448 -0
+f 393/1/1 394/2/1 395/3/1
+
+v 11.9177 56.6928 -2.00371e-31
+f 394/2/1 393/1/1 396/4/1
+
+usemtl Window_Gray_Glass_1
+f 395/3/2 394/2/2 393/1/2
+
+f 396/4/2 393/1/2 394/2/2
+
+g Mesh100 Window_1_100 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 6.18744 57.912 -0
+v 0.9144 60.96 -2.00371e-31
+v 0.9144 57.912 -0
+f 397/1/1 398/2/1 399/3/1
+
+v 6.18744 60.96 -2.00371e-31
+f 398/2/1 397/1/1 400/4/1
+
+usemtl Window_Gray_Glass_1
+f 399/3/2 398/2/2 397/1/2
+
+f 400/4/2 397/1/2 398/2/2
+
+g Mesh101 Window_1_101 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 17.6479 57.912 2.00371e-32
+v 12.8321 60.96 1.20222e-31
+v 12.8321 57.912 2.00371e-32
+f 401/1/1 402/2/1 403/3/1
+
+v 17.6479 60.96 1.20222e-31
+f 402/2/1 401/1/1 404/4/1
+
+usemtl Window_Gray_Glass_1
+f 403/3/2 402/2/2 401/1/2
+
+f 404/4/2 401/1/2 402/2/2
+
+g Mesh102 Window_1_102 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 23.3782 57.912 -0
+v 18.5623 60.96 -2.00371e-31
+v 18.5623 57.912 -0
+f 405/1/1 406/2/1 407/3/1
+
+v 23.3782 60.96 -2.00371e-31
+f 406/2/1 405/1/1 408/4/1
+
+usemtl Window_Gray_Glass_1
+f 407/3/2 406/2/2 405/1/2
+
+f 408/4/2 405/1/2 406/2/2
+
+g Mesh103 Window_1_103 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 29.5656 57.912 -0
+v 24.2926 60.96 -2.00371e-31
+v 24.2926 57.912 -0
+f 409/1/1 410/2/1 411/3/1
+
+v 29.5656 60.96 -2.00371e-31
+f 410/2/1 409/1/1 412/4/1
+
+usemtl Window_Gray_Glass_1
+f 411/3/2 410/2/2 409/1/2
+
+f 412/4/2 409/1/2 410/2/2
+
+g Mesh104 Window_1_104 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 11.9177 57.912 -0
+v 7.10184 60.96 -2.00371e-31
+v 7.10184 57.912 -0
+f 413/1/1 414/2/1 415/3/1
+
+v 11.9177 60.96 -2.00371e-31
+f 414/2/1 413/1/1 416/4/1
+
+usemtl Window_Gray_Glass_1
+f 415/3/2 414/2/2 413/1/2
+
+f 416/4/2 413/1/2 414/2/2
+
+g Mesh105 Window_1_105 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 17.6479 62.1792 2.00371e-32
+v 12.8321 65.2272 1.20222e-31
+v 12.8321 62.1792 2.00371e-32
+f 417/1/1 418/2/1 419/3/1
+
+v 17.6479 65.2272 1.20222e-31
+f 418/2/1 417/1/1 420/4/1
+
+usemtl Window_Gray_Glass_1
+f 419/3/2 418/2/2 417/1/2
+
+f 420/4/2 417/1/2 418/2/2
+
+g Mesh106 Window_1_106 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 23.3782 62.1792 -0
+v 18.5623 65.2272 -2.00371e-31
+v 18.5623 62.1792 -0
+f 421/1/1 422/2/1 423/3/1
+
+v 23.3782 65.2272 -2.00371e-31
+f 422/2/1 421/1/1 424/4/1
+
+usemtl Window_Gray_Glass_1
+f 423/3/2 422/2/2 421/1/2
+
+f 424/4/2 421/1/2 422/2/2
+
+g Mesh107 Window_1_107 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 29.5656 62.1792 -0
+v 24.2926 65.2272 -2.00371e-31
+v 24.2926 62.1792 -0
+f 425/1/1 426/2/1 427/3/1
+
+v 29.5656 65.2272 -2.00371e-31
+f 426/2/1 425/1/1 428/4/1
+
+usemtl Window_Gray_Glass_1
+f 427/3/2 426/2/2 425/1/2
+
+f 428/4/2 425/1/2 426/2/2
+
+g Mesh108 Window_1_108 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 11.9177 62.1792 -0
+v 7.10184 65.2272 -2.00371e-31
+v 7.10184 62.1792 -0
+f 429/1/1 430/2/1 431/3/1
+
+v 11.9177 65.2272 -2.00371e-31
+f 430/2/1 429/1/1 432/4/1
+
+usemtl Window_Gray_Glass_1
+f 431/3/2 430/2/2 429/1/2
+
+f 432/4/2 429/1/2 430/2/2
+
+g Mesh109 Window_1_109 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 6.18744 62.1792 -0
+v 0.9144 65.2272 -2.00371e-31
+v 0.9144 62.1792 -0
+f 433/1/1 434/2/1 435/3/1
+
+v 6.18744 65.2272 -2.00371e-31
+f 434/2/1 433/1/1 436/4/1
+
+usemtl Window_Gray_Glass_1
+f 435/3/2 434/2/2 433/1/2
+
+f 436/4/2 433/1/2 434/2/2
+
+g Mesh110 Window_1_110 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 6.18744 66.4464 -0
+v 0.9144 69.4944 -2.00371e-31
+v 0.9144 66.4464 -0
+f 437/1/1 438/2/1 439/3/1
+
+v 6.18744 69.4944 -2.00371e-31
+f 438/2/1 437/1/1 440/4/1
+
+usemtl Window_Gray_Glass_1
+f 439/3/2 438/2/2 437/1/2
+
+f 440/4/2 437/1/2 438/2/2
+
+g Mesh111 Window_1_111 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 17.6479 66.4464 2.00371e-32
+v 12.8321 69.4944 1.20222e-31
+v 12.8321 66.4464 2.00371e-32
+f 441/1/1 442/2/1 443/3/1
+
+v 17.6479 69.4944 1.20222e-31
+f 442/2/1 441/1/1 444/4/1
+
+usemtl Window_Gray_Glass_1
+f 443/3/2 442/2/2 441/1/2
+
+f 444/4/2 441/1/2 442/2/2
+
+g Mesh112 Window_1_112 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 23.3782 66.4464 -0
+v 18.5623 69.4944 -2.00371e-31
+v 18.5623 66.4464 -0
+f 445/1/1 446/2/1 447/3/1
+
+v 23.3782 69.4944 -2.00371e-31
+f 446/2/1 445/1/1 448/4/1
+
+usemtl Window_Gray_Glass_1
+f 447/3/2 446/2/2 445/1/2
+
+f 448/4/2 445/1/2 446/2/2
+
+g Mesh113 Window_1_113 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 29.5656 66.4464 -0
+v 24.2926 69.4944 -2.00371e-31
+v 24.2926 66.4464 -0
+f 449/1/1 450/2/1 451/3/1
+
+v 29.5656 69.4944 -2.00371e-31
+f 450/2/1 449/1/1 452/4/1
+
+usemtl Window_Gray_Glass_1
+f 451/3/2 450/2/2 449/1/2
+
+f 452/4/2 449/1/2 450/2/2
+
+g Mesh114 Window_1_114 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 11.9177 66.4464 -0
+v 7.10184 69.4944 -2.00371e-31
+v 7.10184 66.4464 -0
+f 453/1/1 454/2/1 455/3/1
+
+v 11.9177 69.4944 -2.00371e-31
+f 454/2/1 453/1/1 456/4/1
+
+usemtl Window_Gray_Glass_1
+f 455/3/2 454/2/2 453/1/2
+
+f 456/4/2 453/1/2 454/2/2
+
+g Mesh115 Window_1_115 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 6.18744 70.7136 -0
+v 0.9144 73.7616 -2.00371e-31
+v 0.9144 70.7136 -0
+f 457/1/1 458/2/1 459/3/1
+
+v 6.18744 73.7616 -2.00371e-31
+f 458/2/1 457/1/1 460/4/1
+
+usemtl Window_Gray_Glass_1
+f 459/3/2 458/2/2 457/1/2
+
+f 460/4/2 457/1/2 458/2/2
+
+g Mesh116 Window_1_116 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 17.6479 70.7136 2.00371e-32
+v 12.8321 73.7616 1.20222e-31
+v 12.8321 70.7136 2.00371e-32
+f 461/1/1 462/2/1 463/3/1
+
+v 17.6479 73.7616 1.20222e-31
+f 462/2/1 461/1/1 464/4/1
+
+usemtl Window_Gray_Glass_1
+f 463/3/2 462/2/2 461/1/2
+
+f 464/4/2 461/1/2 462/2/2
+
+g Mesh117 Window_1_117 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 23.3782 70.7136 -0
+v 18.5623 73.7616 -2.00371e-31
+v 18.5623 70.7136 -0
+f 465/1/1 466/2/1 467/3/1
+
+v 23.3782 73.7616 -2.00371e-31
+f 466/2/1 465/1/1 468/4/1
+
+usemtl Window_Gray_Glass_1
+f 467/3/2 466/2/2 465/1/2
+
+f 468/4/2 465/1/2 466/2/2
+
+g Mesh118 Window_1_118 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 29.5656 70.7136 -0
+v 24.2926 73.7616 -2.00371e-31
+v 24.2926 70.7136 -0
+f 469/1/1 470/2/1 471/3/1
+
+v 29.5656 73.7616 -2.00371e-31
+f 470/2/1 469/1/1 472/4/1
+
+usemtl Window_Gray_Glass_1
+f 471/3/2 470/2/2 469/1/2
+
+f 472/4/2 469/1/2 470/2/2
+
+g Mesh119 Window_1_119 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 11.9177 70.7136 -0
+v 7.10184 73.7616 -2.00371e-31
+v 7.10184 70.7136 -0
+f 473/1/1 474/2/1 475/3/1
+
+v 11.9177 73.7616 -2.00371e-31
+f 474/2/1 473/1/1 476/4/1
+
+usemtl Window_Gray_Glass_1
+f 475/3/2 474/2/2 473/1/2
+
+f 476/4/2 473/1/2 474/2/2
+
+g Mesh120 Window_1_120 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 6.18744 74.9808 -0
+v 0.9144 78.0288 -2.00371e-31
+v 0.9144 74.9808 -0
+f 477/1/1 478/2/1 479/3/1
+
+v 6.18744 78.0288 -2.00371e-31
+f 478/2/1 477/1/1 480/4/1
+
+usemtl Window_Gray_Glass_1
+f 479/3/2 478/2/2 477/1/2
+
+f 480/4/2 477/1/2 478/2/2
+
+g Mesh121 Window_1_121 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 17.6479 74.9808 2.00371e-32
+v 12.8321 78.0288 1.20222e-31
+v 12.8321 74.9808 2.00371e-32
+f 481/1/1 482/2/1 483/3/1
+
+v 17.6479 78.0288 1.20222e-31
+f 482/2/1 481/1/1 484/4/1
+
+usemtl Window_Gray_Glass_1
+f 483/3/2 482/2/2 481/1/2
+
+f 484/4/2 481/1/2 482/2/2
+
+g Mesh122 Window_1_122 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 23.3782 74.9808 -0
+v 18.5623 78.0288 -2.00371e-31
+v 18.5623 74.9808 -0
+f 485/1/1 486/2/1 487/3/1
+
+v 23.3782 78.0288 -2.00371e-31
+f 486/2/1 485/1/1 488/4/1
+
+usemtl Window_Gray_Glass_1
+f 487/3/2 486/2/2 485/1/2
+
+f 488/4/2 485/1/2 486/2/2
+
+g Mesh123 Window_1_123 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 29.5656 74.9808 -0
+v 24.2926 78.0288 -2.00371e-31
+v 24.2926 74.9808 -0
+f 489/1/1 490/2/1 491/3/1
+
+v 29.5656 78.0288 -2.00371e-31
+f 490/2/1 489/1/1 492/4/1
+
+usemtl Window_Gray_Glass_1
+f 491/3/2 490/2/2 489/1/2
+
+f 492/4/2 489/1/2 490/2/2
+
+g Mesh124 Window_1_124 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 11.9177 74.9808 -0
+v 7.10184 78.0288 -2.00371e-31
+v 7.10184 74.9808 -0
+f 493/1/1 494/2/1 495/3/1
+
+v 11.9177 78.0288 -2.00371e-31
+f 494/2/1 493/1/1 496/4/1
+
+usemtl Window_Gray_Glass_1
+f 495/3/2 494/2/2 493/1/2
+
+f 496/4/2 493/1/2 494/2/2
+
+g Mesh125 Window_1_125 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 6.18744 79.248 -0
+v 0.9144 82.296 -2.00371e-31
+v 0.9144 79.248 -0
+f 497/1/1 498/2/1 499/3/1
+
+v 6.18744 82.296 -2.00371e-31
+f 498/2/1 497/1/1 500/4/1
+
+usemtl Window_Gray_Glass_1
+f 499/3/2 498/2/2 497/1/2
+
+f 500/4/2 497/1/2 498/2/2
+
+g Mesh126 Window_1_126 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 17.6479 79.248 2.00371e-32
+v 12.8321 82.296 1.20222e-31
+v 12.8321 79.248 2.00371e-32
+f 501/1/1 502/2/1 503/3/1
+
+v 17.6479 82.296 1.20222e-31
+f 502/2/1 501/1/1 504/4/1
+
+usemtl Window_Gray_Glass_1
+f 503/3/2 502/2/2 501/1/2
+
+f 504/4/2 501/1/2 502/2/2
+
+g Mesh127 Window_1_127 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 23.3782 79.248 -0
+v 18.5623 82.296 -2.00371e-31
+v 18.5623 79.248 -0
+f 505/1/1 506/2/1 507/3/1
+
+v 23.3782 82.296 -2.00371e-31
+f 506/2/1 505/1/1 508/4/1
+
+usemtl Window_Gray_Glass_1
+f 507/3/2 506/2/2 505/1/2
+
+f 508/4/2 505/1/2 506/2/2
+
+g Mesh128 Window_1_128 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 29.5656 79.248 -0
+v 24.2926 82.296 -2.00371e-31
+v 24.2926 79.248 -0
+f 509/1/1 510/2/1 511/3/1
+
+v 29.5656 82.296 -2.00371e-31
+f 510/2/1 509/1/1 512/4/1
+
+usemtl Window_Gray_Glass_1
+f 511/3/2 510/2/2 509/1/2
+
+f 512/4/2 509/1/2 510/2/2
+
+g Mesh129 Window_1_129 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 11.9177 79.248 -0
+v 7.10184 82.296 -2.00371e-31
+v 7.10184 79.248 -0
+f 513/1/1 514/2/1 515/3/1
+
+v 11.9177 82.296 -2.00371e-31
+f 514/2/1 513/1/1 516/4/1
+
+usemtl Window_Gray_Glass_1
+f 515/3/2 514/2/2 513/1/2
+
+f 516/4/2 513/1/2 514/2/2
+
+g Mesh130 Window_1_130 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 6.18744 83.5152 -0
+v 0.9144 86.5632 -2.00371e-31
+v 0.9144 83.5152 -0
+f 517/1/1 518/2/1 519/3/1
+
+v 6.18744 86.5632 -2.00371e-31
+f 518/2/1 517/1/1 520/4/1
+
+usemtl Window_Gray_Glass_1
+f 519/3/2 518/2/2 517/1/2
+
+f 520/4/2 517/1/2 518/2/2
+
+g Mesh131 Window_1_131 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 17.6479 83.5152 2.00371e-32
+v 12.8321 86.5632 1.20222e-31
+v 12.8321 83.5152 2.00371e-32
+f 521/1/1 522/2/1 523/3/1
+
+v 17.6479 86.5632 1.20222e-31
+f 522/2/1 521/1/1 524/4/1
+
+usemtl Window_Gray_Glass_1
+f 523/3/2 522/2/2 521/1/2
+
+f 524/4/2 521/1/2 522/2/2
+
+g Mesh132 Window_1_132 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 23.3782 83.5152 -0
+v 18.5623 86.5632 -2.00371e-31
+v 18.5623 83.5152 -0
+f 525/1/1 526/2/1 527/3/1
+
+v 23.3782 86.5632 -2.00371e-31
+f 526/2/1 525/1/1 528/4/1
+
+usemtl Window_Gray_Glass_1
+f 527/3/2 526/2/2 525/1/2
+
+f 528/4/2 525/1/2 526/2/2
+
+g Mesh133 Window_1_133 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 29.5656 83.5152 -0
+v 24.2926 86.5632 -2.00371e-31
+v 24.2926 83.5152 -0
+f 529/1/1 530/2/1 531/3/1
+
+v 29.5656 86.5632 -2.00371e-31
+f 530/2/1 529/1/1 532/4/1
+
+usemtl Window_Gray_Glass_1
+f 531/3/2 530/2/2 529/1/2
+
+f 532/4/2 529/1/2 530/2/2
+
+g Mesh134 Window_1_134 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 11.9177 83.5152 -0
+v 7.10184 86.5632 -2.00371e-31
+v 7.10184 83.5152 -0
+f 533/1/1 534/2/1 535/3/1
+
+v 11.9177 86.5632 -2.00371e-31
+f 534/2/1 533/1/1 536/4/1
+
+usemtl Window_Gray_Glass_1
+f 535/3/2 534/2/2 533/1/2
+
+f 536/4/2 533/1/2 534/2/2
+
+g Mesh135 Window_1_135 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 30.48 32.3088 -14.3256
+vn 1 0 -0
+v 30.48 35.3568 -10.3124
+v 30.48 32.3088 -10.3124
+f 537/1/5 538/2/5 539/3/5
+
+v 30.48 35.3568 -14.3256
+f 538/2/5 537/1/5 540/4/5
+
+usemtl Window_Gray_Glass_1
+vn -1 -0 0
+f 539/3/6 538/2/6 537/1/6
+
+f 540/4/6 537/1/6 538/2/6
+
+g Mesh136 Window_1_136 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 30.48 32.3088 -9.398
+v 30.48 35.3568 -5.842
+v 30.48 32.3088 -5.842
+f 541/1/5 542/2/5 543/3/5
+
+v 30.48 35.3568 -9.398
+f 542/2/5 541/1/5 544/4/5
+
+usemtl Window_Gray_Glass_1
+f 543/3/6 542/2/6 541/1/6
+
+f 544/4/6 541/1/6 542/2/6
+
+g Mesh137 Window_1_137 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 30.48 32.3088 -4.9276
+v 30.48 35.3568 -0.9144
+v 30.48 32.3088 -0.9144
+f 545/1/5 546/2/5 547/3/5
+
+v 30.48 35.3568 -4.9276
+f 546/2/5 545/1/5 548/4/5
+
+usemtl Window_Gray_Glass_1
+f 547/3/6 546/2/6 545/1/6
+
+f 548/4/6 545/1/6 546/2/6
+
+g Mesh138 Window_1_138 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 30.48 36.576 -14.3256
+v 30.48 39.624 -10.3124
+v 30.48 36.576 -10.3124
+f 549/1/5 550/2/5 551/3/5
+
+v 30.48 39.624 -14.3256
+f 550/2/5 549/1/5 552/4/5
+
+usemtl Window_Gray_Glass_1
+f 551/3/6 550/2/6 549/1/6
+
+f 552/4/6 549/1/6 550/2/6
+
+g Mesh139 Window_1_139 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 30.48 36.576 -9.398
+v 30.48 39.624 -5.842
+v 30.48 36.576 -5.842
+f 553/1/5 554/2/5 555/3/5
+
+v 30.48 39.624 -9.398
+f 554/2/5 553/1/5 556/4/5
+
+usemtl Window_Gray_Glass_1
+f 555/3/6 554/2/6 553/1/6
+
+f 556/4/6 553/1/6 554/2/6
+
+g Mesh140 Window_1_140 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 30.48 36.576 -4.9276
+v 30.48 39.624 -0.9144
+v 30.48 36.576 -0.9144
+f 557/1/5 558/2/5 559/3/5
+
+v 30.48 39.624 -4.9276
+f 558/2/5 557/1/5 560/4/5
+
+usemtl Window_Gray_Glass_1
+f 559/3/6 558/2/6 557/1/6
+
+f 560/4/6 557/1/6 558/2/6
+
+g Mesh141 Window_1_141 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 30.48 40.8432 -14.3256
+v 30.48 43.8912 -10.3124
+v 30.48 40.8432 -10.3124
+f 561/1/5 562/2/5 563/3/5
+
+v 30.48 43.8912 -14.3256
+f 562/2/5 561/1/5 564/4/5
+
+usemtl Window_Gray_Glass_1
+f 563/3/6 562/2/6 561/1/6
+
+f 564/4/6 561/1/6 562/2/6
+
+g Mesh142 Window_1_142 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 30.48 40.8432 -9.398
+v 30.48 43.8912 -5.842
+v 30.48 40.8432 -5.842
+f 565/1/5 566/2/5 567/3/5
+
+v 30.48 43.8912 -9.398
+f 566/2/5 565/1/5 568/4/5
+
+usemtl Window_Gray_Glass_1
+f 567/3/6 566/2/6 565/1/6
+
+f 568/4/6 565/1/6 566/2/6
+
+g Mesh143 Window_1_143 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 30.48 40.8432 -4.9276
+v 30.48 43.8912 -0.9144
+v 30.48 40.8432 -0.9144
+f 569/1/5 570/2/5 571/3/5
+
+v 30.48 43.8912 -4.9276
+f 570/2/5 569/1/5 572/4/5
+
+usemtl Window_Gray_Glass_1
+f 571/3/6 570/2/6 569/1/6
+
+f 572/4/6 569/1/6 570/2/6
+
+g Mesh144 Window_1_144 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 30.48 45.1104 -14.3256
+v 30.48 48.1584 -10.3124
+v 30.48 45.1104 -10.3124
+f 573/1/5 574/2/5 575/3/5
+
+v 30.48 48.1584 -14.3256
+f 574/2/5 573/1/5 576/4/5
+
+usemtl Window_Gray_Glass_1
+f 575/3/6 574/2/6 573/1/6
+
+f 576/4/6 573/1/6 574/2/6
+
+g Mesh145 Window_1_145 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 30.48 45.1104 -9.398
+v 30.48 48.1584 -5.842
+v 30.48 45.1104 -5.842
+f 577/1/5 578/2/5 579/3/5
+
+v 30.48 48.1584 -9.398
+f 578/2/5 577/1/5 580/4/5
+
+usemtl Window_Gray_Glass_1
+f 579/3/6 578/2/6 577/1/6
+
+f 580/4/6 577/1/6 578/2/6
+
+g Mesh146 Window_1_146 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 30.48 45.1104 -4.9276
+v 30.48 48.1584 -0.9144
+v 30.48 45.1104 -0.9144
+f 581/1/5 582/2/5 583/3/5
+
+v 30.48 48.1584 -4.9276
+f 582/2/5 581/1/5 584/4/5
+
+usemtl Window_Gray_Glass_1
+f 583/3/6 582/2/6 581/1/6
+
+f 584/4/6 581/1/6 582/2/6
+
+g Mesh147 Window_1_147 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 30.48 49.3776 -14.3256
+v 30.48 52.4256 -10.3124
+v 30.48 49.3776 -10.3124
+f 585/1/5 586/2/5 587/3/5
+
+v 30.48 52.4256 -14.3256
+f 586/2/5 585/1/5 588/4/5
+
+usemtl Window_Gray_Glass_1
+f 587/3/6 586/2/6 585/1/6
+
+f 588/4/6 585/1/6 586/2/6
+
+g Mesh148 Window_1_148 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 30.48 49.3776 -9.398
+v 30.48 52.4256 -5.842
+v 30.48 49.3776 -5.842
+f 589/1/5 590/2/5 591/3/5
+
+v 30.48 52.4256 -9.398
+f 590/2/5 589/1/5 592/4/5
+
+usemtl Window_Gray_Glass_1
+f 591/3/6 590/2/6 589/1/6
+
+f 592/4/6 589/1/6 590/2/6
+
+g Mesh149 Window_1_149 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 30.48 49.3776 -4.9276
+v 30.48 52.4256 -0.9144
+v 30.48 49.3776 -0.9144
+f 593/1/5 594/2/5 595/3/5
+
+v 30.48 52.4256 -4.9276
+f 594/2/5 593/1/5 596/4/5
+
+usemtl Window_Gray_Glass_1
+f 595/3/6 594/2/6 593/1/6
+
+f 596/4/6 593/1/6 594/2/6
+
+g Mesh150 Window_1_150 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 30.48 53.6448 -14.3256
+v 30.48 56.6928 -10.3124
+v 30.48 53.6448 -10.3124
+f 597/1/5 598/2/5 599/3/5
+
+v 30.48 56.6928 -14.3256
+f 598/2/5 597/1/5 600/4/5
+
+usemtl Window_Gray_Glass_1
+f 599/3/6 598/2/6 597/1/6
+
+f 600/4/6 597/1/6 598/2/6
+
+g Mesh151 Window_1_151 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 30.48 53.6448 -9.398
+v 30.48 56.6928 -5.842
+v 30.48 53.6448 -5.842
+f 601/1/5 602/2/5 603/3/5
+
+v 30.48 56.6928 -9.398
+f 602/2/5 601/1/5 604/4/5
+
+usemtl Window_Gray_Glass_1
+f 603/3/6 602/2/6 601/1/6
+
+f 604/4/6 601/1/6 602/2/6
+
+g Mesh152 Window_1_152 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 30.48 53.6448 -4.9276
+v 30.48 56.6928 -0.9144
+v 30.48 53.6448 -0.9144
+f 605/1/5 606/2/5 607/3/5
+
+v 30.48 56.6928 -4.9276
+f 606/2/5 605/1/5 608/4/5
+
+usemtl Window_Gray_Glass_1
+f 607/3/6 606/2/6 605/1/6
+
+f 608/4/6 605/1/6 606/2/6
+
+g Mesh153 Window_1_153 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 30.48 57.912 -14.3256
+v 30.48 60.96 -10.3124
+v 30.48 57.912 -10.3124
+f 609/1/5 610/2/5 611/3/5
+
+v 30.48 60.96 -14.3256
+f 610/2/5 609/1/5 612/4/5
+
+usemtl Window_Gray_Glass_1
+f 611/3/6 610/2/6 609/1/6
+
+f 612/4/6 609/1/6 610/2/6
+
+g Mesh154 Window_1_154 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 30.48 57.912 -9.398
+v 30.48 60.96 -5.842
+v 30.48 57.912 -5.842
+f 613/1/5 614/2/5 615/3/5
+
+v 30.48 60.96 -9.398
+f 614/2/5 613/1/5 616/4/5
+
+usemtl Window_Gray_Glass_1
+f 615/3/6 614/2/6 613/1/6
+
+f 616/4/6 613/1/6 614/2/6
+
+g Mesh155 Window_1_155 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 30.48 57.912 -4.9276
+v 30.48 60.96 -0.9144
+v 30.48 57.912 -0.9144
+f 617/1/5 618/2/5 619/3/5
+
+v 30.48 60.96 -4.9276
+f 618/2/5 617/1/5 620/4/5
+
+usemtl Window_Gray_Glass_1
+f 619/3/6 618/2/6 617/1/6
+
+f 620/4/6 617/1/6 618/2/6
+
+g Mesh156 Window_1_156 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 30.48 62.1792 -14.3256
+v 30.48 65.2272 -10.3124
+v 30.48 62.1792 -10.3124
+f 621/1/5 622/2/5 623/3/5
+
+v 30.48 65.2272 -14.3256
+f 622/2/5 621/1/5 624/4/5
+
+usemtl Window_Gray_Glass_1
+f 623/3/6 622/2/6 621/1/6
+
+f 624/4/6 621/1/6 622/2/6
+
+g Mesh157 Window_1_157 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 30.48 62.1792 -9.398
+v 30.48 65.2272 -5.842
+v 30.48 62.1792 -5.842
+f 625/1/5 626/2/5 627/3/5
+
+v 30.48 65.2272 -9.398
+f 626/2/5 625/1/5 628/4/5
+
+usemtl Window_Gray_Glass_1
+f 627/3/6 626/2/6 625/1/6
+
+f 628/4/6 625/1/6 626/2/6
+
+g Mesh158 Window_1_158 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 30.48 62.1792 -4.9276
+v 30.48 65.2272 -0.9144
+v 30.48 62.1792 -0.9144
+f 629/1/5 630/2/5 631/3/5
+
+v 30.48 65.2272 -4.9276
+f 630/2/5 629/1/5 632/4/5
+
+usemtl Window_Gray_Glass_1
+f 631/3/6 630/2/6 629/1/6
+
+f 632/4/6 629/1/6 630/2/6
+
+g Mesh159 Window_1_159 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 30.48 66.4464 -14.3256
+v 30.48 69.4944 -10.3124
+v 30.48 66.4464 -10.3124
+f 633/1/5 634/2/5 635/3/5
+
+v 30.48 69.4944 -14.3256
+f 634/2/5 633/1/5 636/4/5
+
+usemtl Window_Gray_Glass_1
+f 635/3/6 634/2/6 633/1/6
+
+f 636/4/6 633/1/6 634/2/6
+
+g Mesh160 Window_1_160 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 30.48 66.4464 -9.398
+v 30.48 69.4944 -5.842
+v 30.48 66.4464 -5.842
+f 637/1/5 638/2/5 639/3/5
+
+v 30.48 69.4944 -9.398
+f 638/2/5 637/1/5 640/4/5
+
+usemtl Window_Gray_Glass_1
+f 639/3/6 638/2/6 637/1/6
+
+f 640/4/6 637/1/6 638/2/6
+
+g Mesh161 Window_1_161 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 30.48 66.4464 -4.9276
+v 30.48 69.4944 -0.9144
+v 30.48 66.4464 -0.9144
+f 641/1/5 642/2/5 643/3/5
+
+v 30.48 69.4944 -4.9276
+f 642/2/5 641/1/5 644/4/5
+
+usemtl Window_Gray_Glass_1
+f 643/3/6 642/2/6 641/1/6
+
+f 644/4/6 641/1/6 642/2/6
+
+g Mesh162 Window_1_162 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 30.48 70.7136 -14.3256
+v 30.48 73.7616 -10.3124
+v 30.48 70.7136 -10.3124
+f 645/1/5 646/2/5 647/3/5
+
+v 30.48 73.7616 -14.3256
+f 646/2/5 645/1/5 648/4/5
+
+usemtl Window_Gray_Glass_1
+f 647/3/6 646/2/6 645/1/6
+
+f 648/4/6 645/1/6 646/2/6
+
+g Mesh163 Window_1_163 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 30.48 70.7136 -9.398
+v 30.48 73.7616 -5.842
+v 30.48 70.7136 -5.842
+f 649/1/5 650/2/5 651/3/5
+
+v 30.48 73.7616 -9.398
+f 650/2/5 649/1/5 652/4/5
+
+usemtl Window_Gray_Glass_1
+f 651/3/6 650/2/6 649/1/6
+
+f 652/4/6 649/1/6 650/2/6
+
+g Mesh164 Window_1_164 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 30.48 70.7136 -4.9276
+v 30.48 73.7616 -0.9144
+v 30.48 70.7136 -0.9144
+f 653/1/5 654/2/5 655/3/5
+
+v 30.48 73.7616 -4.9276
+f 654/2/5 653/1/5 656/4/5
+
+usemtl Window_Gray_Glass_1
+f 655/3/6 654/2/6 653/1/6
+
+f 656/4/6 653/1/6 654/2/6
+
+g Mesh165 Window_1_165 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 30.48 74.9808 -14.3256
+v 30.48 78.0288 -10.3124
+v 30.48 74.9808 -10.3124
+f 657/1/5 658/2/5 659/3/5
+
+v 30.48 78.0288 -14.3256
+f 658/2/5 657/1/5 660/4/5
+
+usemtl Window_Gray_Glass_1
+f 659/3/6 658/2/6 657/1/6
+
+f 660/4/6 657/1/6 658/2/6
+
+g Mesh166 Window_1_166 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 30.48 74.9808 -9.398
+v 30.48 78.0288 -5.842
+v 30.48 74.9808 -5.842
+f 661/1/5 662/2/5 663/3/5
+
+v 30.48 78.0288 -9.398
+f 662/2/5 661/1/5 664/4/5
+
+usemtl Window_Gray_Glass_1
+f 663/3/6 662/2/6 661/1/6
+
+f 664/4/6 661/1/6 662/2/6
+
+g Mesh167 Window_1_167 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 30.48 74.9808 -4.9276
+v 30.48 78.0288 -0.9144
+v 30.48 74.9808 -0.9144
+f 665/1/5 666/2/5 667/3/5
+
+v 30.48 78.0288 -4.9276
+f 666/2/5 665/1/5 668/4/5
+
+usemtl Window_Gray_Glass_1
+f 667/3/6 666/2/6 665/1/6
+
+f 668/4/6 665/1/6 666/2/6
+
+g Mesh168 Window_1_168 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 30.48 79.248 -14.3256
+v 30.48 82.296 -10.3124
+v 30.48 79.248 -10.3124
+f 669/1/5 670/2/5 671/3/5
+
+v 30.48 82.296 -14.3256
+f 670/2/5 669/1/5 672/4/5
+
+usemtl Window_Gray_Glass_1
+f 671/3/6 670/2/6 669/1/6
+
+f 672/4/6 669/1/6 670/2/6
+
+g Mesh169 Window_1_169 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 30.48 79.248 -9.398
+v 30.48 82.296 -5.842
+v 30.48 79.248 -5.842
+f 673/1/5 674/2/5 675/3/5
+
+v 30.48 82.296 -9.398
+f 674/2/5 673/1/5 676/4/5
+
+usemtl Window_Gray_Glass_1
+f 675/3/6 674/2/6 673/1/6
+
+f 676/4/6 673/1/6 674/2/6
+
+g Mesh170 Window_1_170 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 30.48 79.248 -4.9276
+v 30.48 82.296 -0.9144
+v 30.48 79.248 -0.9144
+f 677/1/5 678/2/5 679/3/5
+
+v 30.48 82.296 -4.9276
+f 678/2/5 677/1/5 680/4/5
+
+usemtl Window_Gray_Glass_1
+f 679/3/6 678/2/6 677/1/6
+
+f 680/4/6 677/1/6 678/2/6
+
+g Mesh171 Window_1_171 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 30.48 83.5152 -14.3256
+v 30.48 86.5632 -10.3124
+v 30.48 83.5152 -10.3124
+f 681/1/5 682/2/5 683/3/5
+
+v 30.48 86.5632 -14.3256
+f 682/2/5 681/1/5 684/4/5
+
+usemtl Window_Gray_Glass_1
+f 683/3/6 682/2/6 681/1/6
+
+f 684/4/6 681/1/6 682/2/6
+
+g Mesh172 Window_1_172 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 30.48 83.5152 -9.398
+v 30.48 86.5632 -5.842
+v 30.48 83.5152 -5.842
+f 685/1/5 686/2/5 687/3/5
+
+v 30.48 86.5632 -9.398
+f 686/2/5 685/1/5 688/4/5
+
+usemtl Window_Gray_Glass_1
+f 687/3/6 686/2/6 685/1/6
+
+f 688/4/6 685/1/6 686/2/6
+
+g Mesh173 Window_1_173 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 30.48 83.5152 -4.9276
+v 30.48 86.5632 -0.9144
+v 30.48 83.5152 -0.9144
+f 689/1/5 690/2/5 691/3/5
+
+v 30.48 86.5632 -4.9276
+f 690/2/5 689/1/5 692/4/5
+
+usemtl Window_Gray_Glass_1
+f 691/3/6 690/2/6 689/1/6
+
+f 692/4/6 689/1/6 690/2/6
+
+g Mesh174 Window_1_174 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 6.18744 0.6096 -1.28237e-30
+vn 0 -4.36418e-16 1
+v 0.9144 5.4864 -1.3302e-15
+v 0.9144 0.6096 -1.28237e-30
+f 693/1/7 694/2/7 695/3/7
+
+v 6.18744 5.4864 -1.3302e-15
+f 694/2/7 693/1/7 696/4/7
+
+usemtl Window_Gray_Glass_1
+vn -0 4.36418e-16 -1
+f 695/3/8 694/2/8 693/1/8
+
+f 696/4/8 693/1/8 694/2/8
+
+g Mesh175 Window_1_175 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Blue
+v 29.5656 0.6096 -1.28237e-30
+v 24.2926 5.4864 -1.3302e-15
+v 24.2926 0.6096 -1.28237e-30
+f 697/1/7 698/2/7 699/3/7
+
+v 29.5656 5.4864 -1.3302e-15
+f 698/2/7 697/1/7 700/4/7
+
+usemtl Window_Gray_Glass_1
+f 699/3/8 698/2/8 697/1/8
+
+f 700/4/8 697/1/8 698/2/8
+
+g Mesh176 Door_1_1 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Safety
+v 15.24 0 -2.4384
+vt 6 0
+v 14.3256 2.1336 -2.4384
+vt 0 14
+v 14.3256 0 -2.4384
+f 701/5/1 702/6/1 703/3/1
+
+v 15.24 2.1336 -2.4384
+vt 6 14
+f 702/6/1 701/5/1 704/7/1
+
+usemtl Translucent_Glass_Corrugated
+vt 0 7
+vt 3 0
+f 703/3/2 702/8/2 701/9/2
+
+vt 3 7
+f 704/10/2 701/9/2 702/8/2
+
+usemtl Translucent_Glass_Safety
+v 16.1544 0 -2.4384
+vt 12 0
+f 705/11/1 704/7/1 701/5/1
+
+v 16.1544 2.1336 -2.4384
+vt 12 14
+f 704/7/1 705/11/1 706/12/1
+
+usemtl Translucent_Glass_Corrugated
+f 701/9/2 704/10/2 705/5/2
+
+vt 6 7
+f 706/13/2 705/5/2 704/10/2
+
+g Mesh177 Door_1_2 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Safety
+v 9.50976 0 -2.4384
+v 8.59536 2.1336 -2.4384
+v 8.59536 0 -2.4384
+f 707/5/1 708/6/1 709/3/1
+
+v 9.50976 2.1336 -2.4384
+f 708/6/1 707/5/1 710/7/1
+
+usemtl Translucent_Glass_Corrugated
+f 709/3/2 708/8/2 707/9/2
+
+f 710/10/2 707/9/2 708/8/2
+
+usemtl Translucent_Glass_Safety
+v 10.4242 0 -2.4384
+f 711/11/1 710/7/1 707/5/1
+
+v 10.4242 2.1336 -2.4384
+f 710/7/1 711/11/1 712/12/1
+
+usemtl Translucent_Glass_Corrugated
+f 707/9/2 710/10/2 711/5/2
+
+f 712/13/2 711/5/2 710/10/2
+
+g Mesh178 Door_1_3 Glass_skyscraper_300__tall1 Model
+
+usemtl Translucent_Glass_Safety
+v 20.9702 0 -2.4384
+v 20.0558 2.1336 -2.4384
+v 20.0558 0 -2.4384
+f 713/5/1 714/6/1 715/3/1
+
+v 20.9702 2.1336 -2.4384
+f 714/6/1 713/5/1 716/7/1
+
+usemtl Translucent_Glass_Corrugated
+f 715/3/2 714/8/2 713/9/2
+
+f 716/10/2 713/9/2 714/8/2
+
+usemtl Translucent_Glass_Safety
+v 21.8846 0 -2.4384
+f 717/11/1 716/7/1 713/5/1
+
+v 21.8846 2.1336 -2.4384
+f 716/7/1 717/11/1 718/12/1
+
+usemtl Translucent_Glass_Corrugated
+f 713/9/2 716/10/2 717/5/2
+
+f 718/13/2 717/5/2 716/10/2
+
+g Mesh179 Stair1 Glass_skyscraper_300__tall1 Model
+
+usemtl Stair_Beige_Texture
+v 5.81105 92.6592 -9.398
+vt -12.7816 84
+vn 0 0 -1
+v 6.72545 90.5256 -9.398
+vt -48.7816 0
+v 5.81105 90.5256 -9.398
+vt -12.7816 0
+f 719/14/9 720/15/9 721/16/9
+
+v 6.72545 92.6592 -9.398
+vt -48.7816 84
+f 720/15/9 719/14/9 722/17/9
+
+usemtl Brick_Tumbled
+vt -0.355044 0
+vn -0 -0 1
+vt -1.35504 0
+vt -0.355044 4.66667
+f 721/18/10 720/19/10 719/20/10
+
+vt -1.35504 4.66667
+f 722/21/10 719/20/10 720/19/10
+
+usemtl Stair_Beige_Texture
+v 5.4864 93.5736 -9.398
+f 719/14/9 723/2/9 722/17/9
+
+f 721/16/9 723/2/9 719/14/9
+
+v 5.4864 90.5256 -9.398
+f 723/2/9 721/16/9 724/3/9
+
+usemtl Brick_Tumbled
+vt 0 6.66667
+f 724/3/10 721/18/10 723/22/10
+
+f 719/20/10 723/22/10 721/18/10
+
+f 722/21/10 723/22/10 719/20/10
+
+usemtl Stair_Beige_Texture
+v 7.07849 93.5736 -9.398
+vt -62.6805 120
+f 725/23/9 722/17/9 723/2/9
+
+v 7.07849 90.5256 -9.398
+vt -62.6805 0
+f 726/24/9 722/17/9 725/23/9
+
+f 722/17/9 726/24/9 720/15/9
+
+usemtl Brick_Tumbled
+vt -1.74113 0
+f 720/19/10 726/25/10 722/21/10
+
+vt -1.74113 6.66667
+f 725/26/10 722/21/10 726/25/10
+
+f 723/22/10 722/21/10 725/26/10
+
+usemtl Stair_Beige_Texture
+vt 0 140
+vn 0 1 -0
+v 5.7912 93.5736 -9.0932
+vt 12 128
+vt 62.6805 140
+f 723/27/11 727/28/11 725/29/11
+
+v 5.7912 93.5736 -6.1468
+vt 12 12
+f 727/28/11 723/27/11 728/30/11
+
+usemtl Brick_Tumbled
+vt 1.74113 7.77778
+vn -0 -1 0
+vt 0.333333 7.11111
+vt 0 7.77778
+f 725/31/12 727/32/12 723/33/12
+
+usemtl Stair_Beige_Texture
+v 6.77369 93.5736 -9.0932
+vt 50.6805 128
+f 725/29/11 727/28/11 729/34/11
+
+usemtl Brick_Tumbled
+vt 1.40779 7.11111
+f 729/35/12 727/32/12 725/31/12
+
+usemtl Stair_Beige_Texture
+v 5.7912 93.4212 -9.0932
+vt 12 114
+vt 50.6805 120
+vt 12 120
+f 730/36/1 729/37/1 727/38/1
+
+v 6.77369 93.4212 -9.0932
+vt 50.6805 114
+f 729/37/1 730/36/1 731/39/1
+
+usemtl Brick_Tumbled
+vt 1.40779 6.33333
+vt 0.333333 6.33333
+vt 1.40779 6.66667
+f 731/40/2 730/41/2 729/42/2
+
+usemtl Top_Gray
+v 6.77369 93.4212 -6.1468
+vt 50.6805 12
+f 730/28/11 732/43/11 731/34/11
+
+v 5.7912 93.4212 -6.1468
+f 732/43/11 730/28/11 733/30/11
+
+usemtl Brick_Tumbled
+vt 0.333333 0.666667
+vt 1.40779 0.666667
+f 733/44/12 730/32/12 732/45/12
+
+usemtl Stair_Beige_Texture
+vt 128 114
+f 730/46/5 728/38/5 733/36/5
+
+vt 128 120
+f 728/38/5 730/46/5 727/47/5
+
+usemtl Brick_Tumbled
+vt 0.333333 6.66667
+vt 3.55556 6.33333
+f 733/41/6 728/48/6 730/49/6
+
+usemtl Stair_Beige_Texture
+vt -12 120
+vt -50.6805 114
+vt -12 114
+f 728/50/9 732/51/9 733/52/9
+
+v 6.77369 93.5736 -6.1468
+vt -50.6805 120
+f 732/51/9 728/50/9 734/53/9
+
+usemtl Brick_Tumbled
+vt -0.333333 6.33333
+vt -1.40779 6.33333
+vt -0.333333 6.66667
+f 733/54/10 732/55/10 728/56/10
+
+vt -1.40779 6.66667
+f 734/57/10 728/56/10 732/55/10
+
+usemtl Stair_Beige_Texture
+v 7.07849 93.5736 -5.842
+vt 62.6805 0
+f 728/30/11 735/58/11 734/43/11
+
+v 5.4864 93.5736 -5.842
+f 728/30/11 736/3/11 735/58/11
+
+f 736/3/11 728/30/11 723/27/11
+
+usemtl Brick_Tumbled
+f 723/33/12 728/44/12 736/3/12
+
+f 728/44/12 723/33/12 727/32/12
+
+vt 3.55556 6.66667
+f 727/59/6 730/49/6 728/48/6
+
+f 727/48/2 729/42/2 730/41/2
+
+vt 1.74113 0
+f 735/60/12 736/3/12 728/44/12
+
+usemtl Stair_Beige_Texture
+v 5.4864 90.5256 -5.842
+vt 62.6805 120
+f 737/3/1 735/61/1 736/2/1
+
+v 7.07849 90.5256 -5.842
+f 735/61/1 737/3/1 738/58/1
+
+usemtl Brick_Tumbled
+vt 1.74113 6.66667
+f 738/60/2 737/3/2 735/62/2
+
+f 736/22/2 735/62/2 737/3/2
+
+usemtl Stair_Beige_Texture
+vt -140 120
+f 723/63/3 737/3/3 736/2/3
+
+vt -140 0
+f 737/3/3 723/63/3 724/64/3
+
+usemtl Brick_Tumbled
+vt -3.88889 6.66667
+f 736/22/4 737/3/4 723/65/4
+
+vt -3.88889 0
+f 724/66/4 723/65/4 737/3/4
+
+usemtl Stair_Beige_Texture
+vt 140 0
+f 726/67/5 735/2/5 738/3/5
+
+vt 140 120
+f 735/2/5 726/67/5 725/68/5
+
+usemtl Brick_Tumbled
+vt 3.88889 0
+f 738/3/6 735/22/6 726/69/6
+
+vt 3.88889 6.66667
+f 725/70/6 726/69/6 735/22/6
+
+usemtl Stair_Beige_Texture
+f 725/29/11 729/34/11 735/58/11
+
+usemtl Brick_Tumbled
+f 735/60/12 729/35/12 725/31/12
+
+usemtl Stair_Beige_Texture
+f 734/43/11 735/58/11 729/34/11
+
+usemtl Brick_Tumbled
+f 734/45/12 735/60/12 728/44/12
+
+f 729/35/12 735/60/12 734/45/12
+
+usemtl Stair_Beige_Texture
+vt -128 120
+f 729/71/3 732/52/3 734/50/3
+
+vt -128 114
+f 732/52/3 729/71/3 731/72/3
+
+usemtl Brick_Tumbled
+vt -3.55556 6.66667
+f 734/56/4 732/54/4 729/73/4
+
+vt -3.55556 6.33333
+f 731/74/4 729/73/4 732/54/4
+
+f 731/35/12 732/45/12 730/32/12
+
+g Mesh180 Stair2 Glass_skyscraper_300__tall1 Model
+
+usemtl Stair_Beige_Texture
+v 23.7262 92.6592 -9.398
+v 24.6406 90.5256 -9.398
+v 23.7262 90.5256 -9.398
+f 739/14/9 740/15/9 741/16/9
+
+v 24.6406 92.6592 -9.398
+f 740/15/9 739/14/9 742/17/9
+
+usemtl Brick_Tumbled
+f 741/18/10 740/19/10 739/20/10
+
+f 742/21/10 739/20/10 740/19/10
+
+usemtl Stair_Beige_Texture
+v 23.4015 93.5736 -9.398
+f 739/14/9 743/2/9 742/17/9
+
+f 741/16/9 743/2/9 739/14/9
+
+v 23.4015 90.5256 -9.398
+f 743/2/9 741/16/9 744/3/9
+
+usemtl Brick_Tumbled
+f 744/3/10 741/18/10 743/22/10
+
+f 739/20/10 743/22/10 741/18/10
+
+f 742/21/10 743/22/10 739/20/10
+
+usemtl Stair_Beige_Texture
+v 24.9936 93.5736 -9.398
+f 745/23/9 742/17/9 743/2/9
+
+v 24.9936 90.5256 -9.398
+f 746/24/9 742/17/9 745/23/9
+
+f 742/17/9 746/24/9 740/15/9
+
+usemtl Brick_Tumbled
+f 740/19/10 746/25/10 742/21/10
+
+f 745/26/10 742/21/10 746/25/10
+
+f 743/22/10 742/21/10 745/26/10
+
+usemtl Stair_Beige_Texture
+v 23.7063 93.5736 -9.0932
+f 743/27/11 747/28/11 745/29/11
+
+v 23.7063 93.5736 -6.1468
+f 747/28/11 743/27/11 748/30/11
+
+usemtl Brick_Tumbled
+f 745/31/12 747/32/12 743/33/12
+
+usemtl Stair_Beige_Texture
+v 24.6888 93.5736 -9.0932
+f 745/29/11 747/28/11 749/34/11
+
+usemtl Brick_Tumbled
+f 749/35/12 747/32/12 745/31/12
+
+usemtl Stair_Beige_Texture
+v 23.7063 93.4212 -9.0932
+f 750/36/1 749/37/1 747/38/1
+
+v 24.6888 93.4212 -9.0932
+f 749/37/1 750/36/1 751/39/1
+
+usemtl Brick_Tumbled
+f 751/40/2 750/41/2 749/42/2
+
+usemtl Top_Gray
+v 24.6888 93.4212 -6.1468
+f 750/28/11 752/43/11 751/34/11
+
+v 23.7063 93.4212 -6.1468
+f 752/43/11 750/28/11 753/30/11
+
+usemtl Brick_Tumbled
+f 753/44/12 750/32/12 752/45/12
+
+usemtl Stair_Beige_Texture
+f 750/46/5 748/38/5 753/36/5
+
+f 748/38/5 750/46/5 747/47/5
+
+usemtl Brick_Tumbled
+f 753/41/6 748/48/6 750/49/6
+
+usemtl Stair_Beige_Texture
+f 748/50/9 752/51/9 753/52/9
+
+v 24.6888 93.5736 -6.1468
+f 752/51/9 748/50/9 754/53/9
+
+usemtl Brick_Tumbled
+f 753/54/10 752/55/10 748/56/10
+
+f 754/57/10 748/56/10 752/55/10
+
+usemtl Stair_Beige_Texture
+v 24.9936 93.5736 -5.842
+f 748/30/11 755/58/11 754/43/11
+
+v 23.4015 93.5736 -5.842
+f 748/30/11 756/3/11 755/58/11
+
+f 756/3/11 748/30/11 743/27/11
+
+usemtl Brick_Tumbled
+f 743/33/12 748/44/12 756/3/12
+
+f 748/44/12 743/33/12 747/32/12
+
+f 747/59/6 750/49/6 748/48/6
+
+f 747/48/2 749/42/2 750/41/2
+
+f 755/60/12 756/3/12 748/44/12
+
+usemtl Stair_Beige_Texture
+v 23.4015 90.5256 -5.842
+f 757/3/1 755/61/1 756/2/1
+
+v 24.9936 90.5256 -5.842
+f 755/61/1 757/3/1 758/58/1
+
+usemtl Brick_Tumbled
+f 758/60/2 757/3/2 755/62/2
+
+f 756/22/2 755/62/2 757/3/2
+
+usemtl Stair_Beige_Texture
+f 743/63/3 757/3/3 756/2/3
+
+f 757/3/3 743/63/3 744/64/3
+
+usemtl Brick_Tumbled
+f 756/22/4 757/3/4 743/65/4
+
+f 744/66/4 743/65/4 757/3/4
+
+usemtl Stair_Beige_Texture
+f 746/67/5 755/2/5 758/3/5
+
+f 755/2/5 746/67/5 745/68/5
+
+usemtl Brick_Tumbled
+f 758/3/6 755/22/6 746/69/6
+
+f 745/70/6 746/69/6 755/22/6
+
+usemtl Stair_Beige_Texture
+f 745/29/11 749/34/11 755/58/11
+
+usemtl Brick_Tumbled
+f 755/60/12 749/35/12 745/31/12
+
+usemtl Stair_Beige_Texture
+f 754/43/11 755/58/11 749/34/11
+
+usemtl Brick_Tumbled
+f 754/45/12 755/60/12 748/44/12
+
+f 749/35/12 755/60/12 754/45/12
+
+usemtl Stair_Beige_Texture
+f 749/71/3 752/52/3 754/50/3
+
+f 752/52/3 749/71/3 751/72/3
+
+usemtl Brick_Tumbled
+f 754/56/4 752/54/4 749/73/4
+
+f 751/74/4 749/73/4 752/54/4
+
+f 751/35/12 752/45/12 750/32/12
+
+g Mesh181 Top_1_1 Glass_skyscraper_300__tall1 Model
+
+usemtl Top_Gray
+v 29.8704 90.5256 -0.6096
+vt 1152 0
+v 0.6096 90.5256 -14.6304
+vt 0 552
+v 0.6096 90.5256 -0.6096
+f 759/75/11 760/76/11 761/3/11
+
+v 29.8704 90.5256 -14.6304
+vt 1152 552
+f 760/76/11 759/75/11 762/77/11
+
+usemtl Tile_Border_Travertine
+vt 0 30.6667
+vt 44.3077 0
+f 761/3/12 760/78/12 759/79/12
+
+vt 44.3077 30.6667
+f 762/80/12 759/79/12 760/78/12
+
+g Mesh182 Glass_skyscraper_300__tall1 Model
+
+usemtl Stair_Beige_Texture
+v 0 91.44 -0
+v 0.6096 91.44 -0.6096
+vt 24 24
+v 0 91.44 -15.24
+vt 0 600
+f 763/3/11 764/81/11 765/82/11
+
+v 30.48 91.44 -0
+vt 1200 0
+f 764/81/11 763/3/11 766/83/11
+
+usemtl Brick_Tumbled
+vt 0 33.3333
+vt 0.666667 1.33333
+f 765/84/12 764/85/12 763/3/12
+
+usemtl Stair_Beige_Texture
+v 0.6096 91.44 -14.6304
+vt 24 576
+f 767/86/11 765/82/11 764/81/11
+
+v 30.48 91.44 -15.24
+vt 1200 600
+f 765/82/11 767/86/11 768/87/11
+
+usemtl Brick_Tumbled
+vt 33.3333 33.3333
+vt 0.666667 32
+f 768/88/12 767/89/12 765/84/12
+
+usemtl Stair_Beige_Texture
+v 29.8704 91.44 -14.6304
+vt 1176 576
+f 768/87/11 767/86/11 769/90/11
+
+usemtl Brick_Tumbled
+vt 32.6667 32
+f 769/91/12 767/89/12 768/88/12
+
+usemtl Stair_Beige_Texture
+vt 24 3564
+vt 1176 3600
+vt 24 3600
+f 760/92/1 769/93/1 767/94/1
+
+v 29.8704 90.5256 -14.6304
+vt 1176 3564
+f 769/93/1 760/92/1 770/95/1
+
+usemtl Brick_Tumbled
+vt 32.6667 198
+vt 0.666667 198
+vt 32.6667 200
+f 770/96/2 760/97/2 769/98/2
+
+vt 0.666667 200
+f 767/99/2 769/98/2 760/97/2
+
+usemtl Stair_Beige_Texture
+vt 576 3564
+vt 576 3600
+f 764/94/5 760/100/5 767/101/5
+
+f 760/100/5 764/94/5 761/92/5
+
+usemtl Brick_Tumbled
+vt 16 198
+f 761/97/6 764/99/6 760/102/6
+
+usemtl Stair_Beige_Texture
+vt -24 3600
+v 29.8704 90.5256 -0.6096
+vt -1176 3564
+vt -24 3564
+f 764/103/9 771/104/9 761/105/9
+
+v 29.8704 91.44 -0.6096
+vt -1176 3600
+f 771/104/9 764/103/9 772/106/9
+
+usemtl Brick_Tumbled
+vt -0.666667 198
+vt -32.6667 198
+vt -0.666667 200
+f 761/107/10 771/108/10 764/109/10
+
+vt -32.6667 200
+f 772/110/10 764/109/10 771/108/10
+
+usemtl Stair_Beige_Texture
+vt 1176 24
+f 764/81/11 766/83/11 772/111/11
+
+usemtl Brick_Tumbled
+vt 33.3333 0
+f 766/112/12 763/3/12 764/85/12
+
+v 0 87.226 7.21911e-16
+vt -4.67473e-33 190.783
+vn 5.92119e-18 1.28484e-16 1
+vt 33.3333 200
+vt 0 200
+f 773/113/13 766/114/13 763/115/13
+
+v 30.48 87.226 3.60956e-16
+vt 33.3333 190.783
+f 766/114/13 773/113/13 774/116/13
+
+vn -5.92119e-18 -1.28484e-16 -1
+f 774/116/14 773/113/14 766/114/14
+
+usemtl Tile_Border_Travertine
+vt 0 -1.57898e-15
+vn 0 -1 -0
+v 30.48 87.226 -15.24
+vt -46.1538 33.3333
+vt -46.1538 -7.89492e-16
+f 773/117/15 775/118/15 774/119/15
+
+v 0 87.226 -15.24
+f 775/118/15 773/117/15 776/84/15
+
+vn -0 1 0
+f 776/84/16 773/117/16 775/118/16
+
+usemtl Brick_Tumbled
+vt -16.6667 190.783
+vt 7.89492e-16 190.783
+f 763/115/3 776/120/3 773/121/3
+
+vt -16.6667 200
+f 776/120/3 763/115/3 765/122/3
+
+f 773/121/4 776/120/4 763/115/4
+
+v 2.00371e-31 86.5632 -0.9144
+vt -1 189.333
+f 777/123/3 773/121/3 776/120/3
+
+v 0 82.956 7.21911e-16
+vt 7.89492e-16 181.444
+f 773/121/3 777/123/3 778/124/3
+
+f 778/124/4 777/123/4 773/121/4
+
+v 0 83.5152 -0.9144
+vt -1 182.667
+f 779/125/3 778/124/3 777/123/3
+
+v 0 82.956 -15.24
+vt -16.6667 181.444
+f 778/124/3 779/125/3 780/126/3
+
+f 780/126/4 779/125/4 778/124/4
+
+vt -5.38889 182.667
+f 780/126/3 779/125/3 175/127/3
+
+f 175/127/4 779/125/4 780/126/4
+
+vt -6.38889 182.667
+f 780/126/3 175/127/3 165/128/3
+
+f 165/128/4 175/127/4 780/126/4
+
+vt -6.38889 189.333
+f 165/128/3 175/127/3 168/129/3
+
+f 168/129/4 175/127/4 165/128/4
+
+vt -5.38889 189.333
+f 174/130/3 168/129/3 175/127/3
+
+f 174/130/3 776/120/3 168/129/3
+
+f 777/123/3 776/120/3 174/130/3
+
+f 776/120/4 773/121/4 777/123/4
+
+f 174/130/4 776/120/4 777/123/4
+
+f 168/129/4 776/120/4 174/130/4
+
+vt -10.2778 189.333
+f 168/129/3 776/120/3 166/131/3
+
+f 166/131/4 776/120/4 168/129/4
+
+vt -11.2778 189.333
+f 166/131/3 776/120/3 172/132/3
+
+f 172/132/4 776/120/4 166/131/4
+
+vt -15.6667 189.333
+f 172/132/3 776/120/3 170/133/3
+
+f 170/133/4 776/120/4 172/132/4
+
+vt -15.6667 182.667
+f 170/133/3 776/120/3 171/134/3
+
+f 171/134/4 776/120/4 170/133/4
+
+f 780/126/3 171/134/3 776/120/3
+
+vt -11.2778 182.667
+f 780/126/3 169/135/3 171/134/3
+
+vt -10.2778 182.667
+f 780/126/3 167/136/3 169/135/3
+
+f 780/126/3 165/128/3 167/136/3
+
+f 167/136/4 165/128/4 780/126/4
+
+f 169/135/4 167/136/4 780/126/4
+
+f 169/135/3 167/136/3 172/132/3
+
+f 172/132/4 167/136/4 169/135/4
+
+f 166/131/3 172/132/3 167/136/3
+
+f 167/136/4 172/132/4 166/131/4
+
+f 171/134/4 169/135/4 780/126/4
+
+f 776/120/4 171/134/4 780/126/4
+
+usemtl Stair_Beige_Texture
+vt 0 3434.09
+v 30.48 82.956 -15.24
+vt -1200 3265.98
+vt 0 3265.98
+f 776/137/9 781/138/9 780/139/9
+
+vt -1200 3434.09
+f 781/138/9 776/137/9 775/140/9
+
+usemtl Brick_Tumbled
+vt 0 181.444
+vt -33.3333 181.444
+vt 0 190.783
+f 780/141/10 781/142/10 776/143/10
+
+usemtl Tile_Border_Travertine
+f 781/118/15 778/117/15 780/84/15
+
+v 30.48 82.956 3.60956e-16
+f 778/117/15 781/118/15 782/119/15
+
+f 780/84/16 778/117/16 781/118/16
+
+usemtl Brick_Tumbled
+v 2.00371e-31 82.296 -0.9144
+vt -1 180
+f 783/144/3 778/124/3 780/126/3
+
+v 0 78.686 7.21911e-16
+vt 7.89492e-16 172.104
+f 778/124/3 783/144/3 784/145/3
+
+f 784/145/4 783/144/4 778/124/4
+
+v 0 79.248 -0.9144
+vt -1 173.333
+f 785/146/3 784/145/3 783/144/3
+
+v 0 78.686 -15.24
+vt -16.6667 172.104
+f 784/145/3 785/146/3 786/147/3
+
+f 786/147/4 785/146/4 784/145/4
+
+vt -5.38889 173.333
+f 786/147/3 785/146/3 163/148/3
+
+f 163/148/4 785/146/4 786/147/4
+
+vt -6.38889 173.333
+f 786/147/3 163/148/3 153/149/3
+
+f 153/149/4 163/148/4 786/147/4
+
+vt -6.38889 180
+f 153/149/3 163/148/3 156/150/3
+
+f 156/150/4 163/148/4 153/149/4
+
+vt -5.38889 180
+f 162/151/3 156/150/3 163/148/3
+
+f 162/151/3 780/126/3 156/150/3
+
+f 783/144/3 780/126/3 162/151/3
+
+f 780/126/4 778/124/4 783/144/4
+
+f 162/151/4 780/126/4 783/144/4
+
+f 156/150/4 780/126/4 162/151/4
+
+vt -10.2778 180
+f 156/150/3 780/126/3 154/152/3
+
+f 154/152/4 780/126/4 156/150/4
+
+vt -11.2778 180
+f 154/152/3 780/126/3 160/153/3
+
+f 160/153/4 780/126/4 154/152/4
+
+vt -15.6667 180
+f 160/153/3 780/126/3 158/154/3
+
+f 158/154/4 780/126/4 160/153/4
+
+vt -15.6667 173.333
+f 158/154/3 780/126/3 159/155/3
+
+f 159/155/4 780/126/4 158/154/4
+
+f 786/147/3 159/155/3 780/126/3
+
+vt -11.2778 173.333
+f 786/147/3 157/156/3 159/155/3
+
+vt -10.2778 173.333
+f 786/147/3 155/157/3 157/156/3
+
+f 786/147/3 153/149/3 155/157/3
+
+f 155/157/4 153/149/4 786/147/4
+
+f 157/156/4 155/157/4 786/147/4
+
+f 157/156/3 155/157/3 160/153/3
+
+f 160/153/4 155/157/4 157/156/4
+
+f 154/152/3 160/153/3 155/157/3
+
+f 155/157/4 160/153/4 154/152/4
+
+f 159/155/4 157/156/4 786/147/4
+
+f 780/126/4 159/155/4 786/147/4
+
+usemtl Stair_Beige_Texture
+v 30.48 78.686 -15.24
+vt -1200 3097.87
+vt 0 3097.87
+f 780/139/9 787/158/9 786/159/9
+
+f 787/158/9 780/139/9 781/138/9
+
+usemtl Brick_Tumbled
+vt 0 172.104
+vt -33.3333 172.104
+f 786/160/10 787/161/10 780/141/10
+
+usemtl Tile_Border_Travertine
+f 787/118/15 784/117/15 786/84/15
+
+v 30.48 78.686 3.60956e-16
+f 784/117/15 787/118/15 788/119/15
+
+f 786/84/16 784/117/16 787/118/16
+
+usemtl Brick_Tumbled
+v 2.00371e-31 78.0288 -0.9144
+vt -1 170.667
+f 789/162/3 784/145/3 786/147/3
+
+v 0 74.416 7.21911e-16
+vt 7.89492e-16 162.765
+f 784/145/3 789/162/3 790/163/3
+
+f 790/163/4 789/162/4 784/145/4
+
+v 0 74.9808 -0.9144
+vt -1 164
+f 791/164/3 790/163/3 789/162/3
+
+v 0 74.416 -15.24
+vt -16.6667 162.765
+f 790/163/3 791/164/3 792/165/3
+
+f 792/165/4 791/164/4 790/163/4
+
+vt -5.38889 164
+f 792/165/3 791/164/3 151/166/3
+
+f 151/166/4 791/164/4 792/165/4
+
+vt -6.38889 164
+f 792/165/3 151/166/3 141/167/3
+
+f 141/167/4 151/166/4 792/165/4
+
+v 2.00371e-31 78.0288 -5.842
+vt -6.38889 170.667
+f 141/167/3 151/166/3 793/168/3
+
+f 793/168/4 151/166/4 141/167/4
+
+v 2.00371e-31 78.0288 -4.9276
+vt -5.38889 170.667
+f 794/169/3 793/168/3 151/166/3
+
+f 794/169/3 786/147/3 793/168/3
+
+f 789/162/3 786/147/3 794/169/3
+
+f 786/147/4 784/145/4 789/162/4
+
+f 794/169/4 786/147/4 789/162/4
+
+f 793/168/4 786/147/4 794/169/4
+
+v 2.00371e-31 78.0288 -9.398
+vt -10.2778 170.667
+f 793/168/3 786/147/3 795/170/3
+
+f 795/170/4 786/147/4 793/168/4
+
+v 2.00371e-31 78.0288 -10.3124
+vt -11.2778 170.667
+f 795/170/3 786/147/3 796/171/3
+
+f 796/171/4 786/147/4 795/170/4
+
+v 2.00371e-31 78.0288 -14.3256
+vt -15.6667 170.667
+f 796/171/3 786/147/3 797/172/3
+
+f 797/172/4 786/147/4 796/171/4
+
+vt -15.6667 164
+f 797/172/3 786/147/3 147/173/3
+
+f 147/173/4 786/147/4 797/172/4
+
+f 792/165/3 147/173/3 786/147/3
+
+vt -11.2778 164
+f 792/165/3 145/174/3 147/173/3
+
+vt -10.2778 164
+f 792/165/3 143/175/3 145/174/3
+
+f 792/165/3 141/167/3 143/175/3
+
+f 143/175/4 141/167/4 792/165/4
+
+f 145/174/4 143/175/4 792/165/4
+
+f 145/174/3 143/175/3 796/171/3
+
+f 796/171/4 143/175/4 145/174/4
+
+f 795/170/3 796/171/3 143/175/3
+
+f 143/175/4 796/171/4 795/170/4
+
+f 147/173/4 145/174/4 792/165/4
+
+f 786/147/4 147/173/4 792/165/4
+
+usemtl Stair_Beige_Texture
+v 30.48 74.416 -15.24
+vt -1200 2929.76
+vt 0 2929.76
+f 786/159/9 798/176/9 792/177/9
+
+f 798/176/9 786/159/9 787/158/9
+
+usemtl Brick_Tumbled
+vt 0 162.765
+vt -33.3333 162.765
+f 792/178/10 798/179/10 786/160/10
+
+usemtl Tile_Border_Travertine
+f 798/118/15 790/117/15 792/84/15
+
+v 30.48 74.416 3.60956e-16
+f 790/117/15 798/118/15 799/119/15
+
+f 792/84/16 790/117/16 798/118/16
+
+usemtl Brick_Tumbled
+v 2.00371e-31 73.7616 -0.9144
+vt -1 161.333
+f 800/180/3 790/163/3 792/165/3
+
+v 0 70.146 7.21911e-16
+vt 7.89492e-16 153.425
+f 790/163/3 800/180/3 801/181/3
+
+f 801/181/4 800/180/4 790/163/4
+
+v 0 70.7136 -0.9144
+vt -1 154.667
+f 802/182/3 801/181/3 800/180/3
+
+v 0 70.146 -15.24
+vt -16.6667 153.425
+f 801/181/3 802/182/3 803/183/3
+
+f 803/183/4 802/182/4 801/181/4
+
+vt -5.38889 154.667
+f 803/183/3 802/182/3 139/184/3
+
+f 139/184/4 802/182/4 803/183/4
+
+vt -6.38889 154.667
+f 803/183/3 139/184/3 129/185/3
+
+f 129/185/4 139/184/4 803/183/4
+
+vt -6.38889 161.333
+f 129/185/3 139/184/3 132/186/3
+
+f 132/186/4 139/184/4 129/185/4
+
+vt -5.38889 161.333
+f 138/187/3 132/186/3 139/184/3
+
+f 138/187/3 792/165/3 132/186/3
+
+f 800/180/3 792/165/3 138/187/3
+
+f 792/165/4 790/163/4 800/180/4
+
+f 138/187/4 792/165/4 800/180/4
+
+f 132/186/4 792/165/4 138/187/4
+
+vt -10.2778 161.333
+f 132/186/3 792/165/3 130/188/3
+
+f 130/188/4 792/165/4 132/186/4
+
+vt -11.2778 161.333
+f 130/188/3 792/165/3 136/189/3
+
+f 136/189/4 792/165/4 130/188/4
+
+vt -15.6667 161.333
+f 136/189/3 792/165/3 134/190/3
+
+f 134/190/4 792/165/4 136/189/4
+
+vt -15.6667 154.667
+f 134/190/3 792/165/3 135/191/3
+
+f 135/191/4 792/165/4 134/190/4
+
+f 803/183/3 135/191/3 792/165/3
+
+vt -11.2778 154.667
+f 803/183/3 133/192/3 135/191/3
+
+vt -10.2778 154.667
+f 803/183/3 131/193/3 133/192/3
+
+f 803/183/3 129/185/3 131/193/3
+
+f 131/193/4 129/185/4 803/183/4
+
+f 133/192/4 131/193/4 803/183/4
+
+f 133/192/3 131/193/3 136/189/3
+
+f 136/189/4 131/193/4 133/192/4
+
+f 130/188/3 136/189/3 131/193/3
+
+f 131/193/4 136/189/4 130/188/4
+
+f 135/191/4 133/192/4 803/183/4
+
+f 792/165/4 135/191/4 803/183/4
+
+usemtl Stair_Beige_Texture
+v 30.48 70.146 -15.24
+vt -1200 2761.65
+vt 0 2761.65
+f 792/177/9 804/194/9 803/195/9
+
+f 804/194/9 792/177/9 798/176/9
+
+usemtl Brick_Tumbled
+vt 0 153.425
+vt -33.3333 153.425
+f 803/196/10 804/197/10 792/178/10
+
+usemtl Tile_Border_Travertine
+f 804/118/15 801/117/15 803/84/15
+
+v 30.48 70.146 3.60956e-16
+f 801/117/15 804/118/15 805/119/15
+
+f 803/84/16 801/117/16 804/118/16
+
+usemtl Brick_Tumbled
+v 2.00371e-31 69.4944 -0.9144
+vt -1 152
+f 806/198/3 801/181/3 803/183/3
+
+v 0 65.876 7.21911e-16
+vt 7.89492e-16 144.086
+f 801/181/3 806/198/3 807/199/3
+
+f 807/199/4 806/198/4 801/181/4
+
+v 0 66.4464 -0.9144
+vt -1 145.333
+f 808/200/3 807/199/3 806/198/3
+
+v 0 65.876 -15.24
+vt -16.6667 144.086
+f 807/199/3 808/200/3 809/201/3
+
+f 809/201/4 808/200/4 807/199/4
+
+vt -5.38889 145.333
+f 809/201/3 808/200/3 127/202/3
+
+f 127/202/4 808/200/4 809/201/4
+
+vt -6.38889 145.333
+f 809/201/3 127/202/3 117/203/3
+
+f 117/203/4 127/202/4 809/201/4
+
+vt -6.38889 152
+f 117/203/3 127/202/3 120/204/3
+
+f 120/204/4 127/202/4 117/203/4
+
+vt -5.38889 152
+f 126/205/3 120/204/3 127/202/3
+
+f 126/205/3 803/183/3 120/204/3
+
+f 806/198/3 803/183/3 126/205/3
+
+f 803/183/4 801/181/4 806/198/4
+
+f 126/205/4 803/183/4 806/198/4
+
+f 120/204/4 803/183/4 126/205/4
+
+vt -10.2778 152
+f 120/204/3 803/183/3 118/206/3
+
+f 118/206/4 803/183/4 120/204/4
+
+vt -11.2778 152
+f 118/206/3 803/183/3 124/207/3
+
+f 124/207/4 803/183/4 118/206/4
+
+vt -15.6667 152
+f 124/207/3 803/183/3 122/208/3
+
+f 122/208/4 803/183/4 124/207/4
+
+vt -15.6667 145.333
+f 122/208/3 803/183/3 123/209/3
+
+f 123/209/4 803/183/4 122/208/4
+
+f 809/201/3 123/209/3 803/183/3
+
+vt -11.2778 145.333
+f 809/201/3 121/210/3 123/209/3
+
+vt -10.2778 145.333
+f 809/201/3 119/211/3 121/210/3
+
+f 809/201/3 117/203/3 119/211/3
+
+f 119/211/4 117/203/4 809/201/4
+
+f 121/210/4 119/211/4 809/201/4
+
+f 121/210/3 119/211/3 124/207/3
+
+f 124/207/4 119/211/4 121/210/4
+
+f 118/206/3 124/207/3 119/211/3
+
+f 119/211/4 124/207/4 118/206/4
+
+f 123/209/4 121/210/4 809/201/4
+
+f 803/183/4 123/209/4 809/201/4
+
+usemtl Stair_Beige_Texture
+v 30.48 65.876 -15.24
+vt -1200 2593.54
+vt 0 2593.54
+f 803/195/9 810/212/9 809/213/9
+
+f 810/212/9 803/195/9 804/194/9
+
+usemtl Brick_Tumbled
+vt 0 144.086
+vt -33.3333 144.086
+f 809/214/10 810/215/10 803/196/10
+
+usemtl Tile_Border_Travertine
+f 810/118/15 807/117/15 809/84/15
+
+v 30.48 65.876 3.60956e-16
+f 807/117/15 810/118/15 811/119/15
+
+f 809/84/16 807/117/16 810/118/16
+
+usemtl Brick_Tumbled
+v 2.00371e-31 65.2272 -0.9144
+vt -1 142.667
+f 812/216/3 807/199/3 809/201/3
+
+v 0 61.606 7.21911e-16
+vt 7.89492e-16 134.746
+f 807/199/3 812/216/3 813/217/3
+
+f 813/217/4 812/216/4 807/199/4
+
+v 0 62.1792 -0.9144
+vt -1 136
+f 814/218/3 813/217/3 812/216/3
+
+v 0 61.606 -15.24
+vt -16.6667 134.746
+f 813/217/3 814/218/3 815/219/3
+
+f 815/219/4 814/218/4 813/217/4
+
+vt -5.38889 136
+f 815/219/3 814/218/3 115/220/3
+
+f 115/220/4 814/218/4 815/219/4
+
+vt -6.38889 136
+f 815/219/3 115/220/3 105/221/3
+
+f 105/221/4 115/220/4 815/219/4
+
+vt -6.38889 142.667
+f 105/221/3 115/220/3 108/222/3
+
+f 108/222/4 115/220/4 105/221/4
+
+vt -5.38889 142.667
+f 114/223/3 108/222/3 115/220/3
+
+f 114/223/3 809/201/3 108/222/3
+
+f 812/216/3 809/201/3 114/223/3
+
+f 809/201/4 807/199/4 812/216/4
+
+f 114/223/4 809/201/4 812/216/4
+
+f 108/222/4 809/201/4 114/223/4
+
+vt -10.2778 142.667
+f 108/222/3 809/201/3 106/224/3
+
+f 106/224/4 809/201/4 108/222/4
+
+vt -11.2778 142.667
+f 106/224/3 809/201/3 112/225/3
+
+f 112/225/4 809/201/4 106/224/4
+
+vt -15.6667 142.667
+f 112/225/3 809/201/3 110/226/3
+
+f 110/226/4 809/201/4 112/225/4
+
+vt -15.6667 136
+f 110/226/3 809/201/3 111/227/3
+
+f 111/227/4 809/201/4 110/226/4
+
+f 815/219/3 111/227/3 809/201/3
+
+vt -11.2778 136
+f 815/219/3 109/228/3 111/227/3
+
+vt -10.2778 136
+f 815/219/3 107/229/3 109/228/3
+
+f 815/219/3 105/221/3 107/229/3
+
+f 107/229/4 105/221/4 815/219/4
+
+f 109/228/4 107/229/4 815/219/4
+
+f 109/228/3 107/229/3 112/225/3
+
+f 112/225/4 107/229/4 109/228/4
+
+f 106/224/3 112/225/3 107/229/3
+
+f 107/229/4 112/225/4 106/224/4
+
+f 111/227/4 109/228/4 815/219/4
+
+f 809/201/4 111/227/4 815/219/4
+
+usemtl Stair_Beige_Texture
+v 30.48 61.606 -15.24
+vt -1200 2425.43
+vt 0 2425.43
+f 809/213/9 816/230/9 815/231/9
+
+f 816/230/9 809/213/9 810/212/9
+
+usemtl Brick_Tumbled
+vt 0 134.746
+vt -33.3333 134.746
+f 815/232/10 816/233/10 809/214/10
+
+usemtl Tile_Border_Travertine
+f 816/118/15 813/117/15 815/84/15
+
+v 30.48 61.606 3.60956e-16
+f 813/117/15 816/118/15 817/119/15
+
+f 815/84/16 813/117/16 816/118/16
+
+usemtl Brick_Tumbled
+v 2.00371e-31 60.96 -0.9144
+vt -1 133.333
+f 818/234/3 813/217/3 815/219/3
+
+v 0 57.336 7.21911e-16
+vt 7.89492e-16 125.407
+f 813/217/3 818/234/3 819/235/3
+
+f 819/235/4 818/234/4 813/217/4
+
+v 0 57.912 -0.9144
+vt -1 126.667
+f 820/236/3 819/235/3 818/234/3
+
+v 0 57.336 -15.24
+vt -16.6667 125.407
+f 819/235/3 820/236/3 821/237/3
+
+f 821/237/4 820/236/4 819/235/4
+
+vt -5.38889 126.667
+f 821/237/3 820/236/3 103/238/3
+
+f 103/238/4 820/236/4 821/237/4
+
+vt -6.38889 126.667
+f 821/237/3 103/238/3 93/239/3
+
+f 93/239/4 103/238/4 821/237/4
+
+vt -6.38889 133.333
+f 93/239/3 103/238/3 96/240/3
+
+f 96/240/4 103/238/4 93/239/4
+
+vt -5.38889 133.333
+f 102/241/3 96/240/3 103/238/3
+
+f 102/241/3 815/219/3 96/240/3
+
+f 818/234/3 815/219/3 102/241/3
+
+f 815/219/4 813/217/4 818/234/4
+
+f 102/241/4 815/219/4 818/234/4
+
+f 96/240/4 815/219/4 102/241/4
+
+vt -10.2778 133.333
+f 96/240/3 815/219/3 94/242/3
+
+f 94/242/4 815/219/4 96/240/4
+
+vt -11.2778 133.333
+f 94/242/3 815/219/3 100/243/3
+
+f 100/243/4 815/219/4 94/242/4
+
+vt -15.6667 133.333
+f 100/243/3 815/219/3 98/244/3
+
+f 98/244/4 815/219/4 100/243/4
+
+vt -15.6667 126.667
+f 98/244/3 815/219/3 99/245/3
+
+f 99/245/4 815/219/4 98/244/4
+
+f 821/237/3 99/245/3 815/219/3
+
+vt -11.2778 126.667
+f 821/237/3 97/246/3 99/245/3
+
+vt -10.2778 126.667
+f 821/237/3 95/247/3 97/246/3
+
+f 821/237/3 93/239/3 95/247/3
+
+f 95/247/4 93/239/4 821/237/4
+
+f 97/246/4 95/247/4 821/237/4
+
+f 97/246/3 95/247/3 100/243/3
+
+f 100/243/4 95/247/4 97/246/4
+
+f 94/242/3 100/243/3 95/247/3
+
+f 95/247/4 100/243/4 94/242/4
+
+f 99/245/4 97/246/4 821/237/4
+
+f 815/219/4 99/245/4 821/237/4
+
+usemtl Stair_Beige_Texture
+v 30.48 57.336 -15.24
+vt -1200 2257.32
+vt 0 2257.32
+f 815/231/9 822/248/9 821/249/9
+
+f 822/248/9 815/231/9 816/230/9
+
+usemtl Brick_Tumbled
+vt 0 125.407
+vt -33.3333 125.407
+f 821/250/10 822/251/10 815/232/10
+
+usemtl Tile_Border_Travertine
+f 822/118/15 819/117/15 821/84/15
+
+v 30.48 57.336 3.60956e-16
+f 819/117/15 822/118/15 823/119/15
+
+f 821/84/16 819/117/16 822/118/16
+
+usemtl Brick_Tumbled
+v 2.00371e-31 56.6928 -0.9144
+vt -1 124
+f 824/252/3 819/235/3 821/237/3
+
+v 0 53.066 7.21911e-16
+vt 7.89492e-16 116.067
+f 819/235/3 824/252/3 825/253/3
+
+f 825/253/4 824/252/4 819/235/4
+
+v 0 53.6448 -0.9144
+vt -1 117.333
+f 826/254/3 825/253/3 824/252/3
+
+v 0 53.066 -15.24
+vt -16.6667 116.067
+f 825/253/3 826/254/3 827/255/3
+
+f 827/255/4 826/254/4 825/253/4
+
+vt -5.38889 117.333
+f 827/255/3 826/254/3 91/256/3
+
+f 91/256/4 826/254/4 827/255/4
+
+vt -6.38889 117.333
+f 827/255/3 91/256/3 81/257/3
+
+f 81/257/4 91/256/4 827/255/4
+
+vt -6.38889 124
+f 81/257/3 91/256/3 84/258/3
+
+f 84/258/4 91/256/4 81/257/4
+
+vt -5.38889 124
+f 90/259/3 84/258/3 91/256/3
+
+f 90/259/3 821/237/3 84/258/3
+
+f 824/252/3 821/237/3 90/259/3
+
+f 821/237/4 819/235/4 824/252/4
+
+f 90/259/4 821/237/4 824/252/4
+
+f 84/258/4 821/237/4 90/259/4
+
+vt -10.2778 124
+f 84/258/3 821/237/3 82/260/3
+
+f 82/260/4 821/237/4 84/258/4
+
+vt -11.2778 124
+f 82/260/3 821/237/3 88/261/3
+
+f 88/261/4 821/237/4 82/260/4
+
+vt -15.6667 124
+f 88/261/3 821/237/3 86/262/3
+
+f 86/262/4 821/237/4 88/261/4
+
+vt -15.6667 117.333
+f 86/262/3 821/237/3 87/263/3
+
+f 87/263/4 821/237/4 86/262/4
+
+f 827/255/3 87/263/3 821/237/3
+
+vt -11.2778 117.333
+f 827/255/3 85/264/3 87/263/3
+
+vt -10.2778 117.333
+f 827/255/3 83/265/3 85/264/3
+
+f 827/255/3 81/257/3 83/265/3
+
+f 83/265/4 81/257/4 827/255/4
+
+f 85/264/4 83/265/4 827/255/4
+
+f 85/264/3 83/265/3 88/261/3
+
+f 88/261/4 83/265/4 85/264/4
+
+f 82/260/3 88/261/3 83/265/3
+
+f 83/265/4 88/261/4 82/260/4
+
+f 87/263/4 85/264/4 827/255/4
+
+f 821/237/4 87/263/4 827/255/4
+
+usemtl Stair_Beige_Texture
+v 30.48 53.066 -15.24
+vt -1200 2089.21
+vt 0 2089.21
+f 821/249/9 828/266/9 827/267/9
+
+f 828/266/9 821/249/9 822/248/9
+
+usemtl Brick_Tumbled
+vt 0 116.067
+vt -33.3333 116.067
+f 827/268/10 828/269/10 821/250/10
+
+usemtl Tile_Border_Travertine
+f 828/118/15 825/117/15 827/84/15
+
+v 30.48 53.066 3.60956e-16
+f 825/117/15 828/118/15 829/119/15
+
+f 827/84/16 825/117/16 828/118/16
+
+usemtl Brick_Tumbled
+v 2.00371e-31 52.4256 -0.9144
+vt -1 114.667
+f 830/270/3 825/253/3 827/255/3
+
+v 0 48.796 7.21911e-16
+vt 7.89492e-16 106.728
+f 825/253/3 830/270/3 831/271/3
+
+f 831/271/4 830/270/4 825/253/4
+
+v 0 49.3776 -0.9144
+vt -1 108
+f 832/272/3 831/271/3 830/270/3
+
+v 0 48.796 -15.24
+vt -16.6667 106.728
+f 831/271/3 832/272/3 833/273/3
+
+f 833/273/4 832/272/4 831/271/4
+
+vt -5.38889 108
+f 833/273/3 832/272/3 79/274/3
+
+f 79/274/4 832/272/4 833/273/4
+
+vt -6.38889 108
+f 833/273/3 79/274/3 69/275/3
+
+f 69/275/4 79/274/4 833/273/4
+
+vt -6.38889 114.667
+f 69/275/3 79/274/3 72/276/3
+
+f 72/276/4 79/274/4 69/275/4
+
+vt -5.38889 114.667
+f 78/277/3 72/276/3 79/274/3
+
+f 78/277/3 827/255/3 72/276/3
+
+f 830/270/3 827/255/3 78/277/3
+
+f 827/255/4 825/253/4 830/270/4
+
+f 78/277/4 827/255/4 830/270/4
+
+f 72/276/4 827/255/4 78/277/4
+
+vt -10.2778 114.667
+f 72/276/3 827/255/3 70/278/3
+
+f 70/278/4 827/255/4 72/276/4
+
+vt -11.2778 114.667
+f 70/278/3 827/255/3 76/279/3
+
+f 76/279/4 827/255/4 70/278/4
+
+vt -15.6667 114.667
+f 76/279/3 827/255/3 74/280/3
+
+f 74/280/4 827/255/4 76/279/4
+
+vt -15.6667 108
+f 74/280/3 827/255/3 75/281/3
+
+f 75/281/4 827/255/4 74/280/4
+
+f 833/273/3 75/281/3 827/255/3
+
+vt -11.2778 108
+f 833/273/3 73/282/3 75/281/3
+
+vt -10.2778 108
+f 833/273/3 71/283/3 73/282/3
+
+f 833/273/3 69/275/3 71/283/3
+
+f 71/283/4 69/275/4 833/273/4
+
+f 73/282/4 71/283/4 833/273/4
+
+f 73/282/3 71/283/3 76/279/3
+
+f 76/279/4 71/283/4 73/282/4
+
+f 70/278/3 76/279/3 71/283/3
+
+f 71/283/4 76/279/4 70/278/4
+
+f 75/281/4 73/282/4 833/273/4
+
+f 827/255/4 75/281/4 833/273/4
+
+usemtl Stair_Beige_Texture
+v 30.48 48.796 -15.24
+vt -1200 1921.1
+vt 0 1921.1
+f 827/267/9 834/284/9 833/285/9
+
+f 834/284/9 827/267/9 828/266/9
+
+usemtl Brick_Tumbled
+vt 0 106.728
+vt -33.3333 106.728
+f 833/286/10 834/287/10 827/268/10
+
+usemtl Tile_Border_Travertine
+f 834/118/15 831/117/15 833/84/15
+
+v 30.48 48.796 3.60956e-16
+f 831/117/15 834/118/15 835/119/15
+
+f 833/84/16 831/117/16 834/118/16
+
+usemtl Brick_Tumbled
+v 2.00371e-31 48.1584 -0.9144
+vt -1 105.333
+f 836/288/3 831/271/3 833/273/3
+
+v 0 44.526 7.21911e-16
+vt 7.89492e-16 97.3885
+f 831/271/3 836/288/3 837/289/3
+
+f 837/289/4 836/288/4 831/271/4
+
+v 0 45.1104 -0.9144
+vt -1 98.6667
+f 838/290/3 837/289/3 836/288/3
+
+v 0 44.526 -15.24
+vt -16.6667 97.3885
+f 837/289/3 838/290/3 839/291/3
+
+f 839/291/4 838/290/4 837/289/4
+
+vt -5.38889 98.6667
+f 839/291/3 838/290/3 67/292/3
+
+f 67/292/4 838/290/4 839/291/4
+
+vt -6.38889 98.6667
+f 839/291/3 67/292/3 57/293/3
+
+f 57/293/4 67/292/4 839/291/4
+
+vt -6.38889 105.333
+f 57/293/3 67/292/3 60/294/3
+
+f 60/294/4 67/292/4 57/293/4
+
+vt -5.38889 105.333
+f 66/295/3 60/294/3 67/292/3
+
+f 66/295/3 833/273/3 60/294/3
+
+f 836/288/3 833/273/3 66/295/3
+
+f 833/273/4 831/271/4 836/288/4
+
+f 66/295/4 833/273/4 836/288/4
+
+f 60/294/4 833/273/4 66/295/4
+
+vt -10.2778 105.333
+f 60/294/3 833/273/3 58/296/3
+
+f 58/296/4 833/273/4 60/294/4
+
+vt -11.2778 105.333
+f 58/296/3 833/273/3 64/297/3
+
+f 64/297/4 833/273/4 58/296/4
+
+vt -15.6667 105.333
+f 64/297/3 833/273/3 62/298/3
+
+f 62/298/4 833/273/4 64/297/4
+
+vt -15.6667 98.6667
+f 62/298/3 833/273/3 63/299/3
+
+f 63/299/4 833/273/4 62/298/4
+
+f 839/291/3 63/299/3 833/273/3
+
+vt -11.2778 98.6667
+f 839/291/3 61/300/3 63/299/3
+
+vt -10.2778 98.6667
+f 839/291/3 59/301/3 61/300/3
+
+f 839/291/3 57/293/3 59/301/3
+
+f 59/301/4 57/293/4 839/291/4
+
+f 61/300/4 59/301/4 839/291/4
+
+f 61/300/3 59/301/3 64/297/3
+
+f 64/297/4 59/301/4 61/300/4
+
+f 58/296/3 64/297/3 59/301/3
+
+f 59/301/4 64/297/4 58/296/4
+
+f 63/299/4 61/300/4 839/291/4
+
+f 833/273/4 63/299/4 839/291/4
+
+usemtl Stair_Beige_Texture
+v 30.48 44.526 -15.24
+vt -1200 1752.99
+vt 0 1752.99
+f 833/285/9 840/302/9 839/303/9
+
+f 840/302/9 833/285/9 834/284/9
+
+usemtl Brick_Tumbled
+vt 0 97.3885
+vt -33.3333 97.3885
+f 839/304/10 840/305/10 833/286/10
+
+usemtl Tile_Border_Travertine
+f 840/118/15 837/117/15 839/84/15
+
+v 30.48 44.526 3.60956e-16
+f 837/117/15 840/118/15 841/119/15
+
+f 839/84/16 837/117/16 840/118/16
+
+usemtl Brick_Tumbled
+v 2.00371e-31 43.8912 -0.9144
+vt -1 96
+f 842/306/3 837/289/3 839/291/3
+
+v 0 40.256 7.21911e-16
+vt 7.89492e-16 88.049
+f 837/289/3 842/306/3 843/307/3
+
+f 843/307/4 842/306/4 837/289/4
+
+v 0 40.8432 -0.9144
+vt -1 89.3333
+f 844/308/3 843/307/3 842/306/3
+
+v 0 40.256 -15.24
+vt -16.6667 88.049
+f 843/307/3 844/308/3 845/309/3
+
+f 845/309/4 844/308/4 843/307/4
+
+vt -5.38889 89.3333
+f 845/309/3 844/308/3 55/310/3
+
+f 55/310/4 844/308/4 845/309/4
+
+vt -6.38889 89.3333
+f 845/309/3 55/310/3 45/311/3
+
+f 45/311/4 55/310/4 845/309/4
+
+vt -6.38889 96
+f 45/311/3 55/310/3 48/312/3
+
+f 48/312/4 55/310/4 45/311/4
+
+vt -5.38889 96
+f 54/313/3 48/312/3 55/310/3
+
+f 54/313/3 839/291/3 48/312/3
+
+f 842/306/3 839/291/3 54/313/3
+
+f 839/291/4 837/289/4 842/306/4
+
+f 54/313/4 839/291/4 842/306/4
+
+f 48/312/4 839/291/4 54/313/4
+
+vt -10.2778 96
+f 48/312/3 839/291/3 46/314/3
+
+f 46/314/4 839/291/4 48/312/4
+
+vt -11.2778 96
+f 46/314/3 839/291/3 52/315/3
+
+f 52/315/4 839/291/4 46/314/4
+
+vt -15.6667 96
+f 52/315/3 839/291/3 50/316/3
+
+f 50/316/4 839/291/4 52/315/4
+
+vt -15.6667 89.3333
+f 50/316/3 839/291/3 51/317/3
+
+f 51/317/4 839/291/4 50/316/4
+
+f 845/309/3 51/317/3 839/291/3
+
+vt -11.2778 89.3333
+f 845/309/3 49/318/3 51/317/3
+
+vt -10.2778 89.3333
+f 845/309/3 47/319/3 49/318/3
+
+f 845/309/3 45/311/3 47/319/3
+
+f 47/319/4 45/311/4 845/309/4
+
+f 49/318/4 47/319/4 845/309/4
+
+f 49/318/3 47/319/3 52/315/3
+
+f 52/315/4 47/319/4 49/318/4
+
+f 46/314/3 52/315/3 47/319/3
+
+f 47/319/4 52/315/4 46/314/4
+
+f 51/317/4 49/318/4 845/309/4
+
+f 839/291/4 51/317/4 845/309/4
+
+usemtl Stair_Beige_Texture
+v 30.48 40.256 -15.24
+vt -1200 1584.88
+vt 0 1584.88
+f 839/303/9 846/320/9 845/321/9
+
+f 846/320/9 839/303/9 840/302/9
+
+usemtl Brick_Tumbled
+vt 0 88.049
+vt -33.3333 88.049
+f 845/322/10 846/323/10 839/304/10
+
+usemtl Tile_Border_Travertine
+f 846/118/15 843/117/15 845/84/15
+
+v 30.48 40.256 3.60956e-16
+f 843/117/15 846/118/15 847/119/15
+
+f 845/84/16 843/117/16 846/118/16
+
+usemtl Brick_Tumbled
+v 2.00371e-31 39.624 -0.9144
+vt -1 86.6667
+f 848/324/3 843/307/3 845/309/3
+
+v 0 35.986 7.21911e-16
+vt 7.89492e-16 78.7095
+f 843/307/3 848/324/3 849/325/3
+
+f 849/325/4 848/324/4 843/307/4
+
+v 0 36.576 -0.9144
+vt -1 80
+f 850/326/3 849/325/3 848/324/3
+
+v 0 35.986 -15.24
+vt -16.6667 78.7095
+f 849/325/3 850/326/3 851/327/3
+
+f 851/327/4 850/326/4 849/325/4
+
+vt -5.38889 80
+f 851/327/3 850/326/3 43/328/3
+
+f 43/328/4 850/326/4 851/327/4
+
+vt -6.38889 80
+f 851/327/3 43/328/3 33/329/3
+
+f 33/329/4 43/328/4 851/327/4
+
+vt -6.38889 86.6667
+f 33/329/3 43/328/3 36/330/3
+
+f 36/330/4 43/328/4 33/329/4
+
+vt -5.38889 86.6667
+f 42/331/3 36/330/3 43/328/3
+
+f 42/331/3 845/309/3 36/330/3
+
+f 848/324/3 845/309/3 42/331/3
+
+f 845/309/4 843/307/4 848/324/4
+
+f 42/331/4 845/309/4 848/324/4
+
+f 36/330/4 845/309/4 42/331/4
+
+vt -10.2778 86.6667
+f 36/330/3 845/309/3 34/332/3
+
+f 34/332/4 845/309/4 36/330/4
+
+vt -11.2778 86.6667
+f 34/332/3 845/309/3 40/333/3
+
+f 40/333/4 845/309/4 34/332/4
+
+vt -15.6667 86.6667
+f 40/333/3 845/309/3 38/334/3
+
+f 38/334/4 845/309/4 40/333/4
+
+vt -15.6667 80
+f 38/334/3 845/309/3 39/335/3
+
+f 39/335/4 845/309/4 38/334/4
+
+f 851/327/3 39/335/3 845/309/3
+
+vt -11.2778 80
+f 851/327/3 37/336/3 39/335/3
+
+vt -10.2778 80
+f 851/327/3 35/337/3 37/336/3
+
+f 851/327/3 33/329/3 35/337/3
+
+f 35/337/4 33/329/4 851/327/4
+
+f 37/336/4 35/337/4 851/327/4
+
+f 37/336/3 35/337/3 40/333/3
+
+f 40/333/4 35/337/4 37/336/4
+
+f 34/332/3 40/333/3 35/337/3
+
+f 35/337/4 40/333/4 34/332/4
+
+f 39/335/4 37/336/4 851/327/4
+
+f 845/309/4 39/335/4 851/327/4
+
+usemtl Stair_Beige_Texture
+v 30.48 35.986 -15.24
+vt -1200 1416.77
+vt 0 1416.77
+f 845/321/9 852/338/9 851/339/9
+
+f 852/338/9 845/321/9 846/320/9
+
+usemtl Brick_Tumbled
+vt 0 78.7095
+vt -33.3333 78.7095
+f 851/340/10 852/341/10 845/322/10
+
+usemtl Tile_Border_Travertine
+f 852/118/15 849/117/15 851/84/15
+
+v 30.48 35.986 3.60956e-16
+f 849/117/15 852/118/15 853/119/15
+
+f 851/84/16 849/117/16 852/118/16
+
+usemtl Brick_Tumbled
+v 2.00371e-31 35.3568 -0.9144
+vt -1 77.3333
+f 854/342/3 849/325/3 851/327/3
+
+v 0 31.716 7.21911e-16
+vt 7.89492e-16 69.3701
+f 849/325/3 854/342/3 855/343/3
+
+f 855/343/4 854/342/4 849/325/4
+
+v 0 32.3088 -0.9144
+vt -1 70.6667
+f 856/344/3 855/343/3 854/342/3
+
+v 0 31.716 -15.24
+vt -16.6667 69.3701
+f 855/343/3 856/344/3 857/345/3
+
+f 857/345/4 856/344/4 855/343/4
+
+vt -5.38889 70.6667
+f 857/345/3 856/344/3 31/346/3
+
+f 31/346/4 856/344/4 857/345/4
+
+vt -6.38889 70.6667
+f 857/345/3 31/346/3 21/347/3
+
+f 21/347/4 31/346/4 857/345/4
+
+vt -6.38889 77.3333
+f 21/347/3 31/346/3 24/348/3
+
+f 24/348/4 31/346/4 21/347/4
+
+vt -5.38889 77.3333
+f 30/349/3 24/348/3 31/346/3
+
+f 30/349/3 851/327/3 24/348/3
+
+f 854/342/3 851/327/3 30/349/3
+
+f 851/327/4 849/325/4 854/342/4
+
+f 30/349/4 851/327/4 854/342/4
+
+f 24/348/4 851/327/4 30/349/4
+
+vt -10.2778 77.3333
+f 24/348/3 851/327/3 22/350/3
+
+f 22/350/4 851/327/4 24/348/4
+
+vt -11.2778 77.3333
+f 22/350/3 851/327/3 28/351/3
+
+f 28/351/4 851/327/4 22/350/4
+
+vt -15.6667 77.3333
+f 28/351/3 851/327/3 26/352/3
+
+f 26/352/4 851/327/4 28/351/4
+
+vt -15.6667 70.6667
+f 26/352/3 851/327/3 27/353/3
+
+f 27/353/4 851/327/4 26/352/4
+
+f 857/345/3 27/353/3 851/327/3
+
+vt -11.2778 70.6667
+f 857/345/3 25/354/3 27/353/3
+
+vt -10.2778 70.6667
+f 857/345/3 23/355/3 25/354/3
+
+f 857/345/3 21/347/3 23/355/3
+
+f 23/355/4 21/347/4 857/345/4
+
+f 25/354/4 23/355/4 857/345/4
+
+f 25/354/3 23/355/3 28/351/3
+
+f 28/351/4 23/355/4 25/354/4
+
+f 22/350/3 28/351/3 23/355/3
+
+f 23/355/4 28/351/4 22/350/4
+
+f 27/353/4 25/354/4 857/345/4
+
+f 851/327/4 27/353/4 857/345/4
+
+usemtl Stair_Beige_Texture
+v 30.48 31.716 -15.24
+vt -1200 1248.66
+vt 0 1248.66
+f 851/339/9 858/356/9 857/357/9
+
+f 858/356/9 851/339/9 852/338/9
+
+usemtl Brick_Tumbled
+vt 0 69.3701
+vt -33.3333 69.3701
+f 857/358/10 858/359/10 851/340/10
+
+usemtl Stair_Beige_Texture
+v 30.48 27.446 -15.24
+vt -1200 1080.55
+f 859/360/9 857/357/9 858/356/9
+
+v 0 27.446 -15.24
+vt 0 1080.55
+f 857/357/9 859/360/9 860/361/9
+
+usemtl Brick_Tumbled
+vt 0 60.0306
+vt -33.3333 60.0306
+f 860/362/10 859/363/10 857/358/10
+
+usemtl Stair_Beige_Texture
+v 30.48 23.176 -15.24
+vt -1200 912.441
+f 861/364/9 860/361/9 859/360/9
+
+v 0 23.176 -15.24
+vt 0 912.441
+f 860/361/9 861/364/9 862/365/9
+
+usemtl Brick_Tumbled
+vt 0 50.6912
+vt -33.3333 50.6912
+f 862/366/10 861/367/10 860/362/10
+
+usemtl Stair_Beige_Texture
+v 30.48 18.906 -15.24
+vt -1200 744.331
+f 863/368/9 862/365/9 861/364/9
+
+v 0 18.906 -15.24
+vt 0 744.331
+f 862/365/9 863/368/9 864/369/9
+
+usemtl Brick_Tumbled
+vt 0 41.3517
+vt -33.3333 41.3517
+f 864/370/10 863/371/10 862/366/10
+
+usemtl Stair_Beige_Texture
+v 30.48 14.636 -15.24
+vt -1200 576.22
+f 865/372/9 864/369/9 863/368/9
+
+v 0 14.636 -15.24
+vt 0 576.22
+f 864/369/9 865/372/9 866/373/9
+
+usemtl Brick_Tumbled
+vt 0 32.0122
+vt -33.3333 32.0122
+f 866/374/10 865/375/10 864/370/10
+
+usemtl Stair_Beige_Texture
+v 30.48 10.366 -15.24
+vt -1200 408.11
+f 867/376/9 866/373/9 865/372/9
+
+v 0 10.366 -15.24
+vt 0 408.11
+f 866/373/9 867/376/9 868/377/9
+
+usemtl Brick_Tumbled
+vt 0 22.6728
+vt -33.3333 22.6728
+f 868/378/10 867/379/10 866/374/10
+
+usemtl Stair_Beige_Texture
+v 30.48 6.096 -15.24
+vt -1200 240
+f 869/380/9 868/377/9 867/376/9
+
+v 0 6.096 -15.24
+vt 0 240
+f 868/377/9 869/380/9 870/381/9
+
+usemtl Brick_Tumbled
+vt 0 13.3333
+vt -33.3333 13.3333
+f 870/382/10 869/383/10 868/378/10
+
+usemtl Stair_Beige_Texture
+v 30.48 0 -15.24
+vt -1200 0
+f 871/384/9 870/381/9 869/380/9
+
+v 23.3782 0 -15.24
+vt -920.4 0
+f 872/385/9 870/381/9 871/384/9
+
+v 7.10184 0 -15.24
+vt -279.6 0
+f 873/386/9 870/381/9 872/385/9
+
+v 0 0 -15.24
+f 870/381/9 873/386/9 874/3/9
+
+usemtl Brick_Tumbled
+vt -7.76667 0
+f 874/3/10 873/387/10 870/382/10
+
+usemtl Stair_Beige_Texture
+vt -279.6 600
+v 0 0 -0
+f 873/388/15 875/3/15 874/82/15
+
+v 0.9144 0 -0
+vt -36 0
+f 875/3/15 873/388/15 876/389/15
+
+usemtl Brick_Tumbled
+vt -7.76667 33.3333
+f 874/84/16 875/3/16 873/390/16
+
+vt -16.6667 13.3333
+vt -16.6667 0
+f 875/3/3 870/391/3 874/392/3
+
+v 0 6.096 3.60956e-16
+vt 3.94746e-16 13.3333
+f 870/391/3 875/3/3 877/393/3
+
+f 877/393/4 875/3/4 870/391/4
+
+vn 3.13954e-18 -1.67427e-17 1
+vt 1 1.33333
+vt -1.23932e-33 13.3333
+f 875/3/17 695/394/17 877/395/17
+
+vt 6.76667 1.33333
+f 695/394/17 875/3/17 693/396/17
+
+vn -3.13954e-18 1.67427e-17 -1
+f 877/395/18 695/394/18 875/3/18
+
+v 0.9144 5.4864 -1.3302e-15
+vt 1 12
+f 877/395/17 695/394/17 878/397/17
+
+f 878/397/18 695/394/18 877/395/18
+
+v 30.48 6.096 -0
+vt 33.3333 13.3333
+f 877/395/17 878/397/17 879/398/17
+
+f 879/398/18 878/397/18 877/395/18
+
+v 6.18744 5.4864 -1.3302e-15
+vt 6.76667 12
+f 880/399/17 879/398/17 878/397/17
+
+v 24.2926 5.4864 -1.3302e-15
+vt 26.5667 12
+f 881/400/17 879/398/17 880/399/17
+
+v 29.5656 5.4864 -1.3302e-15
+vt 32.3333 12
+f 882/401/17 879/398/17 881/400/17
+
+vt 32.3333 1.33333
+f 697/402/17 879/398/17 882/401/17
+
+v 29.5656 0 -0
+vt 32.3333 3.39916e-33
+f 883/403/17 879/398/17 697/402/17
+
+v 30.48 0 -0
+vt 33.3333 3.50429e-33
+f 879/398/17 883/403/17 884/404/17
+
+f 884/404/18 883/403/18 879/398/18
+
+usemtl Stair_Beige_Texture
+vt -1164 0
+vt -1200 600
+f 883/405/15 871/406/15 884/384/15
+
+v 23.8354 0 -0
+vt -938.4 0
+f 885/407/15 871/406/15 883/405/15
+
+v 23.3782 0 -0
+f 886/385/15 871/406/15 885/407/15
+
+v 23.3782 0 -2.4384
+vt -920.4 96
+f 887/408/15 871/406/15 886/385/15
+
+vt -920.4 600
+f 871/406/15 887/408/15 872/409/15
+
+usemtl Brick_Tumbled
+vt -25.5667 33.3333
+vt -25.5667 5.33333
+vt -33.3333 33.3333
+f 872/410/16 887/411/16 871/412/16
+
+usemtl Stair_Beige_Texture
+v 7.10184 0 -2.4384
+vt -279.6 96
+f 888/413/15 872/409/15 887/408/15
+
+f 872/409/15 888/413/15 873/388/15
+
+usemtl Brick_Tumbled
+vt -7.76667 5.33333
+f 873/390/16 888/414/16 872/410/16
+
+usemtl Stair_Beige_Texture
+v 7.10184 0 -0
+f 889/386/15 873/388/15 888/413/15
+
+v 6.64464 0 -0
+vt -261.6 0
+f 890/415/15 873/388/15 889/386/15
+
+f 876/389/15 873/388/15 890/415/15
+
+usemtl Brick_Tumbled
+vt -1 0
+f 876/416/16 873/390/16 875/3/16
+
+vt -7.26667 0
+f 890/417/16 873/390/16 876/416/16
+
+f 889/387/16 873/390/16 890/417/16
+
+f 888/414/16 873/390/16 889/387/16
+
+usemtl Cinder_Block
+vt 1.87569 0
+v 7.10184 5.4864 -0
+vt 0 9.49569
+f 888/418/5 891/419/5 889/3/5
+
+v 7.10184 5.4864 -2.4384
+vt 1.87569 9.49569
+f 891/419/5 888/418/5 892/420/5
+
+usemtl Brick_Tumbled
+vt 0 12
+vt 2.66667 0
+f 889/3/6 891/421/6 888/422/6
+
+vt 7.76667 12
+vt 7.26667 7.63935e-34
+vt 7.76667 8.16499e-34
+f 891/423/17 890/424/17 889/425/17
+
+f 890/424/17 891/423/17 693/396/17
+
+f 889/425/18 890/424/18 891/423/18
+
+f 693/396/18 891/423/18 890/424/18
+
+f 693/396/17 891/423/17 880/399/17
+
+f 880/399/18 891/423/18 693/396/18
+
+f 880/399/17 891/423/17 881/400/17
+
+f 881/400/18 891/423/18 880/399/18
+
+v 23.3782 5.4864 -0
+vt 25.5667 12
+f 893/426/17 881/400/17 891/423/17
+
+vt 26.5667 1.33333
+f 893/426/17 699/427/17 881/400/17
+
+vt 25.5667 2.68779e-33
+f 886/428/17 699/427/17 893/426/17
+
+f 699/427/17 886/428/17 697/402/17
+
+f 893/426/18 699/427/18 886/428/18
+
+f 881/400/18 699/427/18 893/426/18
+
+f 891/423/18 881/400/18 893/426/18
+
+usemtl Cinder_Block
+vt -5.46295 0
+v 23.3782 5.4864 -2.4384
+vt -17.9832 4.22031
+vt -17.9832 0
+f 891/429/15 894/430/15 893/431/15
+
+vt -5.46295 4.22031
+f 894/430/15 891/429/15 892/432/15
+
+usemtl Brick_Tumbled
+f 892/414/16 891/387/16 894/411/16
+
+vt 2.66667 12
+f 892/433/6 888/422/6 891/421/6
+
+usemtl Rough_Square_Concrete_Block
+vt 7.76667 0
+vt 9.4 2.33333
+vt 7.76667 6
+f 888/434/1 708/435/1 892/436/1
+
+vt 9.4 0
+f 708/435/1 888/434/1 709/437/1
+
+f 709/437/2 888/434/2 708/435/2
+
+f 892/436/2 708/435/2 888/434/2
+
+vt 25.5667 6
+f 892/436/1 708/435/1 894/438/1
+
+f 894/438/2 708/435/2 892/436/2
+
+vt 10.4 2.33333
+f 710/439/1 894/438/1 708/435/1
+
+vt 11.4 2.33333
+f 712/440/1 894/438/1 710/439/1
+
+vt 15.6667 2.33333
+f 702/441/1 894/438/1 712/440/1
+
+vt 16.6667 2.33333
+f 704/442/1 894/438/1 702/441/1
+
+vt 17.6667 2.33333
+f 706/443/1 894/438/1 704/442/1
+
+vt 21.9333 2.33333
+f 714/444/1 894/438/1 706/443/1
+
+vt 22.9333 2.33333
+f 716/445/1 894/438/1 714/444/1
+
+vt 23.9333 2.33333
+f 718/446/1 894/438/1 716/445/1
+
+vt 23.9333 0
+f 717/447/1 894/438/1 718/446/1
+
+vt 25.5667 0
+f 894/438/1 717/447/1 887/448/1
+
+f 887/448/2 717/447/2 894/438/2
+
+f 718/446/2 894/438/2 717/447/2
+
+f 716/445/2 894/438/2 718/446/2
+
+f 714/444/2 894/438/2 716/445/2
+
+f 706/443/2 894/438/2 714/444/2
+
+f 704/442/2 894/438/2 706/443/2
+
+f 702/441/2 894/438/2 704/442/2
+
+f 712/440/2 894/438/2 702/441/2
+
+f 710/439/2 894/438/2 712/440/2
+
+f 708/435/2 894/438/2 710/439/2
+
+vt 11.4 0
+f 711/449/1 702/441/1 712/440/1
+
+vt 15.6667 0
+f 702/441/1 711/449/1 703/450/1
+
+f 703/450/2 711/449/2 702/441/2
+
+f 712/440/2 702/441/2 711/449/2
+
+vt 17.6667 0
+f 705/451/1 714/444/1 706/443/1
+
+vt 21.9333 0
+f 714/444/1 705/451/1 715/452/1
+
+f 715/452/2 705/451/2 714/444/2
+
+f 706/443/2 714/444/2 705/451/2
+
+usemtl Cinder_Block
+vt 0 -2.12964e-14
+vn -1 -5.26328e-16 -0
+vt -1.87569 9.49569
+vt -1.87569 -2.12964e-14
+f 886/453/19 894/454/19 887/455/19
+
+f 894/454/19 886/453/19 893/419/19
+
+usemtl Brick_Tumbled
+vn 1 5.26328e-16 0
+vt 0 -2.69129e-14
+vt -2.66667 12
+f 893/421/20 886/456/20 894/457/20
+
+vt -2.66667 -2.69129e-14
+f 887/458/20 894/457/20 886/456/20
+
+vt -25.5667 0
+f 886/459/16 871/412/16 887/411/16
+
+vt -26.0667 0
+f 885/460/16 871/412/16 886/459/16
+
+vt -32.3333 0
+f 883/461/16 871/412/16 885/460/16
+
+vt -33.3333 0
+f 884/462/16 871/412/16 883/461/16
+
+usemtl Stair_Beige_Texture
+v 30.48 0 -14.3256
+vt -1200 564
+f 884/384/15 871/406/15 895/463/15
+
+usemtl Brick_Tumbled
+vt -33.3333 31.3333
+f 895/464/16 871/412/16 884/462/16
+
+vt 16.6667 13.3333
+vt 16.6667 0
+f 869/465/5 895/450/5 871/466/5
+
+v 30.48 0 -9.8552
+vt 10.7778 0
+f 869/465/5 896/467/5 895/450/5
+
+v 30.48 0 -5.3848
+vt 5.88889 0
+f 869/465/5 897/468/5 896/467/5
+
+v 30.48 0 -0.9144
+vt 1 0
+f 869/465/5 898/469/5 897/468/5
+
+f 879/382/5 898/469/5 869/465/5
+
+f 898/469/5 879/382/5 884/3/5
+
+f 884/3/6 879/382/6 898/469/6
+
+f 869/465/6 898/469/6 879/382/6
+
+f 897/468/6 898/469/6 869/465/6
+
+usemtl Stair_Beige_Texture
+vt -1200 212
+vt -1200 36
+f 884/384/15 897/470/15 898/471/15
+
+vt -1200 388
+f 884/384/15 896/472/15 897/470/15
+
+f 884/384/15 895/463/15 896/472/15
+
+usemtl Brick_Tumbled
+vt -33.3333 21.5556
+f 896/473/16 895/464/16 884/462/16
+
+f 895/450/6 896/467/6 869/465/6
+
+f 896/467/6 897/468/6 869/465/6
+
+vt -33.3333 11.7778
+f 897/474/16 896/473/16 884/462/16
+
+vt -33.3333 2
+f 898/475/16 897/474/16 884/462/16
+
+f 871/466/6 895/450/6 869/465/6
+
+f 869/383/10 870/382/10 871/462/10
+
+usemtl Tile_Border_Travertine
+vt 0 -7.89492e-16
+f 869/118/15 877/476/15 870/84/15
+
+vt -46.1538 0
+f 877/476/15 869/118/15 879/477/15
+
+f 870/84/16 877/476/16 869/118/16
+
+usemtl Brick_Tumbled
+vt -16.6667 22.6728
+f 877/393/3 868/478/3 870/391/3
+
+v 0 10.366 3.60956e-16
+vt 3.94746e-16 22.6728
+f 868/478/3 877/393/3 899/479/3
+
+f 899/479/4 877/393/4 868/478/4
+
+vt -4.67473e-33 13.3333
+vn 1.18424e-17 0 1
+vt 1 14.6667
+vt -4.67473e-33 22.6728
+f 877/480/21 7/481/21 899/482/21
+
+vt 32.3333 14.6667
+f 7/481/21 877/480/21 1/483/21
+
+vn -1.18424e-17 -0 -1
+f 899/482/22 7/481/22 877/480/22
+
+vt 1 21.3333
+f 899/482/21 7/481/21 6/484/21
+
+f 6/484/22 7/481/22 899/482/22
+
+v 30.48 10.366 -0
+vt 33.3333 22.6728
+f 899/482/21 6/484/21 900/485/21
+
+f 900/485/22 6/484/22 899/482/22
+
+vt 6.76667 21.3333
+f 8/486/21 900/485/21 6/484/21
+
+vt 7.76667 21.3333
+f 10/487/21 900/485/21 8/486/21
+
+vt 13.0333 21.3333
+f 12/488/21 900/485/21 10/487/21
+
+v 12.8321 9.7536 1.20222e-31
+vt 14.0333 21.3333
+f 901/489/21 900/485/21 12/488/21
+
+v 17.6479 9.7536 1.20222e-31
+vt 19.3 21.3333
+f 902/490/21 900/485/21 901/489/21
+
+vt 20.3 21.3333
+f 14/491/21 900/485/21 902/490/21
+
+vt 25.5667 21.3333
+f 16/492/21 900/485/21 14/491/21
+
+vt 26.5667 21.3333
+f 2/493/21 900/485/21 16/492/21
+
+vt 32.3333 21.3333
+f 4/494/21 900/485/21 2/493/21
+
+f 1/483/21 900/485/21 4/494/21
+
+f 1/483/21 879/398/21 900/485/21
+
+f 879/398/21 1/483/21 877/480/21
+
+f 877/480/22 1/483/22 879/398/22
+
+f 1/483/22 877/480/22 7/481/22
+
+vt 26.5667 14.6667
+f 7/481/21 1/483/21 3/495/21
+
+f 3/495/22 1/483/22 7/481/22
+
+vt 25.5667 14.6667
+f 7/481/21 3/495/21 13/496/21
+
+f 13/496/22 3/495/22 7/481/22
+
+f 2/493/21 13/496/21 3/495/21
+
+f 13/496/21 2/493/21 16/492/21
+
+f 3/495/22 13/496/22 2/493/22
+
+f 16/492/22 2/493/22 13/496/22
+
+f 16/492/22 900/485/22 2/493/22
+
+f 14/491/22 900/485/22 16/492/22
+
+f 902/490/22 900/485/22 14/491/22
+
+f 901/489/22 900/485/22 902/490/22
+
+f 12/488/22 900/485/22 901/489/22
+
+f 10/487/22 900/485/22 12/488/22
+
+f 8/486/22 900/485/22 10/487/22
+
+f 6/484/22 900/485/22 8/486/22
+
+vt 6.76667 14.6667
+f 5/497/21 10/487/21 8/486/21
+
+vt 7.76667 14.6667
+f 10/487/21 5/497/21 11/498/21
+
+f 11/498/22 5/497/22 10/487/22
+
+f 7/481/21 11/498/21 5/497/21
+
+vt 13.0333 14.6667
+f 7/481/21 9/499/21 11/498/21
+
+vt 14.0333 14.6667
+f 7/481/21 19/500/21 9/499/21
+
+vt 19.3 14.6667
+f 7/481/21 17/501/21 19/500/21
+
+vt 20.3 14.6667
+f 7/481/21 15/502/21 17/501/21
+
+f 7/481/21 13/496/21 15/502/21
+
+f 15/502/22 13/496/22 7/481/22
+
+f 17/501/22 15/502/22 7/481/22
+
+f 14/491/21 17/501/21 15/502/21
+
+f 17/501/21 14/491/21 902/490/21
+
+f 15/502/22 17/501/22 14/491/22
+
+f 902/490/22 14/491/22 17/501/22
+
+f 19/500/22 17/501/22 7/481/22
+
+f 9/499/22 19/500/22 7/481/22
+
+f 901/489/21 9/499/21 19/500/21
+
+f 9/499/21 901/489/21 12/488/21
+
+f 19/500/22 9/499/22 901/489/22
+
+f 12/488/22 901/489/22 9/499/22
+
+f 11/498/22 9/499/22 7/481/22
+
+f 5/497/22 11/498/22 7/481/22
+
+f 8/486/22 10/487/22 5/497/22
+
+f 2/493/22 900/485/22 4/494/22
+
+f 4/494/22 900/485/22 1/483/22
+
+f 900/485/22 879/398/22 1/483/22
+
+f 869/465/5 900/378/5 879/382/5
+
+vt 16.6667 22.6728
+f 900/378/5 869/465/5 867/503/5
+
+f 879/382/6 900/378/6 869/465/6
+
+f 867/503/6 869/465/6 900/378/6
+
+f 867/379/10 868/378/10 869/383/10
+
+usemtl Tile_Border_Travertine
+f 867/118/15 899/476/15 868/84/15
+
+f 899/476/15 867/118/15 900/477/15
+
+f 868/84/16 899/476/16 867/118/16
+
+usemtl Brick_Tumbled
+vt -16.6667 32.0122
+f 899/479/3 866/504/3 868/478/3
+
+v 0 14.636 3.60956e-16
+vt 3.94746e-16 32.0122
+f 866/504/3 899/479/3 903/505/3
+
+f 903/505/4 899/479/4 866/504/4
+
+vt 1 24
+vt -4.67473e-33 32.0122
+f 899/482/21 179/506/21 903/507/21
+
+vt 32.3333 24
+f 179/506/21 899/482/21 189/508/21
+
+f 903/507/22 179/506/22 899/482/22
+
+vt 1 30.6667
+f 903/507/21 179/506/21 178/509/21
+
+f 178/509/22 179/506/22 903/507/22
+
+v 30.48 14.636 -0
+vt 33.3333 32.0122
+f 903/507/21 178/509/21 904/510/21
+
+f 904/510/22 178/509/22 903/507/22
+
+vt 6.76667 30.6667
+f 180/511/21 904/510/21 178/509/21
+
+vt 7.76667 30.6667
+f 194/512/21 904/510/21 180/511/21
+
+v 11.9177 14.0208 -2.00371e-31
+vt 13.0333 30.6667
+f 905/513/21 904/510/21 194/512/21
+
+v 12.8321 14.0208 1.20222e-31
+vt 14.0333 30.6667
+f 906/514/21 904/510/21 905/513/21
+
+v 17.6479 14.0208 1.20222e-31
+vt 19.3 30.6667
+f 907/515/21 904/510/21 906/514/21
+
+vt 20.3 30.6667
+f 186/516/21 904/510/21 907/515/21
+
+vt 25.5667 30.6667
+f 188/517/21 904/510/21 186/516/21
+
+vt 26.5667 30.6667
+f 190/518/21 904/510/21 188/517/21
+
+vt 32.3333 30.6667
+f 192/519/21 904/510/21 190/518/21
+
+f 189/508/21 904/510/21 192/519/21
+
+f 189/508/21 900/485/21 904/510/21
+
+f 900/485/21 189/508/21 899/482/21
+
+f 899/482/22 189/508/22 900/485/22
+
+f 189/508/22 899/482/22 179/506/22
+
+vt 26.5667 24
+f 179/506/21 189/508/21 191/520/21
+
+f 191/520/22 189/508/22 179/506/22
+
+vt 25.5667 24
+f 179/506/21 191/520/21 185/521/21
+
+f 185/521/22 191/520/22 179/506/22
+
+f 190/518/21 185/521/21 191/520/21
+
+f 185/521/21 190/518/21 188/517/21
+
+f 191/520/22 185/521/22 190/518/22
+
+f 188/517/22 190/518/22 185/521/22
+
+f 188/517/22 904/510/22 190/518/22
+
+f 186/516/22 904/510/22 188/517/22
+
+f 907/515/22 904/510/22 186/516/22
+
+f 906/514/22 904/510/22 907/515/22
+
+f 905/513/22 904/510/22 906/514/22
+
+f 194/512/22 904/510/22 905/513/22
+
+f 180/511/22 904/510/22 194/512/22
+
+f 178/509/22 904/510/22 180/511/22
+
+vt 6.76667 24
+f 177/522/21 194/512/21 180/511/21
+
+vt 7.76667 24
+f 194/512/21 177/522/21 195/523/21
+
+f 195/523/22 177/522/22 194/512/22
+
+f 179/506/21 195/523/21 177/522/21
+
+v 11.9177 10.9728 -0
+vt 13.0333 24
+f 179/506/21 908/524/21 195/523/21
+
+vt 14.0333 24
+f 179/506/21 183/525/21 908/524/21
+
+vt 19.3 24
+f 179/506/21 181/526/21 183/525/21
+
+vt 20.3 24
+f 179/506/21 187/527/21 181/526/21
+
+f 179/506/21 185/521/21 187/527/21
+
+f 187/527/22 185/521/22 179/506/22
+
+f 181/526/22 187/527/22 179/506/22
+
+f 186/516/21 181/526/21 187/527/21
+
+f 181/526/21 186/516/21 907/515/21
+
+f 187/527/22 181/526/22 186/516/22
+
+f 907/515/22 186/516/22 181/526/22
+
+f 183/525/22 181/526/22 179/506/22
+
+f 908/524/22 183/525/22 179/506/22
+
+f 906/514/21 908/524/21 183/525/21
+
+f 908/524/21 906/514/21 905/513/21
+
+f 183/525/22 908/524/22 906/514/22
+
+f 905/513/22 906/514/22 908/524/22
+
+f 195/523/22 908/524/22 179/506/22
+
+f 177/522/22 195/523/22 179/506/22
+
+f 180/511/22 194/512/22 177/522/22
+
+f 190/518/22 904/510/22 192/519/22
+
+f 192/519/22 904/510/22 189/508/22
+
+f 904/510/22 900/485/22 189/508/22
+
+f 867/503/5 904/374/5 900/378/5
+
+vt 16.6667 32.0122
+f 904/374/5 867/503/5 865/528/5
+
+f 900/378/6 904/374/6 867/503/6
+
+f 865/528/6 867/503/6 904/374/6
+
+f 865/375/10 866/374/10 867/379/10
+
+usemtl Tile_Border_Travertine
+f 865/118/15 903/476/15 866/84/15
+
+f 903/476/15 865/118/15 904/477/15
+
+f 866/84/16 903/476/16 865/118/16
+
+usemtl Brick_Tumbled
+vt -16.6667 41.3517
+f 903/505/3 864/529/3 866/504/3
+
+v 0 18.906 3.60956e-16
+vt 3.94746e-16 41.3517
+f 864/529/3 903/505/3 909/530/3
+
+f 909/530/4 903/505/4 864/529/4
+
+vt 1 33.3333
+vt -4.67473e-33 41.3517
+f 903/507/21 199/531/21 909/532/21
+
+vt 32.3333 33.3333
+f 199/531/21 903/507/21 209/533/21
+
+f 909/532/22 199/531/22 903/507/22
+
+vt 1 40
+f 909/532/21 199/531/21 198/534/21
+
+f 198/534/22 199/531/22 909/532/22
+
+v 30.48 18.906 -0
+vt 33.3333 41.3517
+f 909/532/21 198/534/21 910/535/21
+
+f 910/535/22 198/534/22 909/532/22
+
+vt 6.76667 40
+f 200/536/21 910/535/21 198/534/21
+
+vt 7.76667 40
+f 214/537/21 910/535/21 200/536/21
+
+v 11.9177 18.288 -2.00371e-31
+vt 13.0333 40
+f 911/538/21 910/535/21 214/537/21
+
+v 12.8321 18.288 1.20222e-31
+vt 14.0333 40
+f 912/539/21 910/535/21 911/538/21
+
+v 17.6479 18.288 1.20222e-31
+vt 19.3 40
+f 913/540/21 910/535/21 912/539/21
+
+vt 20.3 40
+f 206/541/21 910/535/21 913/540/21
+
+vt 25.5667 40
+f 208/542/21 910/535/21 206/541/21
+
+vt 26.5667 40
+f 210/543/21 910/535/21 208/542/21
+
+vt 32.3333 40
+f 212/544/21 910/535/21 210/543/21
+
+f 209/533/21 910/535/21 212/544/21
+
+f 209/533/21 904/510/21 910/535/21
+
+f 904/510/21 209/533/21 903/507/21
+
+f 903/507/22 209/533/22 904/510/22
+
+f 209/533/22 903/507/22 199/531/22
+
+vt 26.5667 33.3333
+f 199/531/21 209/533/21 211/545/21
+
+f 211/545/22 209/533/22 199/531/22
+
+vt 25.5667 33.3333
+f 199/531/21 211/545/21 205/546/21
+
+f 205/546/22 211/545/22 199/531/22
+
+f 210/543/21 205/546/21 211/545/21
+
+f 205/546/21 210/543/21 208/542/21
+
+f 211/545/22 205/546/22 210/543/22
+
+f 208/542/22 210/543/22 205/546/22
+
+f 208/542/22 910/535/22 210/543/22
+
+f 206/541/22 910/535/22 208/542/22
+
+f 913/540/22 910/535/22 206/541/22
+
+f 912/539/22 910/535/22 913/540/22
+
+f 911/538/22 910/535/22 912/539/22
+
+f 214/537/22 910/535/22 911/538/22
+
+f 200/536/22 910/535/22 214/537/22
+
+f 198/534/22 910/535/22 200/536/22
+
+vt 6.76667 33.3333
+f 197/547/21 214/537/21 200/536/21
+
+vt 7.76667 33.3333
+f 214/537/21 197/547/21 215/548/21
+
+f 215/548/22 197/547/22 214/537/22
+
+f 199/531/21 215/548/21 197/547/21
+
+v 11.9177 15.24 -0
+vt 13.0333 33.3333
+f 199/531/21 914/549/21 215/548/21
+
+vt 14.0333 33.3333
+f 199/531/21 203/550/21 914/549/21
+
+vt 19.3 33.3333
+f 199/531/21 201/551/21 203/550/21
+
+vt 20.3 33.3333
+f 199/531/21 207/552/21 201/551/21
+
+f 199/531/21 205/546/21 207/552/21
+
+f 207/552/22 205/546/22 199/531/22
+
+f 201/551/22 207/552/22 199/531/22
+
+f 206/541/21 201/551/21 207/552/21
+
+f 201/551/21 206/541/21 913/540/21
+
+f 207/552/22 201/551/22 206/541/22
+
+f 913/540/22 206/541/22 201/551/22
+
+f 203/550/22 201/551/22 199/531/22
+
+f 914/549/22 203/550/22 199/531/22
+
+f 912/539/21 914/549/21 203/550/21
+
+f 914/549/21 912/539/21 911/538/21
+
+f 203/550/22 914/549/22 912/539/22
+
+f 911/538/22 912/539/22 914/549/22
+
+f 215/548/22 914/549/22 199/531/22
+
+f 197/547/22 215/548/22 199/531/22
+
+f 200/536/22 214/537/22 197/547/22
+
+f 210/543/22 910/535/22 212/544/22
+
+f 212/544/22 910/535/22 209/533/22
+
+f 910/535/22 904/510/22 209/533/22
+
+f 865/528/5 910/370/5 904/374/5
+
+vt 16.6667 41.3517
+f 910/370/5 865/528/5 863/553/5
+
+f 904/374/6 910/370/6 865/528/6
+
+f 863/553/6 865/528/6 910/370/6
+
+f 863/371/10 864/370/10 865/375/10
+
+usemtl Tile_Border_Travertine
+f 863/118/15 909/476/15 864/84/15
+
+f 909/476/15 863/118/15 910/477/15
+
+f 864/84/16 909/476/16 863/118/16
+
+usemtl Brick_Tumbled
+vt -16.6667 50.6912
+f 909/530/3 862/554/3 864/529/3
+
+v 0 23.176 7.21911e-16
+vt 7.89492e-16 50.6912
+f 862/554/3 909/530/3 915/555/3
+
+f 915/555/4 909/530/4 862/554/4
+
+vn 1.18424e-17 -8.4533e-17 1
+vt 1 42.6667
+vt -9.34946e-33 50.6912
+f 909/532/23 227/556/23 915/557/23
+
+vt 32.3333 42.6667
+f 227/556/23 909/532/23 217/558/23
+
+vn -1.18424e-17 8.4533e-17 -1
+f 915/557/24 227/556/24 909/532/24
+
+vt 1 49.3333
+f 915/557/23 227/556/23 226/559/23
+
+f 226/559/24 227/556/24 915/557/24
+
+v 30.48 23.176 3.60956e-16
+vt 33.3333 50.6912
+f 915/557/23 226/559/23 916/560/23
+
+f 916/560/24 226/559/24 915/557/24
+
+vt 6.76667 49.3333
+f 228/561/23 916/560/23 226/559/23
+
+vt 7.76667 49.3333
+f 222/562/23 916/560/23 228/561/23
+
+v 11.9177 22.5552 -2.00371e-31
+vt 13.0333 49.3333
+f 917/563/23 916/560/23 222/562/23
+
+v 12.8321 22.5552 1.20222e-31
+vt 14.0333 49.3333
+f 918/564/23 916/560/23 917/563/23
+
+v 17.6479 22.5552 1.20222e-31
+vt 19.3 49.3333
+f 919/565/23 916/560/23 918/564/23
+
+vt 20.3 49.3333
+f 234/566/23 916/560/23 919/565/23
+
+vt 25.5667 49.3333
+f 236/567/23 916/560/23 234/566/23
+
+vt 26.5667 49.3333
+f 218/568/23 916/560/23 236/567/23
+
+vt 32.3333 49.3333
+f 220/569/23 916/560/23 218/568/23
+
+f 217/558/23 916/560/23 220/569/23
+
+f 217/558/23 910/535/23 916/560/23
+
+f 910/535/23 217/558/23 909/532/23
+
+f 909/532/24 217/558/24 910/535/24
+
+f 217/558/24 909/532/24 227/556/24
+
+vt 26.5667 42.6667
+f 227/556/23 217/558/23 219/570/23
+
+f 219/570/24 217/558/24 227/556/24
+
+vt 25.5667 42.6667
+f 227/556/23 219/570/23 233/571/23
+
+f 233/571/24 219/570/24 227/556/24
+
+f 218/568/23 233/571/23 219/570/23
+
+f 233/571/23 218/568/23 236/567/23
+
+f 219/570/24 233/571/24 218/568/24
+
+f 236/567/24 218/568/24 233/571/24
+
+f 236/567/24 916/560/24 218/568/24
+
+f 234/566/24 916/560/24 236/567/24
+
+f 919/565/24 916/560/24 234/566/24
+
+f 918/564/24 916/560/24 919/565/24
+
+f 917/563/24 916/560/24 918/564/24
+
+f 222/562/24 916/560/24 917/563/24
+
+f 228/561/24 916/560/24 222/562/24
+
+f 226/559/24 916/560/24 228/561/24
+
+vt 6.76667 42.6667
+f 225/572/23 222/562/23 228/561/23
+
+vt 7.76667 42.6667
+f 222/562/23 225/572/23 223/573/23
+
+f 223/573/24 225/572/24 222/562/24
+
+f 227/556/23 223/573/23 225/572/23
+
+v 11.9177 19.5072 -0
+vt 13.0333 42.6667
+f 227/556/23 920/574/23 223/573/23
+
+vt 14.0333 42.6667
+f 227/556/23 231/575/23 920/574/23
+
+vt 19.3 42.6667
+f 227/556/23 229/576/23 231/575/23
+
+vt 20.3 42.6667
+f 227/556/23 235/577/23 229/576/23
+
+f 227/556/23 233/571/23 235/577/23
+
+f 235/577/24 233/571/24 227/556/24
+
+f 229/576/24 235/577/24 227/556/24
+
+f 234/566/23 229/576/23 235/577/23
+
+f 229/576/23 234/566/23 919/565/23
+
+f 235/577/24 229/576/24 234/566/24
+
+f 919/565/24 234/566/24 229/576/24
+
+f 231/575/24 229/576/24 227/556/24
+
+f 920/574/24 231/575/24 227/556/24
+
+f 918/564/23 920/574/23 231/575/23
+
+f 920/574/23 918/564/23 917/563/23
+
+f 231/575/24 920/574/24 918/564/24
+
+f 917/563/24 918/564/24 920/574/24
+
+f 223/573/24 920/574/24 227/556/24
+
+f 225/572/24 223/573/24 227/556/24
+
+f 228/561/24 222/562/24 225/572/24
+
+f 218/568/24 916/560/24 220/569/24
+
+f 220/569/24 916/560/24 217/558/24
+
+f 916/560/24 910/535/24 217/558/24
+
+vt 16.6667 50.6912
+vt -3.94746e-16 50.6912
+f 910/370/5 861/578/5 916/579/5
+
+f 861/578/5 910/370/5 863/553/5
+
+f 916/579/6 861/578/6 910/370/6
+
+v 30.48 27.446 3.60956e-16
+vt -3.94746e-16 60.0306
+f 861/578/5 921/580/5 916/579/5
+
+vt 16.6667 60.0306
+f 921/580/5 861/578/5 859/581/5
+
+f 916/579/6 921/580/6 861/578/6
+
+vt 32.3333 52
+vt 33.3333 60.0306
+f 245/582/21 916/560/21 921/583/21
+
+f 916/560/21 245/582/21 915/557/21
+
+f 915/557/22 245/582/22 916/560/22
+
+vt 1 52
+f 255/584/21 915/557/21 245/582/21
+
+v 0 27.446 7.21911e-16
+vt -9.34946e-33 60.0306
+f 915/557/21 255/584/21 922/585/21
+
+f 922/585/22 255/584/22 915/557/22
+
+vt 1 58.6667
+f 922/585/21 255/584/21 254/586/21
+
+f 254/586/22 255/584/22 922/585/22
+
+f 922/585/21 254/586/21 921/583/21
+
+f 921/583/22 254/586/22 922/585/22
+
+vt 6.76667 58.6667
+f 256/587/21 921/583/21 254/586/21
+
+vt 7.76667 58.6667
+f 250/588/21 921/583/21 256/587/21
+
+v 11.9177 26.8224 -2.00371e-31
+vt 13.0333 58.6667
+f 923/589/21 921/583/21 250/588/21
+
+v 12.8321 26.8224 1.20222e-31
+vt 14.0333 58.6667
+f 924/590/21 921/583/21 923/589/21
+
+v 17.6479 26.8224 1.20222e-31
+vt 19.3 58.6667
+f 925/591/21 921/583/21 924/590/21
+
+vt 20.3 58.6667
+f 242/592/21 921/583/21 925/591/21
+
+vt 25.5667 58.6667
+f 244/593/21 921/583/21 242/592/21
+
+vt 26.5667 58.6667
+f 246/594/21 921/583/21 244/593/21
+
+vt 32.3333 58.6667
+f 248/595/21 921/583/21 246/594/21
+
+f 245/582/21 921/583/21 248/595/21
+
+f 921/583/22 916/560/22 245/582/22
+
+f 248/595/22 921/583/22 245/582/22
+
+f 246/594/22 921/583/22 248/595/22
+
+f 244/593/22 921/583/22 246/594/22
+
+f 242/592/22 921/583/22 244/593/22
+
+f 925/591/22 921/583/22 242/592/22
+
+f 924/590/22 921/583/22 925/591/22
+
+f 923/589/22 921/583/22 924/590/22
+
+f 250/588/22 921/583/22 923/589/22
+
+f 256/587/22 921/583/22 250/588/22
+
+f 254/586/22 921/583/22 256/587/22
+
+vt 6.76667 52
+f 253/596/21 250/588/21 256/587/21
+
+vt 7.76667 52
+f 250/588/21 253/596/21 251/597/21
+
+f 251/597/22 253/596/22 250/588/22
+
+f 255/584/21 251/597/21 253/596/21
+
+v 11.9177 23.7744 -0
+vt 13.0333 52
+f 255/584/21 926/598/21 251/597/21
+
+vt 14.0333 52
+f 255/584/21 239/599/21 926/598/21
+
+vt 19.3 52
+f 255/584/21 237/600/21 239/599/21
+
+vt 20.3 52
+f 255/584/21 243/601/21 237/600/21
+
+vt 25.5667 52
+f 255/584/21 241/602/21 243/601/21
+
+vt 26.5667 52
+f 255/584/21 247/603/21 241/602/21
+
+f 255/584/21 245/582/21 247/603/21
+
+f 245/582/22 915/557/22 255/584/22
+
+f 247/603/22 245/582/22 255/584/22
+
+f 241/602/22 247/603/22 255/584/22
+
+f 246/594/21 241/602/21 247/603/21
+
+f 241/602/21 246/594/21 244/593/21
+
+f 247/603/22 241/602/22 246/594/22
+
+f 244/593/22 246/594/22 241/602/22
+
+f 243/601/22 241/602/22 255/584/22
+
+f 237/600/22 243/601/22 255/584/22
+
+f 242/592/21 237/600/21 243/601/21
+
+f 237/600/21 242/592/21 925/591/21
+
+f 243/601/22 237/600/22 242/592/22
+
+f 925/591/22 242/592/22 237/600/22
+
+f 239/599/22 237/600/22 255/584/22
+
+f 926/598/22 239/599/22 255/584/22
+
+f 924/590/21 926/598/21 239/599/21
+
+f 926/598/21 924/590/21 923/589/21
+
+f 239/599/22 926/598/22 924/590/22
+
+f 923/589/22 924/590/22 926/598/22
+
+f 251/597/22 926/598/22 255/584/22
+
+f 253/596/22 251/597/22 255/584/22
+
+f 256/587/22 250/588/22 253/596/22
+
+usemtl Tile_Border_Travertine
+f 922/117/15 859/118/15 921/119/15
+
+f 859/118/15 922/117/15 860/84/15
+
+f 860/84/16 922/117/16 859/118/16
+
+usemtl Brick_Tumbled
+vt -16.6667 60.0306
+vt 7.89492e-16 60.0306
+f 860/604/3 915/555/3 922/605/3
+
+f 915/555/3 860/604/3 862/554/3
+
+f 922/605/4 915/555/4 860/604/4
+
+f 862/554/4 860/604/4 915/555/4
+
+usemtl Tile_Border_Travertine
+f 861/118/15 915/117/15 862/84/15
+
+f 915/117/15 861/118/15 916/119/15
+
+f 862/84/16 915/117/16 861/118/16
+
+f 916/119/16 861/118/16 915/117/16
+
+usemtl Brick_Tumbled
+f 861/367/10 862/366/10 863/371/10
+
+f 863/553/6 910/370/6 861/578/6
+
+usemtl Tile_Border_Travertine
+f 910/477/16 863/118/16 909/476/16
+
+usemtl Brick_Tumbled
+f 922/605/3 857/345/3 860/604/3
+
+f 857/345/3 922/605/3 855/343/3
+
+f 855/343/4 922/605/4 857/345/4
+
+vt 1 61.3333
+vt -9.34946e-33 69.3701
+f 922/585/21 259/606/21 855/607/21
+
+vt 32.3333 61.3333
+f 259/606/21 922/585/21 269/608/21
+
+f 855/607/22 259/606/22 922/585/22
+
+vt 1 68
+f 855/607/21 259/606/21 258/609/21
+
+f 258/609/22 259/606/22 855/607/22
+
+v 30.48 31.716 3.60956e-16
+vt 33.3333 69.3701
+f 855/607/21 258/609/21 927/610/21
+
+f 927/610/22 258/609/22 855/607/22
+
+vt 6.76667 68
+f 260/611/21 927/610/21 258/609/21
+
+vt 7.76667 68
+f 274/612/21 927/610/21 260/611/21
+
+v 11.9177 31.0896 -2.00371e-31
+vt 13.0333 68
+f 928/613/21 927/610/21 274/612/21
+
+v 12.8321 31.0896 1.20222e-31
+vt 14.0333 68
+f 929/614/21 927/610/21 928/613/21
+
+v 17.6479 31.0896 1.20222e-31
+vt 19.3 68
+f 930/615/21 927/610/21 929/614/21
+
+vt 20.3 68
+f 266/616/21 927/610/21 930/615/21
+
+vt 25.5667 68
+f 268/617/21 927/610/21 266/616/21
+
+vt 26.5667 68
+f 270/618/21 927/610/21 268/617/21
+
+vt 32.3333 68
+f 272/619/21 927/610/21 270/618/21
+
+f 269/608/21 927/610/21 272/619/21
+
+f 269/608/21 921/583/21 927/610/21
+
+f 921/583/21 269/608/21 922/585/21
+
+f 922/585/22 269/608/22 921/583/22
+
+f 269/608/22 922/585/22 259/606/22
+
+vt 26.5667 61.3333
+f 259/606/21 269/608/21 271/620/21
+
+f 271/620/22 269/608/22 259/606/22
+
+vt 25.5667 61.3333
+f 259/606/21 271/620/21 265/621/21
+
+f 265/621/22 271/620/22 259/606/22
+
+f 270/618/21 265/621/21 271/620/21
+
+f 265/621/21 270/618/21 268/617/21
+
+f 271/620/22 265/621/22 270/618/22
+
+f 268/617/22 270/618/22 265/621/22
+
+f 268/617/22 927/610/22 270/618/22
+
+f 266/616/22 927/610/22 268/617/22
+
+f 930/615/22 927/610/22 266/616/22
+
+f 929/614/22 927/610/22 930/615/22
+
+f 928/613/22 927/610/22 929/614/22
+
+f 274/612/22 927/610/22 928/613/22
+
+f 260/611/22 927/610/22 274/612/22
+
+f 258/609/22 927/610/22 260/611/22
+
+vt 6.76667 61.3333
+f 257/622/21 274/612/21 260/611/21
+
+vt 7.76667 61.3333
+f 274/612/21 257/622/21 275/623/21
+
+f 275/623/22 257/622/22 274/612/22
+
+f 259/606/21 275/623/21 257/622/21
+
+v 11.9177 28.0416 -0
+vt 13.0333 61.3333
+f 259/606/21 931/624/21 275/623/21
+
+vt 14.0333 61.3333
+f 259/606/21 263/625/21 931/624/21
+
+vt 19.3 61.3333
+f 259/606/21 261/626/21 263/625/21
+
+vt 20.3 61.3333
+f 259/606/21 267/627/21 261/626/21
+
+f 259/606/21 265/621/21 267/627/21
+
+f 267/627/22 265/621/22 259/606/22
+
+f 261/626/22 267/627/22 259/606/22
+
+f 266/616/21 261/626/21 267/627/21
+
+f 261/626/21 266/616/21 930/615/21
+
+f 267/627/22 261/626/22 266/616/22
+
+f 930/615/22 266/616/22 261/626/22
+
+f 263/625/22 261/626/22 259/606/22
+
+f 931/624/22 263/625/22 259/606/22
+
+f 929/614/21 931/624/21 263/625/21
+
+f 931/624/21 929/614/21 928/613/21
+
+f 263/625/22 931/624/22 929/614/22
+
+f 928/613/22 929/614/22 931/624/22
+
+f 275/623/22 931/624/22 259/606/22
+
+f 257/622/22 275/623/22 259/606/22
+
+f 260/611/22 274/612/22 257/622/22
+
+f 270/618/22 927/610/22 272/619/22
+
+f 272/619/22 927/610/22 269/608/22
+
+f 927/610/22 921/583/22 269/608/22
+
+vt -3.94746e-16 69.3701
+f 859/581/5 927/628/5 921/580/5
+
+vt 16.6667 69.3701
+f 927/628/5 859/581/5 858/629/5
+
+f 921/580/6 927/628/6 859/581/6
+
+f 858/629/6 859/581/6 927/628/6
+
+f 858/359/10 857/358/10 859/363/10
+
+usemtl Tile_Border_Travertine
+f 858/118/15 855/117/15 857/84/15
+
+f 855/117/15 858/118/15 927/119/15
+
+f 857/84/16 855/117/16 858/118/16
+
+f 927/119/16 858/118/16 855/117/16
+
+usemtl Brick_Tumbled
+vt 1 70.6667
+f 547/630/5 927/628/5 858/629/5
+
+vt -3.94746e-16 78.7095
+f 927/628/5 547/630/5 853/631/5
+
+f 853/631/6 547/630/6 927/628/6
+
+vt 1 77.3333
+f 546/632/5 853/631/5 547/630/5
+
+vt 16.6667 78.7095
+f 853/631/5 546/632/5 852/633/5
+
+f 852/633/6 546/632/6 853/631/6
+
+vt 5.38889 77.3333
+f 852/633/5 546/632/5 548/634/5
+
+f 548/634/6 546/632/6 852/633/6
+
+vt 6.38889 77.3333
+f 852/633/5 548/634/5 542/635/5
+
+f 542/635/6 548/634/6 852/633/6
+
+vt 6.38889 70.6667
+f 542/635/5 548/634/5 543/636/5
+
+f 543/636/6 548/634/6 542/635/6
+
+vt 5.38889 70.6667
+f 545/637/5 543/636/5 548/634/5
+
+f 545/637/5 858/629/5 543/636/5
+
+f 547/630/5 858/629/5 545/637/5
+
+f 858/629/6 927/628/6 547/630/6
+
+f 545/637/6 858/629/6 547/630/6
+
+f 543/636/6 858/629/6 545/637/6
+
+vt 10.2778 70.6667
+f 543/636/5 858/629/5 541/638/5
+
+f 541/638/6 858/629/6 543/636/6
+
+vt 11.2778 70.6667
+f 541/638/5 858/629/5 539/639/5
+
+f 539/639/6 858/629/6 541/638/6
+
+vt 15.6667 70.6667
+f 539/639/5 858/629/5 537/640/5
+
+f 537/640/6 858/629/6 539/639/6
+
+vt 15.6667 77.3333
+f 537/640/5 858/629/5 540/641/5
+
+f 540/641/6 858/629/6 537/640/6
+
+f 852/633/5 540/641/5 858/629/5
+
+vt 11.2778 77.3333
+f 852/633/5 538/642/5 540/641/5
+
+vt 10.2778 77.3333
+f 852/633/5 544/643/5 538/642/5
+
+f 852/633/5 542/635/5 544/643/5
+
+f 544/643/6 542/635/6 852/633/6
+
+f 538/642/6 544/643/6 852/633/6
+
+f 538/642/5 544/643/5 539/639/5
+
+f 539/639/6 544/643/6 538/642/6
+
+f 541/638/5 539/639/5 544/643/5
+
+f 544/643/6 539/639/6 541/638/6
+
+f 540/641/6 538/642/6 852/633/6
+
+f 858/629/6 540/641/6 852/633/6
+
+f 852/341/10 851/340/10 858/359/10
+
+f 548/634/6 543/636/6 545/637/6
+
+f 547/630/6 853/631/6 546/632/6
+
+usemtl Tile_Border_Travertine
+f 853/119/16 852/118/16 849/117/16
+
+usemtl Brick_Tumbled
+vt 1 80
+f 559/644/5 853/631/5 852/633/5
+
+vt -3.94746e-16 88.049
+f 853/631/5 559/644/5 847/645/5
+
+f 847/645/6 559/644/6 853/631/6
+
+vt 1 86.6667
+f 558/646/5 847/645/5 559/644/5
+
+vt 16.6667 88.049
+f 847/645/5 558/646/5 846/647/5
+
+f 846/647/6 558/646/6 847/645/6
+
+vt 5.38889 86.6667
+f 846/647/5 558/646/5 560/648/5
+
+f 560/648/6 558/646/6 846/647/6
+
+vt 6.38889 86.6667
+f 846/647/5 560/648/5 554/649/5
+
+f 554/649/6 560/648/6 846/647/6
+
+vt 6.38889 80
+f 554/649/5 560/648/5 555/650/5
+
+f 555/650/6 560/648/6 554/649/6
+
+vt 5.38889 80
+f 557/651/5 555/650/5 560/648/5
+
+f 557/651/5 852/633/5 555/650/5
+
+f 559/644/5 852/633/5 557/651/5
+
+f 852/633/6 853/631/6 559/644/6
+
+f 557/651/6 852/633/6 559/644/6
+
+f 555/650/6 852/633/6 557/651/6
+
+vt 10.2778 80
+f 555/650/5 852/633/5 553/652/5
+
+f 553/652/6 852/633/6 555/650/6
+
+vt 11.2778 80
+f 553/652/5 852/633/5 551/653/5
+
+f 551/653/6 852/633/6 553/652/6
+
+vt 15.6667 80
+f 551/653/5 852/633/5 549/654/5
+
+f 549/654/6 852/633/6 551/653/6
+
+vt 15.6667 86.6667
+f 549/654/5 852/633/5 552/655/5
+
+f 552/655/6 852/633/6 549/654/6
+
+f 846/647/5 552/655/5 852/633/5
+
+vt 11.2778 86.6667
+f 846/647/5 550/656/5 552/655/5
+
+vt 10.2778 86.6667
+f 846/647/5 556/657/5 550/656/5
+
+f 846/647/5 554/649/5 556/657/5
+
+f 556/657/6 554/649/6 846/647/6
+
+f 550/656/6 556/657/6 846/647/6
+
+f 550/656/5 556/657/5 551/653/5
+
+f 551/653/6 556/657/6 550/656/6
+
+f 553/652/5 551/653/5 556/657/5
+
+f 556/657/6 551/653/6 553/652/6
+
+f 552/655/6 550/656/6 846/647/6
+
+f 852/633/6 552/655/6 846/647/6
+
+f 846/323/10 845/322/10 852/341/10
+
+f 560/648/6 555/650/6 557/651/6
+
+f 559/644/6 847/645/6 558/646/6
+
+usemtl Tile_Border_Travertine
+f 847/119/16 846/118/16 843/117/16
+
+usemtl Brick_Tumbled
+vt 1 89.3333
+f 571/658/5 847/645/5 846/647/5
+
+vt -3.94746e-16 97.3885
+f 847/645/5 571/658/5 841/659/5
+
+f 841/659/6 571/658/6 847/645/6
+
+vt 1 96
+f 570/660/5 841/659/5 571/658/5
+
+vt 16.6667 97.3885
+f 841/659/5 570/660/5 840/661/5
+
+f 840/661/6 570/660/6 841/659/6
+
+vt 5.38889 96
+f 840/661/5 570/660/5 572/662/5
+
+f 572/662/6 570/660/6 840/661/6
+
+vt 6.38889 96
+f 840/661/5 572/662/5 566/663/5
+
+f 566/663/6 572/662/6 840/661/6
+
+vt 6.38889 89.3333
+f 566/663/5 572/662/5 567/664/5
+
+f 567/664/6 572/662/6 566/663/6
+
+vt 5.38889 89.3333
+f 569/665/5 567/664/5 572/662/5
+
+f 569/665/5 846/647/5 567/664/5
+
+f 571/658/5 846/647/5 569/665/5
+
+f 846/647/6 847/645/6 571/658/6
+
+f 569/665/6 846/647/6 571/658/6
+
+f 567/664/6 846/647/6 569/665/6
+
+vt 10.2778 89.3333
+f 567/664/5 846/647/5 565/666/5
+
+f 565/666/6 846/647/6 567/664/6
+
+vt 11.2778 89.3333
+f 565/666/5 846/647/5 563/667/5
+
+f 563/667/6 846/647/6 565/666/6
+
+vt 15.6667 89.3333
+f 563/667/5 846/647/5 561/668/5
+
+f 561/668/6 846/647/6 563/667/6
+
+vt 15.6667 96
+f 561/668/5 846/647/5 564/669/5
+
+f 564/669/6 846/647/6 561/668/6
+
+f 840/661/5 564/669/5 846/647/5
+
+vt 11.2778 96
+f 840/661/5 562/670/5 564/669/5
+
+vt 10.2778 96
+f 840/661/5 568/671/5 562/670/5
+
+f 840/661/5 566/663/5 568/671/5
+
+f 568/671/6 566/663/6 840/661/6
+
+f 562/670/6 568/671/6 840/661/6
+
+f 562/670/5 568/671/5 563/667/5
+
+f 563/667/6 568/671/6 562/670/6
+
+f 565/666/5 563/667/5 568/671/5
+
+f 568/671/6 563/667/6 565/666/6
+
+f 564/669/6 562/670/6 840/661/6
+
+f 846/647/6 564/669/6 840/661/6
+
+f 840/305/10 839/304/10 846/323/10
+
+f 572/662/6 567/664/6 569/665/6
+
+f 571/658/6 841/659/6 570/660/6
+
+usemtl Tile_Border_Travertine
+f 841/119/16 840/118/16 837/117/16
+
+usemtl Brick_Tumbled
+vt 1 98.6667
+f 583/672/5 841/659/5 840/661/5
+
+vt -3.94746e-16 106.728
+f 841/659/5 583/672/5 835/673/5
+
+f 835/673/6 583/672/6 841/659/6
+
+vt 1 105.333
+f 582/674/5 835/673/5 583/672/5
+
+vt 16.6667 106.728
+f 835/673/5 582/674/5 834/675/5
+
+f 834/675/6 582/674/6 835/673/6
+
+vt 5.38889 105.333
+f 834/675/5 582/674/5 584/676/5
+
+f 584/676/6 582/674/6 834/675/6
+
+vt 6.38889 105.333
+f 834/675/5 584/676/5 578/677/5
+
+f 578/677/6 584/676/6 834/675/6
+
+vt 6.38889 98.6667
+f 578/677/5 584/676/5 579/678/5
+
+f 579/678/6 584/676/6 578/677/6
+
+vt 5.38889 98.6667
+f 581/679/5 579/678/5 584/676/5
+
+f 581/679/5 840/661/5 579/678/5
+
+f 583/672/5 840/661/5 581/679/5
+
+f 840/661/6 841/659/6 583/672/6
+
+f 581/679/6 840/661/6 583/672/6
+
+f 579/678/6 840/661/6 581/679/6
+
+vt 10.2778 98.6667
+f 579/678/5 840/661/5 577/680/5
+
+f 577/680/6 840/661/6 579/678/6
+
+vt 11.2778 98.6667
+f 577/680/5 840/661/5 575/681/5
+
+f 575/681/6 840/661/6 577/680/6
+
+vt 15.6667 98.6667
+f 575/681/5 840/661/5 573/682/5
+
+f 573/682/6 840/661/6 575/681/6
+
+vt 15.6667 105.333
+f 573/682/5 840/661/5 576/683/5
+
+f 576/683/6 840/661/6 573/682/6
+
+f 834/675/5 576/683/5 840/661/5
+
+vt 11.2778 105.333
+f 834/675/5 574/684/5 576/683/5
+
+vt 10.2778 105.333
+f 834/675/5 580/685/5 574/684/5
+
+f 834/675/5 578/677/5 580/685/5
+
+f 580/685/6 578/677/6 834/675/6
+
+f 574/684/6 580/685/6 834/675/6
+
+f 574/684/5 580/685/5 575/681/5
+
+f 575/681/6 580/685/6 574/684/6
+
+f 577/680/5 575/681/5 580/685/5
+
+f 580/685/6 575/681/6 577/680/6
+
+f 576/683/6 574/684/6 834/675/6
+
+f 840/661/6 576/683/6 834/675/6
+
+f 834/287/10 833/286/10 840/305/10
+
+f 584/676/6 579/678/6 581/679/6
+
+f 583/672/6 835/673/6 582/674/6
+
+usemtl Tile_Border_Travertine
+f 835/119/16 834/118/16 831/117/16
+
+usemtl Brick_Tumbled
+vt 1 108
+f 595/686/5 835/673/5 834/675/5
+
+vt -3.94746e-16 116.067
+f 835/673/5 595/686/5 829/687/5
+
+f 829/687/6 595/686/6 835/673/6
+
+vt 1 114.667
+f 594/688/5 829/687/5 595/686/5
+
+vt 16.6667 116.067
+f 829/687/5 594/688/5 828/689/5
+
+f 828/689/6 594/688/6 829/687/6
+
+vt 5.38889 114.667
+f 828/689/5 594/688/5 596/690/5
+
+f 596/690/6 594/688/6 828/689/6
+
+vt 6.38889 114.667
+f 828/689/5 596/690/5 590/691/5
+
+f 590/691/6 596/690/6 828/689/6
+
+vt 6.38889 108
+f 590/691/5 596/690/5 591/692/5
+
+f 591/692/6 596/690/6 590/691/6
+
+vt 5.38889 108
+f 593/693/5 591/692/5 596/690/5
+
+f 593/693/5 834/675/5 591/692/5
+
+f 595/686/5 834/675/5 593/693/5
+
+f 834/675/6 835/673/6 595/686/6
+
+f 593/693/6 834/675/6 595/686/6
+
+f 591/692/6 834/675/6 593/693/6
+
+vt 10.2778 108
+f 591/692/5 834/675/5 589/694/5
+
+f 589/694/6 834/675/6 591/692/6
+
+vt 11.2778 108
+f 589/694/5 834/675/5 587/695/5
+
+f 587/695/6 834/675/6 589/694/6
+
+vt 15.6667 108
+f 587/695/5 834/675/5 585/696/5
+
+f 585/696/6 834/675/6 587/695/6
+
+vt 15.6667 114.667
+f 585/696/5 834/675/5 588/697/5
+
+f 588/697/6 834/675/6 585/696/6
+
+f 828/689/5 588/697/5 834/675/5
+
+vt 11.2778 114.667
+f 828/689/5 586/698/5 588/697/5
+
+vt 10.2778 114.667
+f 828/689/5 592/699/5 586/698/5
+
+f 828/689/5 590/691/5 592/699/5
+
+f 592/699/6 590/691/6 828/689/6
+
+f 586/698/6 592/699/6 828/689/6
+
+f 586/698/5 592/699/5 587/695/5
+
+f 587/695/6 592/699/6 586/698/6
+
+f 589/694/5 587/695/5 592/699/5
+
+f 592/699/6 587/695/6 589/694/6
+
+f 588/697/6 586/698/6 828/689/6
+
+f 834/675/6 588/697/6 828/689/6
+
+f 828/269/10 827/268/10 834/287/10
+
+f 596/690/6 591/692/6 593/693/6
+
+f 595/686/6 829/687/6 594/688/6
+
+usemtl Tile_Border_Travertine
+f 829/119/16 828/118/16 825/117/16
+
+usemtl Brick_Tumbled
+vt 1 117.333
+f 607/700/5 829/687/5 828/689/5
+
+vt -3.94746e-16 125.407
+f 829/687/5 607/700/5 823/701/5
+
+f 823/701/6 607/700/6 829/687/6
+
+vt 1 124
+f 606/702/5 823/701/5 607/700/5
+
+vt 16.6667 125.407
+f 823/701/5 606/702/5 822/703/5
+
+f 822/703/6 606/702/6 823/701/6
+
+vt 5.38889 124
+f 822/703/5 606/702/5 608/704/5
+
+f 608/704/6 606/702/6 822/703/6
+
+vt 6.38889 124
+f 822/703/5 608/704/5 602/705/5
+
+f 602/705/6 608/704/6 822/703/6
+
+vt 6.38889 117.333
+f 602/705/5 608/704/5 603/706/5
+
+f 603/706/6 608/704/6 602/705/6
+
+vt 5.38889 117.333
+f 605/707/5 603/706/5 608/704/5
+
+f 605/707/5 828/689/5 603/706/5
+
+f 607/700/5 828/689/5 605/707/5
+
+f 828/689/6 829/687/6 607/700/6
+
+f 605/707/6 828/689/6 607/700/6
+
+f 603/706/6 828/689/6 605/707/6
+
+vt 10.2778 117.333
+f 603/706/5 828/689/5 601/708/5
+
+f 601/708/6 828/689/6 603/706/6
+
+vt 11.2778 117.333
+f 601/708/5 828/689/5 599/709/5
+
+f 599/709/6 828/689/6 601/708/6
+
+vt 15.6667 117.333
+f 599/709/5 828/689/5 597/710/5
+
+f 597/710/6 828/689/6 599/709/6
+
+vt 15.6667 124
+f 597/710/5 828/689/5 600/711/5
+
+f 600/711/6 828/689/6 597/710/6
+
+f 822/703/5 600/711/5 828/689/5
+
+vt 11.2778 124
+f 822/703/5 598/712/5 600/711/5
+
+vt 10.2778 124
+f 822/703/5 604/713/5 598/712/5
+
+f 822/703/5 602/705/5 604/713/5
+
+f 604/713/6 602/705/6 822/703/6
+
+f 598/712/6 604/713/6 822/703/6
+
+f 598/712/5 604/713/5 599/709/5
+
+f 599/709/6 604/713/6 598/712/6
+
+f 601/708/5 599/709/5 604/713/5
+
+f 604/713/6 599/709/6 601/708/6
+
+f 600/711/6 598/712/6 822/703/6
+
+f 828/689/6 600/711/6 822/703/6
+
+f 822/251/10 821/250/10 828/269/10
+
+f 608/704/6 603/706/6 605/707/6
+
+f 607/700/6 823/701/6 606/702/6
+
+usemtl Tile_Border_Travertine
+f 823/119/16 822/118/16 819/117/16
+
+usemtl Brick_Tumbled
+vt 1 126.667
+f 619/714/5 823/701/5 822/703/5
+
+vt -3.94746e-16 134.746
+f 823/701/5 619/714/5 817/715/5
+
+f 817/715/6 619/714/6 823/701/6
+
+vt 1 133.333
+f 618/716/5 817/715/5 619/714/5
+
+vt 16.6667 134.746
+f 817/715/5 618/716/5 816/717/5
+
+f 816/717/6 618/716/6 817/715/6
+
+vt 5.38889 133.333
+f 816/717/5 618/716/5 620/718/5
+
+f 620/718/6 618/716/6 816/717/6
+
+vt 6.38889 133.333
+f 816/717/5 620/718/5 614/719/5
+
+f 614/719/6 620/718/6 816/717/6
+
+vt 6.38889 126.667
+f 614/719/5 620/718/5 615/720/5
+
+f 615/720/6 620/718/6 614/719/6
+
+vt 5.38889 126.667
+f 617/721/5 615/720/5 620/718/5
+
+f 617/721/5 822/703/5 615/720/5
+
+f 619/714/5 822/703/5 617/721/5
+
+f 822/703/6 823/701/6 619/714/6
+
+f 617/721/6 822/703/6 619/714/6
+
+f 615/720/6 822/703/6 617/721/6
+
+vt 10.2778 126.667
+f 615/720/5 822/703/5 613/722/5
+
+f 613/722/6 822/703/6 615/720/6
+
+vt 11.2778 126.667
+f 613/722/5 822/703/5 611/723/5
+
+f 611/723/6 822/703/6 613/722/6
+
+vt 15.6667 126.667
+f 611/723/5 822/703/5 609/724/5
+
+f 609/724/6 822/703/6 611/723/6
+
+vt 15.6667 133.333
+f 609/724/5 822/703/5 612/725/5
+
+f 612/725/6 822/703/6 609/724/6
+
+f 816/717/5 612/725/5 822/703/5
+
+vt 11.2778 133.333
+f 816/717/5 610/726/5 612/725/5
+
+vt 10.2778 133.333
+f 816/717/5 616/727/5 610/726/5
+
+f 816/717/5 614/719/5 616/727/5
+
+f 616/727/6 614/719/6 816/717/6
+
+f 610/726/6 616/727/6 816/717/6
+
+f 610/726/5 616/727/5 611/723/5
+
+f 611/723/6 616/727/6 610/726/6
+
+f 613/722/5 611/723/5 616/727/5
+
+f 616/727/6 611/723/6 613/722/6
+
+f 612/725/6 610/726/6 816/717/6
+
+f 822/703/6 612/725/6 816/717/6
+
+f 816/233/10 815/232/10 822/251/10
+
+f 620/718/6 615/720/6 617/721/6
+
+f 619/714/6 817/715/6 618/716/6
+
+usemtl Tile_Border_Travertine
+f 817/119/16 816/118/16 813/117/16
+
+usemtl Brick_Tumbled
+vt 1 136
+f 631/728/5 817/715/5 816/717/5
+
+vt -3.94746e-16 144.086
+f 817/715/5 631/728/5 811/729/5
+
+f 811/729/6 631/728/6 817/715/6
+
+vt 1 142.667
+f 630/730/5 811/729/5 631/728/5
+
+vt 16.6667 144.086
+f 811/729/5 630/730/5 810/731/5
+
+f 810/731/6 630/730/6 811/729/6
+
+vt 5.38889 142.667
+f 810/731/5 630/730/5 632/732/5
+
+f 632/732/6 630/730/6 810/731/6
+
+vt 6.38889 142.667
+f 810/731/5 632/732/5 626/733/5
+
+f 626/733/6 632/732/6 810/731/6
+
+vt 6.38889 136
+f 626/733/5 632/732/5 627/734/5
+
+f 627/734/6 632/732/6 626/733/6
+
+vt 5.38889 136
+f 629/735/5 627/734/5 632/732/5
+
+f 629/735/5 816/717/5 627/734/5
+
+f 631/728/5 816/717/5 629/735/5
+
+f 816/717/6 817/715/6 631/728/6
+
+f 629/735/6 816/717/6 631/728/6
+
+f 627/734/6 816/717/6 629/735/6
+
+vt 10.2778 136
+f 627/734/5 816/717/5 625/736/5
+
+f 625/736/6 816/717/6 627/734/6
+
+vt 11.2778 136
+f 625/736/5 816/717/5 623/737/5
+
+f 623/737/6 816/717/6 625/736/6
+
+vt 15.6667 136
+f 623/737/5 816/717/5 621/738/5
+
+f 621/738/6 816/717/6 623/737/6
+
+vt 15.6667 142.667
+f 621/738/5 816/717/5 624/739/5
+
+f 624/739/6 816/717/6 621/738/6
+
+f 810/731/5 624/739/5 816/717/5
+
+vt 11.2778 142.667
+f 810/731/5 622/740/5 624/739/5
+
+vt 10.2778 142.667
+f 810/731/5 628/741/5 622/740/5
+
+f 810/731/5 626/733/5 628/741/5
+
+f 628/741/6 626/733/6 810/731/6
+
+f 622/740/6 628/741/6 810/731/6
+
+f 622/740/5 628/741/5 623/737/5
+
+f 623/737/6 628/741/6 622/740/6
+
+f 625/736/5 623/737/5 628/741/5
+
+f 628/741/6 623/737/6 625/736/6
+
+f 624/739/6 622/740/6 810/731/6
+
+f 816/717/6 624/739/6 810/731/6
+
+f 810/215/10 809/214/10 816/233/10
+
+f 632/732/6 627/734/6 629/735/6
+
+f 631/728/6 811/729/6 630/730/6
+
+usemtl Tile_Border_Travertine
+f 811/119/16 810/118/16 807/117/16
+
+usemtl Brick_Tumbled
+vt 1 145.333
+f 643/742/5 811/729/5 810/731/5
+
+vt -3.94746e-16 153.425
+f 811/729/5 643/742/5 805/743/5
+
+f 805/743/6 643/742/6 811/729/6
+
+vt 1 152
+f 642/744/5 805/743/5 643/742/5
+
+vt 16.6667 153.425
+f 805/743/5 642/744/5 804/745/5
+
+f 804/745/6 642/744/6 805/743/6
+
+vt 5.38889 152
+f 804/745/5 642/744/5 644/746/5
+
+f 644/746/6 642/744/6 804/745/6
+
+vt 6.38889 152
+f 804/745/5 644/746/5 638/747/5
+
+f 638/747/6 644/746/6 804/745/6
+
+vt 6.38889 145.333
+f 638/747/5 644/746/5 639/748/5
+
+f 639/748/6 644/746/6 638/747/6
+
+vt 5.38889 145.333
+f 641/749/5 639/748/5 644/746/5
+
+f 641/749/5 810/731/5 639/748/5
+
+f 643/742/5 810/731/5 641/749/5
+
+f 810/731/6 811/729/6 643/742/6
+
+f 641/749/6 810/731/6 643/742/6
+
+f 639/748/6 810/731/6 641/749/6
+
+vt 10.2778 145.333
+f 639/748/5 810/731/5 637/750/5
+
+f 637/750/6 810/731/6 639/748/6
+
+vt 11.2778 145.333
+f 637/750/5 810/731/5 635/751/5
+
+f 635/751/6 810/731/6 637/750/6
+
+vt 15.6667 145.333
+f 635/751/5 810/731/5 633/752/5
+
+f 633/752/6 810/731/6 635/751/6
+
+vt 15.6667 152
+f 633/752/5 810/731/5 636/753/5
+
+f 636/753/6 810/731/6 633/752/6
+
+f 804/745/5 636/753/5 810/731/5
+
+vt 11.2778 152
+f 804/745/5 634/754/5 636/753/5
+
+vt 10.2778 152
+f 804/745/5 640/755/5 634/754/5
+
+f 804/745/5 638/747/5 640/755/5
+
+f 640/755/6 638/747/6 804/745/6
+
+f 634/754/6 640/755/6 804/745/6
+
+f 634/754/5 640/755/5 635/751/5
+
+f 635/751/6 640/755/6 634/754/6
+
+f 637/750/5 635/751/5 640/755/5
+
+f 640/755/6 635/751/6 637/750/6
+
+f 636/753/6 634/754/6 804/745/6
+
+f 810/731/6 636/753/6 804/745/6
+
+f 804/197/10 803/196/10 810/215/10
+
+f 644/746/6 639/748/6 641/749/6
+
+f 643/742/6 805/743/6 642/744/6
+
+usemtl Tile_Border_Travertine
+f 805/119/16 804/118/16 801/117/16
+
+usemtl Brick_Tumbled
+vt 1 154.667
+f 655/756/5 805/743/5 804/745/5
+
+vt -3.94746e-16 162.765
+f 805/743/5 655/756/5 799/757/5
+
+f 799/757/6 655/756/6 805/743/6
+
+vt 1 161.333
+f 654/758/5 799/757/5 655/756/5
+
+vt 16.6667 162.765
+f 799/757/5 654/758/5 798/759/5
+
+f 798/759/6 654/758/6 799/757/6
+
+vt 5.38889 161.333
+f 798/759/5 654/758/5 656/760/5
+
+f 656/760/6 654/758/6 798/759/6
+
+vt 6.38889 161.333
+f 798/759/5 656/760/5 650/761/5
+
+f 650/761/6 656/760/6 798/759/6
+
+vt 6.38889 154.667
+f 650/761/5 656/760/5 651/762/5
+
+f 651/762/6 656/760/6 650/761/6
+
+vt 5.38889 154.667
+f 653/763/5 651/762/5 656/760/5
+
+f 653/763/5 804/745/5 651/762/5
+
+f 655/756/5 804/745/5 653/763/5
+
+f 804/745/6 805/743/6 655/756/6
+
+f 653/763/6 804/745/6 655/756/6
+
+f 651/762/6 804/745/6 653/763/6
+
+vt 10.2778 154.667
+f 651/762/5 804/745/5 649/764/5
+
+f 649/764/6 804/745/6 651/762/6
+
+vt 11.2778 154.667
+f 649/764/5 804/745/5 647/765/5
+
+f 647/765/6 804/745/6 649/764/6
+
+vt 15.6667 154.667
+f 647/765/5 804/745/5 645/766/5
+
+f 645/766/6 804/745/6 647/765/6
+
+vt 15.6667 161.333
+f 645/766/5 804/745/5 648/767/5
+
+f 648/767/6 804/745/6 645/766/6
+
+f 798/759/5 648/767/5 804/745/5
+
+vt 11.2778 161.333
+f 798/759/5 646/768/5 648/767/5
+
+vt 10.2778 161.333
+f 798/759/5 652/769/5 646/768/5
+
+f 798/759/5 650/761/5 652/769/5
+
+f 652/769/6 650/761/6 798/759/6
+
+f 646/768/6 652/769/6 798/759/6
+
+f 646/768/5 652/769/5 647/765/5
+
+f 647/765/6 652/769/6 646/768/6
+
+f 649/764/5 647/765/5 652/769/5
+
+f 652/769/6 647/765/6 649/764/6
+
+f 648/767/6 646/768/6 798/759/6
+
+f 804/745/6 648/767/6 798/759/6
+
+f 798/179/10 792/178/10 804/197/10
+
+f 656/760/6 651/762/6 653/763/6
+
+f 655/756/6 799/757/6 654/758/6
+
+usemtl Tile_Border_Travertine
+f 799/119/16 798/118/16 790/117/16
+
+usemtl Brick_Tumbled
+vt 1 164
+f 667/770/5 799/757/5 798/759/5
+
+vt -3.94746e-16 172.104
+f 799/757/5 667/770/5 788/771/5
+
+f 788/771/6 667/770/6 799/757/6
+
+v 30.48 78.0288 -0.9144
+vt 1 170.667
+f 932/772/5 788/771/5 667/770/5
+
+vt 16.6667 172.104
+f 788/771/5 932/772/5 787/773/5
+
+f 787/773/6 932/772/6 788/771/6
+
+v 30.48 78.0288 -4.9276
+vt 5.38889 170.667
+f 787/773/5 932/772/5 933/774/5
+
+f 933/774/6 932/772/6 787/773/6
+
+v 30.48 78.0288 -5.842
+vt 6.38889 170.667
+f 787/773/5 933/774/5 934/775/5
+
+f 934/775/6 933/774/6 787/773/6
+
+vt 6.38889 164
+f 934/775/5 933/774/5 663/776/5
+
+f 663/776/6 933/774/6 934/775/6
+
+vt 5.38889 164
+f 665/777/5 663/776/5 933/774/5
+
+f 665/777/5 798/759/5 663/776/5
+
+f 667/770/5 798/759/5 665/777/5
+
+f 798/759/6 799/757/6 667/770/6
+
+f 665/777/6 798/759/6 667/770/6
+
+f 663/776/6 798/759/6 665/777/6
+
+vt 10.2778 164
+f 663/776/5 798/759/5 661/778/5
+
+f 661/778/6 798/759/6 663/776/6
+
+vt 11.2778 164
+f 661/778/5 798/759/5 659/779/5
+
+f 659/779/6 798/759/6 661/778/6
+
+vt 15.6667 164
+f 659/779/5 798/759/5 657/780/5
+
+f 657/780/6 798/759/6 659/779/6
+
+v 30.48 78.0288 -14.3256
+vt 15.6667 170.667
+f 657/780/5 798/759/5 935/781/5
+
+f 935/781/6 798/759/6 657/780/6
+
+f 787/773/5 935/781/5 798/759/5
+
+v 30.48 78.0288 -10.3124
+vt 11.2778 170.667
+f 787/773/5 936/782/5 935/781/5
+
+v 30.48 78.0288 -9.398
+vt 10.2778 170.667
+f 787/773/5 937/783/5 936/782/5
+
+f 787/773/5 934/775/5 937/783/5
+
+f 937/783/6 934/775/6 787/773/6
+
+f 936/782/6 937/783/6 787/773/6
+
+f 936/782/5 937/783/5 659/779/5
+
+f 659/779/6 937/783/6 936/782/6
+
+f 661/778/5 659/779/5 937/783/5
+
+f 937/783/6 659/779/6 661/778/6
+
+f 935/781/6 936/782/6 787/773/6
+
+f 798/759/6 935/781/6 787/773/6
+
+f 787/161/10 786/160/10 798/179/10
+
+f 933/774/6 663/776/6 665/777/6
+
+f 667/770/6 788/771/6 932/772/6
+
+usemtl Tile_Border_Travertine
+f 788/119/16 787/118/16 784/117/16
+
+usemtl Brick_Tumbled
+vt 1 173.333
+f 679/784/5 788/771/5 787/773/5
+
+vt -3.94746e-16 181.444
+f 788/771/5 679/784/5 782/785/5
+
+f 782/785/6 679/784/6 788/771/6
+
+vt 1 180
+f 678/786/5 782/785/5 679/784/5
+
+vt 16.6667 181.444
+f 782/785/5 678/786/5 781/787/5
+
+f 781/787/6 678/786/6 782/785/6
+
+vt 5.38889 180
+f 781/787/5 678/786/5 680/788/5
+
+f 680/788/6 678/786/6 781/787/6
+
+vt 6.38889 180
+f 781/787/5 680/788/5 674/789/5
+
+f 674/789/6 680/788/6 781/787/6
+
+vt 6.38889 173.333
+f 674/789/5 680/788/5 675/790/5
+
+f 675/790/6 680/788/6 674/789/6
+
+vt 5.38889 173.333
+f 677/791/5 675/790/5 680/788/5
+
+f 677/791/5 787/773/5 675/790/5
+
+f 679/784/5 787/773/5 677/791/5
+
+f 787/773/6 788/771/6 679/784/6
+
+f 677/791/6 787/773/6 679/784/6
+
+f 675/790/6 787/773/6 677/791/6
+
+vt 10.2778 173.333
+f 675/790/5 787/773/5 673/792/5
+
+f 673/792/6 787/773/6 675/790/6
+
+vt 11.2778 173.333
+f 673/792/5 787/773/5 671/793/5
+
+f 671/793/6 787/773/6 673/792/6
+
+vt 15.6667 173.333
+f 671/793/5 787/773/5 669/794/5
+
+f 669/794/6 787/773/6 671/793/6
+
+vt 15.6667 180
+f 669/794/5 787/773/5 672/795/5
+
+f 672/795/6 787/773/6 669/794/6
+
+f 781/787/5 672/795/5 787/773/5
+
+vt 11.2778 180
+f 781/787/5 670/796/5 672/795/5
+
+vt 10.2778 180
+f 781/787/5 676/797/5 670/796/5
+
+f 781/787/5 674/789/5 676/797/5
+
+f 676/797/6 674/789/6 781/787/6
+
+f 670/796/6 676/797/6 781/787/6
+
+f 670/796/5 676/797/5 671/793/5
+
+f 671/793/6 676/797/6 670/796/6
+
+f 673/792/5 671/793/5 676/797/5
+
+f 676/797/6 671/793/6 673/792/6
+
+f 672/795/6 670/796/6 781/787/6
+
+f 787/773/6 672/795/6 781/787/6
+
+f 781/142/10 780/141/10 787/161/10
+
+f 680/788/6 675/790/6 677/791/6
+
+f 679/784/6 782/785/6 678/786/6
+
+usemtl Tile_Border_Travertine
+f 782/119/16 781/118/16 778/117/16
+
+usemtl Brick_Tumbled
+vt 1 182.667
+f 691/798/5 782/785/5 781/787/5
+
+vt -3.94746e-16 190.783
+f 782/785/5 691/798/5 774/799/5
+
+f 774/799/6 691/798/6 782/785/6
+
+vt 1 189.333
+f 690/800/5 774/799/5 691/798/5
+
+vt 16.6667 190.783
+f 774/799/5 690/800/5 775/801/5
+
+f 775/801/6 690/800/6 774/799/6
+
+vt 5.38889 189.333
+f 775/801/5 690/800/5 692/802/5
+
+f 692/802/6 690/800/6 775/801/6
+
+vt 6.38889 189.333
+f 775/801/5 692/802/5 686/803/5
+
+f 686/803/6 692/802/6 775/801/6
+
+vt 6.38889 182.667
+f 686/803/5 692/802/5 687/804/5
+
+f 687/804/6 692/802/6 686/803/6
+
+vt 5.38889 182.667
+f 689/805/5 687/804/5 692/802/5
+
+f 689/805/5 781/787/5 687/804/5
+
+f 691/798/5 781/787/5 689/805/5
+
+f 781/787/6 782/785/6 691/798/6
+
+f 689/805/6 781/787/6 691/798/6
+
+f 687/804/6 781/787/6 689/805/6
+
+vt 10.2778 182.667
+f 687/804/5 781/787/5 685/806/5
+
+f 685/806/6 781/787/6 687/804/6
+
+vt 11.2778 182.667
+f 685/806/5 781/787/5 683/807/5
+
+f 683/807/6 781/787/6 685/806/6
+
+vt 15.6667 182.667
+f 683/807/5 781/787/5 681/808/5
+
+f 681/808/6 781/787/6 683/807/6
+
+vt 15.6667 189.333
+f 681/808/5 781/787/5 684/809/5
+
+f 684/809/6 781/787/6 681/808/6
+
+f 775/801/5 684/809/5 781/787/5
+
+vt 11.2778 189.333
+f 775/801/5 682/810/5 684/809/5
+
+vt 10.2778 189.333
+f 775/801/5 688/811/5 682/810/5
+
+f 775/801/5 686/803/5 688/811/5
+
+f 688/811/6 686/803/6 775/801/6
+
+f 682/810/6 688/811/6 775/801/6
+
+f 682/810/5 688/811/5 683/807/5
+
+f 683/807/6 688/811/6 682/810/6
+
+f 685/806/5 683/807/5 688/811/5
+
+f 688/811/6 683/807/6 685/806/6
+
+f 684/809/6 682/810/6 775/801/6
+
+f 781/787/6 684/809/6 775/801/6
+
+vt -33.3333 190.783
+f 775/812/10 776/143/10 781/142/10
+
+usemtl Stair_Beige_Texture
+vt 0 3600
+f 765/813/9 775/140/9 776/137/9
+
+vt -1200 3600
+f 775/140/9 765/813/9 768/814/9
+
+usemtl Brick_Tumbled
+f 776/143/10 775/812/10 765/115/10
+
+vt -33.3333 200
+f 768/815/10 765/115/10 775/812/10
+
+vt 16.6667 200
+f 766/115/5 775/801/5 768/816/5
+
+f 775/801/5 766/115/5 774/799/5
+
+f 774/799/6 766/115/6 775/801/6
+
+f 768/816/6 775/801/6 766/115/6
+
+usemtl Stair_Beige_Texture
+f 768/87/11 769/90/11 766/83/11
+
+usemtl Brick_Tumbled
+f 766/112/12 769/91/12 768/88/12
+
+usemtl Stair_Beige_Texture
+f 772/111/11 766/83/11 769/90/11
+
+usemtl Brick_Tumbled
+vt 32.6667 1.33333
+f 772/817/12 766/112/12 764/85/12
+
+f 769/91/12 766/112/12 772/817/12
+
+usemtl Stair_Beige_Texture
+vt -576 3600
+f 769/818/3 771/105/3 772/103/3
+
+vt -576 3564
+f 771/105/3 769/818/3 770/819/3
+
+usemtl Brick_Tumbled
+vt -16 200
+f 772/109/4 771/107/4 769/820/4
+
+vt -16 198
+f 770/821/4 769/820/4 771/107/4
+
+usemtl Tile_Border_Travertine
+f 774/119/16 775/118/16 773/117/16
+
+usemtl Brick_Tumbled
+vt -9.34946e-33 190.783
+vn 1.18424e-17 3.04888e-33 1
+f 773/822/25 518/800/25 774/116/25
+
+f 773/822/25 519/798/25 518/800/25
+
+vt -9.34946e-33 181.444
+f 778/823/25 519/798/25 773/822/25
+
+vt 32.3333 182.667
+f 519/798/25 778/823/25 529/824/25
+
+vn -1.18424e-17 -3.04888e-33 -1
+f 773/822/26 519/798/26 778/823/26
+
+f 518/800/26 519/798/26 773/822/26
+
+f 774/116/26 518/800/26 773/822/26
+
+vt 6.76667 189.333
+f 520/825/25 774/116/25 518/800/25
+
+vt 7.76667 189.333
+f 534/826/25 774/116/25 520/825/25
+
+v 11.9177 86.5632 -2.00371e-31
+vt 13.0333 189.333
+f 938/827/25 774/116/25 534/826/25
+
+v 12.8321 86.5632 1.20222e-31
+vt 14.0333 189.333
+f 939/828/25 774/116/25 938/827/25
+
+v 17.6479 86.5632 1.20222e-31
+vt 19.3 189.333
+f 940/829/25 774/116/25 939/828/25
+
+vt 20.3 189.333
+f 526/830/25 774/116/25 940/829/25
+
+vt 25.5667 189.333
+f 528/831/25 774/116/25 526/830/25
+
+vt 26.5667 189.333
+f 530/832/25 774/116/25 528/831/25
+
+vt 32.3333 189.333
+f 532/833/25 774/116/25 530/832/25
+
+f 529/824/25 774/116/25 532/833/25
+
+vt 33.3333 181.444
+f 529/824/25 782/834/25 774/116/25
+
+f 782/834/25 529/824/25 778/823/25
+
+f 778/823/26 529/824/26 782/834/26
+
+f 529/824/26 778/823/26 519/798/26
+
+vt 26.5667 182.667
+f 519/798/25 529/824/25 531/835/25
+
+f 531/835/26 529/824/26 519/798/26
+
+vt 25.5667 182.667
+f 519/798/25 531/835/25 525/836/25
+
+f 525/836/26 531/835/26 519/798/26
+
+f 530/832/25 525/836/25 531/835/25
+
+f 525/836/25 530/832/25 528/831/25
+
+f 531/835/26 525/836/26 530/832/26
+
+f 528/831/26 530/832/26 525/836/26
+
+f 528/831/26 774/116/26 530/832/26
+
+f 526/830/26 774/116/26 528/831/26
+
+f 940/829/26 774/116/26 526/830/26
+
+f 939/828/26 774/116/26 940/829/26
+
+f 938/827/26 774/116/26 939/828/26
+
+f 534/826/26 774/116/26 938/827/26
+
+f 520/825/26 774/116/26 534/826/26
+
+f 518/800/26 774/116/26 520/825/26
+
+vt 6.76667 182.667
+f 517/837/25 534/826/25 520/825/25
+
+vt 7.76667 182.667
+f 534/826/25 517/837/25 535/838/25
+
+f 535/838/26 517/837/26 534/826/26
+
+f 519/798/25 535/838/25 517/837/25
+
+v 11.9177 83.5152 -0
+vt 13.0333 182.667
+f 519/798/25 941/839/25 535/838/25
+
+vt 14.0333 182.667
+f 519/798/25 523/840/25 941/839/25
+
+vt 19.3 182.667
+f 519/798/25 521/841/25 523/840/25
+
+vt 20.3 182.667
+f 519/798/25 527/842/25 521/841/25
+
+f 519/798/25 525/836/25 527/842/25
+
+f 527/842/26 525/836/26 519/798/26
+
+f 521/841/26 527/842/26 519/798/26
+
+f 526/830/25 521/841/25 527/842/25
+
+f 521/841/25 526/830/25 940/829/25
+
+f 527/842/26 521/841/26 526/830/26
+
+f 940/829/26 526/830/26 521/841/26
+
+f 523/840/26 521/841/26 519/798/26
+
+f 941/839/26 523/840/26 519/798/26
+
+f 939/828/25 941/839/25 523/840/25
+
+f 941/839/25 939/828/25 938/827/25
+
+f 523/840/26 941/839/26 939/828/26
+
+f 938/827/26 939/828/26 941/839/26
+
+f 535/838/26 941/839/26 519/798/26
+
+f 517/837/26 535/838/26 519/798/26
+
+f 520/825/26 534/826/26 517/837/26
+
+f 530/832/26 774/116/26 532/833/26
+
+f 532/833/26 774/116/26 529/824/26
+
+f 774/116/26 782/834/26 529/824/26
+
+vn 1.18424e-17 -3.04888e-33 1
+f 778/823/27 498/786/27 782/834/27
+
+f 778/823/27 499/784/27 498/786/27
+
+vt -9.34946e-33 172.104
+f 784/843/27 499/784/27 778/823/27
+
+vt 32.3333 173.333
+f 499/784/27 784/843/27 509/844/27
+
+vn -1.18424e-17 3.04888e-33 -1
+f 778/823/28 499/784/28 784/843/28
+
+f 498/786/28 499/784/28 778/823/28
+
+f 782/834/28 498/786/28 778/823/28
+
+vt 6.76667 180
+f 500/845/27 782/834/27 498/786/27
+
+vt 7.76667 180
+f 514/846/27 782/834/27 500/845/27
+
+v 11.9177 82.296 -2.00371e-31
+vt 13.0333 180
+f 942/847/27 782/834/27 514/846/27
+
+v 12.8321 82.296 1.20222e-31
+vt 14.0333 180
+f 943/848/27 782/834/27 942/847/27
+
+v 17.6479 82.296 1.20222e-31
+vt 19.3 180
+f 944/849/27 782/834/27 943/848/27
+
+vt 20.3 180
+f 506/850/27 782/834/27 944/849/27
+
+vt 25.5667 180
+f 508/851/27 782/834/27 506/850/27
+
+vt 26.5667 180
+f 510/852/27 782/834/27 508/851/27
+
+vt 32.3333 180
+f 512/853/27 782/834/27 510/852/27
+
+f 509/844/27 782/834/27 512/853/27
+
+vt 33.3333 172.104
+f 509/844/27 788/854/27 782/834/27
+
+f 788/854/27 509/844/27 784/843/27
+
+f 784/843/28 509/844/28 788/854/28
+
+f 509/844/28 784/843/28 499/784/28
+
+vt 26.5667 173.333
+f 499/784/27 509/844/27 511/855/27
+
+f 511/855/28 509/844/28 499/784/28
+
+vt 25.5667 173.333
+f 499/784/27 511/855/27 505/856/27
+
+f 505/856/28 511/855/28 499/784/28
+
+f 510/852/27 505/856/27 511/855/27
+
+f 505/856/27 510/852/27 508/851/27
+
+f 511/855/28 505/856/28 510/852/28
+
+f 508/851/28 510/852/28 505/856/28
+
+f 508/851/28 782/834/28 510/852/28
+
+f 506/850/28 782/834/28 508/851/28
+
+f 944/849/28 782/834/28 506/850/28
+
+f 943/848/28 782/834/28 944/849/28
+
+f 942/847/28 782/834/28 943/848/28
+
+f 514/846/28 782/834/28 942/847/28
+
+f 500/845/28 782/834/28 514/846/28
+
+f 498/786/28 782/834/28 500/845/28
+
+vt 6.76667 173.333
+f 497/857/27 514/846/27 500/845/27
+
+vt 7.76667 173.333
+f 514/846/27 497/857/27 515/858/27
+
+f 515/858/28 497/857/28 514/846/28
+
+f 499/784/27 515/858/27 497/857/27
+
+v 11.9177 79.248 -0
+vt 13.0333 173.333
+f 499/784/27 945/859/27 515/858/27
+
+vt 14.0333 173.333
+f 499/784/27 503/860/27 945/859/27
+
+vt 19.3 173.333
+f 499/784/27 501/861/27 503/860/27
+
+vt 20.3 173.333
+f 499/784/27 507/862/27 501/861/27
+
+f 499/784/27 505/856/27 507/862/27
+
+f 507/862/28 505/856/28 499/784/28
+
+f 501/861/28 507/862/28 499/784/28
+
+f 506/850/27 501/861/27 507/862/27
+
+f 501/861/27 506/850/27 944/849/27
+
+f 507/862/28 501/861/28 506/850/28
+
+f 944/849/28 506/850/28 501/861/28
+
+f 503/860/28 501/861/28 499/784/28
+
+f 945/859/28 503/860/28 499/784/28
+
+f 943/848/27 945/859/27 503/860/27
+
+f 945/859/27 943/848/27 942/847/27
+
+f 503/860/28 945/859/28 943/848/28
+
+f 942/847/28 943/848/28 945/859/28
+
+f 515/858/28 945/859/28 499/784/28
+
+f 497/857/28 515/858/28 499/784/28
+
+f 500/845/28 514/846/28 497/857/28
+
+f 510/852/28 782/834/28 512/853/28
+
+f 512/853/28 782/834/28 509/844/28
+
+f 782/834/28 788/854/28 509/844/28
+
+v 0.9144 78.0288 -2.00371e-31
+f 784/843/25 946/772/25 788/854/25
+
+f 784/843/25 479/770/25 946/772/25
+
+vt -9.34946e-33 162.765
+f 790/863/25 479/770/25 784/843/25
+
+vt 32.3333 164
+f 479/770/25 790/863/25 489/864/25
+
+f 784/843/26 479/770/26 790/863/26
+
+f 946/772/26 479/770/26 784/843/26
+
+f 788/854/26 946/772/26 784/843/26
+
+v 6.18744 78.0288 -2.00371e-31
+vt 6.76667 170.667
+f 947/865/25 788/854/25 946/772/25
+
+v 7.10184 78.0288 -2.00371e-31
+vt 7.76667 170.667
+f 948/866/25 788/854/25 947/865/25
+
+v 11.9177 78.0288 -2.00371e-31
+vt 13.0333 170.667
+f 949/867/25 788/854/25 948/866/25
+
+v 12.8321 78.0288 1.20222e-31
+vt 14.0333 170.667
+f 950/868/25 788/854/25 949/867/25
+
+v 17.6479 78.0288 1.20222e-31
+vt 19.3 170.667
+f 951/869/25 788/854/25 950/868/25
+
+v 18.5623 78.0288 -2.00371e-31
+vt 20.3 170.667
+f 952/870/25 788/854/25 951/869/25
+
+v 23.3782 78.0288 -2.00371e-31
+vt 25.5667 170.667
+f 953/871/25 788/854/25 952/870/25
+
+v 24.2926 78.0288 -2.00371e-31
+vt 26.5667 170.667
+f 954/872/25 788/854/25 953/871/25
+
+v 29.5656 78.0288 -2.00371e-31
+vt 32.3333 170.667
+f 955/873/25 788/854/25 954/872/25
+
+f 489/864/25 788/854/25 955/873/25
+
+vt 33.3333 162.765
+f 489/864/25 799/874/25 788/854/25
+
+f 799/874/25 489/864/25 790/863/25
+
+f 790/863/26 489/864/26 799/874/26
+
+f 489/864/26 790/863/26 479/770/26
+
+vt 26.5667 164
+f 479/770/25 489/864/25 491/875/25
+
+f 491/875/26 489/864/26 479/770/26
+
+vt 25.5667 164
+f 479/770/25 491/875/25 485/876/25
+
+f 485/876/26 491/875/26 479/770/26
+
+f 954/872/25 485/876/25 491/875/25
+
+f 485/876/25 954/872/25 953/871/25
+
+f 491/875/26 485/876/26 954/872/26
+
+f 953/871/26 954/872/26 485/876/26
+
+f 953/871/26 788/854/26 954/872/26
+
+f 952/870/26 788/854/26 953/871/26
+
+f 951/869/26 788/854/26 952/870/26
+
+f 950/868/26 788/854/26 951/869/26
+
+f 949/867/26 788/854/26 950/868/26
+
+f 948/866/26 788/854/26 949/867/26
+
+f 947/865/26 788/854/26 948/866/26
+
+f 946/772/26 788/854/26 947/865/26
+
+vt 6.76667 164
+f 477/877/25 948/866/25 947/865/25
+
+vt 7.76667 164
+f 948/866/25 477/877/25 495/878/25
+
+f 495/878/26 477/877/26 948/866/26
+
+f 479/770/25 495/878/25 477/877/25
+
+v 11.9177 74.9808 -0
+vt 13.0333 164
+f 479/770/25 956/879/25 495/878/25
+
+vt 14.0333 164
+f 479/770/25 483/880/25 956/879/25
+
+vt 19.3 164
+f 479/770/25 481/881/25 483/880/25
+
+vt 20.3 164
+f 479/770/25 487/882/25 481/881/25
+
+f 479/770/25 485/876/25 487/882/25
+
+f 487/882/26 485/876/26 479/770/26
+
+f 481/881/26 487/882/26 479/770/26
+
+f 952/870/25 481/881/25 487/882/25
+
+f 481/881/25 952/870/25 951/869/25
+
+f 487/882/26 481/881/26 952/870/26
+
+f 951/869/26 952/870/26 481/881/26
+
+f 483/880/26 481/881/26 479/770/26
+
+f 956/879/26 483/880/26 479/770/26
+
+f 950/868/25 956/879/25 483/880/25
+
+f 956/879/25 950/868/25 949/867/25
+
+f 483/880/26 956/879/26 950/868/26
+
+f 949/867/26 950/868/26 956/879/26
+
+f 495/878/26 956/879/26 479/770/26
+
+f 477/877/26 495/878/26 479/770/26
+
+f 947/865/26 948/866/26 477/877/26
+
+f 954/872/26 788/854/26 955/873/26
+
+f 955/873/26 788/854/26 489/864/26
+
+f 788/854/26 799/874/26 489/864/26
+
+f 790/863/27 458/758/27 799/874/27
+
+f 790/863/27 459/756/27 458/758/27
+
+vt -9.34946e-33 153.425
+f 801/883/27 459/756/27 790/863/27
+
+vt 32.3333 154.667
+f 459/756/27 801/883/27 469/884/27
+
+f 790/863/28 459/756/28 801/883/28
+
+f 458/758/28 459/756/28 790/863/28
+
+f 799/874/28 458/758/28 790/863/28
+
+vt 6.76667 161.333
+f 460/885/27 799/874/27 458/758/27
+
+vt 7.76667 161.333
+f 474/886/27 799/874/27 460/885/27
+
+v 11.9177 73.7616 -2.00371e-31
+vt 13.0333 161.333
+f 957/887/27 799/874/27 474/886/27
+
+v 12.8321 73.7616 1.20222e-31
+vt 14.0333 161.333
+f 958/888/27 799/874/27 957/887/27
+
+v 17.6479 73.7616 1.20222e-31
+vt 19.3 161.333
+f 959/889/27 799/874/27 958/888/27
+
+vt 20.3 161.333
+f 466/890/27 799/874/27 959/889/27
+
+vt 25.5667 161.333
+f 468/891/27 799/874/27 466/890/27
+
+vt 26.5667 161.333
+f 470/892/27 799/874/27 468/891/27
+
+vt 32.3333 161.333
+f 472/893/27 799/874/27 470/892/27
+
+f 469/884/27 799/874/27 472/893/27
+
+vt 33.3333 153.425
+f 469/884/27 805/894/27 799/874/27
+
+f 805/894/27 469/884/27 801/883/27
+
+f 801/883/28 469/884/28 805/894/28
+
+f 469/884/28 801/883/28 459/756/28
+
+vt 26.5667 154.667
+f 459/756/27 469/884/27 471/895/27
+
+f 471/895/28 469/884/28 459/756/28
+
+vt 25.5667 154.667
+f 459/756/27 471/895/27 465/896/27
+
+f 465/896/28 471/895/28 459/756/28
+
+f 470/892/27 465/896/27 471/895/27
+
+f 465/896/27 470/892/27 468/891/27
+
+f 471/895/28 465/896/28 470/892/28
+
+f 468/891/28 470/892/28 465/896/28
+
+f 468/891/28 799/874/28 470/892/28
+
+f 466/890/28 799/874/28 468/891/28
+
+f 959/889/28 799/874/28 466/890/28
+
+f 958/888/28 799/874/28 959/889/28
+
+f 957/887/28 799/874/28 958/888/28
+
+f 474/886/28 799/874/28 957/887/28
+
+f 460/885/28 799/874/28 474/886/28
+
+f 458/758/28 799/874/28 460/885/28
+
+vt 6.76667 154.667
+f 457/897/27 474/886/27 460/885/27
+
+vt 7.76667 154.667
+f 474/886/27 457/897/27 475/898/27
+
+f 475/898/28 457/897/28 474/886/28
+
+f 459/756/27 475/898/27 457/897/27
+
+v 11.9177 70.7136 -0
+vt 13.0333 154.667
+f 459/756/27 960/899/27 475/898/27
+
+vt 14.0333 154.667
+f 459/756/27 463/900/27 960/899/27
+
+vt 19.3 154.667
+f 459/756/27 461/901/27 463/900/27
+
+vt 20.3 154.667
+f 459/756/27 467/902/27 461/901/27
+
+f 459/756/27 465/896/27 467/902/27
+
+f 467/902/28 465/896/28 459/756/28
+
+f 461/901/28 467/902/28 459/756/28
+
+f 466/890/27 461/901/27 467/902/27
+
+f 461/901/27 466/890/27 959/889/27
+
+f 467/902/28 461/901/28 466/890/28
+
+f 959/889/28 466/890/28 461/901/28
+
+f 463/900/28 461/901/28 459/756/28
+
+f 960/899/28 463/900/28 459/756/28
+
+f 958/888/27 960/899/27 463/900/27
+
+f 960/899/27 958/888/27 957/887/27
+
+f 463/900/28 960/899/28 958/888/28
+
+f 957/887/28 958/888/28 960/899/28
+
+f 475/898/28 960/899/28 459/756/28
+
+f 457/897/28 475/898/28 459/756/28
+
+f 460/885/28 474/886/28 457/897/28
+
+f 470/892/28 799/874/28 472/893/28
+
+f 472/893/28 799/874/28 469/884/28
+
+f 799/874/28 805/894/28 469/884/28
+
+f 801/883/25 438/744/25 805/894/25
+
+f 801/883/25 439/742/25 438/744/25
+
+vt -9.34946e-33 144.086
+f 807/903/25 439/742/25 801/883/25
+
+vt 32.3333 145.333
+f 439/742/25 807/903/25 449/904/25
+
+f 801/883/26 439/742/26 807/903/26
+
+f 438/744/26 439/742/26 801/883/26
+
+f 805/894/26 438/744/26 801/883/26
+
+vt 6.76667 152
+f 440/905/25 805/894/25 438/744/25
+
+vt 7.76667 152
+f 454/906/25 805/894/25 440/905/25
+
+v 11.9177 69.4944 -2.00371e-31
+vt 13.0333 152
+f 961/907/25 805/894/25 454/906/25
+
+v 12.8321 69.4944 1.20222e-31
+vt 14.0333 152
+f 962/908/25 805/894/25 961/907/25
+
+v 17.6479 69.4944 1.20222e-31
+vt 19.3 152
+f 963/909/25 805/894/25 962/908/25
+
+vt 20.3 152
+f 446/910/25 805/894/25 963/909/25
+
+vt 25.5667 152
+f 448/911/25 805/894/25 446/910/25
+
+vt 26.5667 152
+f 450/912/25 805/894/25 448/911/25
+
+vt 32.3333 152
+f 452/913/25 805/894/25 450/912/25
+
+f 449/904/25 805/894/25 452/913/25
+
+vt 33.3333 144.086
+f 449/904/25 811/914/25 805/894/25
+
+f 811/914/25 449/904/25 807/903/25
+
+f 807/903/26 449/904/26 811/914/26
+
+f 449/904/26 807/903/26 439/742/26
+
+vt 26.5667 145.333
+f 439/742/25 449/904/25 451/915/25
+
+f 451/915/26 449/904/26 439/742/26
+
+vt 25.5667 145.333
+f 439/742/25 451/915/25 445/916/25
+
+f 445/916/26 451/915/26 439/742/26
+
+f 450/912/25 445/916/25 451/915/25
+
+f 445/916/25 450/912/25 448/911/25
+
+f 451/915/26 445/916/26 450/912/26
+
+f 448/911/26 450/912/26 445/916/26
+
+f 448/911/26 805/894/26 450/912/26
+
+f 446/910/26 805/894/26 448/911/26
+
+f 963/909/26 805/894/26 446/910/26
+
+f 962/908/26 805/894/26 963/909/26
+
+f 961/907/26 805/894/26 962/908/26
+
+f 454/906/26 805/894/26 961/907/26
+
+f 440/905/26 805/894/26 454/906/26
+
+f 438/744/26 805/894/26 440/905/26
+
+vt 6.76667 145.333
+f 437/917/25 454/906/25 440/905/25
+
+vt 7.76667 145.333
+f 454/906/25 437/917/25 455/918/25
+
+f 455/918/26 437/917/26 454/906/26
+
+f 439/742/25 455/918/25 437/917/25
+
+v 11.9177 66.4464 -0
+vt 13.0333 145.333
+f 439/742/25 964/919/25 455/918/25
+
+vt 14.0333 145.333
+f 439/742/25 443/920/25 964/919/25
+
+vt 19.3 145.333
+f 439/742/25 441/921/25 443/920/25
+
+vt 20.3 145.333
+f 439/742/25 447/922/25 441/921/25
+
+f 439/742/25 445/916/25 447/922/25
+
+f 447/922/26 445/916/26 439/742/26
+
+f 441/921/26 447/922/26 439/742/26
+
+f 446/910/25 441/921/25 447/922/25
+
+f 441/921/25 446/910/25 963/909/25
+
+f 447/922/26 441/921/26 446/910/26
+
+f 963/909/26 446/910/26 441/921/26
+
+f 443/920/26 441/921/26 439/742/26
+
+f 964/919/26 443/920/26 439/742/26
+
+f 962/908/25 964/919/25 443/920/25
+
+f 964/919/25 962/908/25 961/907/25
+
+f 443/920/26 964/919/26 962/908/26
+
+f 961/907/26 962/908/26 964/919/26
+
+f 455/918/26 964/919/26 439/742/26
+
+f 437/917/26 455/918/26 439/742/26
+
+f 440/905/26 454/906/26 437/917/26
+
+f 450/912/26 805/894/26 452/913/26
+
+f 452/913/26 805/894/26 449/904/26
+
+f 805/894/26 811/914/26 449/904/26
+
+f 807/903/27 434/730/27 811/914/27
+
+f 807/903/27 435/728/27 434/730/27
+
+vt -9.34946e-33 134.746
+f 813/923/27 435/728/27 807/903/27
+
+vt 32.3333 136
+f 435/728/27 813/923/27 425/924/27
+
+f 807/903/28 435/728/28 813/923/28
+
+f 434/730/28 435/728/28 807/903/28
+
+f 811/914/28 434/730/28 807/903/28
+
+vt 6.76667 142.667
+f 436/925/27 811/914/27 434/730/27
+
+vt 7.76667 142.667
+f 430/926/27 811/914/27 436/925/27
+
+v 11.9177 65.2272 -2.00371e-31
+vt 13.0333 142.667
+f 965/927/27 811/914/27 430/926/27
+
+v 12.8321 65.2272 1.20222e-31
+vt 14.0333 142.667
+f 966/928/27 811/914/27 965/927/27
+
+v 17.6479 65.2272 1.20222e-31
+vt 19.3 142.667
+f 967/929/27 811/914/27 966/928/27
+
+vt 20.3 142.667
+f 422/930/27 811/914/27 967/929/27
+
+vt 25.5667 142.667
+f 424/931/27 811/914/27 422/930/27
+
+vt 26.5667 142.667
+f 426/932/27 811/914/27 424/931/27
+
+vt 32.3333 142.667
+f 428/933/27 811/914/27 426/932/27
+
+f 425/924/27 811/914/27 428/933/27
+
+vt 33.3333 134.746
+f 425/924/27 817/934/27 811/914/27
+
+f 817/934/27 425/924/27 813/923/27
+
+f 813/923/28 425/924/28 817/934/28
+
+f 425/924/28 813/923/28 435/728/28
+
+vt 26.5667 136
+f 435/728/27 425/924/27 427/935/27
+
+f 427/935/28 425/924/28 435/728/28
+
+vt 25.5667 136
+f 435/728/27 427/935/27 421/936/27
+
+f 421/936/28 427/935/28 435/728/28
+
+f 426/932/27 421/936/27 427/935/27
+
+f 421/936/27 426/932/27 424/931/27
+
+f 427/935/28 421/936/28 426/932/28
+
+f 424/931/28 426/932/28 421/936/28
+
+f 424/931/28 811/914/28 426/932/28
+
+f 422/930/28 811/914/28 424/931/28
+
+f 967/929/28 811/914/28 422/930/28
+
+f 966/928/28 811/914/28 967/929/28
+
+f 965/927/28 811/914/28 966/928/28
+
+f 430/926/28 811/914/28 965/927/28
+
+f 436/925/28 811/914/28 430/926/28
+
+f 434/730/28 811/914/28 436/925/28
+
+vt 6.76667 136
+f 433/937/27 430/926/27 436/925/27
+
+vt 7.76667 136
+f 430/926/27 433/937/27 431/938/27
+
+f 431/938/28 433/937/28 430/926/28
+
+f 435/728/27 431/938/27 433/937/27
+
+v 11.9177 62.1792 -0
+vt 13.0333 136
+f 435/728/27 968/939/27 431/938/27
+
+vt 14.0333 136
+f 435/728/27 419/940/27 968/939/27
+
+vt 19.3 136
+f 435/728/27 417/941/27 419/940/27
+
+vt 20.3 136
+f 435/728/27 423/942/27 417/941/27
+
+f 435/728/27 421/936/27 423/942/27
+
+f 423/942/28 421/936/28 435/728/28
+
+f 417/941/28 423/942/28 435/728/28
+
+f 422/930/27 417/941/27 423/942/27
+
+f 417/941/27 422/930/27 967/929/27
+
+f 423/942/28 417/941/28 422/930/28
+
+f 967/929/28 422/930/28 417/941/28
+
+f 419/940/28 417/941/28 435/728/28
+
+f 968/939/28 419/940/28 435/728/28
+
+f 966/928/27 968/939/27 419/940/27
+
+f 968/939/27 966/928/27 965/927/27
+
+f 419/940/28 968/939/28 966/928/28
+
+f 965/927/28 966/928/28 968/939/28
+
+f 431/938/28 968/939/28 435/728/28
+
+f 433/937/28 431/938/28 435/728/28
+
+f 436/925/28 430/926/28 433/937/28
+
+f 426/932/28 811/914/28 428/933/28
+
+f 428/933/28 811/914/28 425/924/28
+
+f 811/914/28 817/934/28 425/924/28
+
+f 813/923/25 398/716/25 817/934/25
+
+f 813/923/25 399/714/25 398/716/25
+
+vt -9.34946e-33 125.407
+f 819/943/25 399/714/25 813/923/25
+
+vt 32.3333 126.667
+f 399/714/25 819/943/25 409/944/25
+
+f 813/923/26 399/714/26 819/943/26
+
+f 398/716/26 399/714/26 813/923/26
+
+f 817/934/26 398/716/26 813/923/26
+
+vt 6.76667 133.333
+f 400/945/25 817/934/25 398/716/25
+
+vt 7.76667 133.333
+f 414/946/25 817/934/25 400/945/25
+
+v 11.9177 60.96 -2.00371e-31
+vt 13.0333 133.333
+f 969/947/25 817/934/25 414/946/25
+
+v 12.8321 60.96 1.20222e-31
+vt 14.0333 133.333
+f 970/948/25 817/934/25 969/947/25
+
+v 17.6479 60.96 1.20222e-31
+vt 19.3 133.333
+f 971/949/25 817/934/25 970/948/25
+
+vt 20.3 133.333
+f 406/950/25 817/934/25 971/949/25
+
+vt 25.5667 133.333
+f 408/951/25 817/934/25 406/950/25
+
+vt 26.5667 133.333
+f 410/952/25 817/934/25 408/951/25
+
+vt 32.3333 133.333
+f 412/953/25 817/934/25 410/952/25
+
+f 409/944/25 817/934/25 412/953/25
+
+vt 33.3333 125.407
+f 409/944/25 823/954/25 817/934/25
+
+f 823/954/25 409/944/25 819/943/25
+
+f 819/943/26 409/944/26 823/954/26
+
+f 409/944/26 819/943/26 399/714/26
+
+vt 26.5667 126.667
+f 399/714/25 409/944/25 411/955/25
+
+f 411/955/26 409/944/26 399/714/26
+
+vt 25.5667 126.667
+f 399/714/25 411/955/25 405/956/25
+
+f 405/956/26 411/955/26 399/714/26
+
+f 410/952/25 405/956/25 411/955/25
+
+f 405/956/25 410/952/25 408/951/25
+
+f 411/955/26 405/956/26 410/952/26
+
+f 408/951/26 410/952/26 405/956/26
+
+f 408/951/26 817/934/26 410/952/26
+
+f 406/950/26 817/934/26 408/951/26
+
+f 971/949/26 817/934/26 406/950/26
+
+f 970/948/26 817/934/26 971/949/26
+
+f 969/947/26 817/934/26 970/948/26
+
+f 414/946/26 817/934/26 969/947/26
+
+f 400/945/26 817/934/26 414/946/26
+
+f 398/716/26 817/934/26 400/945/26
+
+vt 6.76667 126.667
+f 397/957/25 414/946/25 400/945/25
+
+vt 7.76667 126.667
+f 414/946/25 397/957/25 415/958/25
+
+f 415/958/26 397/957/26 414/946/26
+
+f 399/714/25 415/958/25 397/957/25
+
+v 11.9177 57.912 -0
+vt 13.0333 126.667
+f 399/714/25 972/959/25 415/958/25
+
+vt 14.0333 126.667
+f 399/714/25 403/960/25 972/959/25
+
+vt 19.3 126.667
+f 399/714/25 401/961/25 403/960/25
+
+vt 20.3 126.667
+f 399/714/25 407/962/25 401/961/25
+
+f 399/714/25 405/956/25 407/962/25
+
+f 407/962/26 405/956/26 399/714/26
+
+f 401/961/26 407/962/26 399/714/26
+
+f 406/950/25 401/961/25 407/962/25
+
+f 401/961/25 406/950/25 971/949/25
+
+f 407/962/26 401/961/26 406/950/26
+
+f 971/949/26 406/950/26 401/961/26
+
+f 403/960/26 401/961/26 399/714/26
+
+f 972/959/26 403/960/26 399/714/26
+
+f 970/948/25 972/959/25 403/960/25
+
+f 972/959/25 970/948/25 969/947/25
+
+f 403/960/26 972/959/26 970/948/26
+
+f 969/947/26 970/948/26 972/959/26
+
+f 415/958/26 972/959/26 399/714/26
+
+f 397/957/26 415/958/26 399/714/26
+
+f 400/945/26 414/946/26 397/957/26
+
+f 410/952/26 817/934/26 412/953/26
+
+f 412/953/26 817/934/26 409/944/26
+
+f 817/934/26 823/954/26 409/944/26
+
+f 819/943/27 378/702/27 823/954/27
+
+f 819/943/27 379/700/27 378/702/27
+
+vt -9.34946e-33 116.067
+f 825/963/27 379/700/27 819/943/27
+
+vt 32.3333 117.333
+f 379/700/27 825/963/27 389/964/27
+
+f 819/943/28 379/700/28 825/963/28
+
+f 378/702/28 379/700/28 819/943/28
+
+f 823/954/28 378/702/28 819/943/28
+
+vt 6.76667 124
+f 380/965/27 823/954/27 378/702/27
+
+vt 7.76667 124
+f 394/966/27 823/954/27 380/965/27
+
+v 11.9177 56.6928 -2.00371e-31
+vt 13.0333 124
+f 973/967/27 823/954/27 394/966/27
+
+v 12.8321 56.6928 1.20222e-31
+vt 14.0333 124
+f 974/968/27 823/954/27 973/967/27
+
+v 17.6479 56.6928 1.20222e-31
+vt 19.3 124
+f 975/969/27 823/954/27 974/968/27
+
+vt 20.3 124
+f 386/970/27 823/954/27 975/969/27
+
+vt 25.5667 124
+f 388/971/27 823/954/27 386/970/27
+
+vt 26.5667 124
+f 390/972/27 823/954/27 388/971/27
+
+vt 32.3333 124
+f 392/973/27 823/954/27 390/972/27
+
+f 389/964/27 823/954/27 392/973/27
+
+vt 33.3333 116.067
+f 389/964/27 829/974/27 823/954/27
+
+f 829/974/27 389/964/27 825/963/27
+
+f 825/963/28 389/964/28 829/974/28
+
+f 389/964/28 825/963/28 379/700/28
+
+vt 26.5667 117.333
+f 379/700/27 389/964/27 391/975/27
+
+f 391/975/28 389/964/28 379/700/28
+
+vt 25.5667 117.333
+f 379/700/27 391/975/27 385/976/27
+
+f 385/976/28 391/975/28 379/700/28
+
+f 390/972/27 385/976/27 391/975/27
+
+f 385/976/27 390/972/27 388/971/27
+
+f 391/975/28 385/976/28 390/972/28
+
+f 388/971/28 390/972/28 385/976/28
+
+f 388/971/28 823/954/28 390/972/28
+
+f 386/970/28 823/954/28 388/971/28
+
+f 975/969/28 823/954/28 386/970/28
+
+f 974/968/28 823/954/28 975/969/28
+
+f 973/967/28 823/954/28 974/968/28
+
+f 394/966/28 823/954/28 973/967/28
+
+f 380/965/28 823/954/28 394/966/28
+
+f 378/702/28 823/954/28 380/965/28
+
+vt 6.76667 117.333
+f 377/977/27 394/966/27 380/965/27
+
+vt 7.76667 117.333
+f 394/966/27 377/977/27 395/978/27
+
+f 395/978/28 377/977/28 394/966/28
+
+f 379/700/27 395/978/27 377/977/27
+
+v 11.9177 53.6448 -0
+vt 13.0333 117.333
+f 379/700/27 976/979/27 395/978/27
+
+vt 14.0333 117.333
+f 379/700/27 383/980/27 976/979/27
+
+vt 19.3 117.333
+f 379/700/27 381/981/27 383/980/27
+
+vt 20.3 117.333
+f 379/700/27 387/982/27 381/981/27
+
+f 379/700/27 385/976/27 387/982/27
+
+f 387/982/28 385/976/28 379/700/28
+
+f 381/981/28 387/982/28 379/700/28
+
+f 386/970/27 381/981/27 387/982/27
+
+f 381/981/27 386/970/27 975/969/27
+
+f 387/982/28 381/981/28 386/970/28
+
+f 975/969/28 386/970/28 381/981/28
+
+f 383/980/28 381/981/28 379/700/28
+
+f 976/979/28 383/980/28 379/700/28
+
+f 974/968/27 976/979/27 383/980/27
+
+f 976/979/27 974/968/27 973/967/27
+
+f 383/980/28 976/979/28 974/968/28
+
+f 973/967/28 974/968/28 976/979/28
+
+f 395/978/28 976/979/28 379/700/28
+
+f 377/977/28 395/978/28 379/700/28
+
+f 380/965/28 394/966/28 377/977/28
+
+f 390/972/28 823/954/28 392/973/28
+
+f 392/973/28 823/954/28 389/964/28
+
+f 823/954/28 829/974/28 389/964/28
+
+f 825/963/21 370/688/21 829/974/21
+
+f 825/963/21 371/686/21 370/688/21
+
+vt -9.34946e-33 106.728
+f 831/983/21 371/686/21 825/963/21
+
+vt 32.3333 108
+f 371/686/21 831/983/21 361/984/21
+
+f 825/963/22 371/686/22 831/983/22
+
+f 370/688/22 371/686/22 825/963/22
+
+f 829/974/22 370/688/22 825/963/22
+
+vt 6.76667 114.667
+f 372/985/21 829/974/21 370/688/21
+
+vt 7.76667 114.667
+f 366/986/21 829/974/21 372/985/21
+
+v 11.9177 52.4256 -2.00371e-31
+vt 13.0333 114.667
+f 977/987/21 829/974/21 366/986/21
+
+v 12.8321 52.4256 1.20222e-31
+vt 14.0333 114.667
+f 978/988/21 829/974/21 977/987/21
+
+v 17.6479 52.4256 1.20222e-31
+vt 19.3 114.667
+f 979/989/21 829/974/21 978/988/21
+
+vt 20.3 114.667
+f 358/990/21 829/974/21 979/989/21
+
+vt 25.5667 114.667
+f 360/991/21 829/974/21 358/990/21
+
+vt 26.5667 114.667
+f 362/992/21 829/974/21 360/991/21
+
+vt 32.3333 114.667
+f 364/993/21 829/974/21 362/992/21
+
+f 361/984/21 829/974/21 364/993/21
+
+vt 33.3333 106.728
+f 361/984/21 835/994/21 829/974/21
+
+f 835/994/21 361/984/21 831/983/21
+
+f 831/983/22 361/984/22 835/994/22
+
+f 361/984/22 831/983/22 371/686/22
+
+vt 26.5667 108
+f 371/686/21 361/984/21 363/995/21
+
+f 363/995/22 361/984/22 371/686/22
+
+vt 25.5667 108
+f 371/686/21 363/995/21 357/996/21
+
+f 357/996/22 363/995/22 371/686/22
+
+f 362/992/21 357/996/21 363/995/21
+
+f 357/996/21 362/992/21 360/991/21
+
+f 363/995/22 357/996/22 362/992/22
+
+f 360/991/22 362/992/22 357/996/22
+
+f 360/991/22 829/974/22 362/992/22
+
+f 358/990/22 829/974/22 360/991/22
+
+f 979/989/22 829/974/22 358/990/22
+
+f 978/988/22 829/974/22 979/989/22
+
+f 977/987/22 829/974/22 978/988/22
+
+f 366/986/22 829/974/22 977/987/22
+
+f 372/985/22 829/974/22 366/986/22
+
+f 370/688/22 829/974/22 372/985/22
+
+vt 6.76667 108
+f 369/997/21 366/986/21 372/985/21
+
+vt 7.76667 108
+f 366/986/21 369/997/21 367/998/21
+
+f 367/998/22 369/997/22 366/986/22
+
+f 371/686/21 367/998/21 369/997/21
+
+v 11.9177 49.3776 -0
+vt 13.0333 108
+f 371/686/21 980/999/21 367/998/21
+
+vt 14.0333 108
+f 371/686/21 375/1000/21 980/999/21
+
+vt 19.3 108
+f 371/686/21 373/1001/21 375/1000/21
+
+vt 20.3 108
+f 371/686/21 359/1002/21 373/1001/21
+
+f 371/686/21 357/996/21 359/1002/21
+
+f 359/1002/22 357/996/22 371/686/22
+
+f 373/1001/22 359/1002/22 371/686/22
+
+f 358/990/21 373/1001/21 359/1002/21
+
+f 373/1001/21 358/990/21 979/989/21
+
+f 359/1002/22 373/1001/22 358/990/22
+
+f 979/989/22 358/990/22 373/1001/22
+
+f 375/1000/22 373/1001/22 371/686/22
+
+f 980/999/22 375/1000/22 371/686/22
+
+f 978/988/21 980/999/21 375/1000/21
+
+f 980/999/21 978/988/21 977/987/21
+
+f 375/1000/22 980/999/22 978/988/22
+
+f 977/987/22 978/988/22 980/999/22
+
+f 367/998/22 980/999/22 371/686/22
+
+f 369/997/22 367/998/22 371/686/22
+
+f 372/985/22 366/986/22 369/997/22
+
+f 362/992/22 829/974/22 364/993/22
+
+f 364/993/22 829/974/22 361/984/22
+
+f 829/974/22 835/994/22 361/984/22
+
+f 831/983/25 338/674/25 835/994/25
+
+f 831/983/25 339/672/25 338/674/25
+
+vt -9.34946e-33 97.3885
+f 837/1003/25 339/672/25 831/983/25
+
+vt 32.3333 98.6667
+f 339/672/25 837/1003/25 349/1004/25
+
+f 831/983/26 339/672/26 837/1003/26
+
+f 338/674/26 339/672/26 831/983/26
+
+f 835/994/26 338/674/26 831/983/26
+
+vt 6.76667 105.333
+f 340/1005/25 835/994/25 338/674/25
+
+vt 7.76667 105.333
+f 354/1006/25 835/994/25 340/1005/25
+
+v 11.9177 48.1584 -2.00371e-31
+vt 13.0333 105.333
+f 981/1007/25 835/994/25 354/1006/25
+
+v 12.8321 48.1584 1.20222e-31
+vt 14.0333 105.333
+f 982/1008/25 835/994/25 981/1007/25
+
+v 17.6479 48.1584 1.20222e-31
+vt 19.3 105.333
+f 983/1009/25 835/994/25 982/1008/25
+
+vt 20.3 105.333
+f 346/1010/25 835/994/25 983/1009/25
+
+vt 25.5667 105.333
+f 348/1011/25 835/994/25 346/1010/25
+
+vt 26.5667 105.333
+f 350/1012/25 835/994/25 348/1011/25
+
+vt 32.3333 105.333
+f 352/1013/25 835/994/25 350/1012/25
+
+f 349/1004/25 835/994/25 352/1013/25
+
+vt 33.3333 97.3885
+f 349/1004/25 841/1014/25 835/994/25
+
+f 841/1014/25 349/1004/25 837/1003/25
+
+f 837/1003/26 349/1004/26 841/1014/26
+
+f 349/1004/26 837/1003/26 339/672/26
+
+vt 26.5667 98.6667
+f 339/672/25 349/1004/25 351/1015/25
+
+f 351/1015/26 349/1004/26 339/672/26
+
+vt 25.5667 98.6667
+f 339/672/25 351/1015/25 345/1016/25
+
+f 345/1016/26 351/1015/26 339/672/26
+
+f 350/1012/25 345/1016/25 351/1015/25
+
+f 345/1016/25 350/1012/25 348/1011/25
+
+f 351/1015/26 345/1016/26 350/1012/26
+
+f 348/1011/26 350/1012/26 345/1016/26
+
+f 348/1011/26 835/994/26 350/1012/26
+
+f 346/1010/26 835/994/26 348/1011/26
+
+f 983/1009/26 835/994/26 346/1010/26
+
+f 982/1008/26 835/994/26 983/1009/26
+
+f 981/1007/26 835/994/26 982/1008/26
+
+f 354/1006/26 835/994/26 981/1007/26
+
+f 340/1005/26 835/994/26 354/1006/26
+
+f 338/674/26 835/994/26 340/1005/26
+
+vt 6.76667 98.6667
+f 337/1017/25 354/1006/25 340/1005/25
+
+vt 7.76667 98.6667
+f 354/1006/25 337/1017/25 355/1018/25
+
+f 355/1018/26 337/1017/26 354/1006/26
+
+f 339/672/25 355/1018/25 337/1017/25
+
+v 11.9177 45.1104 -0
+vt 13.0333 98.6667
+f 339/672/25 984/1019/25 355/1018/25
+
+vt 14.0333 98.6667
+f 339/672/25 343/1020/25 984/1019/25
+
+vt 19.3 98.6667
+f 339/672/25 341/1021/25 343/1020/25
+
+vt 20.3 98.6667
+f 339/672/25 347/1022/25 341/1021/25
+
+f 339/672/25 345/1016/25 347/1022/25
+
+f 347/1022/26 345/1016/26 339/672/26
+
+f 341/1021/26 347/1022/26 339/672/26
+
+f 346/1010/25 341/1021/25 347/1022/25
+
+f 341/1021/25 346/1010/25 983/1009/25
+
+f 347/1022/26 341/1021/26 346/1010/26
+
+f 983/1009/26 346/1010/26 341/1021/26
+
+f 343/1020/26 341/1021/26 339/672/26
+
+f 984/1019/26 343/1020/26 339/672/26
+
+f 982/1008/25 984/1019/25 343/1020/25
+
+f 984/1019/25 982/1008/25 981/1007/25
+
+f 343/1020/26 984/1019/26 982/1008/26
+
+f 981/1007/26 982/1008/26 984/1019/26
+
+f 355/1018/26 984/1019/26 339/672/26
+
+f 337/1017/26 355/1018/26 339/672/26
+
+f 340/1005/26 354/1006/26 337/1017/26
+
+f 350/1012/26 835/994/26 352/1013/26
+
+f 352/1013/26 835/994/26 349/1004/26
+
+f 835/994/26 841/1014/26 349/1004/26
+
+f 837/1003/21 318/660/21 841/1014/21
+
+f 837/1003/21 319/658/21 318/660/21
+
+vt -9.34946e-33 88.049
+f 843/1023/21 319/658/21 837/1003/21
+
+vt 32.3333 89.3333
+f 319/658/21 843/1023/21 329/1024/21
+
+f 837/1003/22 319/658/22 843/1023/22
+
+f 318/660/22 319/658/22 837/1003/22
+
+f 841/1014/22 318/660/22 837/1003/22
+
+vt 6.76667 96
+f 320/1025/21 841/1014/21 318/660/21
+
+vt 7.76667 96
+f 334/1026/21 841/1014/21 320/1025/21
+
+v 11.9177 43.8912 -2.00371e-31
+vt 13.0333 96
+f 985/1027/21 841/1014/21 334/1026/21
+
+v 12.8321 43.8912 1.20222e-31
+vt 14.0333 96
+f 986/1028/21 841/1014/21 985/1027/21
+
+v 17.6479 43.8912 1.20222e-31
+vt 19.3 96
+f 987/1029/21 841/1014/21 986/1028/21
+
+vt 20.3 96
+f 326/1030/21 841/1014/21 987/1029/21
+
+vt 25.5667 96
+f 328/1031/21 841/1014/21 326/1030/21
+
+vt 26.5667 96
+f 330/1032/21 841/1014/21 328/1031/21
+
+vt 32.3333 96
+f 332/1033/21 841/1014/21 330/1032/21
+
+f 329/1024/21 841/1014/21 332/1033/21
+
+vt 33.3333 88.049
+f 329/1024/21 847/1034/21 841/1014/21
+
+f 847/1034/21 329/1024/21 843/1023/21
+
+f 843/1023/22 329/1024/22 847/1034/22
+
+f 329/1024/22 843/1023/22 319/658/22
+
+vt 26.5667 89.3333
+f 319/658/21 329/1024/21 331/1035/21
+
+f 331/1035/22 329/1024/22 319/658/22
+
+vt 25.5667 89.3333
+f 319/658/21 331/1035/21 325/1036/21
+
+f 325/1036/22 331/1035/22 319/658/22
+
+f 330/1032/21 325/1036/21 331/1035/21
+
+f 325/1036/21 330/1032/21 328/1031/21
+
+f 331/1035/22 325/1036/22 330/1032/22
+
+f 328/1031/22 330/1032/22 325/1036/22
+
+f 328/1031/22 841/1014/22 330/1032/22
+
+f 326/1030/22 841/1014/22 328/1031/22
+
+f 987/1029/22 841/1014/22 326/1030/22
+
+f 986/1028/22 841/1014/22 987/1029/22
+
+f 985/1027/22 841/1014/22 986/1028/22
+
+f 334/1026/22 841/1014/22 985/1027/22
+
+f 320/1025/22 841/1014/22 334/1026/22
+
+f 318/660/22 841/1014/22 320/1025/22
+
+vt 6.76667 89.3333
+f 317/1037/21 334/1026/21 320/1025/21
+
+vt 7.76667 89.3333
+f 334/1026/21 317/1037/21 335/1038/21
+
+f 335/1038/22 317/1037/22 334/1026/22
+
+f 319/658/21 335/1038/21 317/1037/21
+
+v 11.9177 40.8432 -0
+vt 13.0333 89.3333
+f 319/658/21 988/1039/21 335/1038/21
+
+vt 14.0333 89.3333
+f 319/658/21 323/1040/21 988/1039/21
+
+vt 19.3 89.3333
+f 319/658/21 321/1041/21 323/1040/21
+
+vt 20.3 89.3333
+f 319/658/21 327/1042/21 321/1041/21
+
+f 319/658/21 325/1036/21 327/1042/21
+
+f 327/1042/22 325/1036/22 319/658/22
+
+f 321/1041/22 327/1042/22 319/658/22
+
+f 326/1030/21 321/1041/21 327/1042/21
+
+f 321/1041/21 326/1030/21 987/1029/21
+
+f 327/1042/22 321/1041/22 326/1030/22
+
+f 987/1029/22 326/1030/22 321/1041/22
+
+f 323/1040/22 321/1041/22 319/658/22
+
+f 988/1039/22 323/1040/22 319/658/22
+
+f 986/1028/21 988/1039/21 323/1040/21
+
+f 988/1039/21 986/1028/21 985/1027/21
+
+f 323/1040/22 988/1039/22 986/1028/22
+
+f 985/1027/22 986/1028/22 988/1039/22
+
+f 335/1038/22 988/1039/22 319/658/22
+
+f 317/1037/22 335/1038/22 319/658/22
+
+f 320/1025/22 334/1026/22 317/1037/22
+
+f 330/1032/22 841/1014/22 332/1033/22
+
+f 332/1033/22 841/1014/22 329/1024/22
+
+f 841/1014/22 847/1034/22 329/1024/22
+
+f 843/1023/27 298/646/27 847/1034/27
+
+f 843/1023/27 299/644/27 298/646/27
+
+vt -9.34946e-33 78.7095
+f 849/1043/27 299/644/27 843/1023/27
+
+vt 32.3333 80
+f 299/644/27 849/1043/27 309/1044/27
+
+f 843/1023/28 299/644/28 849/1043/28
+
+f 298/646/28 299/644/28 843/1023/28
+
+f 847/1034/28 298/646/28 843/1023/28
+
+vt 6.76667 86.6667
+f 300/1045/27 847/1034/27 298/646/27
+
+vt 7.76667 86.6667
+f 314/1046/27 847/1034/27 300/1045/27
+
+v 11.9177 39.624 -2.00371e-31
+vt 13.0333 86.6667
+f 989/1047/27 847/1034/27 314/1046/27
+
+v 12.8321 39.624 1.20222e-31
+vt 14.0333 86.6667
+f 990/1048/27 847/1034/27 989/1047/27
+
+v 17.6479 39.624 1.20222e-31
+vt 19.3 86.6667
+f 991/1049/27 847/1034/27 990/1048/27
+
+vt 20.3 86.6667
+f 306/1050/27 847/1034/27 991/1049/27
+
+vt 25.5667 86.6667
+f 308/1051/27 847/1034/27 306/1050/27
+
+vt 26.5667 86.6667
+f 310/1052/27 847/1034/27 308/1051/27
+
+vt 32.3333 86.6667
+f 312/1053/27 847/1034/27 310/1052/27
+
+f 309/1044/27 847/1034/27 312/1053/27
+
+vt 33.3333 78.7095
+f 309/1044/27 853/1054/27 847/1034/27
+
+f 853/1054/27 309/1044/27 849/1043/27
+
+f 849/1043/28 309/1044/28 853/1054/28
+
+f 309/1044/28 849/1043/28 299/644/28
+
+vt 26.5667 80
+f 299/644/27 309/1044/27 311/1055/27
+
+f 311/1055/28 309/1044/28 299/644/28
+
+vt 25.5667 80
+f 299/644/27 311/1055/27 305/1056/27
+
+f 305/1056/28 311/1055/28 299/644/28
+
+f 310/1052/27 305/1056/27 311/1055/27
+
+f 305/1056/27 310/1052/27 308/1051/27
+
+f 311/1055/28 305/1056/28 310/1052/28
+
+f 308/1051/28 310/1052/28 305/1056/28
+
+f 308/1051/28 847/1034/28 310/1052/28
+
+f 306/1050/28 847/1034/28 308/1051/28
+
+f 991/1049/28 847/1034/28 306/1050/28
+
+f 990/1048/28 847/1034/28 991/1049/28
+
+f 989/1047/28 847/1034/28 990/1048/28
+
+f 314/1046/28 847/1034/28 989/1047/28
+
+f 300/1045/28 847/1034/28 314/1046/28
+
+f 298/646/28 847/1034/28 300/1045/28
+
+vt 6.76667 80
+f 297/1057/27 314/1046/27 300/1045/27
+
+vt 7.76667 80
+f 314/1046/27 297/1057/27 315/1058/27
+
+f 315/1058/28 297/1057/28 314/1046/28
+
+f 299/644/27 315/1058/27 297/1057/27
+
+v 11.9177 36.576 -0
+vt 13.0333 80
+f 299/644/27 992/1059/27 315/1058/27
+
+vt 14.0333 80
+f 299/644/27 303/1060/27 992/1059/27
+
+vt 19.3 80
+f 299/644/27 301/1061/27 303/1060/27
+
+vt 20.3 80
+f 299/644/27 307/1062/27 301/1061/27
+
+f 299/644/27 305/1056/27 307/1062/27
+
+f 307/1062/28 305/1056/28 299/644/28
+
+f 301/1061/28 307/1062/28 299/644/28
+
+f 306/1050/27 301/1061/27 307/1062/27
+
+f 301/1061/27 306/1050/27 991/1049/27
+
+f 307/1062/28 301/1061/28 306/1050/28
+
+f 991/1049/28 306/1050/28 301/1061/28
+
+f 303/1060/28 301/1061/28 299/644/28
+
+f 992/1059/28 303/1060/28 299/644/28
+
+f 990/1048/27 992/1059/27 303/1060/27
+
+f 992/1059/27 990/1048/27 989/1047/27
+
+f 303/1060/28 992/1059/28 990/1048/28
+
+f 989/1047/28 990/1048/28 992/1059/28
+
+f 315/1058/28 992/1059/28 299/644/28
+
+f 297/1057/28 315/1058/28 299/644/28
+
+f 300/1045/28 314/1046/28 297/1057/28
+
+f 310/1052/28 847/1034/28 312/1053/28
+
+f 312/1053/28 847/1034/28 309/1044/28
+
+f 847/1034/28 853/1054/28 309/1044/28
+
+f 849/1043/21 278/632/21 853/1054/21
+
+f 849/1043/21 279/630/21 278/632/21
+
+f 855/607/21 279/630/21 849/1043/21
+
+vt 32.3333 70.6667
+f 279/630/21 855/607/21 289/1063/21
+
+f 849/1043/22 279/630/22 855/607/22
+
+f 278/632/22 279/630/22 849/1043/22
+
+f 853/1054/22 278/632/22 849/1043/22
+
+vt 6.76667 77.3333
+f 280/1064/21 853/1054/21 278/632/21
+
+vt 7.76667 77.3333
+f 294/1065/21 853/1054/21 280/1064/21
+
+v 11.9177 35.3568 -2.00371e-31
+vt 13.0333 77.3333
+f 993/1066/21 853/1054/21 294/1065/21
+
+v 12.8321 35.3568 1.20222e-31
+vt 14.0333 77.3333
+f 994/1067/21 853/1054/21 993/1066/21
+
+v 17.6479 35.3568 1.20222e-31
+vt 19.3 77.3333
+f 995/1068/21 853/1054/21 994/1067/21
+
+vt 20.3 77.3333
+f 286/1069/21 853/1054/21 995/1068/21
+
+vt 25.5667 77.3333
+f 288/1070/21 853/1054/21 286/1069/21
+
+vt 26.5667 77.3333
+f 290/1071/21 853/1054/21 288/1070/21
+
+vt 32.3333 77.3333
+f 292/1072/21 853/1054/21 290/1071/21
+
+f 289/1063/21 853/1054/21 292/1072/21
+
+f 289/1063/21 927/610/21 853/1054/21
+
+f 927/610/21 289/1063/21 855/607/21
+
+f 855/607/22 289/1063/22 927/610/22
+
+f 289/1063/22 855/607/22 279/630/22
+
+vt 26.5667 70.6667
+f 279/630/21 289/1063/21 291/1073/21
+
+f 291/1073/22 289/1063/22 279/630/22
+
+vt 25.5667 70.6667
+f 279/630/21 291/1073/21 285/1074/21
+
+f 285/1074/22 291/1073/22 279/630/22
+
+f 290/1071/21 285/1074/21 291/1073/21
+
+f 285/1074/21 290/1071/21 288/1070/21
+
+f 291/1073/22 285/1074/22 290/1071/22
+
+f 288/1070/22 290/1071/22 285/1074/22
+
+f 288/1070/22 853/1054/22 290/1071/22
+
+f 286/1069/22 853/1054/22 288/1070/22
+
+f 995/1068/22 853/1054/22 286/1069/22
+
+f 994/1067/22 853/1054/22 995/1068/22
+
+f 993/1066/22 853/1054/22 994/1067/22
+
+f 294/1065/22 853/1054/22 993/1066/22
+
+f 280/1064/22 853/1054/22 294/1065/22
+
+f 278/632/22 853/1054/22 280/1064/22
+
+vt 6.76667 70.6667
+f 277/1075/21 294/1065/21 280/1064/21
+
+vt 7.76667 70.6667
+f 294/1065/21 277/1075/21 295/1076/21
+
+f 295/1076/22 277/1075/22 294/1065/22
+
+f 279/630/21 295/1076/21 277/1075/21
+
+v 11.9177 32.3088 -0
+vt 13.0333 70.6667
+f 279/630/21 996/1077/21 295/1076/21
+
+vt 14.0333 70.6667
+f 279/630/21 283/1078/21 996/1077/21
+
+vt 19.3 70.6667
+f 279/630/21 281/1079/21 283/1078/21
+
+vt 20.3 70.6667
+f 279/630/21 287/1080/21 281/1079/21
+
+f 279/630/21 285/1074/21 287/1080/21
+
+f 287/1080/22 285/1074/22 279/630/22
+
+f 281/1079/22 287/1080/22 279/630/22
+
+f 286/1069/21 281/1079/21 287/1080/21
+
+f 281/1079/21 286/1069/21 995/1068/21
+
+f 287/1080/22 281/1079/22 286/1069/22
+
+f 995/1068/22 286/1069/22 281/1079/22
+
+f 283/1078/22 281/1079/22 279/630/22
+
+f 996/1077/22 283/1078/22 279/630/22
+
+f 994/1067/21 996/1077/21 283/1078/21
+
+f 996/1077/21 994/1067/21 993/1066/21
+
+f 283/1078/22 996/1077/22 994/1067/22
+
+f 993/1066/22 994/1067/22 996/1077/22
+
+f 295/1076/22 996/1077/22 279/630/22
+
+f 277/1075/22 295/1076/22 279/630/22
+
+f 280/1064/22 294/1065/22 277/1075/22
+
+f 290/1071/22 853/1054/22 292/1072/22
+
+f 292/1072/22 853/1054/22 289/1063/22
+
+f 853/1054/22 927/610/22 289/1063/22
+
+f 765/122/4 763/115/4 776/120/4
+
+f 692/802/6 687/804/6 689/805/6
+
+f 691/798/6 774/799/6 690/800/6
+
+f 859/581/6 861/578/6 921/580/6
+
+f 859/363/10 860/362/10 861/367/10
+
+usemtl Tile_Border_Travertine
+f 921/119/16 859/118/16 922/117/16
+
+usemtl Brick_Tumbled
+f 860/604/4 857/345/4 922/605/4
+
+f 864/529/4 862/554/4 909/530/4
+
+usemtl Tile_Border_Travertine
+f 904/477/16 865/118/16 903/476/16
+
+usemtl Brick_Tumbled
+f 866/504/4 864/529/4 903/505/4
+
+usemtl Tile_Border_Travertine
+f 900/477/16 867/118/16 899/476/16
+
+usemtl Brick_Tumbled
+f 868/478/4 866/504/4 899/479/4
+
+usemtl Tile_Border_Travertine
+f 879/477/16 869/118/16 877/476/16
+
+usemtl Brick_Tumbled
+f 870/391/4 868/478/4 877/393/4
+
+f 871/462/10 870/382/10 872/459/10
+
+f 872/459/10 870/382/10 873/387/10
+
+vt 26.0667 2.74035e-33
+f 883/403/17 697/402/17 885/1081/17
+
+f 697/402/18 879/398/18 883/403/18
+
+f 882/401/18 879/398/18 697/402/18
+
+f 881/400/18 879/398/18 882/401/18
+
+f 880/399/18 879/398/18 881/400/18
+
+f 878/397/18 879/398/18 880/399/18
+
+f 885/1081/18 697/402/18 883/403/18
+
+f 885/1081/17 697/402/17 886/428/17
+
+f 886/428/18 697/402/18 885/1081/18
+
+f 697/402/18 886/428/18 699/427/18
+
+f 889/387/15 887/411/15 886/459/15
+
+f 887/411/15 889/387/15 888/414/15
+
+usemtl Tile_Linen
+vt -15.5333 5.33333
+vt -15.5333 0
+vt -51.1333 5.33333
+f 888/1082/16 889/1083/16 887/1084/16
+
+vt -51.1333 0
+f 886/1085/16 887/1084/16 889/1083/16
+
+usemtl Brick_Tumbled
+f 887/411/16 872/410/16 888/414/16
+
+f 893/459/16 894/411/16 891/387/16
+
+vt 1 1.05129e-34
+f 890/424/17 693/396/17 876/1086/17
+
+f 876/1086/18 693/396/18 890/424/18
+
+f 876/1086/17 693/396/17 875/3/17
+
+f 875/3/18 693/396/18 876/1086/18
+
+f 693/396/18 875/3/18 695/394/18
+
+f 874/392/4 870/391/4 875/3/4
+
+f 31/346/4 24/348/4 30/349/4
+
+f 854/342/4 855/343/4 856/344/4
+
+f 43/328/4 36/330/4 42/331/4
+
+f 848/324/4 849/325/4 850/326/4
+
+f 55/310/4 48/312/4 54/313/4
+
+f 842/306/4 843/307/4 844/308/4
+
+f 67/292/4 60/294/4 66/295/4
+
+f 836/288/4 837/289/4 838/290/4
+
+f 79/274/4 72/276/4 78/277/4
+
+f 830/270/4 831/271/4 832/272/4
+
+f 91/256/4 84/258/4 90/259/4
+
+f 824/252/4 825/253/4 826/254/4
+
+f 103/238/4 96/240/4 102/241/4
+
+f 818/234/4 819/235/4 820/236/4
+
+f 115/220/4 108/222/4 114/223/4
+
+f 812/216/4 813/217/4 814/218/4
+
+f 127/202/4 120/204/4 126/205/4
+
+f 806/198/4 807/199/4 808/200/4
+
+f 139/184/4 132/186/4 138/187/4
+
+f 800/180/4 801/181/4 802/182/4
+
+f 151/166/4 793/168/4 794/169/4
+
+f 789/162/4 790/163/4 791/164/4
+
+f 163/148/4 156/150/4 162/151/4
+
+f 783/144/4 784/145/4 785/146/4
+
+f 175/127/4 168/129/4 174/130/4
+
+f 777/123/4 778/124/4 779/125/4
+
+f 763/115/14 766/114/14 773/113/14
+
+vt 16 200
+f 767/1087/6 760/102/6 764/99/6
+
+f 764/85/12 765/84/12 767/89/12
+

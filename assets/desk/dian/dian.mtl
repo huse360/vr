@@ -1,0 +1,120 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl Stone_Brushed_Khaki
+Ka 0.000000 0.000000 0.000000
+Kd 0.886275 0.772549 0.521569
+Ks 0.330000 0.330000 0.330000
+map_Kd dian/Stone_Brushed_Khaki.jpg
+
+newmtl BackColor
+Ka 0.000000 0.000000 0.000000
+Kd 0.635294 0.717647 0.776471
+Ks 0.330000 0.330000 0.330000
+
+newmtl Carrera_Marble
+Ka 0.000000 0.000000 0.000000
+Kd 0.811765 0.811765 0.811765
+Ks 0.330000 0.330000 0.330000
+map_Kd dian/Carrera_Marble.jpg
+
+newmtl _Quartz_Light_Grey_1
+Ka 0.000000 0.000000 0.000000
+Kd 0.984314 0.984314 0.988235
+Ks 0.330000 0.330000 0.330000
+map_Kd dian/_Quartz_Light_Grey_1.jpg
+
+newmtl Terrazzo_Light_Blue
+Ka 0.000000 0.000000 0.000000
+Kd 0.768627 0.839216 0.890196
+Ks 0.330000 0.330000 0.330000
+map_Kd dian/Terrazzo_Light_Blue.jpg
+
+newmtl Stone_Masonry_Multi
+Ka 0.000000 0.000000 0.000000
+Kd 0.713725 0.686275 0.643137
+Ks 0.330000 0.330000 0.330000
+map_Kd dian/Stone_Masonry_Multi.jpg
+
+newmtl Cladding_Siding_White
+Ka 0.000000 0.000000 0.000000
+Kd 0.811765 0.811765 0.811765
+Ks 0.330000 0.330000 0.330000
+map_Kd dian/Cladding_Siding_White.jpg
+
+newmtl Translucent_Glass_Blue
+Ka 0.000000 0.000000 0.000000
+Kd 0.392157 0.584314 0.929412
+Ks 0.330000 0.330000 0.330000
+d 0.500000
+
+newmtl Stone_Vein_Gray
+Ka 0.000000 0.000000 0.000000
+Kd 0.650980 0.647059 0.647059
+Ks 0.330000 0.330000 0.330000
+map_Kd dian/Stone_Vein_Gray.jpg
+
+newmtl Top__Gray_
+Ka 0.000000 0.000000 0.000000
+Kd 0.501961 0.501961 0.501961
+Ks 0.330000 0.330000 0.330000
+
+newmtl Formica_Graystone
+Ka 0.000000 0.000000 0.000000
+Kd 0.584314 0.572549 0.529412
+Ks 0.330000 0.330000 0.330000
+map_Kd dian/Formica_Graystone.jpg
+
+newmtl Quartz_Light_Grey
+Ka 0.000000 0.000000 0.000000
+Kd 0.905882 0.905882 0.909804
+Ks 0.330000 0.330000 0.330000
+map_Kd dian/Quartz_Light_Grey.jpg
+
+newmtl Column_Beige_Texture
+Ka 0.000000 0.000000 0.000000
+Kd 0.882353 0.882353 0.784314
+Ks 0.330000 0.330000 0.330000
+
+newmtl FrontColor
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl Granite_Light_Gray
+Ka 0.000000 0.000000 0.000000
+Kd 0.584314 0.580392 0.564706
+Ks 0.330000 0.330000 0.330000
+map_Kd dian/Granite_Light_Gray.jpg
+
+newmtl Cinder_Block
+Ka 0.000000 0.000000 0.000000
+Kd 0.749020 0.721569 0.670588
+Ks 0.330000 0.330000 0.330000
+map_Kd dian/Cinder_Block.jpg
+
+newmtl Terrazzo_Tile_Light
+Ka 0.000000 0.000000 0.000000
+Kd 0.858824 0.850980 0.823529
+Ks 0.330000 0.330000 0.330000
+map_Kd dian/Terrazzo_Tile_Light.jpg
+
+newmtl Wood_Veneer_01
+Ka 0.000000 0.000000 0.000000
+Kd 0.470588 0.274510 0.145098
+Ks 0.330000 0.330000 0.330000
+map_Kd dian/Wood_Veneer_01.jpg
+
+newmtl Grass_Dark_Green
+Ka 0.000000 0.000000 0.000000
+Kd 0.415686 0.615686 0.215686
+Ks 0.330000 0.330000 0.330000
+map_Kd dian/Grass_Dark_Green.jpg
+
+newmtl Granite_Tile
+Ka 0.000000 0.000000 0.000000
+Kd 0.607843 0.580392 0.560784
+Ks 0.330000 0.330000 0.330000
+map_Kd dian/Granite_Tile.jpg
+

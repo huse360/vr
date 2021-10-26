@@ -9,7 +9,7 @@ AFRAME.registerComponent('manija1', {
  
       function objectToPos(posObject) {
      
-        return (posObject.x) + " " + (posObject.y) + " "  + (posObject.z)
+        return (posObject.x) + " " + ("0.4") + " "  + (posObject.z)
         
       }
 /* eventos que registran despues del click */

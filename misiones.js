@@ -3,7 +3,7 @@ AFRAME.registerComponent('misiones', {
 
     init: function () {
 
-      let mision=['mision 1','mision 2','mision 3','mision 4','mision 5'];
+
       
       
      

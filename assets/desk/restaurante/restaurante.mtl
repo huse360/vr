@@ -1,0 +1,60 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl _Gray_Glass_1
+Ka 0.000000 0.000000 0.000000
+Kd 0.156863 0.156863 0.156863
+Ks 0.330000 0.330000 0.330000
+d 0.790000
+
+newmtl Beige_Texture
+Ka 0.000000 0.000000 0.000000
+Kd 0.882353 0.882353 0.784314
+Ks 0.330000 0.330000 0.330000
+
+newmtl Formica_Beige
+Ka 0.000000 0.000000 0.000000
+Kd 0.827451 0.733333 0.584314
+Ks 0.330000 0.330000 0.330000
+map_Kd restaurante/Formica_Beige.jpg
+
+newmtl Formica_Blue
+Ka 0.000000 0.000000 0.000000
+Kd 0.278431 0.380392 0.596078
+Ks 0.330000 0.330000 0.330000
+map_Kd restaurante/Formica_Blue.jpg
+
+newmtl Roof__Gray_
+Ka 0.000000 0.000000 0.000000
+Kd 0.501961 0.501961 0.501961
+Ks 0.330000 0.330000 0.330000
+
+newmtl BackColor
+Ka 0.000000 0.000000 0.000000
+Kd 0.635294 0.717647 0.776471
+Ks 0.330000 0.330000 0.330000
+
+newmtl Granite_Dark_Gray
+Ka 0.000000 0.000000 0.000000
+Kd 0.270588 0.266667 0.266667
+Ks 0.330000 0.330000 0.330000
+map_Kd restaurante/Granite_Dark_Gray.jpg
+
+newmtl Tile_Ceramic_Multi
+Ka 0.000000 0.000000 0.000000
+Kd 0.647059 0.450980 0.329412
+Ks 0.330000 0.330000 0.330000
+map_Kd restaurante/Tile_Ceramic_Multi.jpg
+
+newmtl Formica_Laminate_Dark
+Ka 0.000000 0.000000 0.000000
+Kd 0.196078 0.207843 0.235294
+Ks 0.330000 0.330000 0.330000
+map_Kd restaurante/Formica_Laminate_Dark.jpg
+
+newmtl FrontColor
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+
