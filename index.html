@@ -11,9 +11,9 @@
    
     <script src="blackintro.js"></script>
     <script src="misiones.js"></script>
-    
+    <script src="animationshoes.js"></script>
 
->
+
     
  
 
@@ -23,7 +23,7 @@
     
     <a-scene
     shadow="type: pcfsoft"
-    fog="type: exponential; color: ##808080;density:0.01;far: 50; near: 3"
+    
     misiones> 
 
       <a-assets>
@@ -44,18 +44,18 @@
         <a-asset-item id="restaurante-mtl" src="assets/desk/restaurante/restaurante.mtl"></a-asset-item>
         <a-asset-item id="dian-obj" src="assets/desk/dian/dian.obj"></a-asset-item>
         <a-asset-item id="dian-mtl" src="assets/desk/dian/dian.mtl"></a-asset-item>
-        <a-asset-item id="caseta-obj" src="assets/desk/caseta/caseta.obj"></a-asset-item>
-        <a-asset-item id="caseta-mtl" src="assets/desk/caseta/caseta.mtl"></a-asset-item>
+        <a-asset-item id="impresora-obj" src="assets/desk/impresora/impresora.obj"></a-asset-item>
+        <a-asset-item id="impresora-mtl" src="assets/desk/impresora/impresora.mtl"></a-asset-item>
         <a-mixin id="wall" geometry="primitive: circle; radius: 0.5" material="shader: flat; src: assets/img/shoes.jpg;opacity:0.3" ></a-mixin>
         <a-mixin id="animation-opacity" 
                   animation__mouseenter="property: material.opacity; to: 1; startEvents: mouseenter; dur: 300"
                   animation__mouseleave="property: material.opacity; to: 0.3; startEvents: mouseleave; dur: 300"></a-mixin>
-
+        <a-mixin id="rotation-a" animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"></a-mixin>
         <img id="fondo1" src="assets/img/fondo1.jpg" >
         <img id="fondo2" src="assets/img/fondo2.png">
         <img id="fondo3" src="assets/img/fondo3.png" >
         <img id="certificadobancario" src="assets/img/certificadobancario.jpg" >
-
+        <img id="certificadoccomercio" src="assets/img/ccomercio.jpg" >
         
         
        
@@ -106,15 +106,25 @@
 
               <a-entity 
                 id="inventario"
-                position="-0.45 -0.23 -0.6"
+                position="-0.45 -0.43 -0.6"
                 visible="true"
                 rotation="0 0 0">
 
                 <a-entity
                   id="certificado-banco"
                   geometry="primitive: plane; width: 0.07; height: 0.07" 
-                  position="0 0 0"
+                  position="0.1 0 0"
                   material="src:#certificadobancario; opacity:1"
+                  visible="false"
+                  rotation="0 0 0">
+
+                </a-entity>
+
+                <a-entity
+                  id="ccomercio"
+                  geometry="primitive: plane; width: 0.07; height: 0.07" 
+                  position="0 0 0"
+                  material="src:#certificadoccomercio; opacity:1"
                   visible="false"
                   rotation="0 0 0">
 
@@ -306,8 +316,9 @@
         position="58.449 1.4 -30.787"
         cursor-listener
         class="clickable"        
-        mixin="wall animation-opacity"
-        look-at="#cameraRig">
+        mixin="wall animation-opacity rotation-a"
+        look-at="#cameraRig"
+        animationup-down>
       </a-entity>
 
 
@@ -316,8 +327,9 @@
         position="57 1.4 -29"
         cursor-listener
         class="clickable"        
-        mixin="wall animation-opacity"
-        look-at="#cameraRig">
+        mixin="wall animation-opacity rotation-a"
+        look-at="#cameraRig"
+        animationup-down>
       </a-entity>
 
 
@@ -326,8 +338,9 @@
         position="55.5 1.4 -29"
         cursor-listener
         class="clickable"
-        mixin="wall animation-opacity"
-        look-at="#cameraRig">
+        mixin="wall animation-opacity rotation-a"
+        look-at="#cameraRig"
+        animationup-down>
      
       </a-entity>
 
@@ -337,7 +350,8 @@
         cursor-listener
         class="clickable"
         mixin="wall animation-opacity"
-        look-at="#cameraRig">
+        look-at="#cameraRig"
+        animationup-down>
 
       </a-entity>
 
@@ -347,7 +361,8 @@
         cursor-listener
         class="clickable"
         mixin="wall animation-opacity"
-        look-at="#cameraRig">
+        look-at="#cameraRig"
+        animationup-down>
    
       </a-entity>
 
@@ -358,7 +373,8 @@
         cursor-listener 
         class="clickable" 
         mixin="wall animation-opacity"
-        look-at="#cameraRig">
+        look-at="#cameraRig"
+        animationup-down>
    
       </a-entity>
 
@@ -369,7 +385,8 @@
         cursor-listener 
         class="clickable" 
         mixin="wall animation-opacity"
-        look-at="#cameraRig">
+        look-at="#cameraRig"
+        animationup-down>
  
       </a-entity>
      
@@ -380,7 +397,8 @@
         cursor-listener 
         class="clickable" 
         mixin="wall animation-opacity"
-        look-at="#cameraRig">
+        look-at="#cameraRig"
+        animationup-down>
  
       </a-entity>
 
@@ -392,7 +410,8 @@
         cursor-listener
         class="clickable" 
         mixin="wall animation-opacity"
-        look-at="#cameraRig">
+        look-at="#cameraRig"
+        animationup-down>
  
       </a-entity>
 
@@ -403,7 +422,8 @@
         cursor-listener
         class="clickable" 
         mixin="wall animation-opacity"
-        look-at="#cameraRig">
+        look-at="#cameraRig"
+        animationup-down>
     
 
  
@@ -573,18 +593,19 @@
         id="dian"
         position="79.618 0.222 -19.358" 
         obj-model="obj:#dian-obj; mtl:#dian-mtl"
-        shadow=""
-        material="fog: false">  
+        shadow="">  
 
       </a-entity>
 
 
       <a-entity 
-        id="dian"
-        position="79.618 0.222 -19.358" 
-        obj-model="obj:#dian-obj; mtl:#dian-mtl"
+        id="impresora"
+        class="clickable"
+        position="59.952 0.6 -31.513" 
+        obj-model="obj:#impresora-obj; mtl:#impresora-mtl"
         shadow=""
-        material="fog: false">  
+        scale="1.5 1.5 1.5"
+        rotation="0 -90 0">          
 
       </a-entity>
 
@@ -593,8 +614,7 @@
         id="edificio1"
         position="61.110 0.24 -20.092" 
         obj-model="obj:#edificio1-obj; mtl:#edificio1-mtl"
-        shadow=""
-        
+        shadow="" 
         scale="0.611 1 0.990">  
 
       </a-entity>

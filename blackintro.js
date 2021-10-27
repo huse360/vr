@@ -29,9 +29,9 @@ AFRAME.registerComponent('black-intro', {
 
       this.el.addEventListener('click', function () {
         animation.setAttribute('visible', 'true') 
-        setTimeout(animacioniniciada,'1400')
-        setTimeout(animacioniniciada2,'1')
-        setTimeout(visibilidad,'2850')
+        setTimeout(animacioniniciada2,'0');
+        setTimeout(animacioniniciada,'1400');        
+        setTimeout(visibilidad,'2800')
             
          var info = animation.getAttribute('animation')
         console.log(info)
