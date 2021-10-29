@@ -2,14 +2,19 @@
 ## Alias OBJ Material File
 # Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
 
-newmtl M_0116_Lavender
+newmtl Color_M09
 Ka 0.000000 0.000000 0.000000
-Kd 0.901961 0.901961 0.980392
+Kd 0.000000 0.000000 0.000000
 Ks 0.330000 0.330000 0.330000
 
-newmtl BackColor
+newmtl Color_M03
 Ka 0.000000 0.000000 0.000000
-Kd 0.635294 0.717647 0.776471
+Kd 0.666667 0.666667 0.666667
+Ks 0.330000 0.330000 0.330000
+
+newmtl Color_M06
+Ka 0.000000 0.000000 0.000000
+Kd 0.337255 0.337255 0.337255
 Ks 0.330000 0.330000 0.330000
 
 newmtl FrontColor
@@ -17,108 +22,56 @@ Ka 0.000000 0.000000 0.000000
 Kd 1.000000 1.000000 1.000000
 Ks 0.330000 0.330000 0.330000
 
-newmtl Blinds_Vertical_Stripe_Gray
+newmtl Ty_Gray2
 Ka 0.000000 0.000000 0.000000
-Kd 0.627451 0.627451 0.627451
+Kd 0.125490 0.078431 0.074510
 Ks 0.330000 0.330000 0.330000
-map_Kd impresora/Blinds_Vertical_Stripe_Gray.jpg
 
-newmtl Blinds_Roman_Hobbled_Blue
+newmtl Color_G06
 Ka 0.000000 0.000000 0.000000
-Kd 0.043137 0.047059 0.047059
+Kd 0.000000 0.800000 0.000000
 Ks 0.330000 0.330000 0.330000
-map_Kd impresora/Blinds_Roman_Hobbled_Blue.jpg
 
-newmtl Steel_Brushed_Stainless
+newmtl Color_A05
 Ka 0.000000 0.000000 0.000000
-Kd 0.717647 0.733333 0.745098
+Kd 1.000000 0.000000 0.000000
 Ks 0.330000 0.330000 0.330000
-map_Kd impresora/Steel_Brushed_Stainless.jpg
 
-newmtl Metal_Steel_Textured
+newmtl Color_M07
 Ka 0.000000 0.000000 0.000000
-Kd 0.223529 0.231373 0.258824
+Kd 0.227451 0.227451 0.227451
 Ks 0.330000 0.330000 0.330000
-map_Kd impresora/Metal_Steel_Textured.jpg
 
-newmtl Terrazzo_Tile_Light
+newmtl Color_H04
 Ka 0.000000 0.000000 0.000000
-Kd 0.858824 0.850980 0.823529
+Kd 0.196078 1.000000 1.000000
 Ks 0.330000 0.330000 0.330000
-map_Kd impresora/Terrazzo_Tile_Light.jpg
 
-newmtl Quartz_Light_Grey
+newmtl Color_L05
 Ka 0.000000 0.000000 0.000000
-Kd 0.984314 0.984314 0.988235
+Kd 1.000000 0.000000 0.498039
 Ks 0.330000 0.330000 0.330000
-map_Kd impresora/Quartz_Light_Grey.jpg
 
-newmtl Blinds_Wood_White
+newmtl Color_M08
 Ka 0.000000 0.000000 0.000000
-Kd 0.541176 0.537255 0.545098
+Kd 0.117647 0.117647 0.117647
 Ks 0.330000 0.330000 0.330000
-map_Kd impresora/Blinds_Wood_White.jpg
 
-newmtl Fencing_Diamond_Mesh
+newmtl Color_M05
 Ka 0.000000 0.000000 0.000000
-Kd 0.615686 0.607843 0.600000
+Kd 0.447059 0.447059 0.447059
 Ks 0.330000 0.330000 0.330000
-map_Kd impresora/Fencing_Diamond_Mesh.png
 
-newmtl Metal_Seamed
+newmtl Color_M04
 Ka 0.000000 0.000000 0.000000
-Kd 0.462745 0.466667 0.450980
+Kd 0.556863 0.556863 0.556863
 Ks 0.330000 0.330000 0.330000
-map_Kd impresora/Metal_Seamed.jpg
 
-newmtl Metal_Steel_Textured1_
+newmtl Wood_Floor_Dark
 Ka 0.000000 0.000000 0.000000
-Kd 0.415686 0.431373 0.482353
+Kd 0.600000 0.368627 0.164706
 Ks 0.330000 0.330000 0.330000
-map_Kd impresora/Metal_Steel_Textured1_.jpg
-
-newmtl M_0017_IndianRed
-Ka 0.000000 0.000000 0.000000
-Kd 0.858824 0.898039 0.929412
-Ks 0.330000 0.330000 0.330000
-map_Kd impresora/M_0017_IndianRed.jpg
-
-newmtl Herringbone_4x1
-Ka 0.000000 0.000000 0.000000
-Kd 0.286275 0.286275 0.286275
-Ks 0.330000 0.330000 0.330000
-map_Kd impresora/Herringbone_4x1.png
-
-newmtl Translucent_Glass_Green_Dark
-Ka 0.000000 0.000000 0.000000
-Kd 0.337255 0.498039 0.027451
-Ks 0.330000 0.330000 0.330000
-d 0.500000
-
-newmtl Translucent_Glass_Gold
-Ka 0.000000 0.000000 0.000000
-Kd 1.000000 0.996078 0.101961
-Ks 0.330000 0.330000 0.330000
-d 0.600000
-map_Kd impresora/Translucent_Glass_Gold.jpg
-
-newmtl Translucent_Glass_Blue
-Ka 0.000000 0.000000 0.000000
-Kd 0.639216 0.015686 0.047059
-Ks 0.330000 0.330000 0.330000
-d 0.500000
-
-newmtl Wood_OSB
-Ka 0.000000 0.000000 0.000000
-Kd 0.941176 0.764706 0.478431
-Ks 0.330000 0.330000 0.330000
-map_Kd impresora/Wood_OSB.jpg
-
-newmtl Wood_Lumber_ButtJoined
-Ka 0.000000 0.000000 0.000000
-Kd 0.643137 0.596078 0.439216
-Ks 0.330000 0.330000 0.330000
-map_Kd impresora/Wood_Lumber_ButtJoined.jpg
+map_Kd impresora/Wood_Floor_Dark.jpg
 
 newmtl Wood_Veneer_01
 Ka 0.000000 0.000000 0.000000

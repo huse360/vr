@@ -3,7 +3,7 @@ AFRAME.registerComponent('animationup-down', {
 
       function objectToPos(posObject) {
      
-        return (posObject.x) + " " + ('1.6') + " "  + (posObject.z)
+        return (posObject.x) + " " + ('1.9') + " "  + (posObject.z)
         
       }
   
