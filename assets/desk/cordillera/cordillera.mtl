@@ -7,11 +7,11 @@ Ka 0.000000 0.000000 0.000000
 Kd 1.000000 1.000000 1.000000
 Ks 0.330000 0.330000 0.330000
 
-newmtl _13
+newmtl madera_gris
 Ka 0.000000 0.000000 0.000000
 Kd 0.596078 0.596078 0.596078
 Ks 0.330000 0.330000 0.330000
-map_Kd cordillera/_13.jpg
+map_Kd cordillera/madera_gris.jpg
 
 newmtl Fencing_Metal_Straight
 Ka 0.000000 0.000000 0.000000
@@ -25,11 +25,11 @@ Kd 0.392157 0.584314 0.929412
 Ks 0.330000 0.330000 0.330000
 d 0.500000
 
-newmtl _14
+newmtl madera_negra
 Ka 0.000000 0.000000 0.000000
 Kd 0.211765 0.184314 0.168627
 Ks 0.330000 0.330000 0.330000
-map_Kd cordillera/_14.jpg
+map_Kd cordillera/madera_negra.jpg
 
 newmtl Field_Square_Tile
 Ka 0.000000 0.000000 0.000000
@@ -43,29 +43,29 @@ Kd 0.694118 0.411765 0.168627
 Ks 0.330000 0.330000 0.330000
 map_Kd cordillera/Wood_Bamboo.jpg
 
-newmtl _17
+newmtl metalizado
 Ka 0.000000 0.000000 0.000000
 Kd 0.572549 0.572549 0.572549
 Ks 0.330000 0.330000 0.330000
-map_Kd cordillera/_17.jpg
+map_Kd cordillera/metalizado.jpg
 
-newmtl _16
+newmtl baldosa_gris
 Ka 0.000000 0.000000 0.000000
 Kd 0.474510 0.505882 0.509804
 Ks 0.330000 0.330000 0.330000
-map_Kd cordillera/_16.jpg
+map_Kd cordillera/baldosa_gris.jpg
 
-newmtl _15
+newmtl marmor_con_florez
 Ka 0.000000 0.000000 0.000000
 Kd 0.478431 0.505882 0.513725
 Ks 0.330000 0.330000 0.330000
-map_Kd cordillera/_15.jpg
+map_Kd cordillera/marmor_con_florez.jpg
 
-newmtl _12
+newmtl Madera_gris_lisa
 Ka 0.000000 0.000000 0.000000
 Kd 0.623529 0.596078 0.572549
 Ks 0.330000 0.330000 0.330000
-map_Kd cordillera/_12.jpg
+map_Kd cordillera/Madera_gris_lisa.jpg
 
 newmtl Brick_Rough_Tan
 Ka 0.000000 0.000000 0.000000
@@ -79,11 +79,11 @@ Kd 0.270588 0.266667 0.266667
 Ks 0.330000 0.330000 0.330000
 map_Kd cordillera/Granite_Dark_Gray.jpg
 
-newmtl _10
+newmtl grama
 Ka 0.000000 0.000000 0.000000
 Kd 0.360784 0.439216 0.266667
 Ks 0.330000 0.330000 0.330000
-map_Kd cordillera/_10.jpg
+map_Kd cordillera/grama.jpg
 
 newmtl Stone_Brushed_Khaki
 Ka 0.000000 0.000000 0.000000
@@ -97,13 +97,13 @@ Kd 0.811765 0.811765 0.811765
 Ks 0.330000 0.330000 0.330000
 map_Kd cordillera/Carrera_Marble.jpg
 
-newmtl Quartz_Light_Grey
+newmtl cuarzo_gris
 Ka 0.000000 0.000000 0.000000
 Kd 0.984314 0.984314 0.988235
 Ks 0.330000 0.330000 0.330000
-map_Kd cordillera/Quartz_Light_Grey.jpg
+map_Kd cordillera/cuarzo_gris.jpg
 
-newmtl Top__Gray_
+newmtl gris
 Ka 0.000000 0.000000 0.000000
 Kd 0.501961 0.501961 0.501961
 Ks 0.330000 0.330000 0.330000
@@ -225,11 +225,11 @@ Kd 0.694118 0.694118 0.694118
 Ks 0.330000 0.330000 0.330000
 map_Kd cordillera/Color_A05.jpg
 
-newmtl _2
+newmtl ladrillos_rojos
 Ka 0.000000 0.000000 0.000000
 Kd 0.705882 0.501961 0.376471
 Ks 0.330000 0.330000 0.330000
-map_Kd cordillera/_2.png
+map_Kd cordillera/ladrillos_rojos.png
 
 newmtl Blacktop_New
 Ka 0.000000 0.000000 0.000000
@@ -237,22 +237,22 @@ Kd 0.117647 0.117647 0.117647
 Ks 0.330000 0.330000 0.330000
 map_Kd cordillera/Blacktop_New.jpg
 
-newmtl _4
+newmtl pavimento_negro
 Ka 0.000000 0.000000 0.000000
 Kd 0.403922 0.403922 0.403922
 Ks 0.330000 0.330000 0.330000
-map_Kd cordillera/_4.jpg
+map_Kd cordillera/pavimento_negro.jpg
 
 newmtl Color_E05
 Ka 0.000000 0.000000 0.000000
 Kd 1.000000 1.000000 0.000000
 Ks 0.330000 0.330000 0.330000
 
-newmtl _26
+newmtl balzosa_gris
 Ka 0.000000 0.000000 0.000000
 Kd 0.666667 0.670588 0.670588
 Ks 0.330000 0.330000 0.330000
-map_Kd cordillera/_26.jpg
+map_Kd cordillera/balzosa_gris.jpg
 
 newmtl ROAD_MATERIAL
 Ka 0.000000 0.000000 0.000000
@@ -271,23 +271,23 @@ Ka 0.000000 0.000000 0.000000
 Kd 0.976471 0.976471 0.976471
 Ks 0.330000 0.330000 0.330000
 
-newmtl _11
+newmtl ladrillos
 Ka 0.000000 0.000000 0.000000
 Kd 0.772549 0.607843 0.470588
 Ks 0.330000 0.330000 0.330000
-map_Kd cordillera/_11.jpg
+map_Kd cordillera/ladrillos.jpg
 
-newmtl _5
+newmtl madera_laminada
 Ka 0.000000 0.000000 0.000000
 Kd 0.380392 0.231373 0.145098
 Ks 0.330000 0.330000 0.330000
-map_Kd cordillera/_5.jpg
+map_Kd cordillera/madera_laminada.jpg
 
-newmtl _9
+newmtl baldosa_beige
 Ka 0.000000 0.000000 0.000000
 Kd 0.752941 0.678431 0.564706
 Ks 0.330000 0.330000 0.330000
-map_Kd cordillera/_9.jpg
+map_Kd cordillera/baldosa_beige.jpg
 
 newmtl PUERTA
 Ka 0.000000 0.000000 0.000000
@@ -295,11 +295,11 @@ Kd 0.372549 0.403922 0.388235
 Ks 0.330000 0.330000 0.330000
 map_Kd cordillera/PUERTA.jpg
 
-newmtl _21
+newmtl tejado_rojo
 Ka 0.000000 0.000000 0.000000
 Kd 0.749020 0.352941 0.298039
 Ks 0.330000 0.330000 0.330000
-map_Kd cordillera/_21.jpg
+map_Kd cordillera/tejado_rojo.jpg
 
 newmtl Translucent_Glass_Corrugated
 Ka 0.000000 0.000000 0.000000
