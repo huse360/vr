@@ -41,6 +41,8 @@
         <a-asset-item id="funcionario-mtl" src="assets/desk/Personal/00218_Jon005.mtl"></a-asset-item>
         <a-asset-item id="impresora-obj" src="assets/desk/impresora/impresora.obj"></a-asset-item>
         <a-asset-item id="impresora-mtl" src="assets/desk/impresora/impresora.mtl"></a-asset-item>
+        <a-asset-item id="computador-obj" src="assets/desk/computador/computador.obj"></a-asset-item>
+        <a-asset-item id="computador-mtl" src="assets/desk/computador/computador.mtl"></a-asset-item>
         <a-mixin id="wall" geometry="primitive: circle; radius: 0.5" material="shader: flat; src: assets/img/shoes.jpg;opacity:0.3" ></a-mixin>
         <a-mixin id="enter" geometry="primitive: plane; width: 0.5; height: 0.3;" material="shader: flat; src: assets/img/enter.png;opacity:0.3" ></a-mixin>
         <a-mixin id="exit" geometry="primitive: plane; width: 0.5; height: 0.3;" material="shader: flat; src: assets/img/exit.png;opacity:0.3" ></a-mixin>
@@ -55,8 +57,15 @@
         <img id="fondo2" src="assets/img/fondo2.png">
         <img id="fondo3" src="assets/img/fondo3.png" >
         <img id="certificadobancario" src="assets/img/certificadobancario.jpg" >
+        <img id="reporteActividad" src="assets/img/reporteActividad.png" >
+        <img id="reporteClasificacion" src="assets/img/reporteClasificacion.png" >
         <img id="certificadoccomercio" src="assets/img/ccomercio.jpg" >
         <img id="facturadian" src="assets/img/factura-dian.png" >
+        <img id="logo-empresa" src="assets/img/logo.jpg" >
+        <img id="nombre-empresa" src="assets/img/nombre.jpg" >
+        <img id="banner1-1" src="assets/img/b1.png" >
+        <img id="banner1-2" src="assets/img/b2.png" >
+        <img id="banner1-3" src="assets/img/b3.png" >
         <img id="door-jefe" src="assets/img/door-jefe.jpg" >
         <img id="door-banco" src="assets/img/door-banco.jpg" >
         <img id="door-oficina" src="assets/img/door-oficina.jpg">
@@ -99,21 +108,7 @@
 
 
 
-      <a-image 
-        id="iniciar" 
-        src="#iniciar-img"  
-        material="" 
-        geometry="height: 0.25; width:0.35" 
-        position="53.409 1.61 12.340"
-        scale="" 
-        rotation="0 180 0"
-        opacity="0.7"
-        visible="true"
-        class="clickable"
-        black-intro
-        mixin="animation-button">
-      
-      </a-image>
+     
         
 
 
@@ -460,6 +455,20 @@
         rotation="0 -90 0">          
 
       </a-entity>
+
+
+      <a-entity 
+        id="computador"
+        class="clickable"
+        position="50.693 1.580 12.767" 
+        obj-model="obj:#computador-obj; mtl:#computador-mtl"
+        shadow=""
+        scale="1 1 1"
+        rotation="0 0 0">          
+
+      </a-entity>
+
+      
       <a-entity 
         id="cordillera"
         class="not-clickable"
@@ -468,6 +477,99 @@
         shadow=""
         scale="1 1 1"
         rotation="0 0 0">          
+
+      </a-entity>
+
+
+      <a-entity
+        id="banner-1"
+        position="50.710 2.108 10.946"
+        visible="false"
+        rotation="0 90 0"
+        scale="1 1 1">
+
+          <a-entity
+            id="b-1"
+            class="clickable"
+            geometry="primitive: plane; width: 0.5; height: 0.7"
+            position="0.6 0 0"
+            material="src:#banner1-1; opacity:1"
+            visible="true"
+            rotation="0 0 0">
+
+
+          </a-entity>
+
+          <a-entity
+            id="b-2"
+            class="clickable"
+            geometry="primitive: plane; width: 0.5; height: 0.7"
+            position="0 0 0"
+            material="src:#banner1-2; opacity:1"
+            visible="true"
+            rotation="0 0 0">
+
+
+          </a-entity>
+
+          <a-entity
+            id="b-3"
+            class="clickable"
+            geometry="primitive: plane; width: 0.5; height: 0.7"
+            position="-0.6 0 0"
+            material="src:#banner1-3; opacity:1"
+            visible="true"
+            rotation="0 0 0">
+
+          </a-entity>
+
+
+      </a-entity>
+
+
+
+      <a-entity
+        id="banner-2"
+        position="50.710 2.108 10.946"
+        visible="false"
+        rotation="0 90 0"
+        scale="1 1 1">
+
+          <a-entity
+            id="a-1"
+            class="clickable"
+            geometry="primitive: plane; width: 0.5; height: 0.7"
+            position="0.6 0 0"
+            material="src:#banner1-1; opacity:1"
+            visible="true"
+            rotation="0 0 0">
+
+
+          </a-entity>
+
+          <a-entity
+            id="a-2"
+            class="clickable"
+            geometry="primitive: plane; width: 0.5; height: 0.7"
+            position="0 0 0"
+            material="src:#banner1-2; opacity:1"
+            visible="true"
+            rotation="0 0 0">
+
+
+          </a-entity>
+
+          <a-entity
+            id="a-3"
+            class="clickable"
+            geometry="primitive: plane; width: 0.5; height: 0.7"
+            position="-0.6 0 0"
+            material="src:#banner1-3; opacity:1"
+            visible="true"
+            rotation="0 0 0">
+
+          </a-entity>
+
 
       </a-entity>
 
@@ -518,6 +620,139 @@
 
       </a-text> -->
 
+      <a-image 
+      id="iniciar" 
+      src="#iniciar-img"  
+      material="" 
+      geometry="height: 0.25; width:0.35" 
+      position="53.409 1.61 12.340"
+      scale="1 1 1" 
+      rotation="0 180 0"
+      opacity="0.7"
+      visible="true"
+      class="clickable"
+      black-intro
+      mixin="animation-button">
+    
+    </a-image>
+
+    <a-entity 
+    id="recibidor"
+    position="53.831 1.578 12.5"
+    visible=" "
+    rotation="-80.710 180.000 0"
+    scale="2.7 2.7 2.7">
+    
+    <a-entity
+      id="reporte-economica-R"
+      geometry="primitive: plane; width: 0.07; height: 0.07" 
+      position="-0.1 0 0"
+      material="src:#reporteActividad; opacity:1"
+      visible="false"
+      rotation="0 0 0">
+
+    </a-entity>
+
+    <a-entity
+      id="nombre-R"
+      geometry="primitive: plane; width: 0.07; height: 0.07"
+      position="0 0 0"
+      material="src:#nombre-empresa; opacity:1"
+      visible="false"
+      rotation="0 0 0">
+
+      <a-text 
+        id="nombre-impreso-R"
+        value="IMPRESO"
+        color="red"
+        position="0 0.025 0.0001"
+        visible="false"
+        width="0.31"
+        align="center">
+    
+      </a-text>
+
+    </a-entity>
+
+    <a-entity
+      id="logo-R"
+      geometry="primitive: plane; width: 0.07; height: 0.07"
+      position="0.1 0 0"
+      material="src:#logo-empresa; opacity:1"
+      visible="false"
+      rotation="0 0 0">
+
+      <a-text 
+        id="logo-impreso-R"
+        value="IMPRESO"
+        color="red"
+        position="0 0.025 0.0001"
+        visible="false"
+        width="0.31"
+        align="center">
+      
+      </a-text>
+
+    </a-entity>
+
+    <a-entity
+      id="reporte-clasificacion-R"
+      geometry="primitive: plane; width: 0.07; height: 0.07" 
+      position="0.2 0 0"
+      material="src:#reporteClasificacion; opacity:1"
+      visible="false"
+      rotation="0 0 0">
+
+    </a-entity>
+
+    
+    <a-entity
+      id="ccomercio-R"
+      geometry="primitive: plane; width: 0.07; height: 0.07" 
+      position="0.3 0 0"
+      material="src:#certificadoccomercio; opacity:1"
+      visible="false"
+      rotation="0 0 0">
+    
+      <a-text 
+        id="radicado-R"
+        value="RADICADO"
+        color="red"
+        position="0 0.025 0.0001"
+        visible="false"
+        width="0.31"
+        align="center">
+    
+      </a-text>
+  
+    </a-entity>
+
+    <a-entity
+      id="certificado-banco-R"
+      geometry="primitive: plane; width: 0.07; height: 0.07" 
+      position="0.4 0 0"
+      material="src:#certificadobancario; opacity:1"
+      visible="false"
+      rotation="0 0 0">
+  
+    </a-entity>
+
+    <a-entity
+      id="factura-dian-R"
+      geometry="primitive: plane; width: 0.07; height: 0.07" 
+      position="0.5 0 0"
+      material="src:#facturadian; opacity:1"
+      visible="false"
+      rotation="0 0 0">
+
+    </a-entity>
+
+  </a-entity>
+
+
+
+
+
 
       <a-entity     
       id="cameraRig"
@@ -539,7 +774,7 @@
               animation__fusing="property: scale; startEvents: fusing; easing: easeInCubic; dur: 2000; from: 1 1 1; to: 0.1 0.1 0.1"
               animation__mouseleave="property: scale; startEvents: mouseleave; easing: easeInCubic; dur: 500; to: 1 1 1"
               raycaster="showLine: true; objects: .clickable;far:30"
-              position="0 0 -0.5">
+              position="0 0 -0.7">
               
           
             </a-cursor>
@@ -553,33 +788,98 @@
               rotation="0 0 0">
 
               <a-entity
-                id="factura-dian"
+                id="reporte-economica"
                 geometry="primitive: plane; width: 0.07; height: 0.07" 
-                position="0.2 0 0"
-                material="src:#facturadian; opacity:1"
+                position="-0.1 0 0"
+                material="src:#reporteActividad; opacity:1"
                 visible="false"
                 rotation="0 0 0">
 
               </a-entity>
 
               <a-entity
-                id="certificado-banco"
-                geometry="primitive: plane; width: 0.07; height: 0.07" 
+                id="nombre"
+                geometry="primitive: plane; width: 0.07; height: 0.07"
+                position="0 0 0"
+                material="src:#nombre-empresa; opacity:1"
+                visible="false"
+                rotation="0 0 0">
+
+                <a-text 
+                  id="nombre-digital"
+                  value="DIGITAL"
+                  color="blue"
+                  position="0 0.025 0.0001"
+                  visible="false"
+                  width="0.31"
+                  align="center">
+              
+                </a-text>
+
+                <a-text 
+                  id="nombre-impreso"
+                  value="IMPRESO"
+                  color="red"
+                  position="0 0.025 0.0001"
+                  visible="false"
+                  width="0.31"
+                  align="center">
+              
+                </a-text>
+
+              </a-entity>
+
+              <a-entity
+                id="logo"
+                geometry="primitive: plane; width: 0.07; height: 0.07"
                 position="0.1 0 0"
-                material="src:#certificadobancario; opacity:1"
+                material="src:#logo-empresa; opacity:1"
+                visible="false"
+                rotation="0 0 0">
+
+                <a-text 
+                  id="logo-digital"
+                  value="DIGITAL"
+                  color="blue"
+                  position="0 0.025 0.0001"
+                  visible="false"
+                  width="0.31"
+                  align="center">
+                
+                </a-text>
+
+                <a-text 
+                  id="logo-impreso"
+                  value="IMPRESO"
+                  color="red"
+                  position="0 0.025 0.0001"
+                  visible="false"
+                  width="0.31"
+                  align="center">
+                
+                </a-text>
+
+              </a-entity>
+
+              <a-entity
+                id="reporte-clasificacion"
+                geometry="primitive: plane; width: 0.07; height: 0.07" 
+                position="0.2 0 0"
+                material="src:#reporteClasificacion; opacity:1"
                 visible="false"
                 rotation="0 0 0">
 
               </a-entity>
 
+              
               <a-entity
                 id="ccomercio"
                 geometry="primitive: plane; width: 0.07; height: 0.07" 
-                position="0 0 0"
+                position="0.3 0 0"
                 material="src:#certificadoccomercio; opacity:1"
                 visible="false"
                 rotation="0 0 0">
-
+              
                 <a-text 
                   id="radicado"
                   value="RADICADO"
@@ -588,15 +888,36 @@
                   visible="false"
                   width="0.31"
                   align="center">
-                  
+              
                 </a-text>
+            
+              </a-entity>
+          
+              <a-entity
+                id="certificado-banco"
+                geometry="primitive: plane; width: 0.07; height: 0.07" 
+                position="0.4 0 0"
+                material="src:#certificadobancario; opacity:1"
+                visible="false"
+                rotation="0 0 0">
+            
+              </a-entity>
+          
+              <a-entity
+                id="factura-dian"
+                geometry="primitive: plane; width: 0.07; height: 0.07" 
+                position="0.5 0 0"
+                material="src:#facturadian; opacity:1"
+                visible="false"
+                rotation="0 0 0">
 
               </a-entity>
-                  
+          
             </a-entity>
+
             <a-entity 
               id="blackintro"
-              geometry="primitive: box; width: 1.5; height: 1" 
+              geometry="primitive: box; width: 3; height:3" 
               position="0 0 -0.6"
               material="color: black; opacity:0;"
               visible="false"
