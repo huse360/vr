@@ -348,7 +348,7 @@ AFRAME.registerComponent('misiones', {
  
           
             Stat=1
-            setTimeout(hablar,'25000');
+            
 
             setTimeout(botondesvanecido,'1400');
       
@@ -367,6 +367,8 @@ AFRAME.registerComponent('misiones', {
               ,18000
 
             );
+
+            setTimeout(hablar,'25000');
             
 /*          console.log(arraylista)
             console.log(random1)
