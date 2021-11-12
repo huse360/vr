@@ -32,8 +32,8 @@
       <a-assets>
         <a-asset-item id="cordillera-obj" src="assets/desk/cordillera/cordillera.obj"crossorigin  ></a-asset-item>
         <a-asset-item id="cordillera-mtl" src="assets/desk/cordillera/cordillera.mtl"crossorigin ></a-asset-item>
-        <a-asset-item id="jefe-obj" src="assets/desk/Personal/00256_Daud008.OBJ"></a-asset-item>
-        <a-asset-item id="jefe-mtl" src="assets/desk/Personal/00256_Daud008.mtl"></a-asset-item>
+        <!-- <a-asset-item id="jefe-obj" src="assets/desk/Personal/00256_Daud008.OBJ"></a-asset-item> -->
+        <!-- <a-asset-item id="jefe-mtl" src="assets/desk/Personal/00256_Daud008.mtl"></a-asset-item> -->
         <a-asset-item id="banquero-obj" src="assets/desk/Personal/00246_Zeef006.OBJ"></a-asset-item>
         <a-asset-item id="banquero-mtl" src="assets/desk/Personal/00246_Zeef006.mtl"></a-asset-item>
         <a-asset-item id="funcionario-obj" src="assets/desk/Personal/00218_Jon005.OBJ"></a-asset-item>
@@ -71,6 +71,11 @@
         <img id="door-banco" src="assets/img/door-banco.jpg" >
         <img id="door-oficina" src="assets/img/door-oficina.jpg">
         <img id="iniciar-img" src="assets/img/iniciar.png">
+        <img id="jefe-normal" src="assets/img/jefe-normal.png">
+        <img id="jefe-talk" src="assets/img/jefe-talk.png">
+        <img id="mesa-oficina" src="assets/img/mesa-oficina.png">
+        <img id="silla-jefe" src="assets/img/silla-jefe.png">
+        <img id="decoracion-libros" src="assets/img/decoracion-libros.png">
         
         
        
@@ -133,6 +138,8 @@
         <a-asset-item response-type="arraybuffer" id="requerimiento-Mision4" src="assets/audios/requerimientos mision 4.m4a"preload="auto"></a-asset-item>
         <a-asset-item response-type="arraybuffer" id="respuesta-incorrectaMision4" src="assets/audios/respuestas mision 4-1.m4a"preload="auto"></a-asset-item>
         <a-asset-item response-type="arraybuffer" id="respuesta-correctaMision4" src="assets/audios/respuestas mision 4-2.m4a"preload="auto"></a-asset-item>
+        <a-asset-item response-type="arraybuffer" id="computer-sound" src="assets/audios/computer-sound.m4a"preload="auto"></a-asset-item>
+        <a-asset-item response-type="arraybuffer" id="impresora-sound" src="assets/audios/impresora-sound.m4a"preload="auto"></a-asset-item>
 
         
 
@@ -140,6 +147,18 @@
   
 
       <a-entity light="color: #BBB; type: ambient; intensity:1.8"  ></a-entity>
+
+
+      <a-entity 
+        id="cordillera"
+        class="not-clickable"
+        position="60.708 0.6 -37.761" 
+        obj-model="obj:#cordillera-obj; mtl:#cordillera-mtl"
+        shadow=""
+        scale="1 1 1"
+        rotation="0 0 0">          
+
+      </a-entity>
 
 
 
@@ -154,7 +173,7 @@
       
       <a-entity
         id="manija1"
-        position="55.773 2 11"
+        position="55.773 2 9.5"
         manija1
         black-intro   
         class="clickable"        
@@ -168,7 +187,7 @@
 
       <a-entity
         id="manija2"
-        position="55.777 2 11"
+        position="55.777 2 9.5"
         manija2        
         black-intro
         class="clickable"        
@@ -334,7 +353,7 @@
         geometry="primitive: plane; width: 1.14; height: 1.92"
         material="src:#door-jefe; side: double"
         
-        position="55.775 1.760 10.991" 
+        position="55.775 1.760 9.495" 
         scale= "1 1 1"
         rotation="0 90 0"
         >
@@ -414,21 +433,56 @@
         </a-entity>
       </a-entity>
 
+
+      <a-image 
+        id="libros" 
+        class="not-clickable"
+        position="55.681 1.806 11.54" 
+        material="src:#decoracion-libros"
+      
+        scale="2 2 2"
+        rotation="0 -90 0"
+        >
+                       
+      </a-image>
+
      
+      <a-image 
+        id="silla" 
+        class="not-clickable"
+        position="55.1 1.186 12.487 " 
+        material="src:#silla-jefe"
+        
+        scale="2 2 2"
+        rotation="0 -90 0"
+        >
+                         
+      </a-image>
 
 
-      <a-entity 
+      <a-image 
         id="jefe" 
         class="clickable"
-        position="53.109 0.810 13.033" 
-        obj-model="obj:#jefe-obj; mtl:#jefe-mtl"
-        shadow="cast: true"
-        scale="0.022 0.022 0.022"
-        rotation="0 120 0"
-        material="fog: false">
+        position="54.9 1.9 11.9" 
+        material="src:#jefe-normal"
+        
+        scale="1 1 1"
+        rotation="0 -90 0"
+        >
                          
-      </a-entity>
+      </a-image>
 
+      <a-image 
+        id="mesa" 
+        class="not-clickable"
+        position="54.714 1.186 12.487 " 
+        material="src:#mesa-oficina"
+        
+        scale="2.440 1.040 0.550"
+        rotation="0 -90 0"
+        >
+                         
+      </a-image>
 
       <!-- <a-gltf-model 
         id="oficina"
@@ -483,11 +537,23 @@
       <a-entity 
         id="impresora"
         class="clickable"
-        position="54.719 0.810 12.303" 
+        position="54.967 0.810 10.978" 
         obj-model="obj:#impresora-obj; mtl:#impresora-mtl"
         shadow=""
         scale="1.5 1.5 1.5"
-        rotation="0 -90 0">          
+        rotation="0 -0 0">
+        
+        <a-sound
+          position="0 0 0" 
+          visible="false"
+          class="clickable"
+          geometry="primitive: box; width: 0; height: 0; depth:0"
+           material="color: blue"
+          id="sound56"
+          src="#impresora-sound"
+          volume="5">
+        
+        </a-sound>
 
       </a-entity>
 
@@ -495,33 +561,33 @@
       <a-entity 
         id="computador"
         class="clickable"
-        position="50.693 1.580 12.767" 
+        position="55.674 1.460 13.824" 
         obj-model="obj:#computador-obj; mtl:#computador-mtl"
         shadow=""
         scale="1 1 1"
-        rotation="0 0 0">          
-
-      </a-entity>
-
-      
-      <a-entity 
-        id="cordillera"
-        class="not-clickable"
-        position="60.708 0.6 -37.761" 
-        obj-model="obj:#cordillera-obj; mtl:#cordillera-mtl"
-        shadow=""
-        scale="1 1 1"
-        rotation="0 0 0">          
+        rotation="0 180 0">
+        
+        <a-sound
+          position="0 0 0" 
+          visible="false"
+          class="clickable"
+          geometry="primitive: box; width: 0; height: 0; depth:0"
+           material="color: blue"
+          id="sound55"
+          src="#computer-sound"
+          volume="5">
+        
+        </a-sound>
 
       </a-entity>
 
 
       <a-entity
         id="banner-1"
-        position="50.710 2.108 10.946"
+        position="55.681 2.406 13.754"
         visible="false"
-        rotation="0 90 0"
-        scale="1 1 1">
+        rotation="0 -90 0"
+        scale="0.760 0.671 1">
 
           <a-entity
             id="b-1"
@@ -565,10 +631,10 @@
 
       <a-entity
         id="banner-2"
-        position="50.710 2.108 10.946"
+        position="55.681 2.406 13.754"
         visible="false"
-        rotation="0 90 0"
-        scale="1 1 1">
+        rotation="0 -90 0"
+        scale="0 0 0">
 
           <a-entity
             id="a-1"
@@ -660,9 +726,9 @@
       src="#iniciar-img"  
       material="" 
       geometry="height: 0.25; width:0.35" 
-      position="53.409 1.61 12.340"
-      scale="1 1 1" 
-      rotation="0 180 0"
+      position="54.626 1.62 12.502"
+      scale="1.1 0.8 0.800" 
+      rotation="-27.117 -90 0"
       opacity="0.7"
       visible="true"
       class="clickable"
@@ -673,9 +739,9 @@
 
     <a-entity 
     id="recibidor"
-    position="53.831 1.578 12.5"
-    visible=" "
-    rotation="-80.710 180.000 0"
+    position="54.714 1.64 11.95"
+    visible="true"
+    rotation="-50.710 -90 0"
     scale="2.7 2.7 2.7">
     
     <a-entity
@@ -701,7 +767,7 @@
         value="IMPRESO"
         color="red"
         position="0 0.025 0.0001"
-        visible="false"
+        visible="true"
         width="0.31"
         align="center">
     
@@ -754,7 +820,7 @@
         value="RADICADO"
         color="red"
         position="0 0.025 0.0001"
-        visible="false"
+        visible="true"
         width="0.31"
         align="center">
     
@@ -791,14 +857,14 @@
 
       <a-entity     
       id="cameraRig"
-      position="53.409 0.4 11.340"
-      rotation="0 180 0"> 
+      position="52.409 0.4 12.502"
+      rotation="0 -90 0"> 
       
           <a-camera
             id="camera"            
             position="0 1.6 0"
             look-controls
-            wasd-controls="enabled:  false"
+            wasd-controls="enabled:  true"
             fov="50"
             >
            

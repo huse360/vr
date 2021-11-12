@@ -63,6 +63,8 @@ AFRAME.registerComponent('misiones', {
       var requerimientoMision4 = document.getElementById('sound52');
       var respuestaIncorrectaMision4 = document.getElementById('sound53');
       var respuestaCorrectaMision4 = document.getElementById('sound54');
+      var computerSound = document.getElementById('sound55');
+      var impresoraSound = document.getElementById('sound56');
 
 
 
@@ -288,14 +290,15 @@ AFRAME.registerComponent('misiones', {
         function clasificacionEmpresaApear() {
 
           ClasificacionEmpresa.setAttribute('visible',true)
+          ClasificacionEmpresa.setAttribute('scale','0.760 0.671 1')
           
         }
 
         /* FUNCIONES DE CAMBIO DE ESTADO */
 
         function mision1() {
-          estado=1;
-          ActividadEconomica.setAttribute('visible',true);
+          estado=1
+          ActividadEconomica.setAttribute('visible',true)   
         }
 
         function mision2() {
@@ -343,6 +346,17 @@ AFRAME.registerComponent('misiones', {
           iniciar.setAttribute('scale','0 0 0')
           
         }
+
+
+
+        /* FUNCIONES CAMBIOS DE IMAGEN */
+        let jefeTalk =document.getElementById('jefe-talk')
+        function setjefetalkface() {
+          
+          jefe.setAttribute('material','src',jefeTalk)
+          
+          
+        }
       
         iniciar.addEventListener('click', function() {
  
@@ -355,16 +369,17 @@ AFRAME.registerComponent('misiones', {
             setTimeout(playsonidobienvenida,'3500');
 
             setTimeout(playsonidointroduccion,'7500');
+            setTimeout(setjefetalkface,'7500');
 
             setTimeout(playMisionActividad,'13000');
           
-            setTimeout( mision1,'18000');
+            setTimeout( mision1,'25000');
 
             setTimeout(function() {
               console.log('pasas a la mision 1');
 
             }
-              ,18000
+              ,25000
 
             );
 
@@ -380,7 +395,7 @@ AFRAME.registerComponent('misiones', {
            ActividadEconomica1.setAttribute('position',objectToPos1b(posicionCartel1))
            ActividadEconomica2.setAttribute('position',objectToPos2b(posicionCartel2))
            ActividadEconomica3.setAttribute('position',objectToPos3b(posicionCartel3))
-           setTimeout(actividadEconomicaApear,'10000')
+           setTimeout(actividadEconomicaApear,'25000')
           
 
         }); 
@@ -393,12 +408,20 @@ AFRAME.registerComponent('misiones', {
         console.log('Elegiste una opcion');
         if (Stat==0) {
           Stat=1
-          setTimeout(hablar,'3500')
+          setTimeout(hablar,'6400')
+          
           
           if (estado==1) {
 
             console.log('No es la respuesta correcta, la actividad economica de esta empresa no es de SERVICIOS')
             respuestaIncorrectaMision1Opcion1.components.sound.playSound();
+            setTimeout(function() {
+              console.log('vuelve a intentarlo');
+  
+            }
+              ,6400
+  
+            );
 
           }
         
@@ -411,12 +434,19 @@ AFRAME.registerComponent('misiones', {
         console.log('Elegiste una opcion');
         if (Stat==0) {
           Stat=1
-          setTimeout(hablar,'3500')
+          setTimeout(hablar,'6400')
           
           if (estado==1) {
 
             console.log('No es la respuesta correcta, la actividad economica de esta empresa no es INDUSTRIAL')
             respuestaIncorrectaMision1Opcion2.components.sound.playSound();
+            setTimeout(function() {
+              console.log('vuelve a intentarlo');
+  
+            }
+              ,6400
+  
+            );
           }
         
         }
@@ -429,12 +459,19 @@ AFRAME.registerComponent('misiones', {
         console.log('Elegiste una opcion');
         if (Stat==0) {
           Stat=1
-          setTimeout(hablar,'3000')
+          setTimeout(hablar,'6800')
           
           if (estado==1) {
 
             console.log('Felicidades, encontraste la actividad economica de la empresa, efectivamente es de tipo COMERCIAL, enseñale tu reporte a tu jefe')
             respuestaCorrectaMision1.components.sound.playSound();
+            setTimeout(function() {
+              console.log('vuelve con tu jefe');
+  
+            }
+              ,6800
+  
+            );
 
             ActividadEconomica.setAttribute('scale','0 0 0')
             reporteEconomica.setAttribute('visible',true)
@@ -454,7 +491,7 @@ AFRAME.registerComponent('misiones', {
         console.log('Elegiste una opcion');
         if (Stat==0) {
           Stat=1
-          setTimeout(hablar,'3000')
+          setTimeout(hablar,'5500')
           
           if (estado==4) {
 
@@ -471,7 +508,7 @@ AFRAME.registerComponent('misiones', {
         console.log('Elegiste una opcion');
         if (Stat==0) {
           Stat=1
-          setTimeout(hablar,'3000')
+          setTimeout(hablar,'5500')
           
           if (estado==4) {
 
@@ -489,7 +526,7 @@ AFRAME.registerComponent('misiones', {
         console.log('Elegiste una opcion');
         if (Stat==0) {
           Stat=1
-          setTimeout(hablar,'3000')
+          setTimeout(hablar,'5500')
           
           if (estado==4) {
 
@@ -521,23 +558,29 @@ AFRAME.registerComponent('misiones', {
         console.log('Usaste la impresora');
         if (Stat==0) {
           Stat=1
-          setTimeout(hablar,'7000')
+          
           
           if (estado==2) {
-
+            
             if (nombreEmpresa.getAttribute('visible')==true) {
 
               if (nombreEmpresaImpreso.getAttribute('visible')==true) {
-                
+                setTimeout(hablar,'6000')   
                 console.log('ya imprimiste el nombre electo  para la empresa, llevaselo a tu jefe');
                 impresoraNombreImpreso.components.sound.playSound();
               }
 
               else {
+                setTimeout(hablar,'11000')
                 nombreEmpresaDigital.setAttribute('visible',false);
                 nombreEmpresaImpreso.setAttribute('visible',true);
                 console.log('Acabas de imprimir el nombre de la empresa, entregaselo a tu jefe');
-                impresoraNombreCreado.components.sound.playSound();
+                impresoraSound.components.sound.playSound();
+
+                setTimeout(function playsimpresoraNombreCreado() {
+                  
+                 impresoraNombreCreado.components.sound.playSound()},'6000')
+                ;
               }
             }
 
@@ -554,17 +597,21 @@ AFRAME.registerComponent('misiones', {
             if (logoEmpresa.getAttribute('visible')==true) {
 
               if (logoEmpresaImpreso.getAttribute('visible')==true) {
-                
+                setTimeout(hablar,'6000')
                 console.log('ya imprimiste el logo que creaste para la empresa, llevaselo a tu jefe');
                 impresoraLogoImpreso.components.sound.playSound();
               }
 
               else {
-
+                setTimeout(hablar,'6000')
                 logoEmpresaDigital.setAttribute('visible',false);
                 logoEmpresaImpreso.setAttribute('visible',true);
                 console.log('Acabas de imprimir el logo de la empresa que diseñaste, entregaselo a tu jefe');
-                impresoraLogoCreado.components.sound.playSound();
+                impresoraSound.components.sound.playSound();
+                
+                setTimeout(function playImpresoraLogoCreado() {
+                  impresoraLogoCreado.components.sound.playSound()},'6000')
+                ;
               }
 
               
@@ -572,7 +619,7 @@ AFRAME.registerComponent('misiones', {
 
            else {
               
-              
+              setTimeout(hablar,'6000')
               console.log('Debes crear el logo en el computador para luego venir a imprimirlo y entregarlo a tu jefe');
               impresoraLogoDigital.components.sound.playSound();
             } 
@@ -584,20 +631,27 @@ AFRAME.registerComponent('misiones', {
           if (estado==5) {
 
             if (ccomercio.getAttribute('visible')==true) {
+              setTimeout(hablar,'7000')
               console.log('ya imprimiste el certificado de la camara de comercio');
               impresoraCompletado.components.sound.playSound();
             }
 
            else {
+              setTimeout(hablar,'6000')
               ccomercio.setAttribute('visible',true);
-              impresoraActa.components.sound.playSound();
               console.log('Acabas de imprimir el certificado de la camara de comercio, ve a radicarlo');
+              impresoraSound.components.sound.playSound();
+              setTimeout(function playimpresoraActa() {
+                impresoraActa.components.sound.playSound()},'6000')
+              ;
+              
 
             } 
           
           }
           
           if (!(estado==2||estado==3||estado==5)) {
+            setTimeout(hablar,'4000')
             console.log('Te quedas pensando que imprimir pero no se te ocurre nada de momento')
             impresoraNoMision.components.sound.playSound();
           }
@@ -613,6 +667,7 @@ AFRAME.registerComponent('misiones', {
       computador.addEventListener('click', function() {
 
         console.log('Usaste el computador');
+        
         if (Stat==0) {
           Stat=1
           setTimeout(hablar,'7000')
@@ -640,7 +695,10 @@ AFRAME.registerComponent('misiones', {
               nombreEmpresaDigital.setAttribute('visible',true);
               
               console.log('Acabas de crear el nombre de la empresa, ve a imprimirlo y muestraselo a tu jefe');
-              computadoraNombreCreado.components.sound.playSound();
+              computerSound.components.sound.playSound();
+              setTimeout(function playComputadoraNombreCreado() {
+                computadoraNombreCreado.components.sound.playSound()},'4000')
+              ;
             } 
 
           
@@ -669,7 +727,12 @@ AFRAME.registerComponent('misiones', {
               logoEmpresaDigital.setAttribute('visible',true);
               
               console.log('Acabas de diseñar el logo de la empresa en formato digital, ve a imprimirlo y muestraselo a tu jefe');
-              computadoraLogoCreado.components.sound.playSound();
+              computerSound.components.sound.playSound();
+              setTimeout(function playcomputadoraLogoCreado() {
+                computadoraLogoCreado.components.sound.playSound()},'4000')
+              ;
+
+              
             } 
 
           }
@@ -884,7 +947,7 @@ AFRAME.registerComponent('misiones', {
   
               );
             
-              setTimeout(playMisionLogo,'9500')
+              setTimeout(playMisionLogo,'7100')
             }
 
             /* no se cumple y sigue en la mision actual */
@@ -899,7 +962,7 @@ AFRAME.registerComponent('misiones', {
           /* MISION 3 */
 
           if (estado===3) {
-            setTimeout(hablar,'10000')
+            setTimeout(hablar,'25000')
             /* se cumple y pasa a a la siguiente mision */
 
             if (logoEmpresaImpreso.getAttribute('visible')==true) {
@@ -910,7 +973,7 @@ AFRAME.registerComponent('misiones', {
               ClasificacionEmpresa1.setAttribute('position',objectToPos1b(posicionCartel1a))
               ClasificacionEmpresa2.setAttribute('position',objectToPos2b(posicionCartel2a))
               ClasificacionEmpresa3.setAttribute('position',objectToPos3b(posicionCartel3a))
-              setTimeout(clasificacionEmpresaApear,'4000');
+              setTimeout(clasificacionEmpresaApear,'25000');
               setTimeout( mision4,'3500');
               setTimeout(function() {
                 console.log('pasas a la mision 4');
@@ -920,7 +983,7 @@ AFRAME.registerComponent('misiones', {
   
               );
            
-              setTimeout(playMisionClasificacion,'9500')
+              setTimeout(playMisionClasificacion,'18000')
             }
 
             /* no se cumple y sigue en la mision actual */

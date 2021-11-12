@@ -5,13 +5,19 @@ AFRAME.registerComponent('manija1', {
 
             var elem = document.getElementById('cameraRig');
            
-
-            function cambio() {
-                
+            console.log(elem.getAttribute('rotation'))
             
-
+            
+            function cambio() {
+              elem.object3D.rotation.set(
+                THREE.Math.degToRad(0),
+                THREE.Math.degToRad(180),
+                THREE.Math.degToRad(0) 
+              );
+            
             elem.setAttribute('position',{x: 57.604, y: 0.400, z: 11.1})
-
+            
+            
 
         }
 
@@ -31,13 +37,20 @@ AFRAME.registerComponent('manija2', {
 
             var elem = document.getElementById('cameraRig');
            
-
-            function cambio() {
-                
+            console.log(elem.getAttribute('rotation'))
+           
             
-
-            elem.setAttribute('position',{x: 53.409, y: 0.400, z: 11.340})
-
+            function cambio() {
+              elem.object3D.rotation.set(
+                THREE.Math.degToRad(0),
+                THREE.Math.degToRad(0),
+                THREE.Math.degToRad(0) 
+              );     
+            
+            
+            elem.setAttribute('position',{x: 53.409, y: 0.400, z: 12.340})
+            
+            
            
         }
 
