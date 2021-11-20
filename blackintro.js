@@ -17,15 +17,6 @@ AFRAME.registerComponent('black-intro', {
               
           }
 
-        function visibilidad() { 
-          
-          animation.setAttribute('visible', 'false') 
-              
-          }
-
-        
-       
-
 
       this.el.addEventListener('click', function () {
         animation.setAttribute('visible', 'true') 

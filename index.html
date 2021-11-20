@@ -32,24 +32,12 @@
       <a-assets>
         <a-asset-item id="cordillera-obj" src="assets/desk/cordillera/cordillera.obj"crossorigin  ></a-asset-item>
         <a-asset-item id="cordillera-mtl" src="assets/desk/cordillera/cordillera.mtl"crossorigin ></a-asset-item>
-        <!-- <a-asset-item id="jefe-obj" src="assets/desk/Personal/00256_Daud008.OBJ"></a-asset-item> -->
-        <!-- <a-asset-item id="jefe-mtl" src="assets/desk/Personal/00256_Daud008.mtl"></a-asset-item> -->
-        <a-asset-item id="banquero-obj" src="assets/desk/Personal/00246_Zeef006.OBJ"></a-asset-item>
-        <a-asset-item id="banquero-mtl" src="assets/desk/Personal/00246_Zeef006.mtl"></a-asset-item>
-        <a-asset-item id="funcionario-obj" src="assets/desk/Personal/00218_Jon005.OBJ"></a-asset-item>
-        <a-asset-item id="asesor-mtl" src="assets/desk/Personal/00208_Quint009.mtl"></a-asset-item>
-        <a-asset-item id="asesor-obj" src="assets/desk/Personal/00208_Quint009.OBJ"></a-asset-item>
-        <a-asset-item id="funcionario-mtl" src="assets/desk/Personal/00218_Jon005.mtl"></a-asset-item>
-        <a-asset-item id="impresora-obj" src="assets/desk/impresora/impresora.obj"></a-asset-item>
-        <a-asset-item id="impresora-mtl" src="assets/desk/impresora/impresora.mtl"></a-asset-item>
-        <a-asset-item id="computador-obj" src="assets/desk/computador/computador.obj"></a-asset-item>
-        <a-asset-item id="computador-mtl" src="assets/desk/computador/computador.mtl"></a-asset-item>
         <a-mixin id="wall" geometry="primitive: circle; radius: 0.5" material="shader: flat; src: assets/img/shoes.jpg;opacity:0.3" ></a-mixin>
         <a-mixin id="enter" geometry="primitive: plane; width: 0.5; height: 0.3;" material="shader: flat; src: assets/img/enter.png;opacity:0.3" ></a-mixin>
-        <a-mixin id="exit" geometry="primitive: plane; width: 0.5; height: 0.3;" material="shader: flat; src: assets/img/exit.png;opacity:0.3" ></a-mixin>
+        <a-mixin id="exit" geometry="primitive: plane; width: 0.5; height: 0.3;" material="shader: flat; src: assets/img/exit.png;opacity:0.6" ></a-mixin>
         <a-mixin id="animation-opacity" 
                   animation__mouseenter="property: material.opacity; to: 1; startEvents: mouseenter; dur: 300"
-                  animation__mouseleave="property: material.opacity; to: 0.3; startEvents: mouseleave; dur: 300"></a-mixin>
+                  animation__mouseleave="property: material.opacity; to: 0.6; startEvents: mouseleave; dur: 300"></a-mixin>
         <a-mixin id="animation-button" 
                   animation__mouseenter="property: material.opacity; to: 1; startEvents: mouseenter; dur: 300"
                   animation__mouseleave="property: material.opacity; to: 0.7; startEvents: mouseleave; dur: 300"></a-mixin>
@@ -71,11 +59,40 @@
         <img id="door-banco" src="assets/img/door-banco.jpg" >
         <img id="door-oficina" src="assets/img/door-oficina.jpg">
         <img id="iniciar-img" src="assets/img/iniciar.png">
+
         <img id="jefe-normal" src="assets/img/jefe-normal.png">
         <img id="jefe-talk" src="assets/img/jefe-talk.png">
+        <img id="jefe-feliz" src="assets/img/jefe-feliz.png">
+        <img id="jefe-enojado" src="assets/img/jefe-enojado.png">
+
+        <img id="banquero-feliz" src="assets/img/banquero-feliz.png">
+        <img id="banquero-preocupado" src="assets/img/banquero-preocupado.png">
+        <img id="banquero-normal" src="assets/img/banquero-normal.png">
+        <img id="banquero-sorprendido" src="assets/img/banquero-sorpdendido.png">
+
+        <img id="asesor-feliz" src="assets/img/asesor-feliz.png">
+        <img id="asesor-sorprendido" src="assets/img/asesor-sorprendido.png">
+        <img id="asesor-normal" src="assets/img/asesor-normal.png">
+        <img id="asesor-preocupado" src="assets/img/asesor-preocupado.png">
+
+        <img id="funcionario-feliz" src="assets/img/funcionario-feliz.png">
+        <img id="funcionario-preocupado" src="assets/img/funcionario-preocupado.png">
+        <img id="funcionario-sorprendido" src="assets/img/funcionario-sorprendido.png">
+        <img id="funcionario-normal" src="assets/img/funcionario-normal.png">
+        
         <img id="mesa-oficina" src="assets/img/mesa-oficina.png">
+        <img id="mesa-comercio" src="assets/img/mesa-comercio.png">
         <img id="silla-jefe" src="assets/img/silla-jefe.png">
+        <img id="silla-comercio" src="assets/img/silla-comercio.png">
         <img id="decoracion-libros" src="assets/img/decoracion-libros.png">
+        <img id="impresora-oficina" src="assets/img/impresora.png">
+        <img id="computador-oficina" src="assets/img/computador.png">
+        <img id="cargando" src="assets/img/cargando.png">
+        <img id="mapa-calle" src="assets/img/mapa.png">
+        <img id="banco-mapa" src="assets/img/banco-icon.png">
+        <img id="comercio-mapa" src="assets/img/comercio-icon.png">
+        <img id="dian-mapa" src="assets/img/dian-icon.png">
+
         
         
        
@@ -149,6 +166,66 @@
       <a-entity light="color: #BBB; type: ambient; intensity:1.8"  ></a-entity>
 
 
+      <a-image 
+        id="banquero" 
+        class="clickable"
+        material="src:#banquero-normal"
+        position="63.523 1.935 -25.332" 
+        scale="1 1 1"
+        rotation="0 0 0">
+                         
+      </a-image>
+
+      
+      <a-image 
+        id="silla-funcionario" 
+        class="clickable"
+        material="src:#silla-comercio"
+        position="115.681 1.133 12.171" 
+        scale="1.337 1.789 1.337"
+        rotation="0 0 0">
+                         
+      </a-image>
+
+
+      <a-image 
+        id="funcionario" 
+        class="clickable"
+        material="src:#funcionario-normal"
+        position="115.681 1.778 11.976" 
+        scale="1 1 1"
+        rotation="0 180 0">
+                         
+      </a-image>
+      
+      <a-image 
+        id="mesa-funcionario" 
+        class="clickable"
+        material="src:#mesa-comercio"
+        position="116.078 1.362 11.207" 
+        scale="2.190 0.864 0.833"
+        rotation="0 0 0">
+                         
+      </a-image>
+
+
+      <a-image 
+        id="asesor" 
+        class="clickable"
+        material="src:#asesor-normal"
+        position="30.293 1.863 -27.779" 
+        scale="1 1 1"
+        rotation="0 0 0">
+                         
+      </a-image>
+
+
+
+
+
+
+
+
       <a-entity 
         id="cordillera"
         class="not-clickable"
@@ -172,7 +249,7 @@
 <!-- MANIJAS DE PUERTAS -->
       
       <a-entity
-        id="manija1"
+        id="oficina-exit-pasillo"
         position="55.773 2 9.5"
         manija1
         black-intro   
@@ -186,7 +263,7 @@
       </a-entity>
 
       <a-entity
-        id="manija2"
+        id="pasillo-enter-oficina"
         position="55.777 2 9.5"
         manija2        
         black-intro
@@ -201,13 +278,13 @@
 
 
       <a-entity
-        id="manija3"
-        position="58.736 2 0.02"
+        id="pasillo-exit-calle"
+        position="58.736 2 0.752"
         manija3
         black-intro   
         class="clickable"        
         visible="true"
-        scale="3 3 3" 
+        scale="2 2 2" 
         mixin="exit animation-opacity"
         rotation="0 0 0"
         animationup-down>
@@ -215,13 +292,13 @@
       </a-entity>
 
       <a-entity
-        id="manija4"
+        id="calle-enter-oficina"
         position="58.736 2 -0.1"
-        manija1        
+        manija2        
         black-intro
         class="clickable"        
         visible="true"
-        scale="3 3 3" 
+        scale="1 1 1" 
         mixin="enter animation-opacity"
         rotation="0 180 0"
         animationup-down>
@@ -230,120 +307,49 @@
 
 
       <a-entity
-        id="manija5"
-        position="60.009 2 -20.5"
-        manija6
+        id="banco-exit-oficina"
+        position="61.144 2 -24.475"
+        manija2
         black-intro   
         class="clickable"        
         visible="true"
-        scale="4 4 4" 
+        scale="2 2 2" 
         mixin="exit animation-opacity"
         rotation="0 180 0"
         animationup-down>
      
       </a-entity>
 
-      <a-entity
-        id="manija6"
-        position="60.009 2 -20"
-        manija5        
-        black-intro
-        class="clickable"        
-        visible="true"
-        scale="4 4 4" 
-        mixin="enter animation-opacity"
-        rotation="0 0 0"
-        animationup-down>
-     
-      </a-entity>
+      
 
       <a-entity
-      id="manija7"
-      position="113.1 2.5 4.2"
-      manija7
+      id="comercio-exit-oficina"
+      position="117.831 1.900 11.635"
+      manija8
       black-intro   
       class="clickable"        
       visible="true"
-      scale="4 4 4" 
+      scale="1.675 1.675 1.675" 
       mixin="exit animation-opacity"
-      rotation="0 0 0"
+      rotation="0 -90 0"
       animationup-down>
    
     </a-entity>
 
+    
     <a-entity
-      id="manija8"
-      position="113.1 2.5  3"
-      manija8        
-      black-intro
-      class="clickable"        
-      visible="true"
-      scale="4 4 4" 
-      mixin="enter animation-opacity"
-      rotation="0 180 0"
-      animationup-down>
-   
-    </a-entity>
-
-
-    <a-entity
-    id="manija9"
-    position="35.881 2.3 -24.5"
+    id="dian-exit-oficina"
+    position="32.743 2.2 -27.909"
     manija9
     black-intro   
     class="clickable"        
     visible="true"
-    scale="4.5 4.5 4.5" 
+    scale="2.480 2.480 2.480" 
     mixin="exit animation-opacity"
-    rotation="0 180 0"
-    animationup-down>
- 
-  </a-entity>
-
-  <a-entity
-    id="manija10"
-    position="35.881 2.3 -22.5"
-    manija10        
-    black-intro
-    class="clickable"        
-    visible="true"
-    scale="4.5 4.5 4.5" 
-    mixin="enter animation-opacity"
     rotation="0 0 0"
     animationup-down>
  
-  </a-entity>
-   
-
-<!-- PUNTOS DE MOVIMIENTO -->
-
-      <a-entity
-        id="teleport0"
-        position="64.894 1.697 -2"
-        cursor-lis2
-        class="clickable"        
-        mixin="wall animation-opacity rotation-a"
-        look-at="#cameraRig"
-        animationup-down
-        scale="1.5 1.5 1.5">
-        
-      </a-entity>
-
-
-      <a-entity
-        id="teleport1"
-        position="105.987 1.697 -2"
-        cursor-lis1
-        class="clickable"        
-        mixin="wall animation-opacity rotation-a"
-        look-at="#cameraRig"
-        animationup-down
-        scale="1.5 1.5 1.5">
-      </a-entity>
-
-
-      
-
+    </a-entity>
 
 <!-- PUERTAS    -->  
 
@@ -453,7 +459,7 @@
         position="55.1 1.186 12.487 " 
         material="src:#silla-jefe"
         
-        scale="2 2 2"
+        scale="2.294 2.294 2.294"
         rotation="0 -90 0"
         >
                          
@@ -463,7 +469,7 @@
       <a-image 
         id="jefe" 
         class="clickable"
-        position="54.9 1.9 11.9" 
+        position="54.900 1.846 12.447" 
         material="src:#jefe-normal"
         
         scale="1 1 1"
@@ -473,100 +479,57 @@
       </a-image>
 
       <a-image 
-        id="mesa" 
-        class="not-clickable"
-        position="54.714 1.186 12.487 " 
-        material="src:#mesa-oficina"
-        
-        scale="2.440 1.040 0.550"
-        rotation="0 -90 0"
-        >
-                         
-      </a-image>
-
-      <!-- <a-gltf-model 
-        id="oficina"
-        src="#oficina-1"
-        class="not-clickable"
-        shadow=""
-        position="51.098 0.171 -20.275"
-        material="fog: false">
-      
-      </a-gltf-model> -->
-
-
-      <a-entity 
-        id="banquero" 
-        class="clickable"
-        position="61.311 1.120 -31.000" 
-        obj-model="obj:#banquero-obj; mtl:#banquero-mtl"
-        shadow="cast: true"
-        scale="0.030 0.030 0.030"
-        rotation="0 0 0"
-        material="fog: false">
-                         
-      </a-entity>
-
-
-      <a-entity 
-        id="funcionario" 
-        class="clickable"
-        position="111.183 0.736 13.109" 
-        obj-model="obj:#funcionario-obj; mtl:#funcionario-mtl"
-        shadow="cast: true"
-        scale="0.025 0.025 0.025"
-        rotation="0 180 0"
-        material="fog: false">
-                         
-      </a-entity>
-      
-
-      <a-entity 
-        id="asesor" 
-        class="clickable"
-        position="35.881 1 -30.338" 
-        obj-model="obj:#asesor-obj; mtl:#asesor-mtl"
-        shadow="cast: true"
-        scale="0.023 0.023 0.023"
-        rotation="0 0 0"
-        material="fog: false">
-                         
-      </a-entity>
-
-
-      <a-entity 
         id="impresora"
         class="clickable"
-        position="54.967 0.810 10.978" 
-        obj-model="obj:#impresora-obj; mtl:#impresora-mtl"
-        shadow=""
-        scale="1.5 1.5 1.5"
-        rotation="0 -0 0">
-        
+        position="54.734 1.249 10.976" 
+        material="src:#impresora-oficina"
+        scale="0.937 0.937 0.937"
+        rotation="0 -90 0">
+
+        <a-image
+          id="box-impresora"
+          position="0.084 0.739 -0.018"
+          material="src:#cargando"
+          visible="true"
+          scale="0 0 0">
+
+        </a-image>
+      
         <a-sound
           position="0 0 0" 
           visible="false"
           class="clickable"
           geometry="primitive: box; width: 0; height: 0; depth:0"
-           material="color: blue"
+          material="color: blue"
           id="sound56"
           src="#impresora-sound"
           volume="5">
-        
+      
         </a-sound>
 
-      </a-entity>
+      </a-image>
 
 
-      <a-entity 
+      <a-image 
         id="computador"
         class="clickable"
-        position="55.674 1.460 13.824" 
-        obj-model="obj:#computador-obj; mtl:#computador-mtl"
-        shadow=""
-        scale="1 1 1"
-        rotation="0 180 0">
+        position="54.718 1.459 14.078" 
+        material="src:#computador-oficina"
+        scale="1.421 1.421 1.421"
+        rotation="0 -90 0">
+
+        <a-image
+          id="box-computador"
+          position="-0.132 0.622 -0.018"
+          
+          material="src:#cargando"
+          visible="true"
+          scale="0 0 0">
+
         
+
+        </a-image>
+      
         <a-sound
           position="0 0 0" 
           visible="false"
@@ -576,10 +539,77 @@
           id="sound55"
           src="#computer-sound"
           volume="5">
-        
+      
         </a-sound>
 
-      </a-entity>
+      </a-image>
+
+      <a-image 
+        id="mesa" 
+        class="not-clickable"
+        position="54.714 1.21 12.487 " 
+        material="src:#mesa-oficina"
+        
+        scale="2.440 1.040 0.550"
+        rotation="0 -90 0"
+        >
+                         
+      </a-image>
+
+
+      <a-image 
+        id="mapa" 
+        class="not-clickable"
+        position="62.566 1.747 -3.445 " 
+        material="src:#mapa-calle"
+        scale="2.037 2.037 2.037"
+        rotation="0 0 0">
+
+        
+
+                         
+      </a-image>
+
+      <a-image
+          id="banco-icon"
+          class="clickable"
+          position="62.049 2.224 -3.430"
+          material="src:#banco-mapa"
+          visible="true"
+          manija5
+          black-intro
+          opacity="0.7"
+          scale="0.40 0.40 0.40"
+          mixin="animation-button">
+        </a-image>
+
+        <a-image
+          id="comercio-icon"
+          class="clickable"
+          position="62.513 2.347 -3.430"
+          material="src:#comercio-mapa"
+          visible="true"
+          black-intro
+          manija7
+          opacity="0.7"
+          scale="0.40 0.40 0.40"
+          mixin="animation-button">
+        </a-image>
+
+        <a-image
+          id="dian-icon"
+          class="clickable"
+          position="62.813 1.998 -3.430"
+          material="src:#dian-mapa"
+          visible="true"
+          black-intro
+          manija10
+          opacity="0.7"
+          scale="0.40 0.40 0.40"
+          mixin="animation-button"
+          >
+        </a-image>
+
 
 
       <a-entity
@@ -587,7 +617,7 @@
         position="55.681 2.406 13.754"
         visible="false"
         rotation="0 -90 0"
-        scale="0.760 0.671 1">
+        scale="0 0 0">
 
           <a-entity
             id="b-1"
@@ -675,190 +705,144 @@
       </a-entity>
 
 
-      <!-- <a-text
-        id=nombre-empresa
-        value="EMPRESA"
-        color="red"
-        position="60 5 0"
-        visible="false"
-        width="6"
-        align="center">
-        
-
-      </a-text>
-
-      <a-text
-        id="nombre-banco"
-        value="BANCO"
-        color="red"
-        position="60 5 0"
-        visible="false"
-        width="6"
-        align="center">
-        
-
-      </a-text>
-      <a-text
-        id="nombre-dian"
-        value="DIAN"
-        color="red"
-        position="60 5 0"
-        visible="false"
-        width="6"
-        align="center">
-        
-
-      </a-text>
-      <a-text
-        id="nombre-comercio"
-        value="CAMARA DE COMERCIO"
-        color="red"
-        position="60 5 0"
-        visible="false"
-        width="6"
-        align="center">
-        
-
-      </a-text> -->
-
       <a-image 
-      id="iniciar" 
-      src="#iniciar-img"  
-      material="" 
-      geometry="height: 0.25; width:0.35" 
-      position="54.626 1.62 12.502"
-      scale="1.1 0.8 0.800" 
-      rotation="-27.117 -90 0"
-      opacity="0.7"
-      visible="true"
-      class="clickable"
-      black-intro
-      mixin="animation-button">
-    
-    </a-image>
-
-    <a-entity 
-    id="recibidor"
-    position="54.714 1.64 11.95"
-    visible="true"
-    rotation="-50.710 -90 0"
-    scale="2.7 2.7 2.7">
-    
-    <a-entity
-      id="reporte-economica-R"
-      geometry="primitive: plane; width: 0.07; height: 0.07" 
-      position="-0.1 0 0"
-      material="src:#reporteActividad; opacity:1"
-      visible="false"
-      rotation="0 0 0">
-
-    </a-entity>
-
-    <a-entity
-      id="nombre-R"
-      geometry="primitive: plane; width: 0.07; height: 0.07"
-      position="0 0 0"
-      material="src:#nombre-empresa; opacity:1"
-      visible="false"
-      rotation="0 0 0">
-
-      <a-text 
-        id="nombre-impreso-R"
-        value="IMPRESO"
-        color="red"
-        position="0 0.025 0.0001"
+        id="iniciar" 
+        src="#iniciar-img"  
+        material="" 
+        geometry="height: 0.25; width:0.35" 
+        position="54.626 1.62 12.502"
+        scale="1.1 0.8 0.800" 
+        rotation="-27.117 -90 0"
+        opacity="0.7"
         visible="true"
-        width="0.31"
-        align="center">
+        class="clickable"
+        black-intro
+        mixin="animation-button">
     
-      </a-text>
+      </a-image>
 
-    </a-entity>
+      <a-entity 
+        id="recibidor"
+        position="54.714 1.64 11.95"
+        visible="true"
+        rotation="-50.710 -90 0"
+        scale="2.7 2.7 2.7">
+    
+        <a-entity
+          id="reporte-economica-R"
+          geometry="primitive: plane; width: 0.07; height: 0.07" 
+          position="-0.1 0 0"
+          material="src:#reporteActividad; opacity:1"
+          visible="false"
+          rotation="0 0 0">
 
-    <a-entity
-      id="logo-R"
-      geometry="primitive: plane; width: 0.07; height: 0.07"
-      position="0.1 0 0"
-      material="src:#logo-empresa; opacity:1"
-      visible="false"
-      rotation="0 0 0">
+        </a-entity>
 
-      <a-text 
-        id="logo-impreso-R"
-        value="IMPRESO"
-        color="red"
-        position="0 0.025 0.0001"
-        visible="false"
-        width="0.31"
-        align="center">
+        <a-entity
+          id="nombre-R"
+          geometry="primitive: plane; width: 0.07; height: 0.07"
+          position="0 0 0"
+          material="src:#nombre-empresa; opacity:1"
+          visible="false"
+          rotation="0 0 0">
+
+          <a-text 
+            id="nombre-impreso-R"
+            value="IMPRESO"
+            color="red"
+            position="0 0.025 0.0001"
+            visible="true"
+            width="0.31"
+            align="center">
+    
+          </a-text>
+
+        </a-entity>
+
+        <a-entity
+          id="logo-R"
+          geometry="primitive: plane; width: 0.07; height: 0.07"
+          position="0.1 0 0"
+          material="src:#logo-empresa; opacity:1"
+          visible="false"
+          rotation="0 0 0">
+
+          <a-text 
+            id="logo-impreso-R"
+            value="IMPRESO"
+            color="red"
+            position="0 0.025 0.0001"
+            visible="false"
+            width="0.31"
+            align="center">
       
-      </a-text>
+          </a-text>
 
-    </a-entity>
+        </a-entity>
 
-    <a-entity
-      id="reporte-clasificacion-R"
-      geometry="primitive: plane; width: 0.07; height: 0.07" 
-      position="0.2 0 0"
-      material="src:#reporteClasificacion; opacity:1"
-      visible="false"
-      rotation="0 0 0">
+        <a-entity
+          id="reporte-clasificacion-R"
+          geometry="primitive: plane; width: 0.07; height: 0.07" 
+          position="0.2 0 0"
+          material="src:#reporteClasificacion; opacity:1"
+          visible="false"
+          rotation="0 0 0">
 
-    </a-entity>
+        </a-entity>
 
     
-    <a-entity
-      id="ccomercio-R"
-      geometry="primitive: plane; width: 0.07; height: 0.07" 
-      position="0.3 0 0"
-      material="src:#certificadoccomercio; opacity:1"
-      visible="false"
-      rotation="0 0 0">
+        <a-entity
+          id="ccomercio-R"
+          geometry="primitive: plane; width: 0.07; height: 0.07" 
+          position="0.3 0 0"
+          material="src:#certificadoccomercio; opacity:1"
+          visible="false"
+          rotation="0 0 0">
     
-      <a-text 
-        id="radicado-R"
-        value="RADICADO"
-        color="red"
-        position="0 0.025 0.0001"
-        visible="true"
-        width="0.31"
-        align="center">
+          <a-text 
+            id="radicado-R"
+            value="RADICADO"
+            color="red"
+            position="0 0.025 0.0001"
+            visible="true"
+            width="0.31"
+            align="center">
     
-      </a-text>
+          </a-text>
   
-    </a-entity>
+        </a-entity>
 
-    <a-entity
-      id="certificado-banco-R"
-      geometry="primitive: plane; width: 0.07; height: 0.07" 
-      position="0.4 0 0"
-      material="src:#certificadobancario; opacity:1"
-      visible="false"
-      rotation="0 0 0">
+        <a-entity
+          id="certificado-banco-R"
+          geometry="primitive: plane; width: 0.07; height: 0.07" 
+          position="0.4 0 0"
+          material="src:#certificadobancario; opacity:1"
+          visible="false"
+          rotation="0 0 0">
   
-    </a-entity>
+        </a-entity>
 
-    <a-entity
-      id="factura-dian-R"
-      geometry="primitive: plane; width: 0.07; height: 0.07" 
-      position="0.5 0 0"
-      material="src:#facturadian; opacity:1"
-      visible="false"
-      rotation="0 0 0">
+        <a-entity
+          id="factura-dian-R"
+          geometry="primitive: plane; width: 0.07; height: 0.07" 
+          position="0.5 0 0"
+          material="src:#facturadian; opacity:1"
+          visible="false"
+          rotation="0 0 0">
 
-    </a-entity>
+        </a-entity>
 
-  </a-entity>
-
-
+      </a-entity>
 
 
 
 
-      <a-entity     
-      id="cameraRig"
-      position="52.409 0.4 12.502"
-      rotation="0 -90 0"> 
+
+
+        <a-entity     
+          id="cameraRig"
+          position="52.409 0.4 12.502"
+          rotation="0 -90 0"> 
       
           <a-camera
             id="camera"            
@@ -875,10 +859,11 @@
               animation__click="property: scale; startEvents: click; easing: easeInCubic; dur: 2000; from: 0.1 0.1 0.1; to: 1 1 1"
               animation__fusing="property: scale; startEvents: fusing; easing: easeInCubic; dur: 2000; from: 1 1 1; to: 0.1 0.1 0.1"
               animation__mouseleave="property: scale; startEvents: mouseleave; easing: easeInCubic; dur: 500; to: 1 1 1"
-              raycaster="showLine: true; objects: .clickable;far:30"
-              position="0 0 -0.7">
+              raycaster="showLine: true; objects: .clickable;far:9"
+              position="0 0 -0.7"
+              scale="1 1 1">
               
-          
+            
             </a-cursor>
 
             
@@ -1683,7 +1668,7 @@
 
             </a-entity>                          
           </a-camera>
-    </a-entity>
+        </a-entity>
 
       
 

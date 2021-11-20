@@ -4,18 +4,24 @@ AFRAME.registerComponent('manija1', {
           this.el.addEventListener('click', function () {
 
             var elem = document.getElementById('cameraRig');
-           
-            console.log(elem.getAttribute('rotation'))
+          
+            function objectToRot(rotObject) {
+     
+              return (rotObject.x) + " " + (rotObject.y+50) + " "  + (rotObject.z)
+              
+            }
             
-            
+           var CallRotate= objectToRot(elem.getAttribute('rotation'));
+           console.log(CallRotate);
+
             function cambio() {
-              elem.object3D.rotation.set(
-                THREE.Math.degToRad(0),
-                THREE.Math.degToRad(180),
-                THREE.Math.degToRad(0) 
-              );
+              
             
-            elem.setAttribute('position',{x: 57.604, y: 0.400, z: 11.1})
+            elem.setAttribute('position',{x: 57.951, y: 0.400, z: 9.405});
+            elem.setAttribute('rotation',CallRotate);
+           
+            
+            
             
             
 
@@ -38,18 +44,21 @@ AFRAME.registerComponent('manija2', {
             var elem = document.getElementById('cameraRig');
            
             console.log(elem.getAttribute('rotation'))
+            function objectToRot2(rotObject) {
+     
+              return (rotObject.x) + " " + (rotObject.y+140) + " "  + (rotObject.z)
+              
+            }
+            var CallRotate2= objectToRot2(elem.getAttribute('rotation'));
+            console.log(CallRotate2);
            
             
             function cambio() {
-              elem.object3D.rotation.set(
-                THREE.Math.degToRad(0),
-                THREE.Math.degToRad(0),
-                THREE.Math.degToRad(0) 
-              );     
+                 
             
             
-            elem.setAttribute('position',{x: 53.409, y: 0.400, z: 12.340})
-            
+            elem.setAttribute('position',{x: 52.409, y: 0.400, z: 12.502})
+            elem.setAttribute('rotation',CallRotate2);
             
            
         }
@@ -77,7 +86,7 @@ AFRAME.registerComponent('manija3', {
                 
             
 
-            elem.setAttribute('position',{x: 58.736, y: 0.400, z: -2})
+            elem.setAttribute('position',{x: 61.607, y: 0.400, z: -1.281})
 
            
         }
@@ -98,14 +107,21 @@ AFRAME.registerComponent('manija3', {
           this.el.addEventListener('click', function () {
 
             var elem = document.getElementById('cameraRig');
-           
+
+            function objectToRot5(rotObject) {
+     
+              return (rotObject.x) + " " + (rotObject.y+180) + " "  + (rotObject.z)
+              
+            }
+            var CallRotate5= objectToRot5(elem.getAttribute('rotation'));
+            console.log(CallRotate5);
 
             function cambio() {
                 
             
 
-            elem.setAttribute('position',{x: 61, y: 0.400, z: -29})
-            
+            elem.setAttribute('position',{x: 62.954, y: 0.400, z: -27.387})
+            elem.setAttribute('rotation',CallRotate5);
            
         }
 
@@ -154,14 +170,20 @@ AFRAME.registerComponent('manija3', {
         this.el.addEventListener('click', function () {
 
             var elem = document.getElementById('cameraRig');
-           
+            function objectToRot8(rotObject) {
+     
+              return (rotObject.x) + " " + (rotObject.y+60) + " "  + (rotObject.z)
+              
+            }
+            var CallRotate8= objectToRot8(elem.getAttribute('rotation'));
+            console.log(CallRotate8);
 
             function cambio() {
                 
             
 
-            elem.setAttribute('position',{x: 111.177, y: 0.400, z: 10.753})
-
+            elem.setAttribute('position',{x: 52.409, y: 0.400, z: 12.502})
+            elem.setAttribute('rotation',CallRotate8);
            
             }
 
@@ -183,14 +205,20 @@ AFRAME.registerComponent('manija3', {
         this.el.addEventListener('click', function () {
 
             var elem = document.getElementById('cameraRig');
-           
+            function objectToRot7(rotObject) {
+     
+              return (rotObject.x) + " " + (rotObject.y+200) + " "  + (rotObject.z)
+              
+            }
+            var CallRotate7= objectToRot7(elem.getAttribute('rotation'));
+            console.log(CallRotate7);
 
             function cambio() {
                 
             
 
-            elem.setAttribute('position',{x: 113.987, y: 0.400, z: -2})
-
+            elem.setAttribute('position',{x: 116.456, y: 0.400, z: 10.267})
+            elem.setAttribute('rotation',CallRotate7);
            
             }
             
@@ -210,14 +238,21 @@ AFRAME.registerComponent('manija3', {
         this.el.addEventListener('click', function () {
 
             var elem = document.getElementById('cameraRig');
+            function objectToRot9(rotObject) {
+     
+              return (rotObject.x) + " " + (rotObject.y+-40) + " "  + (rotObject.z)
+              
+            }
+            var CallRotate9= objectToRot9(elem.getAttribute('rotation'));
+            console.log(CallRotate9);
            
 
             function cambio() {
                 
             
 
-            elem.setAttribute('position',{x: 35.670, y: 0.400, z: -18.144})
-
+            elem.setAttribute('position',{x: 52.409, y: 0.400, z: 12.502})
+            elem.setAttribute('rotation',CallRotate9);
            
             }
             
@@ -237,13 +272,21 @@ AFRAME.registerComponent('manija3', {
         this.el.addEventListener('click', function () {
 
             var elem = document.getElementById('cameraRig');
+            function objectToRot10(rotObject) {
+     
+              return (rotObject.x) + " " + (rotObject.y+20) + " "  + (rotObject.z)
+              
+            }
+            var CallRotate10= objectToRot10(elem.getAttribute('rotation'));
+            console.log(CallRotate10);
            
 
             function cambio() {
                 
             
 
-            elem.setAttribute('position',{x: 35.670, y: 0.400, z: -26.754})
+            elem.setAttribute('position',{x: 30.864, y: 0.400, z: -24.622})
+            elem.setAttribute('rotation',CallRotate10);
 
            
             }
