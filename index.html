@@ -21,7 +21,7 @@
     
     <a-scene
   
-    shadow="type: pcfsoft"
+    shadow="enabled: false"
     
     misiones> 
 
@@ -39,8 +39,6 @@
         <a-mixin id="rotation-a" animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"></a-mixin>
         <a-mixin id="icon-animate" animation="property: material.opacity; from: 1; to:0.4; easing: linear; loop: true; dir:alternate; dur: 500"></a-mixin>
         <img id="fondo1" src="assets/img/fondo1.jpg" >
-        <img id="fondo2" src="assets/img/fondo2.png">
-        <img id="fondo3" src="assets/img/fondo3.png" >
         <img id="certificadobancario" src="assets/img/certificadobancario.jpg" >
         <img id="reporteActividad" src="assets/img/reporteActividad.jpg" >
         <img id="reporteClasificacion" src="assets/img/reporteClasificacion.jpg" >
@@ -305,7 +303,6 @@
         class="not-clickable"
         position="60.708 0.6 -37.761" 
         obj-model="obj:#cordillera-obj; mtl:#cordillera-mtl"
-        shadow=""
         scale="1 1 1"
         rotation="0 0 0">          
 
