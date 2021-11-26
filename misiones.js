@@ -68,6 +68,7 @@ AFRAME.registerComponent('misiones', {
       var respuestaCorrectaMision4 = document.getElementById('sound54');
       var computerSound = document.getElementById('sound55');
       var impresoraSound = document.getElementById('sound56');
+      var cheerSound = document.getElementById('sound57');
 
 
 
@@ -485,7 +486,12 @@ AFRAME.registerComponent('misiones', {
 
 
           elem.setAttribute('position',{x: -8.614, y: 0.400, z: -10.103})
-          
+          setTimeout(function() {
+           cheerSound.components.sound.playSound();
+          }
+            ,1400
+  
+          ); 
           
         }
 
