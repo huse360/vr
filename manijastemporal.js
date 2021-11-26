@@ -46,7 +46,7 @@ AFRAME.registerComponent('manija2', {
             console.log(elem.getAttribute('rotation'))
             function objectToRot2(rotObject) {
      
-              return (rotObject.x) + " " + (rotObject.y+140) + " "  + (rotObject.z)
+              return (rotObject.x) + " " + (rotObject.y-60) + " "  + (rotObject.z)
               
             }
             var CallRotate2= objectToRot2(elem.getAttribute('rotation'));
@@ -80,6 +80,13 @@ AFRAME.registerComponent('manija3', {
           this.el.addEventListener('click', function () {
 
             var elem = document.getElementById('cameraRig');
+            function objectToRot3(rotObject) {
+     
+              return (rotObject.x) + " " + (rotObject.y+50) + " "  + (rotObject.z)
+              
+            }
+            var CallRotate3= objectToRot3(elem.getAttribute('rotation'));
+            console.log(CallRotate3);
            
 
             function cambio() {
@@ -87,7 +94,7 @@ AFRAME.registerComponent('manija3', {
             
 
             elem.setAttribute('position',{x: 61.607, y: 0.400, z: -1.281})
-
+            elem.setAttribute('rotation',CallRotate3);
            
         }
 
@@ -142,14 +149,21 @@ AFRAME.registerComponent('manija3', {
         this.el.addEventListener('click', function () {
 
             var elem = document.getElementById('cameraRig');
+            function objectToRot6(rotObject) {
+     
+              return (rotObject.x) + " " + (rotObject.y+210) + " "  + (rotObject.z)
+              
+            }
            
+            var CallRotate6= objectToRot6(elem.getAttribute('rotation'));
+            console.log(CallRotate6);
 
             function cambio() {
                 
             
 
-            elem.setAttribute('position',{x: 60.009, y: 0.400, z: -19})
-
+            elem.setAttribute('position',{x: 61.607, y: 0.400, z: -1.281})
+            elem.setAttribute('rotation',CallRotate6);
            
             }
 
@@ -172,7 +186,7 @@ AFRAME.registerComponent('manija3', {
             var elem = document.getElementById('cameraRig');
             function objectToRot8(rotObject) {
      
-              return (rotObject.x) + " " + (rotObject.y+60) + " "  + (rotObject.z)
+              return (rotObject.x) + " " + (rotObject.y+140) + " "  + (rotObject.z)
               
             }
             var CallRotate8= objectToRot8(elem.getAttribute('rotation'));
@@ -182,7 +196,7 @@ AFRAME.registerComponent('manija3', {
                 
             
 
-            elem.setAttribute('position',{x: 52.409, y: 0.400, z: 12.502})
+            elem.setAttribute('position',{x: 61.607, y: 0.400, z: -1.281})
             elem.setAttribute('rotation',CallRotate8);
            
             }
@@ -240,7 +254,7 @@ AFRAME.registerComponent('manija3', {
             var elem = document.getElementById('cameraRig');
             function objectToRot9(rotObject) {
      
-              return (rotObject.x) + " " + (rotObject.y+-40) + " "  + (rotObject.z)
+              return (rotObject.x) + " " + (rotObject.y+30) + " "  + (rotObject.z)
               
             }
             var CallRotate9= objectToRot9(elem.getAttribute('rotation'));
@@ -251,7 +265,7 @@ AFRAME.registerComponent('manija3', {
                 
             
 
-            elem.setAttribute('position',{x: 52.409, y: 0.400, z: 12.502})
+            elem.setAttribute('position',{x: 61.607, y: 0.400, z: -1.281})
             elem.setAttribute('rotation',CallRotate9);
            
             }

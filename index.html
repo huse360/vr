@@ -5,15 +5,10 @@
     <title>Realidad Virtual</title>
     <meta name="description" content="360&deg; Image - A-Frame">
     <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
-    <script src="movimiento-personaje.js"></script>
-    <script src="camera-view.js"></script>
- <!--    <script src="collider-check.js"></script> -->
-   
     <script src="blackintro.js"></script>
     <script src="misiones.js"></script>
     <script src="manijastemporal.js"></script>
-    <script src="animationshoes.js"></script>
-    <script src="reproductor de audio.js"></script>
+    
 
 
     
@@ -42,14 +37,15 @@
                   animation__mouseenter="property: material.opacity; to: 1; startEvents: mouseenter; dur: 300"
                   animation__mouseleave="property: material.opacity; to: 0.7; startEvents: mouseleave; dur: 300"></a-mixin>
         <a-mixin id="rotation-a" animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"></a-mixin>
+        <a-mixin id="icon-animate" animation="property: material.opacity; from: 1; to:0.4; easing: linear; loop: true; dir:alternate; dur: 500"></a-mixin>
         <img id="fondo1" src="assets/img/fondo1.jpg" >
         <img id="fondo2" src="assets/img/fondo2.png">
         <img id="fondo3" src="assets/img/fondo3.png" >
         <img id="certificadobancario" src="assets/img/certificadobancario.jpg" >
-        <img id="reporteActividad" src="assets/img/reporteActividad.png" >
-        <img id="reporteClasificacion" src="assets/img/reporteClasificacion.png" >
+        <img id="reporteActividad" src="assets/img/reporteActividad.jpg" >
+        <img id="reporteClasificacion" src="assets/img/reporteClasificacion.jpg" >
         <img id="certificadoccomercio" src="assets/img/ccomercio.jpg" >
-        <img id="facturadian" src="assets/img/factura-dian.png" >
+        <img id="facturadian" src="assets/img/factura-dian.jpg" >
         <img id="logo-empresa" src="assets/img/logo.jpg" >
         <img id="nombre-empresa" src="assets/img/nombre.jpg" >
         <img id="banner1-1" src="assets/img/b1.png" >
@@ -92,6 +88,18 @@
         <img id="banco-mapa" src="assets/img/banco-icon.png">
         <img id="comercio-mapa" src="assets/img/comercio-icon.png">
         <img id="dian-mapa" src="assets/img/dian-icon.png">
+        <img id="oficina-mapa" src="assets/img/oficina-icon.png">
+
+        <img id="go-icon" src="assets/img/goicon.png">
+        <img id="talk-icon" src="assets/img/hablandoicon.png">
+        <img id="banner-final" src="assets/img/bannerfinal.png">
+        <img id="botonreset" src="assets/img/boton-reset.jpg">
+        <img id="puntero" src="assets/img/puntero.png">
+
+        <img id="banco-w1" src="assets/img/calle1.png">
+
+
+
 
         
         
@@ -166,6 +174,18 @@
       <a-entity light="color: #BBB; type: ambient; intensity:1.8"  ></a-entity>
 
 
+
+      <a-image 
+        id="silla-banquero" 
+        
+        material="src:#silla-jefe"
+        position="63.445 1.308 -25.147" 
+        scale="1.914 2.025 1.513"
+        rotation="0 0 0">
+                         
+      </a-image>
+
+
       <a-image 
         id="banquero" 
         class="clickable"
@@ -179,10 +199,10 @@
       
       <a-image 
         id="silla-funcionario" 
-        class="clickable"
-        material="src:#silla-comercio"
-        position="115.681 1.133 12.171" 
-        scale="1.337 1.789 1.337"
+        
+        material="src:#silla-jefe"
+        position="115.525 1.008 12.171" 
+        scale="1.914 2.025 1.513"
         rotation="0 0 0">
                          
       </a-image>
@@ -192,15 +212,15 @@
         id="funcionario" 
         class="clickable"
         material="src:#funcionario-normal"
-        position="115.681 1.778 11.976" 
-        scale="1 1 1"
+        position="115.681 1.714 11.976" 
+        scale="0.851 1.314 1"
         rotation="0 180 0">
                          
       </a-image>
       
       <a-image 
         id="mesa-funcionario" 
-        class="clickable"
+        
         material="src:#mesa-comercio"
         position="116.078 1.362 11.207" 
         scale="2.190 0.864 0.833"
@@ -249,9 +269,9 @@
 <!-- MANIJAS DE PUERTAS -->
       
       <a-entity
-        id="oficina-exit-pasillo"
+        id="oficina-exit-calle"
         position="55.773 2 9.5"
-        manija1
+        manija3
         black-intro   
         class="clickable"        
         visible="true"
@@ -262,7 +282,7 @@
      
       </a-entity>
 
-      <a-entity
+      <!-- <a-entity
         id="pasillo-enter-oficina"
         position="55.777 2 9.5"
         manija2        
@@ -274,10 +294,10 @@
         rotation="0 90 0"
         animationup-down>
      
-      </a-entity>
+      </a-entity> -->
 
 
-      <a-entity
+      <!-- <a-entity
         id="pasillo-exit-calle"
         position="58.736 2 0.752"
         manija3
@@ -289,9 +309,9 @@
         rotation="0 0 0"
         animationup-down>
      
-      </a-entity>
+      </a-entity> -->
 
-      <a-entity
+      <!-- <a-entity
         id="calle-enter-oficina"
         position="58.736 2 -0.1"
         manija2        
@@ -303,13 +323,13 @@
         rotation="0 180 0"
         animationup-down>
      
-      </a-entity>
+      </a-entity> -->
 
 
       <a-entity
         id="banco-exit-oficina"
         position="61.144 2 -24.475"
-        manija2
+        manija6
         black-intro   
         class="clickable"        
         visible="true"
@@ -411,6 +431,16 @@
         material="fog: false">
         
       </a-sky>  
+
+
+
+
+      <a-entity>
+        <a-image id="wall-1" src="#banco-w1"  material="" geometry="height: 10; width: 20" position="59.903 7.948 -20.160" scale="1 1.435 1" rotation="0 0 0">
+
+
+        
+      </a-entity>
 
 
                          
@@ -544,6 +574,39 @@
 
       </a-image>
 
+
+      <a-image 
+        id="pantallaFinal"
+        
+        position="-6.565 1.881 -10.103" 
+        material="src:#banner-final"
+        scale="2.881 1.310 1.000"
+        rotation="0 -90 0">
+
+        <a-image
+          id="boton-reset"
+          class="clickable"
+          position="0.001 -0.396 0.010"
+          material="src:#botonreset"
+          visible="true"
+          scale="0.171 0.101 0.063">
+
+        </a-image>
+      
+        <a-sound
+          position="0 0 0" 
+          visible="false"
+          class="clickable"
+          geometry="primitive: box; width: 0; height: 0; depth:0"
+          material="color: blue"
+          id="sound56"
+          src="#impresora-sound"
+          volume="5">
+      
+        </a-sound>
+
+      </a-image>
+
       <a-image 
         id="mesa" 
         class="not-clickable"
@@ -565,50 +628,66 @@
         scale="2.037 2.037 2.037"
         rotation="0 0 0">
 
-        
+      </a-image>
 
-                         
+
+      <a-image
+        id="banco-icon"
+        class="clickable"
+        position="62.049 2.224 -3.430"
+        material="src:#banco-mapa"
+        visible="true"
+        manija5
+        black-intro
+        opacity="0.7"
+        scale="0.40 0.40 0.40"
+        mixin="animation-button">
+      </a-image>
+
+
+      <a-image
+        id="comercio-icon"
+        class="clickable"
+        position="62.513 2.347 -3.430"
+        material="src:#comercio-mapa"
+        visible="true"
+        black-intro
+        manija7
+        opacity="0.7"
+        scale="0.40 0.40 0.40"
+        mixin="animation-button">
+        
+      </a-image>
+
+
+      <a-image
+        id="dian-icon"
+        class="clickable"
+        position="62.813 1.998 -3.430"
+        material="src:#dian-mapa"
+        visible="true"
+        black-intro
+        manija10
+        opacity="0.7"
+        scale="0.40 0.40 0.40"
+        mixin="animation-button">
+
       </a-image>
 
       <a-image
-          id="banco-icon"
-          class="clickable"
-          position="62.049 2.224 -3.430"
-          material="src:#banco-mapa"
-          visible="true"
-          manija5
-          black-intro
-          opacity="0.7"
-          scale="0.40 0.40 0.40"
-          mixin="animation-button">
-        </a-image>
+        id="oficina-icon"
+        class="clickable"
+        position="62.049 1.754 -3.430"
+        material="src:#oficina-mapa"
+        visible="true"
+        black-intro
+        manija2
+        opacity="0.7"
+        scale="0.40 0.40 0.40"
+        mixin="animation-button">
 
-        <a-image
-          id="comercio-icon"
-          class="clickable"
-          position="62.513 2.347 -3.430"
-          material="src:#comercio-mapa"
-          visible="true"
-          black-intro
-          manija7
-          opacity="0.7"
-          scale="0.40 0.40 0.40"
-          mixin="animation-button">
-        </a-image>
+      </a-image>
 
-        <a-image
-          id="dian-icon"
-          class="clickable"
-          position="62.813 1.998 -3.430"
-          material="src:#dian-mapa"
-          visible="true"
-          black-intro
-          manija10
-          opacity="0.7"
-          scale="0.40 0.40 0.40"
-          mixin="animation-button"
-          >
-        </a-image>
 
 
 
@@ -852,32 +931,33 @@
             fov="50"
             >
            
-            <a-cursor
+            <a-image
               id="cursor"
-              meterial="color:yellow; shader: flat"
+              material="src:#puntero"
               cursor="fuse: true; fuseTimeout: 2000"
-              animation__click="property: scale; startEvents: click; easing: easeInCubic; dur: 2000; from: 0.1 0.1 0.1; to: 1 1 1"
-              animation__fusing="property: scale; startEvents: fusing; easing: easeInCubic; dur: 2000; from: 1 1 1; to: 0.1 0.1 0.1"
-              animation__mouseleave="property: scale; startEvents: mouseleave; easing: easeInCubic; dur: 500; to: 1 1 1"
-              raycaster="showLine: true; objects: .clickable;far:9"
+              animation__click="property: scale; startEvents: click; easing: easeInCubic; dur: 2000; from: 0.001 0.001 0.001; to: 0.02 0.02 0.02"
+              animation__fusing="property: scale; startEvents: fusing; easing: easeInCubic; dur: 2000; from: 0.02 0.02 0.02; to: 0.001 0.001 0.001"
+              animation__mouseleave="property: scale; startEvents: mouseleave; easing: easeInCubic; dur: 500; to: 0.02 0.02 0.02"
+              raycaster= "objects: .clickable;far:6"
               position="0 0 -0.7"
-              scale="1 1 1">
+              scale="0.02 0.02 0.02"
+              geometry="primitive: plane">
               
             
-            </a-cursor>
+            </a-image>
 
             
 
             <a-entity 
               id="inventario"
-              position="-0.2 -0.19 -0.5"
+              position="-0.218 -0.19 -0.5"
               visible="true"
               rotation="0 0 0">
 
               <a-entity
                 id="reporte-economica"
                 geometry="primitive: plane; width: 0.07; height: 0.07" 
-                position="-0.1 0 0"
+                position="-0.02 0 0"
                 material="src:#reporteActividad; opacity:1"
                 visible="false"
                 rotation="0 0 0">
@@ -887,7 +967,7 @@
               <a-entity
                 id="nombre"
                 geometry="primitive: plane; width: 0.07; height: 0.07"
-                position="0 0 0"
+                position="0.06 0 0"
                 material="src:#nombre-empresa; opacity:1"
                 visible="false"
                 rotation="0 0 0">
@@ -919,7 +999,7 @@
               <a-entity
                 id="logo"
                 geometry="primitive: plane; width: 0.07; height: 0.07"
-                position="0.1 0 0"
+                position="0.14 0 0"
                 material="src:#logo-empresa; opacity:1"
                 visible="false"
                 rotation="0 0 0">
@@ -951,7 +1031,7 @@
               <a-entity
                 id="reporte-clasificacion"
                 geometry="primitive: plane; width: 0.07; height: 0.07" 
-                position="0.2 0 0"
+                position="0.22 0 0"
                 material="src:#reporteClasificacion; opacity:1"
                 visible="false"
                 rotation="0 0 0">
@@ -962,7 +1042,7 @@
               <a-entity
                 id="ccomercio"
                 geometry="primitive: plane; width: 0.07; height: 0.07" 
-                position="0.3 0 0"
+                position="0.30 0 0"
                 material="src:#certificadoccomercio; opacity:1"
                 visible="false"
                 rotation="0 0 0">
@@ -983,7 +1063,7 @@
               <a-entity
                 id="certificado-banco"
                 geometry="primitive: plane; width: 0.07; height: 0.07" 
-                position="0.4 0 0"
+                position="0.38 0 0"
                 material="src:#certificadobancario; opacity:1"
                 visible="false"
                 rotation="0 0 0">
@@ -993,7 +1073,7 @@
               <a-entity
                 id="factura-dian"
                 geometry="primitive: plane; width: 0.07; height: 0.07" 
-                position="0.5 0 0"
+                position="0.46 0 0"
                 material="src:#facturadian; opacity:1"
                 visible="false"
                 rotation="0 0 0">
@@ -1001,6 +1081,37 @@
               </a-entity>
           
             </a-entity>
+
+            <a-image
+              id="icon-state"
+              material="src:#go-icon;opacity:1"
+              visible="true"
+              rotation="0 0 0"
+              position="0 0.2 -0.5"
+              geometry="height: 0.01 0.01 0.01; width: 0.01 0.01 0.01"
+              scale="0 0 0"
+              mixin="icon-animate">
+
+
+
+
+            </a-image>
+
+
+            <a-image
+              id="icon-state2"
+              material="src:#talk-icon;opacity:1"
+              visible="true"
+              rotation="0 0 0"
+              position="0 0.2 -0.51"
+              geometry="height: 0.01 0.01 0.01; width: 0.01 0.01 0.01"
+              scale="0 0 0"
+              mixin="icon-animate">
+
+
+
+
+            </a-image>
 
             <a-entity 
               id="blackintro"

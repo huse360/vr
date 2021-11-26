@@ -8,7 +8,10 @@ AFRAME.registerComponent('misiones', {
       
         /*    VARIABLES QUE LLAMAN AL SONIDO */
 
-      var cursor = document.getElementById('cursor')
+      var iconState = document.getElementById('icon-state');
+      var iconState2 = document.getElementById('icon-state2');
+      var botonReset = document.getElementById('boton-reset');
+      var elem = document.getElementById('cameraRig');
       var bienvenida = document.getElementById('sound1');
       var introduccion = document.getElementById('sound2');
       var misionbanco = document.getElementById('sound3');
@@ -168,6 +171,8 @@ AFRAME.registerComponent('misiones', {
       },'7000')
       
      }
+
+
 
       /* FUNCIONES DE LOS REPORTES EN LA MESA */
       
@@ -392,10 +397,29 @@ AFRAME.registerComponent('misiones', {
 
 
         /* FUNCIONES DE HABLA ACTIVA */
-
+        
         function hablar() {
 
           Stat=0
+
+          
+          iconState2.setAttribute('animation__scale4', `property: scale; to: 0 0 0; dur: 500`)
+          iconState.setAttribute('animation__scale3', `property: scale; to: 4 4 4; dur: 500`)
+      
+          setTimeout(function iconStateanimation1() {
+            iconState.setAttribute('animation__scale3', `property: scale; to: 0 0 0; dur: 500`)
+        
+          },'4000')
+
+
+          setTimeout(function iconStateanimation1fin() {
+            iconState.removeAttribute('animation__scale3')
+            iconState2.removeAttribute('animation__scale4')
+         
+          },'3000')
+
+          
+
 
           console.log('habla activa')
 
@@ -407,7 +431,18 @@ AFRAME.registerComponent('misiones', {
         function nohablar() {
 
           Stat=1
+         
+          iconState2.setAttribute('animation__scale4', `property: scale; to: 4 4 4; dur: 500`)
+          iconState.setAttribute('animation__scale3', `property: scale; to: 0 0 0; dur: 500`)
+      
+         
 
+
+          setTimeout(function iconStateanimation1fin() {
+            iconState2.removeAttribute('animation__scale4')
+            iconState.removeAttribute('animation__scale3')
+         
+          },'1000')
           console.log('habla Inactiva')
           
           
@@ -420,6 +455,75 @@ AFRAME.registerComponent('misiones', {
           iniciar.setAttribute('scale','0 0 0')
           
         }
+
+        /* FUNCION FIN SIMULADOR */
+
+        var animation= document.getElementById('blackintro')
+        const newLocal = `property:material.opacity;from:1; to: 0; dur: 1400;`;
+        const newLocal2 = `property:material.opacity;from:0; to: 1; dur: 1400;`;
+
+
+        function animacioniniciada() { 
+        
+          
+          animation.setAttribute('animation', newLocal)
+              
+        }
+  
+        function animacioniniciada2() { 
+            
+            
+            animation.setAttribute('animation__1', newLocal2)
+            
+                
+        }
+
+
+        
+        
+        function goTOEnd() {
+
+
+          elem.setAttribute('position',{x: -8.614, y: 0.400, z: -10.103})
+          
+          
+        }
+
+       /*  function botonresetplay() {
+
+
+          estado=0;
+          iniciar.setAttribute('visible',true)
+          iniciar.setAttribute('scale','1.1 0.8 0.800')
+          
+
+
+          setTimeout(function blackintrofinal() {
+            animation.setAttribute('visible', 'true')
+            setTimeout(animacioniniciada2,'0')
+            setTimeout(animacioniniciada,'1400')
+            animation.removeAttribute('animation__1')
+            animation.removeAttribute('animation')
+          }
+            ,0
+  
+          ); 
+
+
+
+          setTimeout(function() {
+            
+            elem.setAttribute('position',{x: 52.409, y: 0.400, z: 12.502})
+
+          }
+            ,1400
+
+          );
+
+
+        } */
+
+
 
 
 
@@ -801,7 +905,7 @@ AFRAME.registerComponent('misiones', {
 
            else {
               
-              
+            setTimeout(hablar,'6000')
               console.log('Debes crear el nombre en el computador para luego venir a imprimirlo y entregarlo a tu jefe');
               impresoraNombreDigital.components.sound.playSound();
             } 
@@ -1153,7 +1257,7 @@ AFRAME.registerComponent('misiones', {
 
       jefe.addEventListener('click', function() {
         if (Stat==0) {
-          setTimeout(nohablar,'0');
+         
           
           console.log('hablas con el jefe');
 
@@ -1161,7 +1265,7 @@ AFRAME.registerComponent('misiones', {
           /* MISION 1 */
 
           if (estado===1) {
-            
+            setTimeout(nohablar,'0');
             /* se cumple y pasa a a la siguiente mision */
 
             if (reporteEconomica.getAttribute('visible')==true) {
@@ -1202,7 +1306,7 @@ AFRAME.registerComponent('misiones', {
           /* MISION 2 */
 
           if (estado===2) {
-            
+            setTimeout(nohablar,'0');
             /* se cumple y pasa a a la siguiente mision */
 
             if (nombreEmpresaImpreso.getAttribute('visible')==true) {
@@ -1243,7 +1347,7 @@ AFRAME.registerComponent('misiones', {
           /* MISION 3 */
 
           if (estado===3) {
-            
+            setTimeout(nohablar,'0');
             /* se cumple y pasa a a la siguiente mision */
 
             if (logoEmpresaImpreso.getAttribute('visible')==true) {
@@ -1288,6 +1392,7 @@ AFRAME.registerComponent('misiones', {
           /* MISION 4 */
 
           if (estado===4) {
+            setTimeout(nohablar,'0');
             setTimeout(hablar,'17000')
             /* se cumple y pasa a a la siguiente mision */
 
@@ -1327,7 +1432,7 @@ AFRAME.registerComponent('misiones', {
           /* MISION 5 */
 
           if (estado===5) {
-            
+            setTimeout(nohablar,'0');
             /* se cumple y pasa a a la siguiente mision */
 
             if (radicado.getAttribute('visible')==true) {
@@ -1372,11 +1477,11 @@ AFRAME.registerComponent('misiones', {
            /* MISION 6 */
 
           if (estado===6) {
-            
+            setTimeout(nohablar,'0');
             /* se cumple y pasa a a la siguiente mision */
 
             if (cbancario.getAttribute('visible')==true) {
-              setTimeout(hablar,'14000')
+              setTimeout(hablar,'16000')
               console.log('le entregas el Certificado Bancario al jefe');
               setTimeout(setjefeFelizface,'0');
 
@@ -1393,7 +1498,7 @@ AFRAME.registerComponent('misiones', {
 
               setTimeout(playMisionDian,'6500');
               setTimeout(setjefetalkface,'6500');
-              setTimeout(setjefeNormalface,'14000');
+              setTimeout(setjefeNormalface,'16000');
             }
 
             /* no se cumple y sigue en la mision actual */
@@ -1414,16 +1519,27 @@ AFRAME.registerComponent('misiones', {
           /* MISION 7 */
 
           if (estado===7) {
-            
+            setTimeout(nohablar,'0'); 
             /* se cumple y finaliza simulacion */
 
             if (factura.getAttribute('visible')==true) {
-              setTimeout(hablar,'17000')
-              console.log('le entregas el Certificado Bancario al jefe');
+              setTimeout(hablar,'7000')
+              console.log('le entregas la facturacion de la DIAN al jefe');
               setTimeout(setjefeFelizface,'0');
-
+              setTimeout(setjefeNormalface,'2500');
               misioncumplidabanco2.components.sound.playSound();
               setTimeout(reporteFacturaDianMesa,'1000');
+              setTimeout(function blackintrofinal() {
+                animation.setAttribute('visible', 'true')
+                setTimeout(animacioniniciada2,'0')
+                setTimeout(animacioniniciada,'1400')
+                animation.removeAttribute('animation__1')
+                animation.removeAttribute('animation')
+              }
+                ,1400
+      
+              );  
+              setTimeout(goTOEnd,'2800');
               setTimeout(function() {
               console.log('terminaste el simulador, felicidades');
 
@@ -1450,14 +1566,37 @@ AFRAME.registerComponent('misiones', {
           }
         }  
       })
+      
+      botonReset.addEventListener('click',function() {
+        setTimeout(function blackintrofinal() {
+          animation.setAttribute('visible', 'true')
+          setTimeout(animacioniniciada2,'0')
+          setTimeout(animacioniniciada,'1400')
+          animation.removeAttribute('animation__1')
+          animation.removeAttribute('animation')
+        }
+          ,0
 
+        );  
+
+        setTimeout(function reinicio() {
+          location.reload()
+          console.log('hice click')
+          
+         },'1400');
+        
+       
+      
+      
+      
+      })
 
          
-
-
+      
+      
           
 
     },
 
-    }
+}
 );
