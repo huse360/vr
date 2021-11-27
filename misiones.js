@@ -8,6 +8,7 @@ AFRAME.registerComponent('misiones', {
       
         /*    VARIABLES QUE LLAMAN AL SONIDO */
 
+      var cursor = document.getElementById('cursor')
       var iconState = document.getElementById('icon-state');
       var iconState2 = document.getElementById('icon-state2');
       var botonReset = document.getElementById('boton-reset');
@@ -403,7 +404,8 @@ AFRAME.registerComponent('misiones', {
 
           Stat=0
 
-          
+          cursor.setAttribute('raycaster', 'enabled', true);
+          console.log(cursor)
           iconState2.setAttribute('animation__scale4', `property: scale; to: 0 0 0; dur: 500`)
           iconState.setAttribute('animation__scale3', `property: scale; to: 4 4 4; dur: 500`)
       
@@ -432,7 +434,8 @@ AFRAME.registerComponent('misiones', {
         function nohablar() {
 
           Stat=1
-         
+          cursor.setAttribute('raycaster', 'enabled', false);
+          console.log(cursor)
           iconState2.setAttribute('animation__scale4', `property: scale; to: 4 4 4; dur: 500`)
           iconState.setAttribute('animation__scale3', `property: scale; to: 0 0 0; dur: 500`)
       
