@@ -407,7 +407,7 @@ AFRAME.registerComponent('misiones', {
           cursor.setAttribute('raycaster', 'enabled', true);
           console.log(cursor)
           iconState2.setAttribute('animation__scale4', `property: scale; to: 0 0 0; dur: 500`)
-          iconState.setAttribute('animation__scale3', `property: scale; to: 4 4 4; dur: 500`)
+          iconState.setAttribute('animation__scale3', `property: scale; to: 6 4 4; dur: 500`)
       
           setTimeout(function iconStateanimation1() {
             iconState.setAttribute('animation__scale3', `property: scale; to: 0 0 0; dur: 500`)
@@ -436,7 +436,7 @@ AFRAME.registerComponent('misiones', {
           Stat=1
           cursor.setAttribute('raycaster', 'enabled', false);
           console.log(cursor)
-          iconState2.setAttribute('animation__scale4', `property: scale; to: 4 4 4; dur: 500`)
+          iconState2.setAttribute('animation__scale4', `property: scale; to: 6 4 4; dur: 500`)
           iconState.setAttribute('animation__scale3', `property: scale; to: 0 0 0; dur: 500`)
       
          
